@@ -46,13 +46,16 @@
 	charmap "ぅ",         $6f ; hiragana small u, unused
 	charmap "‘",         $70 ; opening single quote
 	charmap "’",         $71 ; closing single quote
-	charmap "“",         $72 ; opening quote
+	; SPEX: The place opening quote used to be, $72, is now the 'down arrow'.
 	charmap "”",         $73 ; closing quote
 	charmap "·",         $74 ; middle dot, unused
 	charmap "…",         $75 ; ellipsis
-	charmap "ぁ",         $76 ; hiragana small a, unused
+	charmap "“",         $76 ; opening quote
 	charmap "ぇ",         $77 ; hiragana small e, unused
 	charmap "ぉ",         $78 ; hiragana small o, unused
+
+; SPEx: Moved to both 'extra' sheets like the general-purpose window tiles below:
+	charmap "▼",         $72
 
 	charmap "┌",         $79
 	charmap "─",         $7a
@@ -68,7 +71,6 @@
 
 	charmap "<to>",      $70 ; narrow "to"
 
-	charmap "『",         $72 ; Japanese opening quote, unused
 	charmap "<ID>",      $73
 	charmap "№",         $74
 
@@ -180,7 +182,6 @@
 
 	charmap "▷",         $ec
 	charmap "▶",         $ed
-	charmap "▼",         $ee
 	charmap "♂",         $ef
 	charmap "¥",         $f0
 	charmap "×",         $f1
