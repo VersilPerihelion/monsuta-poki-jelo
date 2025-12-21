@@ -229,6 +229,7 @@ DisplayNamingScreen:
 	ld l, a
 	inc hl
 	ld a, [hl]
+	; SPEx: This looks like it's pulling the tile.
 	ld [wNamingScreenLetter], a
 	call CalcStringLength
 	ld a, [wNamingScreenLetter]
@@ -330,7 +331,8 @@ LoadEDTile:
 ; Because Yellow uses the MBC5, loading $0 into $2000 - $2fff range will load bank0 instead of bank1 and thus incorrectly load the tile
 ; Instead of defining the correct bank, GameFreak decided to simply copy the ED_Tile in the function during HBlank
 	ld de, ED_Tile
-	ld hl, vFont tile $70
+	; SPEx: We've **moved ED** in order to reduce clash with expected reuse in the font.
+	ld hl, vChars2 tile '<ED>'
 	ld c, $4 ; number of copies needed
 .waitForHBlankLoop
 	ldh a, [rSTAT]

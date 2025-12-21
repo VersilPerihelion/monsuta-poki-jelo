@@ -85,7 +85,12 @@
 	charmap "▲",         $ed ; gfx/town_map/up_arrow.1bpp
 
 	; needed for PrintAlphabet (see engine/menus/naming_screen.asm)
-	charmap "<ED>",      $f0 ; gfx/font/ED.1bpp
+	; SPEx: We need to move this somewhere that meets the following requirements:
+	; 1. Doesn't break the naming screen itself,
+	;     **even if a localizer turns pokedollars into a typable character** (for our purposes, 'mani')
+	; 2. Gets cleaned up afterwards so that the following dialogue survives.
+	; So we hide it in what is one of font_battle_extra's 'ramp' tiles.
+	charmap "<ED>",      $78 ; gfx/font/ED.1bpp
 
 ; Actual characters (from gfx/font/font.png)
 
