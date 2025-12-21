@@ -196,7 +196,10 @@ DisplayNamingScreen:
 	push de
 .pressedSelect
 	ld a, [wAlphabetCase]
-	xor $1
+	; SPEx: >2 alphabets.
+	; Notably, wAlphabetCase is clipped back in-bounds on alphabet print.
+	; Don't waste bytes doing that twice.
+	inc a
 	ld [wAlphabetCase], a
 	ret
 
@@ -349,15 +352,32 @@ ED_Tile:
 	INCBIN "gfx/font/ED.1bpp"
 ED_TileEnd:
 
+; SPEx: Auto-corrects wAlphabetCase and returns alphabet pointer in DE.
+; Makes a mess of A, H, L, flags.
+GetAlphabetPtr:
+	ld a, [wAlphabetCase]
+	cp a, NAMING_SCREEN_ALPHABET_COUNT
+	jr c, .noWrapCase
+	xor a
+	ld [wAlphabetCase], a
+.noWrapCase
+	sla a
+	add a, LOW(Alphabets)
+	ld l, a
+	ld a, HIGH(Alphabets)
+	adc a, $00
+	ld h, a
+	; now load the alphabet vector
+	ld a, [hl+]
+	ld d, [hl]
+	ld e, a
+	ret
+
 PrintAlphabet:
 	xor a
 	ldh [hAutoBGTransferEnabled], a
-	ld a, [wAlphabetCase]
-	and a
-	ld de, LowerCaseAlphabet
-	jr nz, .lowercase
-	ld de, UpperCaseAlphabet
-.lowercase
+	; SPEx: Make the alphabets screen reasonably expandable.
+	call GetAlphabetPtr
 	hlcoord 2, 5
 	lb bc, 5, 9 ; 5 rows, 9 columns
 .outerLoop
