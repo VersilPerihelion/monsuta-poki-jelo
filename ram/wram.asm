@@ -73,11 +73,6 @@ wAudioSavedROMBank:: db
 wFrequencyModifier:: db
 wTempoModifier:: db
 
-wc0f3:: dw
-
-	ds 11
-
-
 SECTION "Sprite State Data", WRAM0
 
 wSpriteDataStart::
@@ -224,7 +219,6 @@ wc5d2:: db
 wSurfingMinigameWaveFunctionNumber:: dw
 wc5d5:: db
 wSurfingMinigamePikachuHP:: dw ; little-endian BCD
-wc5d8:: db ; unused?
 ; number of consecutive tricks
 wSurfingMinigameRadnessMeter:: db
 wSurfingMinigameRadnessScore:: dw ; little-endian BCD
@@ -1873,10 +1867,6 @@ wSerialPlayerDataBlock:: ; ds $1a8
 ; For example, out-of-battle Dig is executed using a fake Escape Rope item. In
 ; that case, this would be ESCAPE_ROPE.
 wPseudoItemID:: db
-
-wUnusedAlreadyOwnedFlag:: db
-
-	ds 2
 
 wEvoStoneItemID:: db
 

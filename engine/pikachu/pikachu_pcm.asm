@@ -62,9 +62,10 @@ ENDC
 	pop hl
 	pop bc
 	call PlayPikachuPCM
-	xor a
-	ld [wc0f3], a
-	ld [wc0f3 + 1], a
+	; SPEx: Free some unused RAM.
+	; xor a
+	; ld [wc0f3], a
+	; ld [wc0f3 + 1], a
 	ld a, $80
 	ldh [rAUDENA], a
 	xor a
