@@ -1,4 +1,7 @@
 ; SPEx: Dynamic Font Engine.
+ASSERT LOW(sSPExFontLoadTbl) == $00
+ASSERT BANK(sSPExFontLoadTbl) == BANK(sSPExFontLoadRotator)
+ASSERT BANK(SPExLoadTile) == BANK(SPExDynFontMegasheet)
 
 ; Resets the dynamic font engine.
 SPExFontResetAndLoadCommon::
@@ -26,8 +29,6 @@ SPExFontReset::
 	; Linker guarantees L directly translates to char.
 	; That is, L should be zero here.
 	ld hl, sSPExFontLoadTbl
-	ASSERT LOW(sSPExFontLoadTbl) == $00
-	ASSERT BANK(sSPExFontLoadTbl) == BANK(sSPExFontLoadRotator)
 .loop:
 	ld a, l
 	; Common region is static.
@@ -120,12 +121,7 @@ SPExFontTranslate::
 	; and merge with megasheet start
 	ld de, SPExDynFontMegasheet
 	add hl, de
-	; a bit backwards, but oh well
-	ld d, h
-	ld e, l
 	; continue
-	ld b, BANK(SPExDynFontMegasheet) ; source bank
-	ld l, a ; destination
 	call SPExLoadTile
 	jr .load_complete
 .already_loaded:
@@ -134,31 +130,60 @@ SPExFontTranslate::
 	call CloseSRAM
 	ret
 
-; l: Destination
-; b:de: Source
+; a: Destination
+; hl: Source
+; THIS FUNCTION CAN ONLY COPY FROM THIS BANK (THE FONTS ONE) AND MUST HAVE SRAM OPEN
 SPExLoadTile:
+	ld d, h
+	ld e, l
 	; This is a bit convoluted, but basically it results in vChars0 + (L << 4)
+	ld l, a
 	ld h, $08
 	add hl, hl
 	add hl, hl
 	add hl, hl
 	add hl, hl
+	; ----
+	ld c, 8 ; byte count
+.byte_copy_loop_top:
+	ld a, [de]
+	ld b, a ; the byte to write
 	; this quirk...
 	ldh a, [rLCDC]
 	bit B_LCDC_ENABLE, a
-	jr nz, .lcdon
-	; LCD off
-	; swap HL/DE
-	push hl
-	push de
-	pop hl
-	pop de
-	ld a, b
-	ld bc, $08
-	jp FarCopyDataDouble
-.lcdon:
-	ld c, 1
-	jp CopyVideoDataDouble
+	jr z, .window_of_opportunity
+	; we need to wait for a window of opportunity.
+	; disable interrupts, we're doing something hacky to'nite
+	di
+.opportunity_probe:
+	ldh a, [rLY]
+	cp a, 144
+	jr c, .vblank_too_early
+	; rLY >= 144 ; if < 153 we can squeak by if we fire NOW
+	cp a, 153
+	jr c, .window_of_opportunity
+.vblank_too_early:
+	; jr .opportunity_probe ; DEBUG NO HBLANK STEALING
+	; to steal hblank, we need to hit Mode 3, then spin until Mode 0
+	ldh a, [rSTAT]
+	and a, $3
+	cp a, $3
+	jr nz, .opportunity_probe
+.mode_0_spin:
+	; we're in Mode 3. spin until Mode 0
+	ldh a, [rSTAT] ; 12 dots
+	and a, $3 ; 8 dots
+	jr nz, .mode_0_spin ; 12 dots
+.window_of_opportunity: ; the one where golf is played in a Stargate
+	ld [hl], b ; 8 dots
+	inc l      ; 4 dots
+	ld [hl], b ; 8 dots
+	ei
+	inc l
+	inc de
+	dec c
+	jr nz, .byte_copy_loop_top
+	ret
 
 ; This is a hacky bit of code to make the naming screen happy.
 SPExFontTranslateBackwards::
