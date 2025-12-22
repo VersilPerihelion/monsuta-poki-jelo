@@ -5,22 +5,10 @@ ASSERT BANK(SPExLoadTile) == BANK(SPExDynFontMegasheet)
 
 ; Resets the dynamic font engine.
 SPExFontResetAndLoadCommon::
-	; Moved from LoadFontTilePatterns
-	ldh a, [rLCDC]
-	bit B_LCDC_ENABLE, a
-	jr nz, .common_lcdon
-.common_lcdoff
-	ld hl, FontCommonGraphics
-	ld de, vFont + ((FONT_COMMON_TILE_START - $80) tiles)
-	ld bc, FontCommonGraphicsEnd - FontCommonGraphics
-	ld a, BANK(FontCommonGraphics)
-	call FarCopyDataDouble ; if LCD is off, transfer all at once
-	jr .main_table_reset
-.common_lcdon
 	ld de, FontCommonGraphics
 	ld hl, vFont + ((FONT_COMMON_TILE_START - $80) tiles)
 	lb bc, BANK(FontCommonGraphics), (FontCommonGraphicsEnd - FontCommonGraphics) / $8
-	call CopyVideoDataDouble ; if LCD is on, transfer during V-blank
+	call CopyVideoDataDoubleAlternate ; if LCD is on, transfer during V-blank
 .main_table_reset
 SPExFontReset::
 	; -- Reset the table itself --
@@ -61,22 +49,8 @@ IF DEF(_DEBUG)
 	ld hl, vFont
 	; It doesn't really matter *what* the nonsense is, just that it's visibly nonsense.
 	ld de, $0000
-	; this quirk...
-	ldh a, [rLCDC]
-	bit B_LCDC_ENABLE, a
-	jr nz, .lcdon
-	; LCD off
-	; swap HL/DE
-	push hl
-	push de
-	pop hl
-	pop de
-	ld a, b
-	ld bc, (FONT_COMMON_TILE_START - $80) * TILE_1BPP_SIZE
-	jp FarCopyDataDouble
-.lcdon:
 	ld c, (FONT_COMMON_TILE_START - $80)
-	jp CopyVideoDataDouble
+	jp CopyVideoDataDoubleAlternate
 ELSE
 	ret
 ENDC
