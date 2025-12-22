@@ -1,5 +1,7 @@
 SetDebugNewGameParty: ; unreferenced except in _DEBUG
 	ld de, DebugNewGameParty
+	; SPEx: We want to set names for testing, so add this variable
+	ld hl, wPartyMon1Nick
 .loop
 	ld a, [de]
 	cp -1
@@ -9,19 +11,37 @@ SetDebugNewGameParty: ; unreferenced except in _DEBUG
 	ld a, [de]
 	ld [wCurEnemyLevel], a
 	inc de
+	; since the nicks are at fixed offsets, we need to be a little careful here
+	push hl
 	call AddPartyMon
+	pop hl
+	push hl
+.nameloop:
+	ld a, [de]
+	inc de
+	ld [hli], a
+	cp a, '@'
+	jr nz, .nameloop
+	pop hl
+	; move HL to next nickname
+	ld bc, NAME_LENGTH
+	add hl, bc
 	jr .loop
 
 DebugNewGameParty: ; unreferenced except in _DEBUG
-	db SNORLAX, 80
-	db PERSIAN, 80
-	db JIGGLYPUFF, 15
-	db STARTER_PIKACHU, 5
+	db SNORLAX,         80, $01, $02, $03, $04, $05, $06, $07, $08, $09, $0A, '@'
+	db PERSIAN,         80, $0B, $0C, $0D, $0E, $0F, $10, $11, $12, $13, $14, '@'
+	db JIGGLYPUFF,      15, $15, $16, $17, $18, $19, $1A, $1B, $1C, $1D, $1E, '@'
+	db STARTER_PIKACHU,  5, $1F, $20, $21, $22, $23, $24, $25, $26, $27, $28, '@'
+	; SPEx: Added for naming test
+	db VULPIX,           1, $29, $2A, $2B, $2C, $2D, $2E, $2F, $30, $31, $32, '@'
+	db VULPIX,           1, $33, $34, $35, $36, $37, $38, $39, $3A, $3B, $3C, '@'
 	db -1 ; end
 
 PrepareNewGameDebug: ; dummy except in _DEBUG
 IF DEF(_DEBUG)
-	xor a ; PLAYER_PARTY_DATA
+	; xor a ; PLAYER_PARTY_DATA
+	ld a, $10 ; SPEx: Don't ask for names ; we'll install our own.
 	ld [wMonDataLocation], a
 
 	; Fly anywhere.

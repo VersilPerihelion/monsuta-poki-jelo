@@ -350,11 +350,12 @@ CopyDebugName:
 	ld bc, NAME_LENGTH
 	jp CopyData
 
+; SPEx: Change these as part of the plot to strain things.
 DebugNewGamePlayerName:
-	db "NINTEN@"
+	db $3D, $3E, $3F, $40, $41, $42, '@'
 
 DebugNewGameRivalName:
-	db "SONY@"
+	db $43, $44, $45, $46, $47, $48, '@'
 
 IncrementResetCounter:
 	ld hl, wTitleScreenScene + 2
