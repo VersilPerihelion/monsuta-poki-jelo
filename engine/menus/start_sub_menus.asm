@@ -518,7 +518,9 @@ DrawTrainerInfo:
 	call TrainerInfo_FarCopyData
 	pop bc
 	ld hl, BadgeNumbersTileGraphics
-	ld de, vChars1 tile $58
+	; SPEx: why was this in font???
+	; Note that the draw code will have been suitably adjusted.
+	ld de, vChars2 tile '<TC_1>' ; SPEx: Adjusted
 	call TrainerInfo_FarCopyData
 	ld hl, GymLeaderFaceAndBadgeTileGraphics
 	ld de, vChars2 tile $20
@@ -528,14 +530,14 @@ DrawTrainerInfo:
 	ld hl, TextBoxGraphics
 	ld de, 13 tiles
 	add hl, de ; hl = colon tile pattern
-	ld de, vChars1 tile $56
+	ld de, vChars2 tile '<TC_COLON>' ; SPEx: Adjusted
 	ld bc, 1 tiles
 	ld a, BANK(TextBoxGraphics)
 	push bc
 	call FarCopyData
 	pop bc
 	ld hl, TrainerInfoTextBoxTileGraphics tile 8  ; background tile pattern
-	ld de, vChars1 tile $57
+	ld de, vChars2 tile '<TC_BKG>' ; SPEx: Adjusted
 	call TrainerInfo_FarCopyData
 	call EnableLCD
 	ld hl, wTrainerInfoTextBoxWidthPlus1
@@ -555,7 +557,7 @@ DrawTrainerInfo:
 	hlcoord 1, 10
 	call TrainerInfo_DrawTextBox
 	hlcoord 0, 10
-	ld a, $d7
+	ld a, '<TC_BKG>' ; SPEx: Adjusted
 	call TrainerInfo_DrawVerticalLine
 	hlcoord 19, 10
 	call TrainerInfo_DrawVerticalLine
@@ -576,7 +578,7 @@ DrawTrainerInfo:
 	ld de, wPlayTimeHours
 	lb bc, LEFT_ALIGN | 1, 3
 	call PrintNumber
-	ld [hl], $d6 ; colon tile ID
+	ld [hl], '<TC_COLON>' ; colon tile ID
 	inc hl
 	ld de, wPlayTimeMinutes
 	lb bc, LEADING_ZEROES | 1, 2

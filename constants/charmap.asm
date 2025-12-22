@@ -200,6 +200,17 @@
 	charmap "8",         $fe
 	charmap "9",         $ff
 
+; SPEx: Trainer card characters.
+	charmap "<TC_COLON>", $66
+	charmap "<TC_BKG>",   $67
+	charmap "<TC_1>",     $68
+	charmap "<TC_2>",     $69
+	charmap "<TC_3>",     $6A
+	charmap "<TC_4>",     $6B
+	charmap "<TC_5>",     $6C
+	charmap "<TC_6>",     $6D
+	charmap "<TC_7>",     $6E
+	charmap "<TC_8>",     $6F
 
 ; Japanese kana, for those bits of text that were not translated to English
 

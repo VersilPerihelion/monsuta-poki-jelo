@@ -39,9 +39,10 @@ DrawBadges:
 
 ; Draw two rows of badges.
 	ld hl, wBadgeNumberTile
-	ld a, $d8 ; [1]
+	ld a, '<TC_1>' ; [1] ; SPEx: Adjusted
 	ld [hli], a
-	ld [hl], $60 ; First name
+	xor a
+	ld [hl], a ; First name base (SPEx: 0)
 
 	hlcoord 2, 11
 	ld de, wTempObtainedBadgesBooleans
@@ -70,13 +71,31 @@ DrawBadges:
 	and a
 	ld a, [wBadgeNameTile]
 	jr nz, .SkipName
-	call .PlaceTiles
-	jr .PlaceBadge
 
+	push af
+	; SPEx: Revised gym leader name print routine.
+	; Either way, we have to advance manually.
+	; We assume GymLeaderNames is in a single 256-byte page.
+	; We then lookup the two name chars and place in A,B.
+	; Then we write them... and done!
+	push hl
+	ld hl, .GymLeaderNames
+	add a, l
+	ld l, a
+	ld a, [hli]
+	ld b, [hl]
+	pop hl
+	ld [hli], a
+	ld [hl], b
+	pop af
+
+	jr .NoSkipName
 .SkipName
-	inc a
-	inc a
 	inc hl
+.NoSkipName
+
+	inc a
+	inc a
 
 .PlaceBadge
 	ld [wBadgeNameTile], a
@@ -114,6 +133,29 @@ DrawBadges:
 
 .FaceBadgeTiles
 	db $20, $28, $30, $38, $40, $48, $50, $58
+
+; SPEx: Gym leader names are stored here in a definitely-not-at-all-questionably-sane format.
+; Due to size constraints, we kind of just have to hope we don't have a page boundary in here.
+.GymLeaderNames
+IF DEF(_DEBUG)
+	db "G0"
+	db "G1"
+	db "G2"
+	db "G3"
+	db "G4"
+	db "G5"
+	db "G6"
+	db "G7"
+ELSE
+	db "  "
+	db "  "
+	db "  "
+	db "  "
+	db "  "
+	db "  "
+	db "  "
+	db "  "
+ENDC
 
 GymLeaderFaceAndBadgeTileGraphics:
 	INCBIN "gfx/trainer_card/badges.2bpp"
