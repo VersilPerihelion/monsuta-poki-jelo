@@ -143,6 +143,11 @@ SPExLoadTile:
 	add hl, hl
 	add hl, hl
 	add hl, hl
+	; ---- (same as in CopyVideoDataDouble)
+	ldh a, [hAutoBGTransferEnabled]
+	push af
+	xor a ; disable auto-transfer while copying
+	ldh [hAutoBGTransferEnabled], a
 	; ----
 	ld c, 8 ; byte count
 .byte_copy_loop_top:
@@ -183,6 +188,10 @@ SPExLoadTile:
 	inc de
 	dec c
 	jr nz, .byte_copy_loop_top
+	; we've had interrupts on for a few instructions by this point, so we can no longer be said to have 'stolen' a VBlank interrupt
+	; therefore, it's safe to re-enable BG transfer
+	pop af
+	ldh [hAutoBGTransferEnabled], a
 	ret
 
 ; This is a hacky bit of code to make the naming screen happy.
