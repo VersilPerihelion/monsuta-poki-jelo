@@ -183,6 +183,7 @@
 	charmap "♂",         $ef
 	; SPEx: Rearranged characters so the last row is the 'permanent' set.
 	; (That is, the stuff we can't just ditch at will.)
+DEF FONT_COMMON_TILE_START EQU $f0
 	charmap "¥",         $f0
 	charmap "×",         $f1
 	charmap "<DOT>",     $f2 ; decimal point; same as "." in English
