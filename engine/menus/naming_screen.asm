@@ -95,7 +95,7 @@ DisplayNamingScreen:
 	hlcoord 0, 4
 	lb bc, 9, 18
 	call TextBoxBorder
-	call PrintNamingText
+	; SPEx: PrintNamingText has been moved to after PrintAlphabet.
 	ld a, 3
 	ld [wTopMenuItemY], a
 	ld a, 1
@@ -114,6 +114,10 @@ DisplayNamingScreen:
 	ld [hli], a
 	ld [wAnimCounter], a
 .selectReturnPoint
+	; SPEx: Each time we reprint the alphabet, we reset the font.
+	; This also meant PrintNamingText had to be moved down here.
+	farcall SPExFontReset
+	call PrintNamingText
 	call PrintAlphabet
 	call GBPalNormal
 .ABStartReturnPoint
@@ -228,8 +232,13 @@ DisplayNamingScreen:
 	ld h, [hl]
 	ld l, a
 	inc hl
+	; SPEx: This pulls the tile.
 	ld a, [hl]
-	; SPEx: This looks like it's pulling the tile.
+	ldh [hSPExTileTranslation], a
+	push hl
+	farcall SPExFontTranslateBackwards
+	pop hl
+	ldh a, [hSPExTileTranslation]
 	ld [wNamingScreenLetter], a
 	call CalcStringLength
 	ld a, [wNamingScreenLetter]
@@ -386,6 +395,18 @@ PrintAlphabet:
 	push bc
 .innerLoop
 	ld a, [de]
+
+	; SPEx: Translate
+	push bc
+	push de
+	push hl
+	ldh [hSPExTileTranslation], a
+	farcall SPExFontTranslate
+	ldh a, [hSPExTileTranslation]
+	pop hl
+	pop de
+	pop bc
+
 	ld [hli], a
 	inc hl
 	inc de
@@ -396,6 +417,7 @@ PrintAlphabet:
 	pop bc
 	dec b
 	jr nz, .outerLoop
+	; This final string is the 'case switch' string.
 	call PlaceString
 	ld a, $1
 	ldh [hAutoBGTransferEnabled], a

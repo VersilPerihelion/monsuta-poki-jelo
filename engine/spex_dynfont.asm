@@ -27,6 +27,7 @@ SPExFontReset::
 	; That is, L should be zero here.
 	ld hl, sSPExFontLoadTbl
 	ASSERT LOW(sSPExFontLoadTbl) == $00
+	ASSERT BANK(sSPExFontLoadTbl) == BANK(sSPExFontLoadRotator)
 .loop:
 	ld a, l
 	; Common region is static.
@@ -141,3 +142,23 @@ SPExLoadTile:
 .lcdon:
 	ld c, 1
 	jp CopyVideoDataDouble
+
+; This is a hacky bit of code to make the naming screen happy.
+SPExFontTranslateBackwards::
+	ld a, BANK(sSPExFontLoadTbl)
+	call OpenSRAM
+	ld h, HIGH(sSPExFontLoadTbl)
+	ld l, $00
+	ldh a, [hSPExTileTranslation]
+.loop:
+	cp a, [hl]
+	jr z, .found
+	inc l
+	jr nz, .loop
+	; didn't find it!
+	ld a, '!'
+.found:
+	ld a, l
+	ldh [hSPExTileTranslation], a
+	call CloseSRAM
+	ret
