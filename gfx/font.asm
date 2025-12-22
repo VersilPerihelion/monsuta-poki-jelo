@@ -1,4 +1,10 @@
-FontGraphics:: INCBIN "gfx/font/font.1bpp"
+; SPEx: The font megasheet
+INCBIN "gfx/font/font.1bpp", $00 * $08, $60 * $08
+TextBoxGraphics::
+INCBIN "gfx/font/font.1bpp", $60 * $08, $20 * $08
+TextBoxGraphicsEnd::
+FontGraphics::
+INCBIN "gfx/font/font.1bpp", $80 * $08, $80 * $08
 FontGraphicsEnd::
 
 ABTiles: INCBIN "gfx/font/AB.2bpp"
@@ -18,9 +24,6 @@ NintendoCopyrightLogoGraphics: INCBIN "gfx/splash/copyright.2bpp"
 GameFreakLogoGraphics: INCBIN "gfx/title/gamefreak_inc.2bpp"
 NineTile: INCBIN "gfx/title/nine.2bpp"
 NineTileEnd::
-
-TextBoxGraphics:: INCBIN "gfx/font/font_extra.2bpp"
-TextBoxGraphicsEnd::
 
 PokedexTileGraphics: INCBIN "gfx/pokedex/pokedex.2bpp"
 PokedexTileGraphicsEnd:

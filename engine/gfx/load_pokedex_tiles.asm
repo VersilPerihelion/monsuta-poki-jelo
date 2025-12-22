@@ -17,4 +17,4 @@ UnloadPokedexTilePokeball:
 	ld de, TextBoxGraphics tile ('▼' - $60)
 	ld hl, vChars2 tile '▼'
 	lb bc, BANK(TextBoxGraphics), 1
-	jp CopyVideoData ; replace pokeball tile with down arrow again
+	jp CopyVideoDataDouble ; replace pokeball tile with down arrow again

@@ -527,15 +527,15 @@ DrawTrainerInfo:
 	ld bc, 8 * 8 tiles
 	ld a, BANK(GymLeaderFaceAndBadgeTileGraphics)
 	call FarCopyData
-	ld hl, TextBoxGraphics
-	ld de, 13 tiles
-	add hl, de ; hl = colon tile pattern
+	; SPEx: don't do this calculation at runtime lol
+	ld hl, TextBoxGraphics + (('<COLON>' - $60) tiles / 2)
 	ld de, vChars2 tile '<TC_COLON>' ; SPEx: Adjusted
-	ld bc, 1 tiles
+	ld bc, (1 tiles) / 2
 	ld a, BANK(TextBoxGraphics)
 	push bc
-	call FarCopyData
+	call FarCopyDataDouble
 	pop bc
+	ld bc, 1 tiles
 	ld hl, TrainerInfoTextBoxTileGraphics tile 8  ; background tile pattern
 	ld de, vChars2 tile '<TC_BKG>' ; SPEx: Adjusted
 	call TrainerInfo_FarCopyData
