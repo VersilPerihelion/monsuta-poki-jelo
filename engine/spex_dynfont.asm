@@ -45,14 +45,6 @@ SPExFontReset::
 	ld [hl], l
 	jr .anyway
 .render:
-IF DEF(_DEBUG)
-	; In debugging, the renderable region should be deliberately messed with.
-	push hl
-	ld b, BANK(PokeballTileGraphics)
-	ld de, PokeballTileGraphics
-	call SPExLoadTile
-	pop hl
-ENDC
 .default:
 	ld [hl], $00
 .anyway:
@@ -63,7 +55,30 @@ ENDC
 	ld [sSPExFontLoadRotator], a
 	; finally, close SRAM
 	call CloseSRAM
+IF DEF(_DEBUG)
+	; In debugging, the renderable region should be deliberately messed with.
+	ld hl, vFont
+	; It doesn't really matter *what* the nonsense is, just that it's visibly nonsense.
+	ld de, $0000
+	; this quirk...
+	ldh a, [rLCDC]
+	bit B_LCDC_ENABLE, a
+	jr nz, .lcdon
+	; LCD off
+	; swap HL/DE
+	push hl
+	push de
+	pop hl
+	pop de
+	ld a, b
+	ld bc, (FONT_COMMON_TILE_START - $80) * TILE_1BPP_SIZE
+	jp FarCopyDataDouble
+.lcdon:
+	ld c, (FONT_COMMON_TILE_START - $80)
+	jp CopyVideoDataDouble
+ELSE
 	ret
+ENDC
 
 ; This function translates/loads the character in [hSPExTileTranslation].
 ; To function, it has to open SRAM.

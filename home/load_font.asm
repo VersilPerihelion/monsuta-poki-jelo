@@ -28,7 +28,7 @@ LoadTextBoxTilePatterns::
 .on
 	ld de, TextBoxGraphics
 	ld hl, vChars2 tile $60
-	lb bc, BANK(TextBoxGraphics), (TextBoxGraphicsEnd - TextBoxGraphics) / $8
+	lb bc, BANK(TextBoxGraphics), (TextBoxGraphicsEnd - TextBoxGraphics) / TILE_1BPP_SIZE
 	jp CopyVideoDataDouble ; if LCD is on, transfer during V-blank
 
 LoadHpBarAndStatusTilePatterns::
@@ -44,5 +44,5 @@ LoadHpBarAndStatusTilePatterns::
 .on
 	ld de, HpBarAndStatusGraphics
 	ld hl, vChars2 tile $62
-	lb bc, BANK(HpBarAndStatusGraphics), (HpBarAndStatusGraphicsEnd - HpBarAndStatusGraphics) / $10
+	lb bc, BANK(HpBarAndStatusGraphics), (HpBarAndStatusGraphicsEnd - HpBarAndStatusGraphics) / TILE_SIZE
 	jp CopyVideoData ; if LCD is on, transfer during V-blank

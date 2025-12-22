@@ -350,6 +350,9 @@ StatusScreen2:
 	jr z, .InitPP
 	ld c, a
 	ld a, '-'
+	; SPEx: This is one of those 'little cheats' they did where they skipped PlaceString
+	;  due to 'knowing the character would be there'... but, of course, now it isn't.
+	call SPExFontTranslate_ASaveHLBCDE
 	call StatusScreen_PrintPP ; Fill the rest with --
 .InitPP
 	ld hl, wLoadedMonMoves
