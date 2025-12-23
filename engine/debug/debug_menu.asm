@@ -870,6 +870,7 @@ Func_fed01:
 	ld [wWhichPokemon], a
 	jp Func_fe7ca
 
+pushc japanese
 Text_fed12:
 	db   "けんしろう@" ; "KENSHIROU@"
 
@@ -904,6 +905,7 @@ Text_fedbc:
 	next ""
 Text_fedcf:
 	db   "０００ ーーーーーーーーーー ０００@"
+popc
 
 Text_fede2:
 	db   "          @"
@@ -1358,12 +1360,14 @@ Func_ff0c4:
 	jr nz, .asm_ff0fd
 	ret
 
+pushc japanese
 Text_ff113:
 	db   "たいりき"  ; hp
 	next "こうげき"  ; attack
 	next "ぼうぎょ"  ; defense
 	next "すばやさ"  ; speed
 	next "とくしゅ@" ; special
+popc
 
 Func_ff12c:
 	ld a, [wCurEnemyLevel]
@@ -1453,6 +1457,7 @@ Func_ff1b9:
 	ld [hl], a
 	; fallthrough
 Func_ff1e7:
+pushc japanese
 	hlcoord 2, 13
 	ld [hl], 'ﾞ'
 	hlcoord 1, 14
@@ -1463,6 +1468,7 @@ Func_ff1e7:
 	ld [hl], 'ル'
 	inc hl
 	inc hl
+popc
 	ld de, wCurEnemyLevel
 	lb bc, LEADING_ZEROES | 1, 3
 	call PrintNumber

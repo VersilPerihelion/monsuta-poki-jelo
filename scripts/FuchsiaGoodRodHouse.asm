@@ -44,6 +44,7 @@ FuchsiaGoodRodHouseFishingGuruText:
 	sound_get_item_1
 	text_end
 
+pushc japanese
 .UnusedText:
 	para "つり　こそ"
 	line "おとこの　ロマン　だ！"
@@ -53,6 +54,7 @@ FuchsiaGoodRodHouseFishingGuruText:
 	line "この　いいつりざおなら"
 	line "もっと　いいもんが　つれるんじゃ！"
 	done
+popc
 
 .ThatsSoDisappointingText:
 	text_far _FuchsiaGoodRodHouseFishingGuruThatsSoDisappointingText

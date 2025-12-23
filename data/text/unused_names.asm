@@ -1,3 +1,4 @@
+pushc japanese
 UnusedBadgeNames::
 	db "かみなりバッヂ@" ; THUNDER BADGE
 	db "かいがらバッヂ@" ; SHELL BADGE
@@ -20,3 +21,4 @@ UnusedRankingNames:
 	db "プチマスター@" ; PETIT MASTER
 	db "マスター@" ; MASTER
 	db "エクセレント" ; EXCELLENT
+popc

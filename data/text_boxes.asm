@@ -47,6 +47,7 @@ UseTossText:
 	db   "USE"
 	next "TOSS@"
 
+pushc japanese
 JapaneseSaveMessageText:
 	db   "きろく"
 	next "メッセージ@"
@@ -54,16 +55,19 @@ JapaneseSaveMessageText:
 JapaneseSpeedOptionsText:
 	db   "はやい"
 	next "おそい@"
+popc
 
 MoneyText:
 	db "MONEY@"
 
+pushc japanese
 JapaneseMochimonoText:
 	db "もちもの@"
 
 JapaneseMainMenuText:
 	db   "つづきから"
 	next "さいしょから@"
+popc
 
 BattleMenuText:
 	db   "FIGHT <PK><MN>"
@@ -78,6 +82,7 @@ SwitchStatsCancelText:
 	next "STATS"
 	next "CANCEL@"
 
+pushc japanese
 JapaneseAhText:
 	db "アッ！@"
 
@@ -86,3 +91,4 @@ JapanesePokedexMenu:
 	next "なきごえ"
 	next "ぶんぷをみる"
 	next "キャンセル@"
+popc

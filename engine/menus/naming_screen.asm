@@ -495,7 +495,7 @@ PrintNamingText:
 	call PlaceString
 	ld hl, $1
 	add hl, bc
-	ld [hl], 'の' ; leftover from Japanese version; blank tile $c9 in English
+	ld [hl], $7F ; was a conveniently blank tile - now replaced with an actually blank tile
 	hlcoord 1, 3
 	ld de, NicknameTextString
 	jr .placeString
