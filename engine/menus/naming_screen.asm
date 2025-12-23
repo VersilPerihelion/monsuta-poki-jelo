@@ -493,9 +493,17 @@ PrintNamingText:
 	call GetMonName
 	hlcoord 4, 1
 	call PlaceString
-	ld hl, $1
-	add hl, bc
-	ld [hl], $7F ; was a conveniently blank tile - now replaced with an actually blank tile
+	; SPEx: This code did nothing 'by accident' in the English version.
+	; Its purpose appears to relate to Japanese grammar, adding a -no suffix to the 'mon name.
+	; Previous commit dummied the code out in a different way, but commenting it like this seems clearer
+	;  in case we need it for some reason.
+	; In a Toki Pona translation, it might be an idea to rearrange this screen a little:
+	; 1. Write 'nimi pi' before the your/rival/species
+	; 2. Add 'ni' using this code
+	; nimi pi WASOWELI ni?
+	; ld hl, $1
+	; add hl, bc
+	; ld [hl], 'の'
 	hlcoord 1, 3
 	ld de, NicknameTextString
 	jr .placeString
