@@ -6,6 +6,10 @@ This repo is *not*, itself, a translation. It's just getting the technicals out 
 
 To set up the repository, see [**INSTALL.md**](INSTALL.md).
 
+## Todo
+- [ ] Move all non-pu words (except special cases like "monsuta" and "n") to `unused_sp.png`
+- [ ] Fill out charmap
+- [ ] Fill out name entry keyboard
 
 ## Resources from pret
 
