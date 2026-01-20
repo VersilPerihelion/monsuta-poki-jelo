@@ -433,6 +433,11 @@ _NotEnoughMemoryText::
 	done
 
 _OakSpeechText1::
+
+	;; Try replacing the first paragraph with this:
+	;text "toki a"
+	;line "kama pona tawa ma pi monsuta poki a"
+
 	text "Hello there!"
 	line "Welcome to the"
 	cont "world of #MON!"

@@ -1,15 +1,18 @@
 # Pokémon Yellow: Toki Pona Sandbox
 
-This is a disassembly of Pokémon Yellow, with a set of changes to make it easy to translate into Toki Pona. It's based on [pret](https://github.com/pret/pokeyellow), followed by jan Ketesi's changes to increase the number of available Sitelen Pona words, followed by waso Keli's changes to set it up for translation.
+This is a disassembly of Pokémon Yellow, with changes so you can translate it into Toki Pona. It's based on [pret](https://github.com/pret/pokeyellow), followed by jan Ketesi's SPEx technology to increase the number of available Sitelen Pona words, followed by waso Keli's changes to set it up for translation.
 
 This repo is *not*, itself, a translation. It's just getting the technicals out of the way so you can translate the game yourself! Click "forks" on the sidebar -> to see what other people have done.
 
-To set up the repository, see [**INSTALL.md**](INSTALL.md).
+## Getting started
 
-## Todo
-- [ ] Move all non-pu words (except special cases like "monsuta" and "n") to `unused_sp.png`
-- [ ] Fill out charmap
-- [ ] Fill out name entry keyboard
+- Edit the [font](https://github.com/wasokeli/monsuta-poki-jelo/blob/main/gfx/font/font.png) to your liking. (Right now it uses [leko majuna sin](https://wasokeli.github.io/sp-font-maker/leko-majuna-sin), which has a nonstandard *akesi*, *monsi*, and *sinpin*. The standard ones are in [unused_sp.png](https://github.com/wasokeli/monsuta-poki-jelo/blob/main/gfx/font/unused_sp.png).)
+- Add new words! Copy glyphs from [unused_sp.png](https://github.com/wasokeli/monsuta-poki-jelo/blob/main/gfx/font/unused_sp.png) to [font.png](https://github.com/wasokeli/monsuta-poki-jelo/blob/main/gfx/font/font.png), and register them in [charmap.asm](https://github.com/wasokeli/monsuta-poki-jelo/blob/main/constants/charmap.asm) so that you can use them in text. By default, the font only includes:
+    - The 120 *nimi pu*, but replacing the word *pu* with *tonsi*
+    - *monsuta* (for technical reasons)
+    - *n* (for technical reasons)
+- Start translating! Text is stored in various files, so you'll have to search around. Prof. Oak's introduction is in [text_3.asm](https://github.com/wasokeli/monsuta-poki-jelo/blob/main/data/text/text_3.asm#L435-L495).
+- To run the game, see [**INSTALL.md**](INSTALL.md). Ask your fellow tokiponists for help if you need it!
 
 ## Resources from pret
 
