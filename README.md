@@ -1,6 +1,6 @@
 # Pokémon Yellow: Toki Pona Sandbox
 
-This is a disassembly of Pokémon Yellow, with changes so you can translate it into Toki Pona. It's based on [pret](https://github.com/pret/pokeyellow), followed by jan Ketesi's SPEx technology to expand the number of available Sitelen Pona words, followed by waso Keli's changes to set it up for translation.
+This is a disassembly of Pokémon Yellow, with changes so you can translate it into Toki Pona. It's based on [pret](https://github.com/pret/pokeyellow), followed by jan Ketesi's SPEx technology to expand the number of available Sitelen Pona words from 110 to 184, followed by waso Keli's changes to set it up for translation.
 
 This repo is *not*, itself, a translation. It's just getting the technicals out of the way so you can translate the game yourself! Click "forks" on the sidebar -> to see what other people have done.
 
@@ -9,8 +9,7 @@ This repo is *not*, itself, a translation. It's just getting the technicals out 
 _**Left**: This project. **Right**: The result of changing [Pokémon names](https://github.com/wasokeli/monsuta-poki-jelo/blob/main/data/pokemon/names.asm#L86-L104), [move names](https://github.com/wasokeli/monsuta-poki-jelo/blob/main/data/moves/names.asm#L47), and [battle text](https://github.com/wasokeli/monsuta-poki-jelo/blob/main/data/text/text_2.asm#L1131-L1147)._
 
 ## Getting started
-
-- Edit the [font](https://github.com/wasokeli/monsuta-poki-jelo/blob/main/gfx/font/font.png) to your liking. (Right now it uses [leko majuna sin](https://wasokeli.github.io/sp-font-maker/leko-majuna-sin), which defaults to nonstandard *akesi*, *monsi*, and *sinpin*. The standard ones are in [unused_sp.png](https://github.com/wasokeli/monsuta-poki-jelo/blob/main/gfx/font/unused_sp.png).)
+- Start translating! Text is stored in various files, so you'll have to search around. Prof. Oak's introduction is in [text_3.asm](https://github.com/wasokeli/monsuta-poki-jelo/blob/main/data/text/text_3.asm#L435-L495).
 - Add new words! Copy glyphs from [unused_sp.png](https://github.com/wasokeli/monsuta-poki-jelo/blob/main/gfx/font/unused_sp.png) to [font.png](https://github.com/wasokeli/monsuta-poki-jelo/blob/main/gfx/font/font.png), and register them in [charmap.asm](https://github.com/wasokeli/monsuta-poki-jelo/blob/main/constants/charmap.asm) so that you can use them in text. By default, the font only includes:
     - The 120 *nimi pu*, but replacing the word *pu* with *tonsi*
     - *monsuta*
@@ -18,7 +17,7 @@ _**Left**: This project. **Right**: The result of changing [Pokémon names](http
     - *te/to* (open and close quotes)
     - Cartouche symbols: `[.:]`
     - Hyphen
-- Start translating! Text is stored in various files, so you'll have to search around. Prof. Oak's introduction is in [text_3.asm](https://github.com/wasokeli/monsuta-poki-jelo/blob/main/data/text/text_3.asm#L435-L495).
+- Edit the [font](https://github.com/wasokeli/monsuta-poki-jelo/blob/main/gfx/font/font.png) to your liking. (Right now it uses [leko majuna sin](https://wasokeli.github.io/sp-font-maker/leko-majuna-sin), which defaults to nonstandard *akesi*, *monsi*, and *sinpin*. The standard ones are in [unused_sp.png](https://github.com/wasokeli/monsuta-poki-jelo/blob/main/gfx/font/unused_sp.png).)
 - To run the game, see [**INSTALL.md**](INSTALL.md). Ask pret people and your fellow tokiponists for help if you need it!
 
 ## Resources from pret
