@@ -114,8 +114,8 @@ newcharmap base
 	charmap "♀",         $b3 ; meli
 	charmap "♂",         $b5 ; mije
 
-	sitelen_pona "te"    $42 ; SP open quote
-	sitelen_pona "to"    $43 ; SP close quote
+	sitelen_pona "te",   $42 ; SP open quote
+	sitelen_pona "to",   $43 ; SP close quote
 	
 	; SPEx: Rearranged characters so the last row is the 'permanent' set.
 	; (That is, the stuff we can't just ditch at will.)
