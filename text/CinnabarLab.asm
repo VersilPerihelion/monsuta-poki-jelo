@@ -1,29 +1,29 @@
 _CinnabarLabFishingGuruText::
-	text "We study #MON"
-	line "extensively here."
+	text "mi pali mute tawa kama sona." ; `We study #MON`
+	;line "" ; `extensively here.`
 
-	para "People often bring"
-	line "us rare #MON"
-	cont "for examination."
+	para "tenpo suli la jan li kama." ; `People often bring`
+	line "ona li wile kama sona mute e monsuta ona." ; `us rare #MON`
+	;cont "" ; `for examination.`
 	done
 
 _CinnabarLabPhotoText::
-	text "A photo of the"
-	line "LAB's founder,"
-	cont "DR.FUJI!"
+	text "sitelen ni li jan mama pi tomo pali sona ni." ; `A photo of the`
+	line "nimi ona li jan sona [uta sijelo.]." ; `LAB's founder,`
+	;cont "" ; `DR.FUJI!`
 	done
 
 _CinnabarLabMeetingRoomSignText::
-	text "#MON LAB"
-	line "Meeting Room"
+	text "tomo pi pali sona" ; `#MON LAB`
+	line "tomo lili pi toki kulupu" ; `Meeting Room`
 	done
 
 _CinnabarLabRAndDSignText::
-	text "#MON LAB"
-	line "R-and-D Room"
+	text "tomo pi pali sona" ; `#MON LAB`
+	line "tomo lili pi alasa sona" ; `R-and-D Room`
 	done
 
 _CinnabarLabTestingRoomSignText::
-	text "#MON LAB"
-	line "Testing Room"
+	text "tomo pi pali sona" ; `#MON LAB`
+	line "tomo lili pi nanpa sona" ; `Testing Room`
 	done

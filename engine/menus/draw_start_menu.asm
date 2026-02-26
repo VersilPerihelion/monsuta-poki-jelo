@@ -38,7 +38,8 @@ DrawStartMenu::
 	call PrintStartMenuItem
 	ld de, StartMenuItemText
 	call PrintStartMenuItem
-	ld de, wPlayerName ; player's name
+	;ld de, wPlayerName ; player's name ; VPH feature: name charlimit 7→10, replaced name with 
+	ld de, StartMenuTrainerCardText     ;     a static label to avoid making the start menu too wide
 	call PrintStartMenuItem
 	ld a, [wStatusFlags4]
 	bit BIT_LINK_CONNECTED, a
@@ -58,25 +59,28 @@ DrawStartMenu::
 	ret
 
 StartMenuPokedexText:
-	db "POKéDEX@"
+	db "ilo lipu sona pi monsuta poki@" ; POKéDEX@
 
 StartMenuPokemonText:
-	db "#MON@"
+	db "monsuta sina@" ; #MON@
 
 StartMenuItemText:
-	db "ITEM@"
+	db "ijo sina@" ; ITEM@
+
+StartMenuTrainerCardText:
+	db "lipu sona sina@" ; VPH feature: name charlimit 7→10, static label to use in the start menu
 
 StartMenuSaveText:
-	db "SAVE@"
+	db "o sitelen e musi sina@" ; SAVE@
 
 StartMenuResetText:
-	db "RESET@"
+	db "o kama sin@" ; RESET@
 
 StartMenuExitText:
-	db "EXIT@"
+	db "o weka@" ; EXIT@
 
 StartMenuOptionText:
-	db "OPTION@"
+	db "o ante e musi ni@" ; OPTION@
 
 PrintStartMenuItem:
 	push hl

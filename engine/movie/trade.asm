@@ -235,8 +235,8 @@ Trade_ShowPlayerMon:
 	ldh [hSCX], a
 	xor a
 	ldh [hAutoBGTransferEnabled], a
-	hlcoord 4, 0
-	lb bc, 6, 10
+	hlcoord 3, 0 ; VPH feature: name charlimit 7→10, was 4, 0
+	lb bc, 6, 14 ; VPH feature: name charlimit 7→10, was 6, 10⏎
 	call TextBoxBorder
 	call Trade_PrintPlayerMonInfoText
 	ld b, HIGH(vBGMap0)

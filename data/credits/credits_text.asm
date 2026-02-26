@@ -90,178 +90,178 @@ CreditsTextPointers:
 	assert_table_length NUM_CRED_STRINGS
 
 CreditsText_Version:
-	db -6, "YELLOW VERSION"
-	next   "    STAFF@"
+	db -6, "te monsuta poki jelo to" ; `YELLOW VERSION`
+	next   "tan jan ni:" ; `    STAFF@`
 CreditsText_Tajiri:
-	db -6, "SATOSHI TAJIRI@"
+	db -6, "jan [sama.toki.sitelen. tawa.sitelen.lipu.]@" ; `SATOSHI TAJIRI@`
 CreditsText_Oota:
-	db -6, "TAKENORI OOTA@"
+	db -6, "jan [tan.kepeken.noka.linja. o tan.]@" ; `TAKENORI OOTA@`
 CreditsText_Morimoto:
-	db -7, "SHIGEKI MORIMOTO@"
+	db -7, "jan [sina.ken.kili. moku.lipu.moku.tomo.]@" ; `SHIGEKI MORIMOTO@`
 CreditsText_Watanabe:
-	db -7, "TETSUYA WATANABE@"
+	db -7, "jan [telo.supa.jasima. wan.tan.nanpa.pilin e]@" ; `TETSUYA WATANABE@`
 CreditsText_Masuda:
-	db -6, "JUNICHI MASUDA@"
+	db -6, "jan [suno.ni.sitelen. ma:supa.tawa.]@" ; `JUNICHI MASUDA@`
 CreditsText_Nishino:
-	db -5, "KOHJI NISHINO@"
+	db -5, "jan [ko:sitelen. nimi.sitelen.noka.]@" ; `KOHJI NISHINO@`
 CreditsText_Sugimori:
-	db -5, "KEN SUGIMORI@"
+	db -5, "jan [ken: supa.kili.moli:]@" ; `KEN SUGIMORI@`
 CreditsText_Nishida:
-	db -6, "ATSUKO NISHIDA@"
+	db -6, "jan [a supa.ko: ni:sitelen.tawa.]@" ; `ATSUKO NISHIDA@`
 CreditsText_Miyamoto:
-	db -7, "SHIGERU MIYAMOTO@"
+	db -7, "jan [sitelen.ken.luka. mi:jasima.moku.toki.]@" ; `SHIGERU MIYAMOTO@`
 CreditsText_Kawaguchi:
-	db -8, "TAKASHI KAWAGUCHI@"
+	db -8, "jan [tawa.kasi: kama.waso.kute.sinpin.]@" ; `TAKASHI KAWAGUCHI@`
 CreditsText_Ishihara:
-	db -8, "TSUNEKAZU ISHIHARA@"
+	db -8, "jan [suno.nena.kasi.supa. ilo sitelen.jan.lawa.]@" ; `TSUNEKAZU ISHIHARA@`
 CreditsText_Yamauchi:
-	db -7, "HIROSHI YAMAUCHI@"
+	db -7, "jan [ilo:sitelen. jasima.majuna..sinpin.]@" ; `HIROSHI YAMAUCHI@`
 CreditsText_Zinnai:
-	db -7, "HIROYUKI ZINNAI@"
+	db -7, "jan [ilo:jo uta kiwen. sina:]@" ; `HIROYUKI ZINNAI@`
 CreditsText_Hishida:
-	db -7, "TATSUYA HISHIDA@"
+	db -7, "jan [tan.suli.jan. ijo sinpin.tawa.]@" ; `TATSUYA HISHIDA@`
 CreditsText_Sakai:
-	db -6, "YASUHIRO SAKAI@"
+	db -6, "jan [jasima.suno.wile.lon. sama.kala.jelo.]@" ; `YASUHIRO SAKAI@`
 CreditsText_Yamaguchi:
-	db -7, "WATARU YAMAGUCHI@"
+	db -7, "jan [wan.tawa.lupa. jasima.ma.kute.sitelen.]@" ; `WATARU YAMAGUCHI@`
 CreditsText_Yamamoto:
-	db -8, "KAZUYUKI YAMAMOTO@"
+	db -8, "jan [kasi.supa.jo uta kiwen. jan.ma.moku.toki.]@" ; `KAZUYUKI YAMAMOTO@`
 CreditsText_Taniguchi:
-	db -8, "RYOHSUKE TANIGUCHI@"
+	db -8, "jan [jo.suno.ken. tan.ni.kule.sinpin.]@" ; `RYOHSUKE TANIGUCHI@`
 CreditsText_Nonomura:
-	db -8, "FUMIHIRO NONOMURA@"
+	db -8, "jan [poki uta mi.wile.lon. noka.noka.mu.lape.]@" ; `FUMIHIRO NONOMURA@`
 CreditsText_Fuziwara:
-	db -7, "MOTOFUMI FUZIWARA@"
+	db -7, "jan [moku.toki.pilin utala mi. pana uta sitelen.wawa.laso.]@" ; `MOTOFUMI FUZIWARA@`
 CreditsText_Matsusima:
-	db -7, "KENJI MATSUSIMA@"
+	db -7, "jan [ken:sitelen. ma.supa.sitelen.ma.]@" ; `KENJI MATSUSIMA@`
 CreditsText_Tomisawa:
-	db -7, "AKIHITO TOMISAWA@"
+	db -7, "jan [a kili.wile.toki. tomo.mi.sama.walo.]@" ; `AKIHITO TOMISAWA@`
 CreditsText_Kawamoto:
-	db -7, "HIROSHI KAWAMOTO@"
+	db -7, "jan [ilo:sinpin. kala.wan.moku.toki.]@" ; `HIROSHI KAWAMOTO@`
 CreditsText_Kakei:
-	db -6, "AKIYOSHI KAKEI@"
+	db -6, "jan [akesi kiwen.jo.sitelen. kama.ken.]@" ; `AKIYOSHI KAKEI@`
 CreditsText_Tsuchiya:
-	db -7, "KAZUKI TSUCHIYA@"
+	db -7, "jan [kalama.supa.kili. supa.sinpin.jasima.]@" ; `KAZUKI TSUCHIYA@`
 CreditsText_Nakamura:
-	db -6, "TAKEO NAKAMURA@"
+	db -6, "jan [tawa.ken.jo. nasa.kala.mu.lawa.]@" ; `TAKEO NAKAMURA@`
 CreditsText_Yuda:
-	db -6, "MASAMITSU YUDA@"
+	db -6, "jan [ma.sama.mi.suno. jo uta.]@" ; `MASAMITSU YUDA@`
 CreditsText_Pokemon:
-	db -3, "#MON@"
+	db -3, "monsuta poki@" ; `#MON@`
 CreditsText_Director:
-	db -3, "DIRECTOR@"
+	db -3, "jan lawa@" ; `DIRECTOR@`
 CreditsText_Programmers:
-	db -5, "PROGRAMMERS@"
+	db -5, "jan pali nanpa@" ; `PROGRAMMERS@`
 CreditsText_CharacterDesign:
-	db -7, "CHARACTER DESIGN@"
+	db -7, "jan pali pi lukin jan@" ; `CHARACTER DESIGN@`
 CreditsText_Music:
-	db -2, "MUSIC@"
+	db -2, "jan pali pi kalama musi@" ; `MUSIC@`
 CreditsText_SoundEffects:
-	db -6, "SOUND EFFECTS@"
+	db -6, "jan pali mu@" ; `SOUND EFFECTS@`
 CreditsText_GameDesign:
-	db -5, "GAME DESIGN@"
+	db -5, "jan pali nasin@" ; `GAME DESIGN@`
 CreditsText_MonsterDesign:
-	db -6, "MONSTER DESIGN@"
+	db -6, "jan pali pi lukin monsuta@" ; `MONSTER DESIGN@`
 CreditsText_GameScenario:
-	db -6, "GAME SCENARIO@"
+	db -6, "jan pali pi nasin toki@" ; `GAME SCENARIO@`
 CreditsText_ParametricDesign:
-	db -7, "PARAMETRIC DESIGN@"
+	db -7, "jan pi nasin nanpa@" ; `PARAMETRIC DESIGN@`
 CreditsText_MapDesign:
-	db -4, "MAP DESIGN@"
+	db -4, "jan pali ma@" ; `MAP DESIGN@`
 CreditsText_Testing:
-	db -6, "PRODUCT TESTING@"
+	db -6, "jan alasa musi@" ; `PRODUCT TESTING@`
 CreditsText_SpecialThanks:
-	db -6, "SPECIAL THANKS@"
+	db -6, "jan pona@" ; `SPECIAL THANKS@`
 CreditsText_Producers:
-	db -4, "PRODUCERS@"
+	db -4, "jan pi lawa nasin@" ; `PRODUCERS@`
 CreditsText_Producer:
-	db -3, "PRODUCER@"
+	db -3, "jan pi lawa nasin@" ; `PRODUCER@`
 CreditsText_ExecutiveProducer:
-	db -8, "EXECUTIVE PRODUCER@"
+	db -8, "jan lawa pi lawa nasin@" ; `EXECUTIVE PRODUCER@`
 CreditsText_Tamada:
-	db -6, "SOUSUKE TAMADA@"
+	db -6, "jan [sona.supa.ken. tawa.ma.tan.]@" ; `SOUSUKE TAMADA@`
 CreditsText_Oota2:
-	db -5, "SATOSHI OOTA@"
+	db -5, "jan [sama.toki.sitelen. o tan.]@" ; `SATOSHI OOTA@`
 CreditsText_Yoshikawa:
-	db -6, "RENA YOSHIKAWA@"
+	db -6, "jan [len.nasa. jo.sitelen.kama.wawa.]@" ; `RENA YOSHIKAWA@`
 CreditsText_Oota23:
-	db -6, "TOMOMICHI OOTA@"
+	db -6, "jan [tomo:misikeke.. o tan.]@" ; `TOMOMICHI OOTA@`
 CreditsText_Matsumiya:
-	db -8, "TOSHINOBU MATSUMIYA@"
+	db -8, "jan [toki.sina.noka.pilin uta  ma.supa.mi.jan.]@" ; `TOSHINOBU MATSUMIYA@`
 CreditsText_Seya:
-	db -5, "NOBUHIRO SEYA@"
+	db -5, "jan [noka.pana utala wile.lon. seme.jasima.]@" ; `NOBUHIRO SEYA@`
 CreditsText_Yoshida:
-	db -7, "HIRONOBU YOSHIDA@"
+	db -7, "jan [ilo:noka.pan utala  jo.sinpin.tan.]@" ; `HIRONOBU YOSHIDA@`
 CreditsText_Sekine:
-	db -6, "KAZUHITO SEKINE@"
+	db -6, "jan [kasi.suno.wile.toki. seli.kili.nena.]@" ; `KAZUHITO SEKINE@`
 CreditsText_Shimamura:
-	db -7, "KAZUSHI SHIMAMURA@"
+	db -7, "jan [kama.supa.sina. sitelen.ma.mu.lape.]@" ; `KAZUSHI SHIMAMURA@`
 CreditsText_Shimoyamada:
-	db -9, "TERUYUKI SHIMOYAMADA@"
+	db -9, "jan [telo.luka.jo utala kiwen. sina.moku.jasima.ma.tan.]@" ; `TERUYUKI SHIMOYAMADA@`
 CreditsText_SuperMarioClub:
-	db -9, "NCL SUPER MARIO CLUB@"
+	db -9, "kulupu [supa:ma.linja.jo.@" ; `NCL SUPER MARIO CLUB@`
 CreditsText_Izushi:
-	db -7, "TAKEHIRO IZUSHI@"
+	db -7, "jan [taso.ken.wile.lon. insa supa.sina.]@" ; `TAKEHIRO IZUSHI@`
 CreditsText_Nomura:
-	db -5, "FUZIKO NOMURA@"
+	db -5, "jan [utala sike.ko. noka.mu.lape.]@" ; `FUZIKO NOMURA@`
 CreditsText_Harada:
-	db -6, "TAKAHIRO HARADA@"
+	db -6, "jan [tawa.kala.wile.lon. alasa lape.tan.]@" ; `TAKAHIRO HARADA@`
 CreditsText_Yamagami:
-	db -7, "HITOSHI YAMAGAMI@"
+	db -7, "jan [ilo toki.sina. jasima.mani.kasi.mi]@" ; `HITOSHI YAMAGAMI@`
 CreditsText_Nishimura:
-	db -8, "KENTAROU NISHIMURA@"
+	db -8, "jan [ken:taso.loje. ni.sinpin.mu.lape.]@" ; `KENTAROU NISHIMURA@`
 CreditsText_Saeki:
-	db -5, "NAOKO SAEKI@"
+	db -5, "jan [nanpa.jo.ko. sama.weka.kiwen.]@" ; `NAOKO SAEKI@`
 CreditsText_Fuzii:
-	db -5, "TAKAYA FUZII@"
+	db -5, "jan [tan.tala.jan. pilin utala sitelen.wile.]@" ; `TAKAYA FUZII@`
 CreditsText_Shogakukan:
-	db -4, "SHOGAKUKAN"
-	next   "PRODUCTION@"
+	db -4, "kulupu pali@" ; `SHOGAKUKAN`
+	next   "[soko.kama.kute.kasi.n]@" ; `PRODUCTION@`
 CreditsText_Ootani:
-	db -5, "IKUE OOTANI@"
+	db -5, "jan [ijo kute.weka. o tawa.ni.]@" ; `IKUE OOTANI@`
 CreditsText_PikachuVoice:
-	db -6, "PIKACHU VOICE@"
+	db -6, "mu pi te soweli pika to@" ; `PIKACHU VOICE@`
 
 	db -3, "××××××××@"
 CreditsText_USStaff:
-	db -7, "US VERSION STAFF@"
+	db -7, "jan pali tan ma [mani esun wile.kama.]@" ; `US VERSION STAFF@`
 CreditsText_USCoord:
-	db -7, "US COORDINATION@"
+	db -7, "toki pi jan ma [mani esun wile.kama.]@" ; `US COORDINATION@`
 CreditsText_Tilden:
-	db -5, "GAIL TILDEN@"
+	db -5, "jan [ken.lipu. telo.tenpo..]@" ; `GAIL TILDEN@`
 CreditsText_Kawakami:
-	db -6, "NAOKO KAWAKAMI@"
+	db -6, "jan [nain.jo.ko. kama.waso.kala.mi.]@" ; `NAOKO KAWAKAMI@`
 CreditsText_Nakamura2:
-	db -6, "HIRO NAKAMURA@"
+	db -6, "jan [ilo: nasa.kama.mun.laso.]@" ; `HIRO NAKAMURA@`
 CreditsText_Shoemake:
-	db -6, "RANDY SHOEMAKE@"
+	db -6, "jan [len.telo. suno.ma e kama.]@" ; `RANDY SHOEMAKE@`
 CreditsText_Osborne:
-	db -5, "SARA OSBORNE@"
+	db -5, "jan [sama.laso. o pona.n]@" ; `SARA OSBORNE@`
 CreditsText_Translation:
-	db -7, "TEXT TRANSLATION@"
+	db -7, "ante toki@" ; `TEXT TRANSLATION@`
 CreditsText_Ogasawara:
-	db -6, "NOB OGASAWARA@"
+	db -6, "jan [noka.pali utala  o kasi.sama.walo.lape.]@" ; `NOB OGASAWARA@`
 CreditsText_Iwata:
-	db -5, "SATORU IWATA@"
+	db -5, "jan [sama.toki.lupa. i walo.tawa.]@" ; `SATORU IWATA@`
 CreditsText_Izushi2:
-	db -7, "TAKEHIRO IZUSHI@"
+	db -7, "jan [tan.kepeken.wile.loje. ijo supa.sitelen.]@" ; `TAKEHIRO IZUSHI@`
 CreditsText_Harada2:
-	db -7, "TAKAHIRO HARADA@"
+	db -7, "jan [taso.kama.wile.lon. a lape.tan.]@" ; `TAKAHIRO HARADA@`
 CreditsText_Murakawa:
-	db -7, "TERUKI MURAKAWA@"
+	db -7, "jan [telo.luka.kiwen. mun.laso.kama.waso.]@" ; `TERUKI MURAKAWA@`
 CreditsText_Fukui:
-	db -5, "KOHTA FUKUI@"
+	db -5, "jan [kon.tan. pilin uta kule.wile.]@" ; `KOHTA FUKUI@`
 CreditsText_SuperMarioClub2:
-	db -9, "NCL SUPER MARIO CLUB@"
+	db -9, "kulupu musi [supa:ma.linja.jo.]@" ; `NCL SUPER MARIO CLUB@`
 CreditsText_Paad:
-	db -5, "PAAD TESTING@"
+	db -5, "alasa musi@" ; `PAAD TESTING@`
 CreditsText_Hosokawa:
-	db -8, "TAKEHIKO HOSOKAWA@"
+	db -8, "jan [tan.kepeken.wile.kon. ona soko.kama.walo.]@" ; `TAKEHIKO HOSOKAWA@`
 CreditsText_Okubo:
-	db -5, "KENJI OKUBO@"
+	db -5, "jan [ken:sina. o kute.poka.]@" ; `KENJI OKUBO@`
 CreditsText_Nakamichi:
-	db -7, "KIMIKO NAKAMICHI@"
+	db -7, "jan [kiwen.mi.kon. nasa.kama.mi.sitelen.]@" ; `KIMIKO NAKAMICHI@`
 CreditsText_Yoshimura:
-	db -6, "KAMON YOSHIMURA@"
+	db -6, "jan [kasi.monsuta.. jo.sina.mu.laso.]@" ; `KAMON YOSHIMURA@`
 CreditsText_Yamazaki:
-	db -6, "SAKAE YAMAZAKI@"
+	db -6, "jan [sama.kama.weka. jasima.ma.sama.kili.]@" ; `SAKAE YAMAZAKI@`

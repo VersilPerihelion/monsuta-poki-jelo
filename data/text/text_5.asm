@@ -1,271 +1,274 @@
 _IsEvolvingText::
-	text "What? @"
+	text "seme a. @" ; `What? @`
 	text_ram wStringBuffer
 	text_start
-	line "is evolving!"
+	line "li kama ante a." ; `is evolving!`
 	done
 
 _FellAsleepText::
-	text "<TARGET>"
-	line "fell asleep!"
+	text "<TARGET>" ; `<TARGET>`
+	line "li kama lape a." ; `fell asleep!`
 	prompt
 
 _AlreadyAsleepText::
-	text "<TARGET>'s"
-	line "already asleep!"
+	text "<TARGET>" ; `<TARGET>'s`
+	line "li awen lape." ; `already asleep!`
 	prompt
 
 _PoisonedText::
-	text "<TARGET>"
-	line "was poisoned!"
+	text "<TARGET>" ; `<TARGET>`
+	line "li kama jaki a." ; `was poisoned!`
 	prompt
 
 _BadlyPoisonedText::
-	text "<TARGET>'s"
-	line "badly poisoned!"
+	text "<TARGET>" ; `<TARGET>'s`
+	line "li kama jaki suli a." ; `badly poisoned!`
 	prompt
 
 _BurnedText::
-	text "<TARGET>"
-	line "was burned!"
+	text "<TARGET>" ; `<TARGET>`
+	line "li kama seli ike a." ; `was burned!`
 	prompt
 
 _FrozenText::
-	text "<TARGET>"
-	line "was frozen solid!"
+	text "<TARGET>" ; `<TARGET>`
+	line "li kama lete kiwen a." ; `was frozen solid!`
 	prompt
 
 _FireDefrostedText::
-	text "Fire defrosted"
-	line "<TARGET>!"
+	text "seli li weka e lete tan" ; `Fire defrosted`
+	line "<TARGET> a." ; `<TARGET>!`
 	prompt
 
 _MonsStatsRoseText::
-	text "<USER>'s"
-	line "@"
+	text "@" ; `<USER>'s`
+	;line "" ; `@`
 	text_ram wStringBuffer
-	text "@"
+	text "pi  <USER>" ; `@`
+	line "@"
 	text_end
 
 _GreatlyRoseText::
-	text "<SCROLL>greatly@"
-	text_end
+	text "li kama suli mute a." ; `<SCROLL>greatly@`
+	prompt
 
 _RoseText::
-	text " rose!"
+	text "li kama suli a." ; ` rose!`
 	prompt
 
 _MonsStatsFellText::
-	text "<TARGET>'s"
-	line "@"
+	text "@" ; `<TARGET>'s`
+	;line "" ; `@`
 	text_ram wStringBuffer
-	text "@"
+	text "pi  <TARGET>"
+	line "@"
 	text_end
 
 _GreatlyFellText::
-	text "<SCROLL>greatly@"
-	text_end
+	text "li kama lili mute a." ; `<SCROLL>greatly@`
+	prompt
 
 _FellText::
-	text " fell!"
+	text "li kama lili a." ; ` fell!`
 	prompt
 
 _RanFromBattleText::
-	text "<USER>"
-	line "ran from battle!"
+	text "<USER>" ; `<USER>`
+	line "li weka tan utala ni a." ; `ran from battle!`
 	prompt
 
 _RanAwayScaredText::
-	text "<TARGET>"
-	line "ran away scared!"
+	text "pilin monsuta la <TARGET>" ; `<TARGET>`
+	line "li weka tan utala ni a." ; `ran away scared!`
 	prompt
 
 _WasBlownAwayText::
-	text "<TARGET>"
-	line "was blown away!"
+	text "kon suli li weka e" ; `<TARGET>`
+	line "<TARGET> tan utala ni a." ; `was blown away!`
 	prompt
 
 _ChargeMoveEffectText::
-	text "<USER>@"
+	text "<USER>@" ; `<USER>@`
 	text_end
 
 _MadeWhirlwindText::
 	text_start
-	line "made a whirlwind!"
+	line "li pali e sike kon suli a." ; `made a whirlwind!`
 	prompt
 
 _TookInSunlightText::
 	text_start
-	line "took in sunlight!"
+	line "li open kama jo e suno sewi a." ; `took in sunlight!`
 	prompt
 
 _LoweredItsHeadText::
 	text_start
-	line "lowered its head!"
+	line "li anpa e lawa ona a." ; `lowered its head!`
 	prompt
 
 _SkyAttackGlowingText::
 	text_start
-	line "is glowing!"
+	line "li open pana e suno a." ; `is glowing!`
 	prompt
 
 _FlewUpHighText::
 	text_start
-	line "flew up high!"
+	line "li tawa sewi mute a." ; `flew up high!`
 	prompt
 
 _DugAHoleText::
 	text_start
-	line "dug a hole!"
+	line "li pali e lupa anpa a." ; `dug a hole!`
 	prompt
 
 _BecameConfusedText::
-	text "<TARGET>"
-	line "became confused!"
+	text "<TARGET>" ; `<TARGET>`
+	line "li kama pilin nasa a." ; `became confused!`
 	prompt
 
 _MimicLearnedMoveText::
-	text "<USER>"
-	line "learned"
-	cont "@"
+	text "<USER>" ; `<USER>`
+	line "li kama sona e pali" ; `learned`
+	cont "te@" ; `@`
 	text_ram wNameBuffer
-	text "!"
+	text "to a." ; `!`
 	prompt
 
 _MoveWasDisabledText::
-	text "<TARGET>'s"
-	line "@"
+	text "pali te@" ; `<TARGET>'s`
+	;line "" ; `@`
 	text_ram wNameBuffer
-	text " was"
-	cont "disabled!"
+	text "to" ; ` was`
+	line "pi <TARGET>"
+	cont "li kama ken ala a." ; `disabled!`
 	prompt
 
 _NothingHappenedText::
-	text "Nothing happened!"
+	text "ala li kama." ; `Nothing happened!`
 	prompt
 
 _NoEffectText::
-	text "No effect!"
+	text "ala li lon." ; `No effect!`
 	prompt
 
 _ButItFailedText::
-	text "But, it failed! "
+	text "taso pali ni pakala." ; `But, it failed! `
 	prompt
 
 _DidntAffectText::
-	text "It didn't affect"
-	line "<TARGET>!"
+	text "ni li ala tawa" ; `It didn't affect`
+	line "<TARGET> a." ; `<TARGET>!`
 	prompt
 
 _IsUnaffectedText::
-	text "<TARGET>"
-	line "is unaffected!"
+	text "<TARGET> la" ; `<TARGET>`
+	line "ni li ala." ; `is unaffected!`
 	prompt
 
 _ParalyzedMayNotAttackText::
-	text "<TARGET>'s"
-	line "paralyzed! It may"
-	cont "not attack!"
+	text "<TARGET>" ; `<TARGET>'s`
+	line "li pini sijelo a." ; `paralyzed! It may`
+	cont "ona li ken pali ala a." ; `not attack!`
 	prompt
 
 _SubstituteText::
-	text "It created a"
-	line "SUBSTITUTE!"
+	text "ona li pali e" ; `It created a`
+	line "te sijelo lili tawa ala pakala to a." ; `SUBSTITUTE!`
 	prompt
 
 _HasSubstituteText::
-	text "<USER>"
-	line "has a SUBSTITUTE!"
+	text "tenpo ni la <USER>" ; `<USER>`
+	line "li jo e te sijelo lili tawa ala pakala to." ; `has a SUBSTITUTE!`
 	prompt
 
 _TooWeakSubstituteText::
-	text "Too weak to make"
-	line "a SUBSTITUTE!"
+	text "wawa lili la ona li ken ala pali e" ; `Too weak to make`
+	line "te sijelo lili tawa ala pakala to." ; `a SUBSTITUTE!`
 	prompt
 
 _WasSeededText::
-	text "<TARGET>"
-	line "was seeded!"
+	text "kasi nasa li kama selo e" ; `<TARGET>`
+	line "<TARGET> a." ; `was seeded!`
 	prompt
 
 _EvadedAttackText::
-	text "<TARGET>"
-	line "evaded attack!"
+	text "<TARGET>" ; `<TARGET>`
+	line "li weka e utala ona a." ; `evaded attack!`
 	prompt
 
 _HitWithRecoilText::
-	text "<USER>'s"
-	line "hit with recoil!"
+	text "pali ona la <USER>" ; `<USER>'s`
+	line "li pakala e sijelo ona a." ; `hit with recoil!`
 	prompt
 
 _ConvertedTypeText::
-	text "Converted type to"
-	line "<TARGET>'s!"
+	text "kule kon ona li kama sama" ; `Converted type to`
+	line "kule kon pi <TARGET>." ; `<TARGET>'s!`
 	prompt
 
 _StatusChangesEliminatedText::
-	text "All STATUS changes"
-	line "are eliminated!"
+	text "ante pi nanpa ken ale" ; `All STATUS changes`
+	line "li weka a." ; `are eliminated!`
 	prompt
 
 _GettingPumpedText::
-	text "<USER>'s"
-	line "getting pumped!"
+	text "<USER>" ; `<USER>'s`
+	line "li kama wawa pakala a." ; `getting pumped!`
 	prompt
 
 _StartedSleepingEffect::
-	text "<USER>"
-	line "started sleeping!"
+	text "<USER>" ; `<USER>`
+	line "li open lape a." ; `started sleeping!`
 	done
 
 _FellAsleepBecameHealthyText::
-	text "<USER>"
-	line "fell asleep and"
-	cont "became healthy!"
+	text "<USER>" ; `<USER>`
+	line "li kama lape li kama pona sijelo a." ; `fell asleep and`
+	;cont "" ; `became healthy!`
 	done
 
 _RegainedHealthText::
-	text "<USER>"
-	line "regained health!"
+	text "<USER>" ; `<USER>`
+	line "li kama pona sijelo sin a." ; `regained health!`
 	prompt
 
 _TransformedText::
-	text "<USER>"
-	line "transformed into"
-	cont "@"
+	text "<USER>" ; `<USER>`
+	line "li ante e ona tawa" ; `transformed into`
+	cont "monsuta te@" ; `@`
 	text_ram wNameBuffer
-	text "!"
+	text "to a." ; `!`
 	prompt
 
 _LightScreenProtectedText::
-	text "<USER>'s"
-	line "protected against"
-	cont "special attacks!"
+	text "<USER>" ; `<USER>'s`
+	line "li selo tan utala nasa a." ; `protected against`
+	;cont "" ; `special attacks!`
 	prompt
 
 _ReflectGainedArmorText::
-	text "<USER>"
-	line "gained armor!"
+	text "<USER>" ; `<USER>`
+	line "li kama jo e selo wawa a." ; `gained armor!`
 	prompt
 
 _ShroudedInMistText::
-	text "<USER>'s"
-	line "shrouded in mist!"
+	text "<USER>" ; `<USER>'s`
+	line "li lape kepeken kon lape a." ; `shrouded in mist!`
 	prompt
 
 _CoinsScatteredText::
-	text "Coins scattered"
-	line "everywhere!"
+	text "sike mani li weka" ; `Coins scattered`
+	line "lon ma ni ale a." ; `everywhere!`
 	prompt
 
 _SuckedHealthText::
-	text "Sucked health from"
-	line "<TARGET>!"
+	text "ona li lanpan e wawa pilin" ; `Sucked health from`
+	line "tan <TARGET> a." ; `<TARGET>!`
 	prompt
 
 _DreamWasEatenText::
-	text "<TARGET>'s"
-	line "dream was eaten!"
+	text "ona li moku e sitelen lape" ; `<TARGET>'s`
+	line "pi <TARGET> a." ; `dream was eaten!`
 	prompt
 
 _TradeCenterOpponentText::

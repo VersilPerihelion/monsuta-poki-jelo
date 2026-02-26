@@ -1,55 +1,55 @@
 _VermilionOldRodHouseFishingGuruDoYouLikeToFishText::
-	text "I'm the FISHING"
-	line "GURU!"
+	text "mi jan suli pi alasa kala." ; `I'm the FISHING`
+	;line "" ; `GURU!`
 
-	para "I simply Looove"
-	line "fishing!"
+	para "alasa kala li suli mute tawa mi." ; `I simply Looove`
+	;line "" ; `fishing!`
 
-	para "Do you like to"
-	line "fish?"
+	para "alasa kala li pona ala pona tawa sina." ; `Do you like to`
+	;line "" ; `fish?`
 	done
 
 _VermilionOldRodHouseFishingGuruTakeThisText::
-	text "Grand! I like"
-	line "your style!"
+	text "suli a." ; `Grand! I like`
+	line "nasin sina li pona a." ; `your style!`
 
-	para "Take this and"
-	line "fish, young one!"
+	para "o kama jo e ijo ni o alasa e kala" ; `Take this and`
+	line "jan lili o." ; `fish, young one!`
 
-	para "<PLAYER> received"
-	line "an @"
+	para "<PLAYER> li kama jo e" ; `<PLAYER> received`
+	line "te@" ; `an @`
 	text_ram wStringBuffer
-	text "!@"
+	text "to a.@" ; `!@`
 	text_end
 
 _VermilionOldRodHouseFishingGuruFishingIsAWayOfLifeText::
 	text_start
 
-	para "Fishing is a way"
-	line "of life!"
+	para "alasa kala li nasin lon." ; `Fishing is a way`
+	;line "" ; `of life!`
 
-	para "From the seas to"
-	line "rivers, go out"
-	cont "and land the big"
-	cont "one, young one!"
+	para "telo suli la" ; `From the seas to`
+	line "linja telo la" ; `rivers, go out`
+	cont "o tawa pona o alasa e kala pona a" ; `and land the big`
+	;cont "" ; `one, young one!`
 	done
 
 _VermilionOldRodHouseFishingGuruThatsSoDisappointingText::
-	text "Oh... That's so"
-	line "disappointing..."
+	text "a<JAGOLD>" ; `Oh... That's so`
+	line "ike a<JAGOLD>" ; `disappointing...`
 	done
 
 _VermilionOldRodHouseFishingGuruHowAreTheFishBitingText::
-	text "Hello there,"
-	line "<PLAYER>!"
+	text "toki a <PLAYER> o." ; `Hello there,`
+	;line "" ; `<PLAYER>!`
 
-	para "How are the fish"
-	line "biting?"
+	para "alasa kala sina li seme." ; `How are the fish`
+	;line "" ; `biting?`
 	done
 
 _VermilionOldRodHouseFishingGuruNoRoomText::
-	text "Oh no!"
+	text "ike a." ; `Oh no!`
 
-	para "You have no room"
-	line "for my gift!"
+	para "poki sina ken ala jo e ijo pana mi a." ; `You have no room`
+	;line "" ; `for my gift!`
 	done

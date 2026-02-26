@@ -1,200 +1,205 @@
 _PokemonText::
-	text "#MON!"
+	text "monsuta poki" ; `#MON!`
 	done
 
 _PokemartGreetingText::
-	text "Hi there!"
-	next "May I help you?"
+	text "toki a." ; `Hi there!`
+	next "mi ken ala ken pona tawa sina." ; `May I help you?`
 	done
 
 _PokemonFaintedText::
+	text "te"
 	text_ram wNameBuffer
 	text_start
-	line "fainted!"
+	text "to"
+	line "li anpa." ; `fainted!`
 	done
 
 _PlayerBlackedOutText::
-	text "<PLAYER> is out of"
-	line "useable #MON!"
+	text "<PLAYER> li jo ala" ; `<PLAYER> is out of`
+	line "e monsuta mute pi ken utala." ; `useable #MON!`
 
-	para "<PLAYER> blacked"
-	line "out!"
+	para "<PLAYER> li anpa a" ; `<PLAYER> blacked`
+	;line "" ; `out!`
 	prompt
 
 _RepelWoreOffText::
-	text "REPEL's effect"
-	line "wore off."
+	text "te telo pi monsuta weka to" ; `REPEL's effect`
+	line "li pini." ; `wore off.`
 	done
 
 _PokemartBuyingGreetingText::
-	text "Take your time."
+	text "o kepeken tenpo sina." ; `Take your time.`
 	done
 
 _PokemartTellBuyPriceText::
+	text "sina wile e te@"
 	text_ram wStringBuffer
-	text "?"
-	line "That will be"
-	cont "¥@"
+	text "to anu seme." ; `?`
+	line "mi esun e ona tawa" ; `That will be`
+	cont "mani@"
 	text_bcd hMoney, 3 | LEADING_ZEROES | LEFT_ALIGN
-	text ". OK?"
+	text "."
+	cont "ni li pona ala pona." ; `. OK?`
 	done
 
 _PokemartBoughtItemText::
-	text "Here you are!"
-	line "Thank you!"
+	text "sina pona a." ; `Here you are!`
+	line "o pali pona." ; `Thank you!`
 	prompt
 
 _PokemartNotEnoughMoneyText::
-	text "You don't have"
-	line "enough money."
+	text "sina jo ala e mani mute pona." ; `You don't have`
+	;line "" ; `enough money.`
 	prompt
 
 _PokemartItemBagFullText::
-	text "You can't carry"
-	line "any more items."
+	text "sina jo e ijo pi mute ike" ; `You can't carry`
+	line "sina ken ala kama jo e ijo sin." ; `any more items.`
 	prompt
 
 _PokemonSellingGreetingText::
-	text "What would you"
-	line "like to sell?"
+	text "sina wile pana esun" ; `What would you`
+	line "e ijo seme." ; `like to sell?`
 	done
 
 _PokemartTellSellPriceText::
-	text "I can pay you"
+	text "mi ken pana mani" ; `I can pay you`
 	line "¥@"
 	text_bcd hMoney, 3 | LEADING_ZEROES | LEFT_ALIGN
-	text " for that."
+	text "tawa sina tan ijo ni." ; ` for that.`
 	done
 
 _PokemartItemBagEmptyText::
-	text "You don't have"
-	line "anything to sell."
+	text "sina jo e ijo ala" ; `You don't have`
+	line "tawa ken esun." ; `anything to sell.`
 	prompt
 
 _PokemartUnsellableItemText::
-	text "I can't put a"
-	line "price on that."
+	text "mi ken ala esun e ijo ni." ; `I can't put a`
+	line "mi sona ala e mani wile tawa ona." ; `price on that.`
 	prompt
 
 _PokemartThankYouText::
-	text "Thank you!"
+	text "sina pona a." ; `Thank you!`
 	done
 
 _PokemartAnythingElseText::
-	text "Is there anything"
-	line "else I can do?"
+	text "sina wile ala wile e ijo ante." ; `Is there anything`
+	;line "" ; `else I can do?`
 	done
 
 _LearnedMove1Text::
 	text_ram wLearnMoveMonName
-	text " learned"
-	line "@"
+	text "li kama sona e pali" ; ` learned`
+	line "te@" ; `@`
 	text_ram wStringBuffer
-	text "!@"
+	text "to a.@"
 	text_end
 
 _WhichMoveToForgetText::
-	text "Which move should"
-	next "be forgotten?"
+	text "sina wile ante e pali seme." ; `Which move should`
+	;next "" ; `be forgotten?`
 	done
 
 _AbandonLearningText::
-	text "Abandon learning"
-	line "@"
+	text "o weka e kama sona e pali" ; `Abandon learning`
+	line "te@" ; `@`
 	text_ram wStringBuffer
-	text "?"
+	text "to anu seme." ; `?`
 	done
 
 _DidNotLearnText::
 	text_ram wLearnMoveMonName
 	text_start
-	line "did not learn"
-	cont "@"
+	line "li kama ala sona e pali" ; `did not learn`
+	cont "te@" ; `@`
 	text_ram wStringBuffer
-	text "!"
+	text "to." ; `!`
 	prompt
 
 _TryingToLearnText::
 	text_ram wLearnMoveMonName
-	text " is"
-	line "trying to learn"
-	cont "@"
+	;text "" ; ` is`
+	text_start
+	line "li wile kama sona e pali" ; `trying to learn`
+	cont "te@" ; `@`
 	text_ram wStringBuffer
-	text "!"
+	text "to." ; `!`
 
-	para "But, @"
+	para "taso@" ; `But, @`
 	text_ram wLearnMoveMonName
 	text_start
-	line "can't learn more"
-	cont "than 4 moves!"
+	line "ken ala sona e pali nanpa luka." ; `can't learn more`
+	;cont "" ; `than 4 moves!`
 
-	para "Delete an older"
-	line "move to make room"
-	cont "for @"
+	para "sina wile ala wile weka e pali ante tawa kama sona pi pali" ; `Delete an older`
+	line "te@" ; `move to make room`
+	;cont "" ; `for @`
 	text_ram wStringBuffer
-	text "?"
+	text "to." ; `?`
 	done
 
 _OneTwoAndText::
-	text "1, 2 and...@"
+	text "wan  tu  <JAGOLD>@" ; `1, 2 and...@`
 	text_end
 
 _PoofText::
-	text " Poof!@"
+	text " pona a@" ; ` Poof!@`
 	text_end
 
 _ForgotAndText::
 	text_start
-	para "@"
+	para "@" ; `@`
 	text_ram wLearnMoveMonName
-	text " forgot"
-	line "@"
+	text "li weka sona e pali" ; ` forgot`
+	line "te@" ; `@`
 	text_ram wNameBuffer
-	text "!"
+	text "to." ; `!`
 
-	para "And..."
+	para "kin la<JAGOLD>" ; `And...`
 	prompt
 
 _HMCantDeleteText::
-	text "HM techniques"
-	line "can't be deleted!"
+	text "pali tan ilo sike nasin" ; `HM techniques`
+	line "ken ala weka." ; `can't be deleted!`
 	prompt
 
 _PokemonCenterWelcomeText::
-	text "Welcome to our"
-	line "#MON CENTER!"
+	text "o kama pona" ; `Welcome to our`
+	line "tawa tomo misikeke ni." ; `#MON CENTER!`
 
-	para "We heal your"
-	line "#MON back to"
-	cont "perfect health!"
+	para "lon ni la mi ken" ; `We heal your`
+	line "pona e sijelo pi monsuta sina." ; `#MON back to`
+	;cont "" ; `perfect health!`
 	prompt
 
 _ShallWeHealYourPokemonText::
-	text "Shall we heal your"
-	line "#MON?"
+	text "sina wile ala wile e misikeke mi" ; `Shall we heal your`
+	line "tawa monsuta sina." ; `#MON?`
 	done
 
 _NeedYourPokemonText::
-	text "OK. We'll need"
-	line "your #MON."
+	text "pona a." ; `OK. We'll need`
+	line "o pana e monsuta sina tawa mi." ; `your #MON.`
 	done
 
 _PokemonFightingFitText::
-	text "Thank you!"
-	line "Your #MON are"
-	cont "fighting fit!"
+	text "sina awen pona." ; `Thank you!`
+	line "monsuta sina ale li pona sin." ; `Your #MON are`
+	;cont "" ; `fighting fit!`
 	prompt
 
 _PokemonCenterFarewellText::
-	text "We hope to see"
-	line "you again!"
+	text "o tawa pona a." ; `We hope to see`
+	;line "" ; `you again!`
 	done
 
 _LooksContentText::
-	text "It looks very"
-	line "content asleep."
+	text "lukin la ona li pilin pona." ; `It looks very`
+	line "lape li pona mute tawa ona." ; `content asleep.`
 	done
-
+;whatever for these last three lol
 _CableClubNPCAreaReservedFor2FriendsLinkedByCableText::
 	text "This area is"
 	line "reserved for 2"
@@ -203,8 +208,8 @@ _CableClubNPCAreaReservedFor2FriendsLinkedByCableText::
 	done
 
 _CableClubNPCWelcomeText::
-	text "Welcome to the"
-	line "Cable Club!"
+	text "o kama pona" ; `Welcome to the`
+	line "lon kulupu pi linja ilo nasin a." ; `Cable Club!`
 	done
 
 _CableClubNPCPleaseApplyHereHaveToSaveText::

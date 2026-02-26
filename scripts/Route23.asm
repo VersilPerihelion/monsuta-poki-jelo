@@ -100,25 +100,25 @@ BadgeTextPointers:
 	dw EarthBadgeText
 
 EarthBadgeText:
-	db "EARTHBADGE@"
+	db "sitelen wawa pi ma tawa@" ; EARTHBADGE
 
 VolcanoBadgeText:
-	db "VOLCANOBADGE@"
+	db "sitelen wawa pi nena seli@" ; VOLCANOBADGE
 
 MarshBadgeText:
-	db "MARSHBADGE@"
+	db "sitelen wawa pi ma telo@" ; MARSHBADGE
 
 SoulBadgeText:
-	db "SOULBADGE@"
+	db "sitelen wawa pi kon insa@" ; SOULBADGE
 
 RainbowBadgeText:
-	db "RAINBOWBADGE@"
+	db "sitelen wawa pi kule mute@" ; RAINBOWBADGE
 
 ThunderBadgeText:
-	db "THUNDERBADGE@"
+	db "sitelen wawa pi wawa sewi@" ; THUNDERBADGE
 
 CascadeBadgeText:
-	db "CASCADEBADGE@"
+	db "sitelen wawa pi telo tawa@" ; CASCADEBADGE
 
 Route23MovePlayerDownScript:
 	ld a, $1

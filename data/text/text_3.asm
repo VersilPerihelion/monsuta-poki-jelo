@@ -1,41 +1,41 @@
 _EnemyAppearedText::
 	text_ram wEnemyMonNick
 	text_start
-	line "appeared!"
+	line "li kama poka." ; appeared!
 	prompt
 
 _TrainerWantsToFightText::
 	text_ram wTrainerName
-	text " wants"
-	line "to fight!"
+	text " li wile utala." ;  wants
+	;line "" ; to fight!
 	prompt
 
 _UnveiledGhostText::
-	text "SILPH SCOPE"
-	line "unveiled the"
-	cont "GHOST's identity!"
+	text "te ilo lukin pi kon len to la" ; `SILPH SCOPE`
+	line "sina ken lukin e monsuta kon ni a." ; `unveiled the`
+	;cont "" ; `GHOST's identity!`
 	prompt
 
 _GhostCantBeIDdText::
-	text "Darn! The GHOST"
-	line "can't be ID'd!"
+	text "ike a. sina ken ala sona e ni:" ; `Darn! The GHOST`
+	line "ko moli ni li seme." ; `can't be ID'd!`
 	prompt
 
 _GoText::
-	text "Go! @"
+	text "o tawa a. @" ; `Go! @`
 	text_end
 
 _DoItText::
-	text "Do it! @"
+	text "o pali pona a. @" ; `Do it! @`
 	text_end
 
 _GetmText::
-	text "Get'm! @"
+	text "o anpa e ona a. @" ; `Get'm! @`
 	text_end
 
 _EnemysWeakText::
-	text "The enemy's weak!"
-	line "Get'm! @"
+	text "ona li wawa ala a." ; `The enemy's weak!`
+	line "o anpa e ona a. @" ; `Get'm! @`
 	text_end
 
 _PlayerMon1Text::
@@ -49,477 +49,494 @@ _PlayerMon2Text::
 	text_end
 
 _EnoughText::
-	text "enough!@"
+	text "o. ni li mute pona a.@" ; `enough!@`
 	text_end
 
 _OKExclamationText::
-	text "OK!@"
+	text "te ijo ken to a.@" ; `OK!@` ; lol
 	text_end
 
 _GoodText::
-	text "good!@"
+	text "o  sina pona a.@" ; `good!@`
 	text_end
 
 _ComeBackText::
 	text_start
-	line "Come back!"
+	line "o kama sin a." ; `Come back!`
 	done
 
 ; money related
 _PickUpPayDayMoneyText::
-	text "<PLAYER> picked up"
+	text "<PLAYER> li alasa e" ; `<PLAYER> picked up`
 	line "¥@"
 	text_bcd wTotalPayDayMoney, 3 | LEADING_ZEROES | LEFT_ALIGN
-	text "!"
+	text "."
 	prompt
 
 _ClearSaveDataText::
-	text "Clear all saved"
-	line "data?"
+	text "sina wile ala wile" ; `Clear all saved`
+	line "pakala e sitelen musi sina." ; `data?`
 	done
 
 _WhichFloorText::
-	text "Which floor do"
-	line "you want? "
+	text "sina wile tawa" ; `Which floor do`
+	line "tomo supa seme." ; `you want? `
 	done
 
 _SleepingPikachuText1::
-	text "There isn't any"
-	line "response..."
+	text "ona li lape<JAGOLD>" ; `There isn't any`
+	line "ona li toki ala<JAGOLD>" ; `response...`
 	prompt
 
 _PartyMenuNormalText::
-	text "Choose a #MON."
+	text "monsuta seme." ; `Choose a #MON.`
 	done
 
 _PartyMenuItemUseText::
-	text "Use item on which"
-	line "#MON?"
+	text "o kepeken ijo ni" ; `Use item on which`
+	line "tawa monsuta seme." ; `#MON?`
 	done
 
 _PartyMenuBattleText::
-	text "Bring out which"
-	line "#MON?"
+	text "o pana e" ; `Bring out which`
+	line "monsuta seme." ; `#MON?`
 	done
 
 _PartyMenuUseTMText::
-	text "Teach to which"
-	line "#MON?"
+	text "o pana sona" ; `Teach to which`
+	line "tawa monsuta seme." ; `#MON?`
 	done
 
 _PartyMenuSwapMonText::
-	text "Move #MON"
-	line "where?"
+	text "o tawa e monsuta ni" ; `Move #MON`
+	line "lon seme." ; `where?`
 	done
 
 _PotionText::
-	text_ram wNameBuffer
-	text_start
-	line "recovered by @"
+	;text "nanpa ken sijelo pi@"
+	;text_ram wNameBuffer
+	;text_start
+	;line "li kama suli kepeken nanpa@" ; `recovered by @`
+	;text_decimal wHPBarHPDifference, 2, 3
+	;text "!"
+	text "misikeke ni li pana e nanpa ken sijelo@"
 	text_decimal wHPBarHPDifference, 2, 3
-	text "!"
+	text_start
+	line "tawa@"
+	text_ram wNameBuffer
+	text "."
 	done
 
 _AntidoteText::
+	text "jaki pi@"
 	text_ram wNameBuffer
-	text " was"
-	line "cured of poison!"
+	;text "" ; ` was`
+	text_start
+	line "li weka." ; `cured of poison!`
 	done
 
 _ParlyzHealText::
+	text "pini sijelo pi@"
 	text_ram wNameBuffer
-	text "'s"
-	line "rid of paralysis!"
+	;text "'s"
+	text_start
+	line "li weka." ; `rid of paralysis!`
 	done
 
 _BurnHealText::
+	text "seli ike pi@"
 	text_ram wNameBuffer
-	text "'s"
-	line "burn was healed!"
+	;text "'s"
+	text_start
+	line "li weka." ; `burn was healed!`
 	done
 
 _IceHealText::
+	text "lete kiwen pi@"
 	text_ram wNameBuffer
-	text " was"
-	line "defrosted!"
+	;text " was"
+	text_start
+	line "li weka." ; `defrosted!`
 	done
 
 _AwakeningText::
 	text_ram wNameBuffer
 	text_start
-	line "woke up!"
+	line "li pini lape." ; `woke up!`
 	done
 
 _FullHealText::
+	text "nanpa ken sijelo pi@"
 	text_ram wNameBuffer
-	text "'s"
-	line "health returned!"
+	;text "'s"
+	text_start
+	line "li kama ale." ; `health returned!`
 	done
 
 _ReviveText::
 	text_ram wNameBuffer
 	text_start
-	line "is revitalized!"
+	line "ken utala sin a." ; `is revitalized!`
 	done
 
 _RareCandyText::
 	text_ram wNameBuffer
-	text " grew"
-	line "to level @"
+	text "" ; ` grew` ; this translation of level is a bit lol but
+	line "li kama supa wawa nanpa@" ; `to level @`
 	text_decimal wCurEnemyLevel, 1, 3
-	text "!@"
+	text "a.@" ; `!@`
 	text_end
 
 _TurnedOnPC1Text::
-	text "<PLAYER> turned on"
-	line "the PC."
+	text "<PLAYER> li" ; `<PLAYER> turned on`
+	line "open e ilo nanpa." ; `the PC.`
 	prompt
 
 _AccessedBillsPCText::
-	text "Accessed BILL's"
-	line "PC."
+	text "nasin tawa ilo nanpa" ; `Accessed BILL's`
+	line "pi jan [linja.nasin utala] li open." ; `PC.`
 
-	para "Accessed #MON"
-	line "Storage System."
+	para "ilo poki pi monsuta poki" ; `Accessed #MON`
+	line "li open." ; `Storage System.`
 	prompt
 
 _AccessedSomeonesPCText::
-	text "Accessed someone's"
-	line "PC."
+	text "nasin tawa ilo nanpa" ; `Accessed someone's`
+	line "pi jan sona ala li open." ; `PC.`
 
-	para "Accessed #MON"
-	line "Storage System."
+	para "ilo pi poki monsuta" ; `Accessed #MON`
+	line "li open." ; `Storage System.`
 	prompt
 
 _AccessedMyPCText::
-	text "Accessed my PC."
+	text "nasin tawa ilo nanpa sina li open." ; `Accessed my PC.`
 
-	para "Accessed Item"
-	line "Storage System."
+	para "ilo pi poki ijo li open." ; `Accessed Item`
+	;line "" ; `Storage System.`
 	prompt
 
 _TurnedOnPC2Text::
-	text "<PLAYER> turned on"
-	line "the PC."
+	text "<PLAYER> li" ; `<PLAYER> turned on`
+	line "open e ilo nanpa." ; `the PC.`
 	prompt
 
 _WhatDoYouWantText::
-	text "What do you want"
-	line "to do?"
+	text "sina wile seme." ; `What do you want`
+	;line "" ; `to do?`
 	done
 
 _WhatToDepositText::
-	text "What do you want"
-	line "to deposit?"
+	text "sina wile poki e seme." ; `What do you want`
+	;line "to deposit?"
 	done
 
 _DepositHowManyText::
-	text "How many?"
+	text "nanpa seme." ; `How many?`
 	done
 
 _ItemWasStoredText::
+	text "te@"
 	text_ram wNameBuffer
-	text " was"
-	line "stored via PC."
+	text "to li tawa" ; ` was`
+	line "insa pi ilo nanpa sina." ; `stored via PC.`
 	prompt
 
 _NothingToDepositText::
-	text "You have nothing"
-	line "to deposit."
+	text "sina jo ala e jo pi ken poki." ; `You have nothing`
+	;line "" ; `to deposit.`
 	prompt
 
 _NoRoomToStoreText::
-	text "No room left to"
-	line "store items."
+	text "ilo poki li ken ala" ; `No room left to`
+	line "poki e ijo mute." ; `store items.`
 	prompt
 
 _WhatToWithdrawText::
-	text "What do you want"
-	line "to withdraw?"
+	text "sina wile kama jo e seme." ; `What do you want`
+	;line "" ; `to withdraw?`
 	done
 
 _WithdrawHowManyText::
-	text "How many?"
+	text "nanpa seme." ; `How many?`
 	done
 
 _WithdrewItemText::
-	text "Withdrew"
-	line "@"
+	text "sina kama jo e" ; `Withdrew`
+	line "te@"
 	text_ram wNameBuffer
-	text "."
+	text "to."
 	prompt
 
 _NothingStoredText::
-	text "There is nothing"
-	line "stored."
+	text "ilo poki li jo e ijo ala." ; `There is nothing`
+	;line "" ; `stored.`
 	prompt
 
 _CantCarryMoreText::
-	text "You can't carry"
-	line "any more items."
+	text "sina ken ala jo" ; `You can't carry`
+	line "e ijo mute." ; `any more items.`
 	prompt
 
 _WhatToTossText::
-	text "What do you want"
-	line "to toss away?"
+	text "sina wile weka e seme." ; `What do you want`
+	;line "" ; `to toss away?`
 	done
 
 _TossHowManyText::
-	text "How many?"
+	text "nanpa seme." ; `How many?`
 	done
 
 _AccessedHoFPCText::
-	text "Accessed #MON"
-	line "LEAGUE's site."
+	text "nasin tawa ilo pi tomo utala" ; `Accessed #MON`
+	line "li open." ; `LEAGUE's site.`
 
-	para "Accessed the HALL"
-	line "OF FAME List."
+	para "lipu pi tomo wawa sewi" ; `Accessed the HALL`
+	line "li open." ; `OF FAME List.`
 	prompt
 
 _SleepingPikachuText2::
-	text "There isn't any"
-	line "response..."
+	text "ona li toki ala lon tenpo ni." ; `There isn't any`
+	;line "" ; `response...`
 	prompt
 
 _SwitchOnText::
-	text "Switch on!"
+	text "o ante a." ; `Switch on!`
 	prompt
 
 _WhatText::
-	text "What?"
+	text "seme." ; `What?`
 	done
 
 _DepositWhichMonText::
-	text "Deposit which"
-	line "#MON?"
+	text "sina wile poki e monsuta seme." ; `Deposit which`
+	;line "" ; `#MON?`
 	done
 
 _MonWasStoredText::
 	text_ram wStringBuffer
-	text " was"
-	line "stored in Box @"
+	text "li tawa" ; ` was`
+	line "insa poki suli nanpa@" ; `stored in Box @`
 	text_ram wBoxNumString
 	text "."
 	prompt
 
 _CantDepositLastMonText::
-	text "You can't deposit"
-	line "the last #MON!"
+	text "sina ken ala poki" ; `You can't deposit`
+	line "e monsuta pini sina." ; `the last #MON!`
 	prompt
 
 _BoxFullText::
-	text "Oops! This Box is"
-	line "full of #MON."
+	text "ike a." ; `Oops! This Box is`
+	line "poki ni li ken ala poki e monsuta mute." ; `full of #MON.`
 	prompt
 
 _MonIsTakenOutText::
+	text "sina kama jo sin e"
+	line "@"
 	text_ram wStringBuffer
-	text " is"
-	line "taken out."
-	cont "Got @"
-	text_ram wStringBuffer
-	text "."
+	text "." ; ` is`
+	;line "" ; `taken out.`
+	;cont "" ; `Got @`
+	;text_ram wStringBuffer
+	;text "."
 	prompt
 
 _NoMonText::
-	text "What? There are"
-	line "no #MON here!"
+	text "seme" ; `What? There are`
+	line "poki ni li jo ala e monsuta poki." ; `no #MON here!`
 	prompt
 
 _CantTakeMonText::
-	text "You can't take"
-	line "any more #MON."
+	text "sina ken ala kama jo e monsuta mute." ; `You can't take`
+	;line "" ; `any more #MON.`
 
-	para "Deposit #MON"
-	line "first."
+	para "sina wile kama jo e monsuta tan poki ni la" ; `Deposit #MON`
+	line "o poki e monsuta ante." ; `first.`
 	prompt
 
 _PikachuUnhappyText::
 	text_ram wNameBuffer
-	text " looks"
-	line "unhappy about it!"
+	text "" ; ` looks`
+	line "li pilin pona ala tan ni." ; `unhappy about it!`
 	prompt
 
 _ReleaseWhichMonText::
-	text "Release which"
-	line "#MON?"
+	text "weka e monsuta seme." ; `Release which`
+	;line "" ; `#MON?`
 	done
 
 _OnceReleasedText::
-	text "Once released,"
+	text "sina weka e ona la" ; `Once released,`
 	line "@"
 	text_ram wStringBuffer
-	text " is"
-	cont "gone forever. OK?"
+	text_start
+	;text "" ; ` is`
+	cont "li kama sin ala. ni li pona ala pona." ; `gone forever. OK?`
 	done
 
 _MonWasReleasedText::
 	text_ram wStringBuffer
-	text " was"
-	line "released outside."
-	cont "Bye @"
-	text_ram wStringBuffer
-	text "!"
+	text "li weka" ; ` was`
+	line "o tawa pona a." ; `released outside.`
+	;cont "" ; `Bye @`
+	;text_ram wStringBuffer
+	;text "!"
 	prompt
 
 _RequireCoinCaseText::
-	text "A COIN CASE is"
-	line "required!@"
+	text "sina wile jo e" ; `A COIN CASE is`
+	line "te poki pi sike mani to a.@" ; `required!@`
 	text_end
 
 _ExchangeCoinsForPrizesText::
-	text "We exchange your"
-	line "coins for prizes."
+	text "lon tomo ni sina ken esun" ; `We exchange your`
+	line "e sike mani sina tawa ijo pona." ; `coins for prizes.`
 	prompt
 
 _WhichPrizeText::
-	text "Which prize do"
-	line "you want?"
+	text "sina wile e ijo seme." ; `Which prize do`
+	;line "" ; `you want?`
 	done
 
 _HereYouGoText::
-	text "Here you go!@"
+	text "o kama jo pona a.@" ; `Here you go!@`
 	text_end
 
 _SoYouWantPrizeText::
-	text "So, you want"
-	line "@"
+	text "sina wile ala wile e" ; `So, you want`
+	line "te@" ; `@`
 	text_ram wNameBuffer
-	text "?"
+	text "to." ; `?`
 	done
 
 _SorryNeedMoreCoinsText::
-	text "Sorry, you need"
-	line "more coins.@"
+	text "ike a" ; `Sorry, you need`
+	line "sina wile e sike mani mute.@" ; `more coins.@`
 	text_end
 
 _OopsYouDontHaveEnoughRoomText::
-	text "Oops! You don't"
-	line "have enough room.@"
+	text "ike a" ; `Oops! You don't`
+	line "sina jo e ijo mute ike.@" ; `have enough room.@`
 	text_end
 
 _OhFineThenText::
-	text "Oh, fine then.@"
+	text "a pona.@" ; `Oh, fine then.@`
 	text_end
 
 _GetDexRatedText::
-	text "Want to get your"
-	line "#DEX rated?"
+	text "sina wile ala wile nanpa e" ; `Want to get your`
+	line "ilo lipu sona sina." ; `#DEX rated?`
 	done
 
 _ClosedOaksPCText::
-	text "Closed link to"
-	line "PROF.OAK's PC.@"
+	text "nasin tawa ilo nanpa" ; `Closed link to`
+	line "pi jan sona [o kili.toki.] li pini.@" ; `PROF.OAK's PC.@`
 	text_end
 
 _AccessedOaksPCText::
-	text "Accessed PROF."
-	line "OAK's PC."
+	text "nasin tawa ilo nanpa" ; `Accessed PROF.`
+	line "pi jan sona [o kili.toki.] li open." ; `OAK's PC.`
 
-	para "Accessed #DEX"
-	line "Rating System."
+	para "ilo nanpa pi ilo lipu sona" ; `Accessed #DEX`
+	line "li open." ; `Rating System.`
 	prompt
 
 _ExpressionText::
 	text "This expression is"
-	line "No. @"
+	line "No. @" ; this is a debug string
 	text_decimal wExpressionNumber, 1, 2
 	text "."
 	prompt
 
 _NotEnoughMemoryText::
-	text "Not enough Yellow"
-	line "Version memory."
+	text "ken awen sona pi musi jelo" ; `Not enough Yellow`
+	line "li lili ike." ; `Version memory.`
 	done
 
 _OakSpeechText1::
+	text "toki a." ; Hello there!
+	line "o kama pona tawa ma pi monsuta poki a." ; Welcome to the
+	;cont "world of <PKMN>!"
 
-	;; Try replacing the first paragraph with this:
-	;text "toki a"
-	;line "kama pona tawa ma pi monsuta poki a"
-
-	text "Hello there!"
-	line "Welcome to the"
-	cont "world of #MON!"
-
-	para "My name is OAK!"
-	line "People call me"
-	cont "the #MON PROF!"
+	para "mi jan [o kili.toki.]." ; My name is OAK!
+	line "jan mute la mi jan sona [monsuta..poki:]." ; People call me
+	;cont "the #MON PROF!"
 	prompt
 
 _OakSpeechText2A::
-	text "This world is"
-	line "inhabited by"
-	cont "creatures called"
-	cont "#MON!@"
+	text "monsuta mute li lon ma ale ni." ; This world is
+	line "nimi ona li monsuta poki.@" ; inhabited by
+	;cont "" ; creatures called
+	;cont "" ; #MON!@
 	text_end
 
 _OakSpeechText2B::
-	text $51,"For some people,"
-	line "#MON are"
-	cont "pets. Others use"
-	cont "them for fights."
+	text $51,"jan mute la monsuta poki li sama soweli tomo." ; For some people,
+	line "jan ante li utala kepeken ona." ; #MON are
+	;cont "" ; pets. Others use
+	;cont "" ; them for fights.
 
-	para "Myself..."
+	para "mi la" ; Myself...
 
-	para "I study #MON"
-	line "as a profession."
+	para "mi alasa kama sona mute e monsuta ni." ; I study #MON
+	;line "" ; as a profession.
 	prompt
 
 _IntroducePlayerText::
-	text "First, what is"
-	line "your name?"
+	text "open la nimi sina li seme." ; First, what is
+	;line "" ; your name?
 	prompt
 
 _IntroduceRivalText::
-	text "This is my grand-"
-	line "son. He's been"
-	cont "your rival since"
-	cont "you were a baby."
+	text "jan lili ni la mi mama mama." ; This is my grand-
+	line "sina en ona li lili la sina en ona li kama musi utala." ; son. He's been
+	;cont "" ; your rival since
+	;cont "" ; you were a baby.
 
-	para "...Erm, what is"
-	line "his name again?"
+	para "sina toki tawa ona kepeken nimi seme." ; ...Erm, what is
+	;line "" ; his name again?
 	prompt
 
 _OakSpeechText3::
-	text "<PLAYER>!"
+	text "<PLAYER> o."
 
-	para "Your very own"
-	line "#MON legend is"
-	cont "about to unfold!"
+	para "sina en monsuta poki sina li kama pali e toki wawa sin a." ; Your very own
+	line "toki ni li open lon ma ni lon tenpo ni." ; #MON legend is
+	;cont "" ; about to unfold!
 
-	para "A world of dreams"
-	line "and adventures"
-	cont "with #MON"
-	cont "awaits! Let's go!"
+	para "tenpo kama poka la sina tawa ma pona ni." ; A world of dreams
+	line "sina alasa ma sin li toki tawa jan ante." ; and adventures
+	cont "li lukin e monsuta poki mute"
+	cont "o tawa pona." ; with #MON
+	cont "o musi pona a." ; awaits! Let's go!
 	done
 
 _DoYouWantToNicknameText::
-	text "Do you want to"
-	line "give a nickname"
-	cont "to @"
+	text "sina wile ala wile pana e nimi" ; Do you want to
+	line "tawa te@" ; give a nickname
+	;cont "" ; to @
 	text_ram wNameBuffer
-	text "?"
+	text "to." ; ?
 	done
 
 _YourNameIsText::
-	text "Right! So your"
-	line "name is <PLAYER>!"
+	text "sona a." ; Right! So your
+	line "sina <PLAYER>." ; name is <PLAYER>!
 	prompt
 
 _HisNameIsText::
-	text "That's right! I"
-	line "remember now! His"
-	cont "name is <RIVAL>!"
+	text "sona mi li kama a." ; That's right! I
+	line "sina la ona li <RIVAL>." ; remember now! His
+	;cont "" ; name is <RIVAL>!
 	prompt
 
 _WillBeTradedText::
 	text_ram wNameOfPlayerMonToBeTraded
-	text " and"
+	text " en" ;  and
 	line "@"
 	text_ram wNameBuffer
-	text " will"
-	cont "be traded."
+	text " li kama esun." ;  will
+	;cont "be traded."
 	done
 
 _Colosseum3MonsText::

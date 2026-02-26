@@ -249,7 +249,7 @@ DisplayNamingScreen:
 	cp NAME_MON_SCREEN
 	jr nc, .checkMonNameLength
 	ld a, [wNamingScreenNameLength]
-	cp $7 ; max length of player/rival names
+	cp $a ; max length of player/rival names ; VPH feature: charlimit 7→10
 	jr .checkNameLength
 .checkMonNameLength
 	ld a, [wNamingScreenNameLength]
@@ -423,7 +423,7 @@ PrintNicknameAndUnderscores:
 	ld a, [wNamingScreenType]
 	cp NAME_MON_SCREEN
 	jr nc, .pokemon1
-	ld b, 7 ; player or rival max name length
+	ld b, 10 ; player or rival max name length ; VPH feature: charlimit 7→10
 	jr .playerOrRival1
 .pokemon1
 	ld b, 10 ; pokemon max name length
@@ -437,7 +437,7 @@ PrintNicknameAndUnderscores:
 	cp NAME_MON_SCREEN
 	ld a, [wNamingScreenNameLength]
 	jr nc, .pokemon2
-	cp 7 ; player or rival max name length
+	cp 10 ; player or rival max name length ; VPH feature: charlimit 7→10
 	jr .playerOrRival2
 .pokemon2
 	cp 10 ; pokemon max name length
@@ -453,7 +453,7 @@ PrintNicknameAndUnderscores:
 	cp NAME_MON_SCREEN
 	ld a, 9 ; keep the last underscore raised
 	jr nc, .pokemon3
-	ld a, 6 ; keep the last underscore raised
+	ld a, 9 ; keep the last underscore raised ; VPH feature: charlimit 7→10
 .pokemon3
 .emptySpacesRemaining
 	ld c, a
@@ -516,13 +516,13 @@ PrintNamingText:
 	jp PlaceString
 
 YourTextString:
-	db "YOUR @"
+	db "nimi sina@" ; `YOUR @`
 
 RivalsTextString:
-	db "RIVAL's @"
+	db "nimi ona@" ; `RIVAL's @`
 
 NameTextString:
-	db "NAME?@"
+	db "li seme.@" ; `NAME?@`
 
 NicknameTextString:
-	db "NICKNAME?@"
+	db "li kama jo e nimi seme.@" ; `NICKNAME?@`

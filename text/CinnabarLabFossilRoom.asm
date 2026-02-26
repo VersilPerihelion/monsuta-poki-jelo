@@ -1,78 +1,79 @@
 _CinnabarLabFossilRoomScientist1Text::
-	text "Hiya!"
+	text "toki a." ; `Hiya!`
 
-	para "I am important"
-	line "doctor!"
+	para "mi jan sona suli." ; `I am important`
+	;line "" ; `doctor!`
 
-	para "I study here rare"
-	line "#MON fossils!"
+	para "mi kama sona e kiwen moli majuna pi monsuta poki." ; `I study here rare`
+	;line "" ; `#MON fossils!`
 
-	para "You! Have you a"
-	line "fossil for me?"
+	para "sina o." ; `You! Have you a`
+	line "sina jo ala jo e kiwen majuna." ; `fossil for me?`
 	prompt
 
 _CinnabarLabFossilRoomScientist1NoFossilsText::
-	text "No! Is too bad!"
+	text "ike a. ike mute a." ; `No! Is too bad!`
 	done
 
 _CinnabarLabFossilRoomScientist1GoForAWalkText::
-	text "I take a little"
-	line "time!"
+	text "mi wile e toki lili." ; `I take a little`
+	;line "" ; `time!`
 
-	para "You go for walk a"
-	line "little while!"
+	para "o tawa lili lon ma poka." ; `You go for walk a`
+	;line "" ; `little while!`
 	done
 
 _CinnabarLabFossilRoomScientist1FossilIsBackToLifeText::
-	text "Where were you?"
+	text "sina weka lon seme." ; `Where were you?`
 
-	para "Your fossil is"
-	line "back to life!"
+	para "kiwen majuna sina li kama sin tan moli." ; `Your fossil is`
+	;line "" ; `back to life!`
 
-	para "It was @"
+	para "ona li te@" ; `It was @`
 	text_ram wStringBuffer
-	text_start
-	line "like I think!"
+	;text_start
+	text "to"
+	line "sama sona mi a." ; `like I think!`
 	prompt
 
 _CinnabarLabFossilRoomScientist1SeesFossilText::
-	text "Oh! That is"
-	line "@"
+	text "a. ona li te@" ; `Oh! That is`
+	;line "" ; `@`
 	text_ram wNameBuffer
-	text "!"
+	text "to a." ; `!`
 
-	para "It is fossil of"
-	line "@"
+	para "kiwen moli ni li te@" ; `It is fossil of`
+	;line "" ; `@`
 	text_ram wStringBuffer
-	text ", a"
-	cont "#MON that is"
-	cont "already extinct!"
+	text "to." ; `, a`
+	cont "monsuta ni li kama moli lon tenpo weka suli." ; `#MON that is`
+	;cont "" ; `already extinct!`
 
-	para "My Resurrection"
-	line "Machine will make"
-	cont "that #MON live"
-	cont "again!"
+	para "ilo mi pi kama tan moli li kama lon e monsuta ni." ; `My Resurrection`
+	;line "" ; `Machine will make`
+	;cont "" ; `that #MON live`
+	;cont "" ; `again!`
 	done
 
 _CinnabarLabFossilRoomScientist1TakesFossilText::
-	text "So! You hurry and"
-	line "give me that!"
+	text "ni la. o pana e kiwen ni." ; `So! You hurry and`
+	;line "" ; `give me that!`
 
-	para "<PLAYER> handed"
-	line "over @"
+	para "<PLAYER> li pana e" ; `<PLAYER> handed`
+	line "te@" ; `over @`
 	text_ram wNameBuffer
-	text "!"
+	text "to a." ; `!`
 	prompt
 
 _CinnabarLabFossilRoomScientist1GoForAWalkText2::
-	text "I take a little"
-	line "time!"
+	text "mi wile e toki lili." ; `I take a little`
+	;line "" ; `time!`
 
-	para "You go for walk a"
-	line "little while!"
+	para "o tawa lili lon ma poka." ; `You go for walk a`
+	;line "" ; `little while!`
 	done
 
 _CinnabarLabFossilRoomScientist1ComeAgainText::
-	text "Aiyah! You come"
-	line "again!"
+	text "a." ; `Aiyah! You come`
+	line "sina o kama sin." ; `again!`
 	done

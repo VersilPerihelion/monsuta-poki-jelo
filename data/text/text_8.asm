@@ -27,102 +27,102 @@ _CableClubNPCPleaseComeAgainText::
 	done
 
 _CableClubNPCMakingPreparationsText::
-	text "We're making"
-	line "preparations."
-	cont "Please wait."
+	text "mi pali e tomo ni." ; `We're making`
+	line "mi wile kepeken tenpo mute." ; `preparations.`
+	cont "o awen pona." ; `Please wait.`
 	done
 
 _FlashLightsAreaText::
-	text "A blinding FLASH"
-	line "lights the area!"
+	text "suno suli li suno" ; `A blinding FLASH`
+	line "e tomo ni ale a." ; `lights the area!`
 	prompt
 
 _WarpToLastPokemonCenterText::
-	text "Warp to the last"
-	line "#MON CENTER."
+	text "sina wile ala wile tawa tomo misikeke pini" ; `Warp to the last`
+	line "lon tenpo ni." ; `#MON CENTER.`
 	done
 
 _CannotUseTeleportNowText::
 	text_ram wNameBuffer
-	text " can't"
-	line "use TELEPORT now."
+	text "li ken ala kepeken" ; ` can't`
+	line "te tawa ma ante lon tenpo ala to lon tenpo ni." ; `use TELEPORT now.`
 	prompt
 
 _CannotFlyHereText::
 	text_ram wNameBuffer
-	text " can't"
-	line "FLY here."
+	text "li ken ala" ; ` can't`
+	line "te tawa sewi sama waso to lon ma ni." ; `FLY here.`
 	prompt
 
 _NotHealthyEnoughText::
-	text "Not healthy"
-	line "enough."
+	text "wawa sijelo ona" ; `Not healthy`
+	line "li lili ike." ; `enough.`
 	prompt
 
 _NewBadgeRequiredText::
-	text "No! A new BADGE"
-	line "is required."
+	text "sina wile kepeken pali ni la" ; `No! A new BADGE`
+	line "sina wile e sitelen wawa sin." ; `is required.`
 	prompt
 
 _CannotUseItemsHereText::
-	text "You can't use items"
-	line "here."
+	text "sina ken ala kepeken ijo" ; `You can't use items`
+	line "lon ma ni." ; `here.`
 	prompt
 
 _CannotGetOffHereText::
-	text "You can't get off"
-	line "here."
+	text "sina ken ala weka" ; `You can't get off`
+	line "lon ma ni." ; `here.`
 	prompt
 
 _UsedStrengthText::
 	text_ram wNameBuffer
-	text " used"
-	line "STRENGTH.@"
+	text "li kepeken" ; ` used`
+	line "te wawa sijelo pi tawa kiwen to.@" ; `STRENGTH.@`
 	text_end
 
 _CanMoveBouldersText::
 	text_ram wNameBuffer
-	text " can"
-	line "move boulders."
+	text "ken" ; ` can`
+	line "tawa e kiwen suli." ; `move boulders.`
 	prompt
 
 _CurrentTooFastText::
-	text "The current is"
-	line "much too fast!"
+	text "tawa telo ni li suli ike a." ; `The current is`
+	;line "" ; `much too fast!`
 	prompt
 
 _CyclingIsFunText::
-	text "Cycling is fun!"
-	line "Forget SURFing!"
+	text "kepeken pi ilo tawa li pona a." ; `Cycling is fun!`
+	line "o weka e sona pi te tawa lon supa telo to a." ; `Forget SURFing!`
 	prompt
 
 _GotMonText::
-	text "<PLAYER> got"
-	line "@"
+	text "<PLAYER> li kama jo e" ; `<PLAYER> got`
+	line "monsuta te@" ; `@`
 	text_ram wNameBuffer
-	text "!@"
+	text "to a.@" ; `!@`
 	text_end
 
 _SentToBoxText::
-	text "There's no more"
-	line "room for #MON!"
-	cont "@"
+	text "sina ken ala jo e monsuta mute lon tenpo ni." ; `There's no more`
+	line "monsuta te@" ; `room for #MON!`
+	;cont "@"
 	text_ram wBoxMonNicks
-	text " was"
-	cont "sent to #MON"
-	cont "BOX @"
+	text "to" ; ` was`
+	cont "li tawa poki@" ; `sent to #MON`
+	;cont "BOX @"
 	text_ram wStringBuffer
-	text " on PC!"
+	text "lon ilo nanpa." ; ` on PC!`
 	done
 
 _BoxIsFullText::
-	text "There's no more"
-	line "room for #MON!"
+	text "sina ken ala jo e monsuta mute lon tenpo ni." ; `There's no more`
+	;line "" ; `room for #MON!`
 
-	para "The #MON BOX"
-	line "is full and can't"
-	cont "accept any more!"
+	para "poki suli lon ilo nanpa pi sina kepeken" ; `The #MON BOX`
+	line "ken ala kama jo e monsuta mute kin a." ; `is full and can't`
+	;cont "" ; `accept any more!`
 
-	para "Change the BOX at"
-	line "a #MON CENTER!"
+	para "o ante e poki lon ilo nanpa" ; `Change the BOX at`
+	line "lon insa tomo misikeke." ; `a #MON CENTER!`
 	done

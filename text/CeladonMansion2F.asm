@@ -1,4 +1,4 @@
 _CeladonMansion2FMeetingRoomSignText::
-	text "GAME FREAK"
-	line "Meeting Room"
+	text "tawa kulupu esun [kepeken.musi.poka uta linja.kule.]" ; `GAME FREAK`
+	line "tomo pi toki kulupu" ; `Meeting Room`
 	done

@@ -1,4 +1,4 @@
 _GameCornerOopsForgotCoinCaseText::
-	text "Oops! Forgot the"
-	line "COIN CASE!"
+	text "pakala a." ; `Oops! Forgot the`
+	line "mi weka e te poki pi sike mani to a." ; `COIN CASE!`
 	done

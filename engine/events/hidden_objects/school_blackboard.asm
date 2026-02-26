@@ -184,14 +184,14 @@ ViridianSchoolBlackboardText2:
 	text_end
 
 StatusAilmentText1:
-	db   " SLP"
-	next " PSN"
-	next " PAR@"
+	db   " pilin lape" ; ` SLP`
+	next " pilin jaki" ; ` PSN`
+	next " pilin pini@" ; ` PAR@`
 
 StatusAilmentText2:
-	db   " BRN"
-	next " FRZ"
-	next " QUIT@"
+	db   " pilin seli" ; ` BRN`
+	next " pilin lete" ; ` FRZ`
+	next " o weka@" ; ` QUIT@`
 
 	db "@" ; unused
 

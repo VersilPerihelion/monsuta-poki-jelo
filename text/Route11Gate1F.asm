@@ -1,14 +1,14 @@
 _Route11Gate1FGuardText::
-	text "When you catch"
-	line "lots of #MON,"
-	cont "isn't it hard to"
-	cont "think up names?"
+	text "sina alasa e monsuta mute la" ; `When you catch`
+	line "sina wile kepeken wawa lawa mute" ; `lots of #MON,`
+	cont "tawa pana nimi anu seme." ; `isn't it hard to`
+	;cont "" ; `think up names?`
 
-	para "In LAVENDER TOWN,"
-	line "there's a man who"
-	cont "rates #MON"
-	cont "nicknames."
+	para "o tawa ma tomo [laso.loje.nasin.kama.]." ; `In LAVENDER TOWN,`
+	line "jan nimi li lon ma tomo ni." ; `there's a man who`
+	cont "ona li toki e ni: nimi pi monsuta sina li pona ala pona tawa ona." ; `rates #MON`
+	;cont "" ; `nicknames.`
 
-	para "He'll help you"
-	line "rename them too!"
+	para "kin la ona ken ante e nimi pi monsuta sina." ; `He'll help you`
+	;line "" ; `rename them too!`
 	done

@@ -1,25 +1,25 @@
 _PewterNidoranHouseNidoranText::
-	text "NIDORAN: Bowbow!@"
+	text "soweli meli lili: mu a@" ; `NIDORAN: Bowbow!@`
 	text_end
 
 _PewterNidoranHouseLittleBoyText::
-	text "NIDORAN sit!"
+	text "soweli meli lili o lape." ; `NIDORAN sit!`
 	done
 
 _PewterNidoranHouseMiddleAgedManText::
-	text "Our #MON's an"
-	line "outsider, so it's"
-	cont "hard to handle."
+	text "monsuta mi li kama tan jan ante." ; `Our #MON's an`
+	line "ni la tenpo la ona li kute ala." ; `outsider, so it's`
+	;cont "" ; `hard to handle.`
 
-	para "An outsider is a"
-	line "#MON that you"
-	cont "get in a trade."
+	para "sina kama jo e monsuta tan esun la" ; `An outsider is a`
+	line "monsuta ni li sama monsuta mi." ; `#MON that you`
+	;cont "" ; `get in a trade.`
 
-	para "It grows fast, but"
-	line "it may ignore an"
-	cont "unskilled trainer"
-	cont "in battle!"
+	para "ona li kama suli kepeken tenpo lili." ; `It grows fast, but`
+	line "taso jan lawa ona li sona ala li wawa ala la" ; `it may ignore an`
+	cont "ona li kute ala e jan ni." ; `unskilled trainer`
+	;cont "" ; `in battle!`
 
-	para "If only we had"
-	line "some BADGEs..."
+	para "mi wile jo e sitelen wawa<JAGOLD>" ; `If only we had`
+	;line "" ; `some BADGEs...`
 	done

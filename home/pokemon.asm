@@ -357,13 +357,23 @@ PrintStatusCondition::
 	pop de
 	jr nz, PrintStatusConditionNotFainted
 ; if the pokemon's HP is 0, print "FNT"
-	ld a, 'F'
-	ld [hli], a
-	ld a, 'N'
-	ld [hli], a
-	ld [hl], 'T'
+;	ld a, 'F'   ; VPH letter-by-letter print fails and pulls glyphs from ram
+;	ld [hli], a ;	  completely replaced by usage of PlaceString routine to actually work
+;	ld a, 'N'
+;	ld [hli], a
+;	ld [hl], 'T'
+;	and a
+;	ret
+	push de
+	ld de, FaintText
+	call PlaceString
+	pop de
+	ld a, 'F' ; just to set the z flag
 	and a
 	ret
+
+FaintText:
+    db "ken ala utala@" ; VPH replacements for making ailments display end here
 
 PrintStatusConditionNotFainted::
 	homejp_sf PrintStatusAilment

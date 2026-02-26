@@ -1,71 +1,71 @@
 _BikeShopClerkWelcomeText::
-	text "Hi! Welcome to"
-	line "our BIKE SHOP."
+	text "toki a." ; `Hi! Welcome to`
+	line "o kama pona tawa tomo esun mi." ; `our BIKE SHOP.`
 
-	para "Have we got just"
-	line "the BIKE for you!"
+	para "lon la mi ken esun e ilo tawa pi pona mute tawa sina." ; `Have we got just`
+	;line "" ; `the BIKE for you!`
 	prompt
 
 _BikeShopClerkDoYouLikeItText::
-	text "It's a cool BIKE!"
-	line "Do you want it?"
+	text "ilo tawa ni li suli a." ; `It's a cool BIKE!`
+	line "sina wile ala wile e ona." ; `Do you want it?`
 	done
 
 _BikeShopCantAffordText::
-	text "Sorry! You can't"
-	line "afford it!"
+	text "ike a. sina jo ala e mani pi mute pona." ; `Sorry! You can't`
+	;line "" ; `afford it!`
 	prompt
 
 _BikeShopClerkOhThatsAVoucherText::
-	text "Oh, that's..."
+	text "a io ni li<JAGOLD>" ; `Oh, that's...`
 
-	para "A BIKE VOUCHER!"
+	para "te lipu esun pi ilo tawa to a." ; `A BIKE VOUCHER!`
 
-	para "OK! Here you go!"
+	para "pona a. o kama jo e ona." ; `OK! Here you go!`
 	prompt
 
 _BikeShopExchangedVoucherText::
-	text "<PLAYER> exchanged"
-	line "the BIKE VOUCHER"
-	cont "for a BICYCLE.@"
+	text "<PLAYER> li esun e" ; `<PLAYER> exchanged`
+	line "te lipu esun pi ilo tawa to" ; `the BIKE VOUCHER`
+	cont "tawa te ilo tawa to a.@" ; `for a BICYCLE.@`
 	text_end
 
 _BikeShopComeAgainText::
-	text "Come back again"
-	line "sometime!"
+	text "o kama sin lon tenpo kama." ; `Come back again`
+	;line "" ; `sometime!`
 	done
 
 _BikeShopClerkHowDoYouLikeYourBicycleText::
-	text "How do you like"
-	line "your new BICYCLE?"
+	text "ilo tawa sina li pona ala pona." ; `How do you like`
+	;line "" ; `your new BICYCLE?`
 
-	para "You can take it"
-	line "on CYCLING ROAD"
-	cont "and in caves!"
+	para "sina ken kepeken ona" ; `You can take it`
+	line "lon nasin pi ilo tawa" ; `on CYCLING ROAD`
+	cont "anu lon lupa ma kin." ; `and in caves!`
 	done
 
 _BikeShopBagFullText::
-	text "You better make"
-	line "room for this!"
+	text "sina o ala e poki sina." ; `You better make`
+	;line "" ; `room for this!`
 	done
 
 _BikeShopMiddleAgedWomanText::
-	text "A plain city BIKE"
-	line "is good enough"
-	cont "for me!"
+	text "ilo tawa pi nasa ala" ; `A plain city BIKE`
+	line "li pona mute tawa mi." ; `is good enough`
+	;cont "" ; `for me!`
 
-	para "You can't put a"
-	line "shopping basket"
-	cont "on an MTB!"
+	para "sina jo e ilo tawa pi tawa suli la" ; `You can't put a`
+	line "sina ken ala pana e poki esun tawa ona." ; `shopping basket`
+	;cont "" ; `on an MTB!`
 	done
 
 _BikeShopYoungsterTheseBikesAreExpensiveText::
-	text "These BIKEs are"
-	line "cool, but they're"
-	cont "way expensive!"
+	text "ilo tawa ni li pona suli a." ; `These BIKEs are`
+	line "taso sina wile e mani mute tawa ona." ; `cool, but they're`
+	;cont "" ; `way expensive!`
 	done
 
 _BikeShopYoungsterCoolBikeText::
-	text "Wow. Your BIKE is"
-	line "really cool!"
+	text "a." ; `Wow. Your BIKE is`
+	line "ilo tawa sina li pona a." ; `really cool!`
 	done

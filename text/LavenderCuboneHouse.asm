@@ -1,25 +1,25 @@
 _LavenderCuboneHouseCuboneText::
-	text "CUBONE: Kyarugoo!@"
+	text "soweli len pi kiwen lawa: mu@" ; `CUBONE: Kyarugoo!@`
 	text_end
 
 _LavenderCuboneHouseBrunetteGirlPoorCubonesMotherText::
-	text "I hate those"
-	line "horrible ROCKETs!"
+	text "jan pi kulupu <ROCKET> li ike mute a." ; `I hate those`
+	;line "" ; `horrible ROCKETs!`
 
-	para "That poor CUBONE's"
-	line "mother..."
+	para "mama pi soweli ni<JAGOLD>" ; `That poor CUBONE's`
+	line "" ; `mother...`
 
-	para "It was killed"
-	line "trying to escape"
-	cont "from TEAM ROCKET!"
+	para "ona li alasa weka tan kulupu <ROCKET>" ; `It was killed`
+	line "li kama moli." ; `trying to escape`
+	;cont "" ; `from TEAM ROCKET!`
 	done
 
 _LavenderCuboneHouseBrunetteGirlGhostIsGoneText::
-	text "The GHOST of"
-	line "#MON TOWER is"
-	cont "gone!"
+	text "kon moli pi tomo suli li weka." ; `The GHOST of`
+	;line "" ; `#MON TOWER is`
+	;cont "" ; `gone!`
 
-	para "Someone must have"
-	line "soothed its"
-	cont "restless soul!"
+	para "jan li pona e kon insa ona." ; `Someone must have`
+	;line "" ; `soothed its`
+	;cont "" ; `restless soul!`
 	done

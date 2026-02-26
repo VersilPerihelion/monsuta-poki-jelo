@@ -1,58 +1,58 @@
 _Route18CooltrainerM1BattleText::
-	text "I always check"
-	line "every grassy area"
-	cont "for new #MON."
+	text "mi lukin lon ma kasi ale." ; `I always check`
+	line "mi wile alasa e monsuta sin." ; `every grassy area`
+	;cont "" ; `for new #MON.`
 	done
 
 _Route18CooltrainerM1EndBattleText::
-	text "Tch!"
+	text "nn" ; `Tch!`
 	prompt
 
 _Route18CooltrainerM1AfterBattleText::
-	text "I wish I had a"
-	line "BIKE!"
+	text "mi wile e ilo tawa a." ; `I wish I had a`
+	;line "" ; `BIKE!`
 	done
 
 _Route18CooltrainerM2BattleText::
-	text "Kurukkoo!"
-	line "How do you like"
-	cont "my bird call?"
+	text "mu." ; `Kurukkoo!`
+	line "mi wile mu sama waso." ; `How do you like`
+	cont "sina pilin seme tan ni." ; `my bird call?`
 	done
 
 _Route18CooltrainerM2EndBattleText::
-	text "I"
-	line "had to bug you!"
+	text "mu." ; `I`
+	;line "" ; `had to bug you!`
 	prompt
 
 _Route18CooltrainerM2AfterBattleText::
-	text "I also collect sea"
-	line "#MON on"
-	cont "weekends!"
+	text "tenpo lape la mi tawa telo suli." ; `I also collect sea`
+	line "mi alasa e monsuta tan telo suli." ; `#MON on`
+	;cont "" ; `weekends!`
 	done
 
 _Route18CooltrainerM3BattleText::
-	text "This is my turf!"
-	line "Get out of here!"
+	text "ni li ma mi a." ; `This is my turf!`
+	line "o weka." ; `Get out of here!`
 	done
 
 _Route18CooltrainerM3EndBattleText::
-	text "Darn!"
+	text "pakala." ; `Darn!`
 	prompt
 
 _Route18CooltrainerM3AfterBattleText::
-	text "This is my fave"
-	line "#MON hunting"
-	cont "area!"
+	text "ni li ma alasa nanpa wan tawa mi." ; `This is my fave`
+	;line "" ; `#MON hunting`
+	;cont "" ; `area!`
 	done
 
 _Route18SignText::
-	text "ROUTE 18"
-	line "CELADON CITY -"
-	cont "FUCHSIA CITY"
+	text "nasin nanpa 18" ; `ROUTE 18`
+	line "ma tomo [kasi:mi:la.] -" ; `CELADON CITY -`
+	cont "- ma tomo [kute.walo.loje.n pona.]" ; `FUCHSIA CITY`
 	done
 
 _Route18CyclingRoadSignText::
-	text "CYCLING ROAD"
-	line "No pedestrians"
-	cont "permitted!"
+	text "nasin pi ilo tawa" ; `CYCLING ROAD`
+	line "sina jo ala e ilo tawa la sina ken ala tawa ni" ; `No pedestrians`
+	;cont "" ; `permitted!`
 	done

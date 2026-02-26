@@ -25,19 +25,19 @@ ENDR
 
 	assert_table_length NUM_TYPES
 
-.Normal:   db "NORMAL@"
-.Fighting: db "FIGHTING@"
-.Flying:   db "FLYING@"
-.Poison:   db "POISON@"
-.Fire:     db "FIRE@"
-.Water:    db "WATER@"
-.Grass:    db "GRASS@"
-.Electric: db "ELECTRIC@"
-.Psychic:  db "PSYCHIC@"
-.Ice:      db "ICE@"
-.Ground:   db "GROUND@"
-.Rock:     db "ROCK@"
-.Bird:     db "BIRD@"
-.Bug:      db "BUG@"
-.Ghost:    db "GHOST@"
-.Dragon:   db "DRAGON@"
+.Normal:   db "ijo@" ; NORMAL
+.Fighting: db "utala@" ; FIGHTING
+.Flying:   db "sewi@" ; FLYING
+.Poison:   db "jaki@" ; POISON
+.Fire:     db "seli@" ; FIRE
+.Water:    db "telo@" ; WATER
+.Grass:    db "kasi@" ; GRASS
+.Electric: db "wawa@" ; ELECTRIC
+.Psychic:  db "lawa@" ; PSYCHIC
+.Ice:      db "lete@" ; ICE
+.Ground:   db "ma@" ; GROUND
+.Rock:     db "kiwen@" ; ROCK
+.Bird:     db "waso@" ; BIRD
+.Bug:      db "pipi@" ; BUG
+.Ghost:    db "kon@" ; GHOST
+.Dragon:   db "akesi@" ; DRAGON

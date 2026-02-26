@@ -1,71 +1,71 @@
 _PokemonTower5FChanneler1Text::
-	text "Come, child! I"
-	line "sealed this space"
-	cont "with white magic!"
+	text "jan lili o kama." ; `Come, child! I`
+	line "mi pona e sike ni kepeken wawa nasa walo." ; `sealed this space`
+	;cont "" ; `with white magic!`
 
-	para "You can rest here!"
+	para "sina ken lape lon ni. monsuta sina li ken kama pona kin." ; `You can rest here!`
 	done
 
 _PokemonTower5FChanneler2BattleText::
-	text "Give...me..."
-	line "your...soul..."
+	text "o pana<JAGOLD> kon sina<JAGOLD> tawa mi<JAGOLD>" ; `Give...me...`
+	;line "" ; `your...soul...`
 	done
 
 _PokemonTower5FChanneler2EndBattleText::
-	text "Gasp!"
+	text "n a" ; `Gasp!`
 	prompt
 
 _PokemonTower5FChanneler2AfterBattleText::
-	text "I was under"
-	line "possession!"
+	text "kon ike li wawa mute lon tomo ni." ; `I was under`
+	;line "" ; `possession!`
 	done
 
 _PokemonTower5FChanneler3BattleText::
-	text "You...shall..."
-	line "join...us..."
+	text "sina<JAGOLD> kama<JAGOLD> poka<JAGOLD>" ; `You...shall...`
+	;line "" ; `join...us...`
 	done
 
 _PokemonTower5FChanneler3EndBattleText::
-	text "What"
-	line "a nightmare!"
+	text "ni li sama sitelen lape ike a." ; `What`
+	;line "" ; `a nightmare!`
 	prompt
 
 _PokemonTower5FChanneler3AfterBattleText::
-	text "I was possessed!"
+	text "kon moli li monsuta a." ; `I was possessed!`
 	done
 
 _PokemonTower5FChanneler4BattleText::
-	text "Zombies!"
+	text "monsuta moli a." ; `Zombies!`
 	done
 
 _PokemonTower5FChanneler4EndBattleText::
-	text "Ha?"
+	text "seme." ; `Ha?`
 	prompt
 
 _PokemonTower5FChanneler4AfterBattleText::
-	text "I regained my"
-	line "senses!"
+	text "mi pilin sama mi kin." ; `I regained my`
+	;line "" ; `senses!`
 	done
 
 _PokemonTower5FChanneler5BattleText::
-	text "Urgah..."
-	line "Urff...."
+	text "nnn<JAGOLD>" ; `Urgah...`
+	line "nnnnnnnnnn<JAGOLD>" ; `Urff....`
 	done
 
 _PokemonTower5FChanneler5EndBattleText::
-	text "Whoo!"
+	text "a" ; `Whoo!`
 	prompt
 
 _PokemonTower5FChanneler5AfterBattleText::
-	text "I fell to evil"
-	line "spirits despite"
-	cont "my training!"
+	text "mi kama sona mute." ; `I fell to evil`
+	line "taso kon ike li anpa e mi." ; `spirits despite`
+	;cont "" ; `my training!`
 	done
 
 _PokemonTower5FPurifiedZoneText::
-	text "Entered purified,"
-	line "protected zone!"
+	text "sina kama insa ma pi awen jaki ala." ; `Entered purified,`
+	;line "" ; `protected zone!`
 
-	para "<PLAYER>'s #MON"
-	line "are fully healed!"
+	para "monsuta ale pi <PLAYER>" ; `<PLAYER>'s #MON`
+	line "li kama pona sin." ; `are fully healed!`
 	done

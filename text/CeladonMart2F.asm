@@ -1,22 +1,22 @@
 _CeladonMart2FMiddleAgedManText::
-	text "SUPER REPEL keeps"
-	line "weak #MON at"
-	cont "bay..."
+	text "te telo pi weka monsuta to la" ; `SUPER REPEL keeps`
+	line "monsuta li kama ala lon poka sina." ; `weak #MON at`
+	;cont "" ; `bay...`
 
-	para "Hmm, it's a more"
-	line "powerful REPEL!"
+	para "n. ona li suli tawa te telo lili pi weka monsuta to." ; `Hmm, it's a more`
+	;line "" ; `powerful REPEL!`
 	done
 
 _CeladonMart2FGirlText::
-	text "For long outings,"
-	line "you should buy"
-	cont "REVIVE."
+	text "sina tawa suli la" ; `For long outings,`
+	line "sina wile esun e te misikeke moli to." ; `you should buy`
+	;cont "" ; `REVIVE.`
 	done
 
 _CeladonMart2FCurrentFloorSignText::
-	text "Top Grade Items"
-	line "for Trainers!"
+	text "ijo suli mute tawa jan lawa monsuta" ; `Top Grade Items`
+	line "" ; `for Trainers!`
 
-	para "2F: TRAINER'S"
-	line "    MARKET"
+	para "supa tomo 2" ; `2F: TRAINER'S`
+	line "tomo esun pi jan lawa monsuta" ; `    MARKET`
 	done

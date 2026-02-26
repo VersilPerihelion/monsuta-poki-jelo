@@ -36,11 +36,11 @@ DisplayPCMainMenu::
 .next2
 	call PlaceString
 	hlcoord 2, 4
-	ld de, wPlayerName
+	ld de, PlayersPCText ; VPH feature: name charlimit, swapped lines 39<->43
 	call PlaceString
 	ld l, c
 	ld h, b
-	ld de, PlayersPCText
+	ld de, wPlayerName
 	call PlaceString
 	CheckEvent EVENT_GOT_POKEDEX
 	jr z, .noOaksPC2
@@ -82,12 +82,12 @@ DisplayPCMainMenu::
 	ldh [hAutoBGTransferEnabled], a
 	ret
 
-SomeonesPCText:   db "SOMEONE's PC@"
-BillsPCText:      db "BILL's PC@"
-PlayersPCText:    db "'s PC@"
-OaksPCText:       db "PROF.OAK's PC@"
-PKMNLeaguePCText: db "<PKMN>LEAGUE@"
-LogOffPCText:     db "LOG OFF@"
+SomeonesPCText:   db "ilo nanpa pi jan sona ala@" ; `SOMEONE's PC@`
+BillsPCText:      db "ilo nanpa pi jan [linja.nasin utala]@" ; `BILL's PC@`
+PlayersPCText:    db "ilo nanpa pi@" ; `'s PC@`
+OaksPCText:       db "ilo nanpa pi jan [o kili.toki.]@" ; `PROF.OAK's PC@`
+PKMNLeaguePCText: db "tomo utala sewi pi monsuta poki@" ; `<PKMN>LEAGUE@`
+LogOffPCText:     db "o weka@" ; `LOG OFF@`
 
 BillsPC_::
 	ld hl, wStatusFlags5
@@ -379,16 +379,16 @@ DisplayMonListMenu:
 	ret
 
 BillsPCMenuText:
-	db   "WITHDRAW <PKMN>"
-	next "DEPOSIT <PKMN>"
-	next "RELEASE <PKMN>"
-	next "CHANGE BOX"
-	next "PRINT BOX"
-	next "SEE YA!"
+	db   "o kama jo e monsuta" ; `WITHDRAW <PKMN>`
+	next "o poki e monsuta" ; `DEPOSIT <PKMN>`
+	next "o weka e monsuta" ; `RELEASE <PKMN>`
+	next "o ante e poki suli" ; `CHANGE BOX`
+	next "o sitelen e poki suli" ; `PRINT BOX`
+	next "o tawa pona" ; `SEE YA!`
 	db "@"
 
 BoxNoPCText:
-	db "BOX No.@"
+	db "poki suli nanpa@" ; `BOX No.@`
 
 KnowsHMMove::
 ; returns whether mon with party index [wWhichPokemon] knows an HM move
@@ -486,11 +486,11 @@ DisplayDepositWithdrawMenu:
 	call LoadGBPal
 	jr .loop
 
-DepositPCText:  db "DEPOSIT@"
-WithdrawPCText: db "WITHDRAW@"
+DepositPCText:  db "poki@" ; `DEPOSIT@`
+WithdrawPCText: db "kama jo@" ; `WITHDRAW@`
 StatsCancelPCText:
-	db   "STATS"
-	next "CANCEL@"
+	db   "nanpa ken" ; `STATS`
+	next "o weka@" ; `CANCEL@`
 
 SwitchOnText:
 	text_far _SwitchOnText

@@ -177,13 +177,13 @@ SpecialEnterMap::
 	jp EnterMap
 
 ContinueText:
-	db "CONTINUE"
+	db "o awen e musi ona" ; CONTINUE
 	next ""
 	; fallthrough
 
 NewGameText:
-	db   "NEW GAME"
-	next "OPTION@"
+	db   "o open e musi sin" ; NEW GAME
+	next "o ante e musi ni@" ; OPTION@
 
 DisplayContinueGameInfo:
 	xor a
@@ -194,7 +194,8 @@ DisplayContinueGameInfo:
 	hlcoord 5, 9
 	ld de, SaveScreenInfoText
 	call PlaceString
-	hlcoord 12, 9
+	;hlcoord 12, 9 ; VPH feature: name charlimit 7→10
+	hlcoord 9, 9
 	ld de, wPlayerName
 	call PlaceString
 	hlcoord 17, 11
@@ -219,7 +220,8 @@ PrintSaveScreenText:
 	hlcoord 5, 2
 	ld de, SaveScreenInfoText
 	call PlaceString
-	hlcoord 12, 2
+	;hlcoord 12, 2
+	hlcoord 9, 2 ; VPH feature: name charlimit 7→10
 	ld de, wPlayerName
 	call PlaceString
 	hlcoord 17, 4
@@ -264,10 +266,10 @@ PrintPlayTime:
 	jp PrintNumber
 
 SaveScreenInfoText:
-	db   "PLAYER"
-	next "BADGES    "
-	next "#DEX    "
-	next "TIME@"
+	db   "jan musi" ; PLAYER
+	next "sitelen wawa         " ; BADGES    
+	next "monsuta lon ilo lipu sona    " ; #DEX    
+	next "tenpo@" ; TIME@
 
 DisplayOptionMenu:
 	callfar DisplayOptionMenu_

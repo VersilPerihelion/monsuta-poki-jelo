@@ -1,130 +1,130 @@
 _MtMoonJessieJamesText1::
-	text "Stop right there!@"
+	text "o pini a.@" ; `Stop right there!@`
 	text_end
 
 _MtMoonJessieJamesText2::
-	text "That fossil is"
-	line "TEAM ROCKET's!"
+	text "kiwen ni majuna li ijo pi kulupu <ROCKET>." ; `That fossil is`
+	;line "" ; `TEAM ROCKET's!`
 
-	para "Surrender now, or "
-	line "prepare to fight!"
+	para "o weka. ante la o kama ken utala a." ; `Surrender now, or `
+	;line "" ; `prepare to fight!`
 	done
 
 _MtMoonJessieJamesText3::
-	text "A"
-	line "brat beat us?"
+	text "jan lili ike" ; `A`
+	line "li anpa e mi. tan seme a." ; `brat beat us?`
 	prompt
 
 _MtMoonJessieJamesText4::
-	text "TEAM ROCKET, blast"
-	line "off at the speed"
-	cont "of light!@"
+	text "kulupu <ROCKET> a" ; `TEAM ROCKET, blast`
+	line "li weka kepeken tawa wawa sama suno a.@" ; `off at the speed`
+	;cont "" ; `of light!@`
 	text_end
 
 _MtMoonB2FDomeFossilYouWantText::
-	text "You want the"
-	line "DOME FOSSIL?"
+	text "sina wile e" ; `You want the`
+	line "te kiwen majuna moli len to anu seme." ; `DOME FOSSIL?`
 	done
 
 _MtMoonB2FHelixFossilYouWantText::
-	text "You want the"
-	line "HELIX FOSSIL?"
+	text "sina wile e" ; `You want the`
+	line "te kiwen majuna moli sewi to anu seme." ; `HELIX FOSSIL?`
 	done
 
 _MtMoonB2FReceivedFossilText::
-	text "<PLAYER> got the"
-	line "@"
+	text "<PLAYER> li kama jo e" ; `<PLAYER> got the`
+	line "te@" ; `@`
 	text_ram wStringBuffer
-	text "!@"
+	text "to a.@" ; `!@`
 	text_end
 
 _MtMoonB2FYouHaveNoRoomText::
-	text "Look, you've got"
-	line "no room for this.@"
+	text "sina o." ; `Look, you've got`
+	line "sina ken ala kama jo e ijo mute.@" ; `no room for this.@`
 	text_end
 
 _MtMoonB2FSuperNerdTheyreBothMineText::
-	text "Hey, stop!"
+	text "pini a." ; `Hey, stop!`
 
-	para "I found these"
-	line "fossils! They're"
-	cont "both mine!"
+	para "mi alasa e kiwen majuna ni." ; `I found these`
+	line "ona li mi a." ; `fossils! They're`
+	;cont "" ; `both mine!`
 	done
 
 _MtMoonB2FSuperNerdOkIllShareText::
-	text "OK!"
-	line "I'll share!"
+	text "pona a." ; `OK!`
+	line "mi pana." ; `I'll share!`
 	prompt
 
 _MtMoonB2fSuperNerdEachTakeOneText::
-	text "We'll each take"
-	line "one!"
-	cont "No being greedy!"
+	text "mi kama jo e kiwen wan." ; `We'll each take`
+	line "sina kama jo e kiwen wan kin." ; `one!`
+	cont "pona ala pona." ; `No being greedy!`
 	done
 
 _MtMoonB2FSuperNerdTheresAPokemonLabText::
-	text "Far away, on"
-	line "CINNABAR ISLAND,"
-	cont "there's a #MON"
-	cont "LAB."
+	text "nena ma [loje:n ken.] li lon weka tan ma ni." ; `Far away, on`
+	line "tomo pi pali sona li lon nena ni." ; `CINNABAR ISLAND,`
+	;cont "" ; `there's a #MON`
+	;cont "" ; `LAB.`
 
-	para "They do research"
-	line "on regenerating"
-	cont "fossils."
+	para "ona li kama sona e ni:" ; `They do research`
+	line "ona wile kama e monsuta tan moli kepeken kiwen majuna." ; `on regenerating`
+	;cont "" ; `fossils.`
 	done
 
 _MtMoonB2FSuperNerdThenThisIsMineText::
-	text "All right. Then"
-	line "this is mine!@"
+	text "pona a." ; `All right. Then`
+	line "ni la kiwen ni li mi.@" ; `this is mine!@`
 	text_end
 
 _MtMoonB2FRocket2BattleText::
-	text "We, TEAM ROCKET,"
-	line "are #MON"
-	cont "gangsters!"
+	text "kulupu <ROCKET> li jan ike kulupu a." ; `We, TEAM ROCKET,`
+	;line "" ; `are #MON`
+	;cont "" ; `gangsters!`
 	done
 
 _MtMoonB2FRocket2EndBattleText::
-	text "I blew"
-	line "it!"
+	text "mi ike e ni a." ; `I blew`
+	;line "" ; `it!`
 	prompt
 
 _MtMoonB2FRocket2AfterBattleText::
-	text "Darn it all! My"
-	line "associates won't"
-	cont "stand for this!"
+	text "pakala a." ; `Darn it all! My`
+	line "ni li pona ala tawa jan kulupu mi." ; `associates won't`
+	;cont "" ; `stand for this!`
 	done
 
 _MtMoonB2FRocket3BattleText::
-	text "We're pulling a"
-	line "big job here!"
-	cont "Get lost, kid!"
+	text "kulupu mi li pali e pali suli." ; `We're pulling a`
+	line "o weka. jan lili o." ; `big job here!`
+	;cont "" ; `Get lost, kid!`
 	done
 
 _MtMoonB2FRocket3EndBattleText::
-	text "So, you"
-	line "are good."
+	text "a mi sona." ; `So, you`
+	line "sina pona." ; `are good.`
 	prompt
 
 _MtMoonB2FRocket3AfterBattleText::
-	text "If you find a"
-	line "fossil, give it"
-	cont "to me and scram!"
+	text "sina kama jo e kiwen majuna la" ; `If you find a`
+	line "o pana e ona tawa mi o weka a." ; `fossil, give it`
+	;cont "" ; `to me and scram!`
 	done
 
 _MtMoonB2FRocket4BattleText::
-	text "Little kids"
-	line "should leave"
-	cont "grown-ups alone!"
+	text "jan suli li pali la" ; `Little kids`
+	line "jan lili o weka a." ; `should leave`
+	;cont "" ; `grown-ups alone!`
 	done
 
 _MtMoonB2FRocket4EndBattleText::
-	text "I'm"
-	line "steamed!"
+	text "jaki a." ; `I'm`
+	;line "" ; `steamed!`
 	prompt
 
 _MtMoonB2FRocket4AfterBattleText::
-	text "#MON lived"
-	line "here long before"
-	cont "people came."
+	text "monsuta poki li lon ma ni" ; `#MON lived`
+	line "lon tenpo pini tan kama jan." ; `here long before`
+	;cont "" ; `people came.`
 	done

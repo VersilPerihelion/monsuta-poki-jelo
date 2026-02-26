@@ -1,442 +1,462 @@
 _ItemUseBallText00::
-	text "It dodged the"
-	line "thrown BALL!"
+	text "ona li weka e sike poki pi pana sina." ; `It dodged the`
+	;line "" ; `thrown BALL!`
 
-	para "This #MON"
-	line "can't be caught!"
+	para "sina ken ala alasa e monsuta poki ni." ; `This #MON`
+	;line "" ; `can't be caught!`
 	prompt
 
 _ItemUseBallText01::
-	text "You missed the"
-	line "#MON!"
+	text "pana sina li kama ala lon monsuta ni." ; `You missed the`
+	;line "" ; `#MON!`
 	prompt
 
 _ItemUseBallText02::
-	text "Darn! The #MON"
-	line "broke free!"
+	text "ike a." ; `Darn! The #MON`
+	line "monsuta ni li pakala e sike poki." ; `broke free!`
 	prompt
 
 _ItemUseBallText03::
-	text "Aww! It appeared"
-	line "to be caught! "
+	text "n n n." ; `Aww! It appeared`
+	line "lukin la sike ni li alasa e ona." ; `to be caught! `
 	prompt
 
 _ItemUseBallText04::
-	text "Shoot! It was so"
-	line "close too!"
+	text "pakala a." ; `Shoot! It was so`
+	line "ni li lon poka pona a." ; `close too!`
 	prompt
 
 _ItemUseBallText05::
-	text "All right!"
-	line "@"
+	text "pona a. sina alasa e" ; `All right!`
+	line "monsuta te@" ; `@`
 	text_ram wEnemyMonNick
-	text " was"
-	cont "caught!@"
+	text "to a@." ; ` was`
+	;cont "" ; `caught!@`
 	text_end
 
 _ItemUseBallText07::
+	text "monsuta te@"
 	text_ram wBoxMonNicks
-	text " was"
-	line "transferred to"
-	cont "BILL's PC!"
+	text "to li pana tawa ilo nanpa" ; ` was`
+	line "pi jan [linja.nasin utala] a." ; `transferred to`
+	cont "" ; `BILL's PC!`
 	prompt
 
 _ItemUseBallText08::
+	text "monsuta te@"
 	text_ram wBoxMonNicks
-	text " was"
-	line "transferred to"
-	cont "someone's PC!"
+	text "to li pana tawa ilo nanpa" ; ` was`
+	line "pi jan sona ala a." ; `transferred to`
+	;cont "" ; `someone's PC!`
 	prompt
 
 _ItemUseBallText06::
-	text "New #DEX data"
-	line "will be added for"
-	cont "@"
+	text "sona sin pi" ; `New #DEX data`
+	line "te@" ; `will be added for`
+	;cont "" ; `@`
 	text_ram wEnemyMonNick
-	text "!@"
+	text "to" ; `!@`
+	cont "li pana tawa ilo lipu sona sina a.@"
 	text_end
 
 _SurfingGotOnText::
-	text "<PLAYER> got on"
-	line "@"
+	text "<PLAYER> li open tawa lon" ; `<PLAYER> got on`
+	line "monsuta te@" ; `@`
 	text_ram wNameBuffer
-	text "!"
+	text "to a." ; `!`
 	prompt
 
 _SurfingNoPlaceToGetOffText::
-	text "There's no place"
-	line "to get off!"
+	text "sina ken ala weka" ; `There's no place`
+	line "lon ma ni." ; `to get off!`
 	prompt
 
 _RefusingText::
+	text "monsuta te@"
 	text_ram wNameBuffer
 	text_start
-	line "is refusing!"
+	text "to"
+	line "li wile ala a." ; `is refusing!`
 	prompt
 
 _VitaminStatRoseText::
-	text_ram wNameBuffer
-	text "'s"
-	line "@"
+	;text_ram wNameBuffer
+	;text "'s"
+	;line "@"
+	;text_ram wStringBuffer
 	text_ram wStringBuffer
-	text " rose."
+	text_start
+	line "pi@"
+	text_ram wNameBuffer
+	text_start
+	;text "" ; ` rose.`
+	cont "li kama suli."
 	prompt
 
 _VitaminNoEffectText::
-	text "It won't have any"
-	line "effect."
+	text "ala li kama tan kepeken ni." ; `It won't have any`
+	;line "" ; `effect.`
 	prompt
 
 _ThrewBaitText::
-	text "<PLAYER> threw"
-	line "some BAIT."
+	text "<PLAYER> li pana" ; `<PLAYER> threw`
+	line "e moku monsuta." ; `some BAIT.`
 	done
 
 _ThrewRockText::
-	text "<PLAYER> threw a"
-	line "ROCK."
+	text "<PLAYER> li pana" ; `<PLAYER> threw a`
+	line "e kiwen." ; `ROCK.`
 	done
 
 _PlayedFluteNoEffectText::
-	text "Played the #"
-	line "FLUTE."
+	text "sina kepeken" ; `Played the #`
+	line "te ilo palisa pi kalama musi to." ; `FLUTE.`
 
-	para "Now, that's a"
-	line "catchy tune!"
+	para "lon a" ; `Now, that's a`
+	line "kalama ni li musi." ; `catchy tune!`
 	prompt
 
 _FluteWokeUpText::
-	text "All sleeping"
-	line "#MON woke up."
+	text "lape pi monsuta lape ale li pini." ; `All sleeping`
+	;line "" ; `#MON woke up.`
 	prompt
 
 _PlayedFluteHadEffectText::
-	text "<PLAYER> played the"
-	line "# FLUTE.@"
+	text "<PLAYER> li kepeken" ; `<PLAYER> played the`
+	line "te ilo palisa pi kalama musi to.@" ; `# FLUTE.@`
 	text_end
 
 _CoinCaseNumCoinsText::
-	text "Coins"
+	text "sike mani sina" ; `Coins`
 	line "@"
 	text_bcd wPlayerCoins, 2 | LEADING_ZEROES | LEFT_ALIGN
 	text " "
 	prompt
 
 _ItemfinderFoundItemText::
-	text "Yes! ITEMFINDER"
-	line "indicates there's"
-	cont "an item nearby."
+	text "pona a." ; `Yes! ITEMFINDER`
+	line "te ilo alasa pi ijo len to li toki e ni:" ; `indicates there's`
+	cont "ijo len li lon poka." ; `an item nearby.`
 	prompt
 
 _ItemfinderFoundNothingText::
-	text "Nope! ITEMFINDER"
-	line "isn't responding."
+	text "ala." ; `Nope! ITEMFINDER`
+	line "te ilo alasa pi ijo len to li toki ala." ; `isn't responding.`
 	prompt
 
 _RaisePPWhichTechniqueText::
-	text "Raise PP of which"
-	line "technique?"
+	text "o suli e nanpa pali" ; `Raise PP of which`
+	line "pi pali seme." ; `technique?`
 	done
 
 _RestorePPWhichTechniqueText::
-	text "Restore PP of"
-	line "which technique?"
+	text "o kama sin e nanpa pali" ; `Restore PP of`
+	line "pi pali seme." ; `which technique?`
 	done
 
 _PPMaxedOutText::
+	text "nanpa pali pi pali te@"
 	text_ram wStringBuffer
-	text "'s PP"
-	line "is maxed out."
+	text "to" ; `'s PP`
+	line "li ken ala kama suli mute." ; `is maxed out.`
 	prompt
 
 _PPIncreasedText::
+	text "nanpa pali pi pali te@"
 	text_ram wStringBuffer
-	text "'s PP"
-	line "increased."
+	text "to" ; `'s PP`
+	line "li kama suli." ; `increased.`
 	prompt
 
 _PPRestoredText::
-	text "PP was restored."
+	text "nanpa pali li kama sin." ; `PP was restored.`
 	prompt
 
 _BootedUpTMText::
-	text "Booted up a TM!"
+	text "sina open e te ilo sike sona to a." ; `Booted up a TM!`
 	prompt
 
 _BootedUpHMText::
-	text "Booted up an HM!"
+	text "sina open e te ilo sike nasin to a." ; `Booted up an HM!`
 	prompt
 
 _TeachMachineMoveText::
-	text "It contained"
-	line "@"
+	text "ona li jo e pali" ; `It contained`
+	line "te@" ; `@`
 	text_ram wStringBuffer
-	text "!"
+	text "to." ; `!`
 
-	para "Teach @"
+	para "sina wile ala wile pana sona e" ; `Teach @`
+	line "te@"
 	text_ram wStringBuffer
-	text_start
-	line "to a #MON?"
+	text "to"
+	cont "tawa monsuta sina." ; `to a #MON?`
 	done
 
 _MonCannotLearnMachineMoveText::
 	text_ram wNameBuffer
-	text " is not"
-	line "compatible with"
-	cont "@"
+	text "ken ala kama sona" ; ` is not`
+	line "e pali te@" ; `compatible with`
+	;cont "" ; `@`
 	text_ram wStringBuffer
-	text "."
+	text "to." ; `.`
 
-	para "It can't learn"
-	line "@"
-	text_ram wStringBuffer
-	text "."
+	;para "It can't learn"
+	;line "@"
+	;text_ram wStringBuffer
+	;text "."
 	prompt
 
 _ItemUseNotTimeText::
-	text "OAK: <PLAYER>!"
-	line "This isn't the"
-	cont "time to use that! "
+	text "jan sona [o]: <PLAYER> o." ; `OAK: <PLAYER>!`
+	line "tenpo ni la sina ken ala kepeken ijo ni." ; `This isn't the`
+	;cont "" ; `time to use that! `
 	prompt
 
 _ItemUseNotYoursToUseText::
-	text "This isn't yours"
-	line "to use!"
+	text "ijo ni li sina ala." ; `This isn't yours`
+	line "o kepeken ala ona." ; `to use!`
 	prompt
 
 _ItemUseNoEffectText::
-	text "It won't have any"
-	line "effect."
+	text "ijo ni li ken ala." ; `It won't have any`
+	;line "" ; `effect.`
 	prompt
 
 _ThrowBallAtTrainerMonText1::
-	text "The trainer"
-	line "blocked the BALL!"
+	text "jan ante li pini e sike poki a." ; `The trainer`
+	;line "" ; `blocked the BALL!`
 	prompt
 
 _ThrowBallAtTrainerMonText2::
-	text "Don't be a thief!"
+	text "o lanpan ala a." ; `Don't be a thief!`
 	prompt
 
 _NoCyclingAllowedHereText::
-	text "No cycling"
-	next "allowed here."
+	text "sina ken ala kepeken ijo tawa" ; `No cycling`
+	next "lon ma ni." ; `allowed here.`
 	prompt
 
 _NoSurfingHereText::
-	text "No SURFing on"
-	line "@"
+	text "sina en @" ; `No SURFing on`
+	;line "" ; `@`
 	text_ram wNameBuffer
-	text " here!"
+	text "@"
+	;text " here!"
+	line "li ken ala te tawa lon supa telo to."
 	prompt
 
 _BoxFullCannotThrowBallText::
-	text "The #MON BOX"
-	line "is full! Can't"
-	cont "use that item!"
+	text "poki suli lon ilo nanpa ken ala kama jo e monsuta mute." ; `The #MON BOX`
+	line "sina ken ala kepeken ijo ni." ; `is full! Can't`
+	;cont "" ; `use that item!`
 	prompt
 
 _DontHavePokemonText::
-	text "You don't have a "
-	line "#MON!"
+	text "sina jo ala e monsuta poki." ; `You don't have a `
+	;line "" ; `#MON!`
 	prompt
 
 _ItemUseText001::
-	text "<PLAYER> used@"
-	text_end
+	text "<PLAYER> li kepeken@" ; `<PLAYER> used@`
+	text_end ; if i add another line to put te/to both on line 2 it fails
 
 _ItemUseText002::
+	text "te@"
 	text_ram wStringBuffer
-	text "!"
+	text "to a." ; `!`
 	done
 
 _GotOnBicycleText1::
-	text "<PLAYER> got on the@"
+	text "<PLAYER> li open kepeken@" ; `<PLAYER> got on the@`
+	cont "te@"
 	text_end
 
 _GotOnBicycleText2::
 	text_ram wStringBuffer
-	text "!"
+	text "to a." ; `!`
 	prompt
 
 _GotOffBicycleText1::
-	text "<PLAYER> got off@"
+	text "<PLAYER> li pini kepeken@" ; `<PLAYER> got off@`
 	text_end
 
 _GotOffBicycleText2::
-	text "the @"
+	text "te@" ; `the @`
 	text_ram wStringBuffer
-	text "."
+	text "to." ; `.`
 	prompt
 
 _ThrewAwayItemText::
-	text "Threw away"
-	line "@"
+	text "sina weka e" ; `Threw away`
+	line "te@" ; `@`
 	text_ram wNameBuffer
-	text "."
+	text "to." ; `.`
 	prompt
 
 _IsItOKToTossItemText::
-	text "Is it OK to toss"
-	line "@"
+	text "sina wile weka e" ; `Is it OK to toss`
+	line "te@" ; `@`
 	text_ram wStringBuffer
-	text "?"
+	text "to anu seme" ; `?`
 	prompt
 
 _TooImportantToTossText::
-	text "That's too impor-"
-	line "tant to toss!"
+	text "ijo ni li suli a." ; `That's too impor-`
+	line "sina ken ala weka e ni a." ; `tant to toss!`
 	prompt
 
 _AlreadyKnowsText::
 	text_ram wNameBuffer
-	text " knows"
-	line "@"
+	text "li sona e" ; ` knows`
+	line "te@"
 	text_ram wStringBuffer
-	text "!"
+	text "to a." ; `!`
 	prompt
 
 _ConnectCableText::
-	text "Okay, connect the"
-	line "cable like so!"
+	text "pona a." ; `Okay, connect the`
+	line "o linja e ilo mi tawa ilo sina." ; `cable like so!`
 	prompt
 
 _TradedForText::
-	text "<PLAYER> traded"
-	line "@"
+	text "<PLAYER> li esun e" ; `<PLAYER> traded`
+	line "@" ; `@`
 	text_ram wInGameTradeGiveMonName
-	text " for"
-	cont "@"
+	text "" ; ` for`
+	cont "tawa te@" ; `@`
 	text_ram wInGameTradeReceiveMonName
-	text "!@"
+	text "to a.@" ; `!@`
 	text_end
 
 _WannaTrade1Text::
-	text "I'm looking for"
-	line "@"
+	text "mi wile kama jo e" ; `I'm looking for`
+	line "te@" ; `@`
 	text_ram wInGameTradeGiveMonName
-	text "! Wanna"
+	text "to a." ; `! Wanna`
 
-	para "trade one for"
-	line "@"
+	para "sina wile esun tan" ; `trade one for`
+	line "te@" ; `@`
 	text_ram wInGameTradeReceiveMonName
-	text "? "
+	text "to sina anu seme." ; `? `
 	done
 
 _NoTrade1Text::
-	text "Awww!"
-	line "Oh well..."
+	text "a n n n." ; `Awww!`
+	line "ni li pona n n." ; `Oh well...`
 	done
 
 _WrongMon1Text::
-	text "What? That's not"
-	line "@"
+	text "seme. ni li" ; `What? That's not`
+	line "te@" ; `@`
 	text_ram wInGameTradeGiveMonName
-	text "!"
+	text "to ala a." ; `!`
 
-	para "If you get one,"
-	line "come back here!"
+	para "sina kama jo e ona la" ; `If you get one,`
+	line "o kama ma ni." ; `come back here!`
 	done
 
 _Thanks1Text::
-	text "Hey thanks!"
+	text "a sina pona." ; `Hey thanks!`
 	done
 
 _AfterTrade1Text::
-	text "Isn't my old"
-	line "@"
+	text "monsuta te@" ; `Isn't my old`
+	;line "" ; `@`
 	text_ram wInGameTradeReceiveMonName
-	text " great?"
+	text "to mi" ; ` great?`
+	line "li pona mute anu seme."
 	done
 
 _WannaTrade2Text::
-	text "Hello there! Do"
-	line "you want to trade"
+	text "toki a." ; `Hello there! Do`
+	line "sina wile esun e" ; `you want to trade`
 
-	para "your @"
+	para "monsuta te@" ; `your @`
 	text_ram wInGameTradeGiveMonName
+	text "to sina"
 	text_start
-	line "for @"
+	line "tawa te@" ; `for @`
 	text_ram wInGameTradeReceiveMonName
-	text "?"
+	text "to mi anu seme." ; `?`
 	done
 
 _NoTrade2Text::
-	text "Well, if you"
-	line "don't want to..."
+	text "n n n." ; `Well, if you`
+	line "sina wile ala la<JAGOLD>" ; `don't want to...`
 	done
 
 _WrongMon2Text::
-	text "Hmmm? This isn't"
-	line "@"
+	text "n seme." ; `Hmmm? This isn't`
+	line "ni li te@" ; `@`
 	text_ram wInGameTradeGiveMonName
-	text "."
+	text "to ala." ; `.`
 
-	para "Think of me when"
-	line "you get one."
+	para "sina jo e ona la" ; `Think of me when`
+	line "o toki insa e mi." ; `you get one.`
 	done
 
 _Thanks2Text::
-	text "Thanks!"
+	text "sina pona a." ; `Thanks!`
 	done
 
 _AfterTrade2Text::
-	text "Hello there! Your"
-	line "old @"
+	text "toki a." ; `Hello there! Your`
+	line "monsuta te@" ; `old @`
 	text_ram wInGameTradeGiveMonName
-	text " is"
-	cont "magnificent!"
+	text "to sina" ; ` is`
+	cont "li pona mute mute a." ; `magnificent!`
 	done
 
 _WannaTrade3Text::
-	text "Hi! Do you have"
-	line "@"
+	text "toki. sina jo e" ; `Hi! Do you have`
+	line "te@" ; `@`
 	text_ram wInGameTradeGiveMonName
-	text "?"
+	text "to anu seme." ; `?`
 
-	para "Want to trade it"
-	line "for @"
+	para "sina wile ala wile esun e ona" ; `Want to trade it`
+	line "tawa te@" ; `for @`
 	text_ram wInGameTradeReceiveMonName
-	text "?"
+	text "to." ; `?`
 	done
 
 _NoTrade3Text::
-	text "That's too bad."
+	text "ike a." ; `That's too bad.`
 	done
 
 _WrongMon3Text::
-	text "...This is no"
-	line "@"
+	text "ni li te@" ; `...This is no`
+	;line "" ; `@`
 	text_ram wInGameTradeGiveMonName
-	text "."
+	text "to ala." ; `.`
 
-	para "If you get one,"
-	line "trade it with me!"
+	para "sina kama jo e ona la" ; `If you get one,`
+	line "sina en mi o esun a." ; `trade it with me!`
 	done
 
 _Thanks3Text::
-	text "Thanks, pal!"
+	text "jan pona mi o sina pona a." ; `Thanks, pal!`
 	done
 
 _AfterTrade3Text::
-	text "How is my old"
-	line "@"
+	text "monsuta te@" ; `How is my old`
+	;line "@"
 	text_ram wInGameTradeReceiveMonName
-	text "?"
+	text "to tan mi li seme." ; `?`
 
-	para "My @"
+	para "monsuta te@" ; `My @`
 	text_ram wInGameTradeGiveMonName
-	text " is"
-	line "doing great!"
+	text "to" ; ` is`
+	line "pi sina pana li pona a." ; `doing great!`
 	done
 
 _NothingToCutText::
-	text "There isn't"
-	line "anything to CUT!"
+	text "sina ken ala kipisi" ; `There isn't`
+	line "e kasi lon ma ni." ; `anything to CUT!`
 	prompt
 
 _UsedCutText::
 	text_ram wNameBuffer
-	text " hacked"
-	line "away with CUT!"
+	text "" ; ` hacked`
+	line "li te kipisi e kasi suli to a." ; `away with CUT!`
 	prompt

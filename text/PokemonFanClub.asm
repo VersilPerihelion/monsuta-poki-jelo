@@ -1,180 +1,180 @@
 _PokemonFanClubClefairyFanNormalText::
-	text "Won't you admire"
-	line "my CLEFAIRY's"
-	cont "adorable tail?"
+	text "sina wile ala wile lukin" ; `Won't you admire`
+	line "e linja monsi suwi pi soweli mun suwi mi." ; `my CLEFAIRY's`
+	;cont "" ; `adorable tail?`
 	done
 
 _PokemonFanClubClefairyFanBetterText::
-	text "Humph! My CLEFAIRY"
-	line "is twice as cute"
-	cont "as that one!"
+	text "n n n." ; `Humph! My CLEFAIRY`
+	line "soweli mun suwi mi li suwi mute tawa ona." ; `is twice as cute`
+	;cont "" ; `as that one!`
 	done
 
 _PokemonFanClubClefairyFanText::
-	text "Our CHAIRMAN's new"
-	line "hobby is taking"
-	cont "#MON photos."
+	text "jan lawa pi kulupu mi li open e pali musi sin." ; `Our CHAIRMAN's new`
+	line "ona li sitelen e monsuta poki kepeken ilo sitelen." ; `hobby is taking`
+	cont "" ; `#MON photos.`
 
-	para "He gave me a nice"
-	line "PRINT of my cute"
-	cont "CLEFAIRY."
+	para "ona li pana e sitelen pi soweli mun suwi mi tawa mi." ; `He gave me a nice`
+	line "sitelen ni li pona mute a." ; `PRINT of my cute`
+	;cont "" ; `CLEFAIRY.`
 	done
 
 _PokemonFanClubSeelFanNormalText::
-	text "I just love my"
-	line "SEEL!"
+	text "mi olin e soweli kala mi." ; `I just love my`
+	;line "" ; `SEEL!`
 
-	para "It squeals when I"
-	line "hug it!"
+	para "mi jo olin e ona la ona li mu suwi a." ; `It squeals when I`
+	;line "" ; `hug it!`
 	done
 
 _PokemonFanClubSeelFanBetterText::
-	text "Oh dear!"
+	text "a." ; `Oh dear!`
 
-	para "My SEEL is far"
-	line "more attractive!"
+	para "soweli kala mi li pona mute tawa ona." ; `My SEEL is far`
+	line "" ; `more attractive!`
 	done
 
 _PokemonFanClubSeelFanText::
-	text "I'm going to hook"
-	line "up the cable to"
-	cont "get a photo PRINT"
-	cont "of my SEEL!"
+	text "mi o kepeken linja ilo la" ; `I'm going to hook`
+	line "mi o sitelen e soweli kala mi." ; `up the cable to`
+	;cont "" ; `get a photo PRINT`
+	;cont "" ; `of my SEEL!`
 	done
 
 _PokemonFanClubClefairyText::
-	text "CLEFAIRY: Pippii!"
+	text "soweli mun suwi: mu" ; `CLEFAIRY: Pippii!`
 	done
 
 _PokemonFanClubSeelText::
-	text "SEEL: Kyuoo!"
+	text "soweli kala: mu" ; `SEEL: Kyuoo!`
 	done
 
 _PokemonFanClubChairmanIntroText::
-	text "I chair the"
-	line "#MON Fan Club!"
+	text "mi lawa e kulupu ni." ; `I chair the`
+	;line "" ; `#MON Fan Club!`
 
-	para "I have more than"
-	line "100 #MON. I"
-	cont "love them all!"
+	para "mi jo e monsuta nanpa ale." ; `I have more than`
+	line "mi olin ona ale a." ; `100 #MON. I`
+	;cont "" ; `love them all!`
 
-	para "I'm very fussy"
-	line "when it comes to"
-	cont "#MON!"
+	para "taso monsuta ale li pona mute ala tawa mi." ; `I'm very fussy`
+	line "mi wile e monsuta pona mute." ; `when it comes to`
+	;cont "" ; `#MON!`
 
-	para "So..."
+	para "ni la<JAGOLD>" ; `So...`
 
-	para "Did you come to"
-	line "hear me brag"
-	cont "about my #MON?"
+	para "sina wile ala wile kute e toki pona mi" ; `Did you come to`
+	line "pi monsuta poki mi." ; `hear me brag`
+	;cont "" ; `about my #MON?`
 	done
 
 _PokemonFanClubChairmanStoryText::
-	text "Good!"
-	line "Then listen up!"
+	text "pona a." ; `Good!`
+	line "ni la o kute a." ; `Then listen up!`
 
-	para "My favorite"
-	line "RAPIDASH..."
+	para "soweli tawa suli mi li nanpa wan mi<JAGOLD>" ; `My favorite`
+	;line "" ; `RAPIDASH...`
 
-	para "It...cute..."
-	line "lovely...smart..."
-	cont "plus...amazing..."
-	cont "you think so?..."
-	cont "oh yes...it..."
-	cont "stunning..."
-	cont "kindly..."
-	cont "love it!"
+	para "ona li<JAGOLD> suwi<JAGOLD>" ; `It...cute...`
+	line "pona mute<JAGOLD> sona mute<JAGOLD>" ; `lovely...smart...`
+	cont "kin la<JAGOLD> wawa mute<JAGOLD>" ; `plus...amazing...`
+	cont "anu seme<JAGOLD>" ; `you think so?...`
+	cont "lon<JAGOLD>" ; `oh yes...it...`
+	cont "suli lukin<JAGOLD>" ; `stunning...`
+	cont "pi nasin pona<JAGOLD>" ; `kindly...`
+	cont "mi olin<JAGOLD>" ; `love it!`
 
-	para "Hug it...when..."
-	line "sleeping...warm"
-	cont "and cuddly..."
-	cont "spectacular..."
-	cont "ravishing..."
-	cont "...Oops! Look at"
-	cont "the time! I kept"
-	cont "you too long!"
+	para "jo olin e ona<JAGOLD>" ; `Hug it...when...`
+	line "lape la<JAGOLD> seli pona<JAGOLD>" ; `sleeping...warm`
+	cont "lon poka<JAGOLD>" ; `and cuddly...`
+	cont "pona sewi<JAGOLD>" ; `spectacular...`
+	cont "mi-" ; `ravishing...`
+	cont "seme a." ; `...Oops! Look at`
+	cont "tenpo li seme." ; `the time! I kept`
+	cont "mi jo e sina lon tenpo mute ike a." ; `you too long!`
 
-	para "Thanks for hearing"
-	line "me out! I want"
-	cont "you to have this!"
+	para "sina pona tan kute mi." ; `Thanks for hearing`
+	line "mi wile e ni: o kama jo e ijo ni." ; `me out! I want`
+	;cont "" ; `you to have this!`
 	prompt
 
 _PokemonFanClubReceivedBikeVoucherText::
-	text "<PLAYER> received"
-	line "a @"
+	text "<PLAYER> li kama jo e" ; `<PLAYER> received`
+	line "te@" ; `a @`
 	text_ram wStringBuffer
-	text "!@"
+	text "to a.@" ; `!@`
 	text_end
 
 _PokemonFanClubExplainBikeVoucherText::
 	text_start
 
-	para "Exchange that for"
-	line "a BICYCLE!"
+	para "sina ken esun e ona tawa ilo tawa." ; `Exchange that for`
+	;line "" ; `a BICYCLE!`
 
-	para "Don't worry, my"
-	line "FEAROW will FLY"
-	cont "me anywhere!"
+	para "ale li pona." ; `Don't worry, my`
+	line "monsuta waso mi li ken tawa sewi e mi tawa ma ale." ; `FEAROW will FLY`
+	;cont "" ; `me anywhere!`
 
-	para "So, I don't need a"
-	line "BICYCLE!"
+	para "ni la mi wile ala e ijo tawa." ; `So, I don't need a`
+	;line "" ; `BICYCLE!`
 
-	para "I hope you like"
-	line "cycling!"
+	para "ilo tawa o pona tawa sina." ; `I hope you like`
+	;line "" ; `cycling!`
 	done
 
 _PokemonFanClubNoStoryText::
-	text "Oh. Come back"
-	line "when you want to"
-	cont "hear my story!"
+	text "a mi sona." ; `Oh. Come back`
+	line "sina wile kute e toki mi la" ; `when you want to`
+	cont "o kama sin." ; `hear my story!`
 	done
 
 _PokemonFanClubChairFinalText::
-	text "Hello, <PLAYER>!"
+	text "toki a <PLAYER> o." ; `Hello, <PLAYER>!`
 
-	para "Did you come see"
-	line "me about my"
-	cont "#MON again?"
+	para "sina wile kute e toki mi pi monsuta mi anu seme." ; `Did you come see`
+	;line "" ; `me about my`
+	;cont "" ; `#MON again?`
 
-	para "No? Too bad!"
+	para "wile ala anu seme." ; `No? Too bad!`
 	done
 
 _PokemonFanClubBagFullText::
-	text "Make room for"
-	line "this!"
+	text "sina wile ala e poki sina." ; `Make room for`
+	;line "" ; `this!`
 	done
 
 FanClubChairPrintText1::
-	text "Hi there, <PLAYER>!"
-	line "Have you seen my"
-	cont "#MON photos?"
+	text "toki a <PLAYER> o." ; `Hi there, <PLAYER>!`
+	line "sina lukin ala lukin e sitelen mi pi monsuta poki." ; `Have you seen my`
+	;cont "" ; `#MON photos?`
 
-	para "I have them framed"
-	line "up on that wall."
+	para "mi pana e ona lon sinpin ni." ; `I have them framed`
+	;line "" ; `up on that wall.`
 
-	para "Ah, I know!"
+	para "a mi sona." ; `Ah, I know!`
 
-	para "Would you like me"
-	line "to take a photo"
-	cont "of your #MON?"
+	para "sina wile ala wile e sitelen pi monsuta sina." ; `Would you like me`
+	;line "" ; `to take a photo`
+	;cont "" ; `of your #MON?`
 	done
 
 FanClubChairPrintText2::
-	text "No? That's really"
-	line "disappointing."
+	text "sina wile ala la ale li pona." ; `No? That's really`
+	;line "" ; `disappointing.`
 	done
 
 FanClubChairPrintText3::
-	text "OK, I'm done."
+	text "pona a. mi pini." ; `OK, I'm done.`
 	done
 
 FanClubChairPrintText4::
-	text "Maybe we won't"
-	line "PRINT this now."
+	text "kin la mi lipu ala e sitelen ni lon tenpo ni." ; `Maybe we won't`
+	;line "" ; `PRINT this now.`
 	done
 
 _PokemonFanClubReceptionistText::
-	text "Our CHAIRMAN is"
-	line "very vocal about"
-	cont "#MON."
+	text "jan lawa pi kulupu ni li toki mute e monsuta poki." ; `Our CHAIRMAN is`
+	;line "" ; `very vocal about`
+	;cont "" ; `#MON.`
 	done

@@ -1,44 +1,44 @@
 _FuchsiaGoodRodHouseFishingGuruText::
-	text "I'm the FISHING"
-	line "GURU's older"
-	cont "brother!"
+	text "sina sona ala sona e jan suli pi alasa kala." ; `I'm the FISHING`
+	line "mi jan poka suli ona." ; `GURU's older`
+	cont "taso mi jan suli pi alasa kala kin." ; `brother!`
 
-	para "I simply Looove"
-	line "fishing!"
+	para "alasa kala li suli mute tawa mi." ; `I simply Looove`
+	;line "" ; `fishing!`
 
-	para "Do you like to"
-	line "fish?"
+	para "alasa kala li pona ala pona tawa sina." ; `Do you like to`
+	;line "" ; `fish?`
 	done
 
 _FuchsiaGoodRodHouseFishingGuruReceivedGoodRodText::
-	text "Grand! I like"
-	line "your style!"
+	text "suli a." ; `Grand! I like`
+	line "nasin sina li pona a." ; `your style!`
 
-	para "Take this and"
-	line "fish, young one!"
+	para "o kama jo e ijo ni o alasa e kala" ; `Take this and`
+	line "jan lili o." ; `fish, young one!`
 
-	para "<PLAYER> received"
-	line "a @"
+	para "<PLAYER> li kama jo e" ; `<PLAYER> received`
+	line "te@" ; `a @`
 	text_ram wStringBuffer
-	text "!@"
+	text "to a.@" ; `!@`
 	text_end
 
 _FuchsiaGoodRodHouseFishingGuruThatsSoDisappointingText::
-	text "Oh... That's so"
-	line "disappointing..."
+	text "a<JAGOLD>" ; `Oh... That's so`
+	line "ike a<JAGOLD>" ; `disappointing...`
 	done
 
 _FuchsiaGoodRodHouseFishingGuruHowAreTheFishText::
-	text "Hello there,"
-	line "<PLAYER>!"
+	text "toki a" ; `Hello there,`
+	line "<PLAYER> o" ; `<PLAYER>!`
 
-	para "How are the fish"
-	line "biting?"
+	para "alasa kala sina li seme." ; `How are the fish`
+	;line "" ; `biting?`
 	done
 
 _FuchsiaGoodRodHouseFishingGuruNoRoomText::
-	text "Oh no!"
+	text "ike a." ; `Oh no!`
 
-	para "You have no room"
-	line "for my gift!"
+	para "poki sina ken ala jo e ijo pana mi a." ; `You have no room`
+	;line "" ; `for my gift!`
 	done

@@ -158,7 +158,8 @@ StatusScreen:
 	call .GetStringPointer
 	ld d, h
 	ld e, l
-	hlcoord 12, 16
+	;hlcoord 12, 16 ; VPH feature: name charlimit 7→10
+	hlcoord 9, 16
 	call PlaceString ; OT
 	hlcoord 12, 14
 	ld de, wLoadedMonOTID
@@ -222,26 +223,26 @@ NamePointers2:
 	dw wDayCareMonName
 
 Type1Text:
-	db   "TYPE1/"
+	db   "kule 1/" ; `TYPE1/`
 	next ""
 	; fallthrough
 Type2Text:
-	db   "TYPE2/"
+	db   "kule 2/" ; `TYPE2/`
 	next ""
 	; fallthrough
 IDNoText:
-	db   "<ID>№/"
+	db   "№<ID>/" ; VPH: swapped chars to render consistent with dex number
 	next ""
 	; fallthrough
 OTText:
-	db   "OT/"
+	db   "jan lawa nanpa wan/" ; `OT/`
 	next "@"
 
 StatusText:
-	db "STATUS/@"
+	db "pilin/@" ; `STATUS/@`
 
 OKText:
-	db "OK@"
+	db "pona@" ; `OK@`
 
 ; Draws a line starting from hl high b and wide c
 DrawLineBox:
@@ -268,10 +269,12 @@ PrintStatsBox:
 	and a ; a is 0 from the status screen
 	jr nz, .DifferentBox
 	hlcoord 0, 8
-	lb bc, 8, 8
+	;lb bc, 8, 8 ; VPH feature: name charlimit 7→10
+	lb bc, 8, 7
 	call TextBoxBorder ; Draws the box
 	hlcoord 1, 9 ; Start printing stats from here
-	ld bc, $19 ; Number offset
+	;ld bc, $19 ; Number offset ; VPH feature: name charlimit 7→10
+	ld bc, $18 ; Number offset
 	jr .PrintStats
 .DifferentBox
 	hlcoord 9, 2
@@ -305,10 +308,10 @@ PrintStat:
 	ret
 
 StatsText:
-	db   "ATTACK"
-	next "DEFENSE"
-	next "SPEED"
-	next "SPECIAL@"
+	db   "nanpa ken utala" ; `ATTACK`
+	next "nanpa ken awen" ; `DEFENSE`
+	next "nanpa ken tawa" ; `SPEED`
+	next "nanpa ken lawa@" ; `SPECIAL@`
 
 StatusScreen2:
 	ldh a, [hTileAnimations]
@@ -481,8 +484,8 @@ CalcExpToLevelUp:
 	ret
 
 StatusScreenExpText:
-	db   "EXP POINTS"
-	next "LEVEL UP@"
+	db   "nanpa sona" ; `EXP POINTS`
+	next "nanpa sona tawa supa sona wawa sin@" ; `LEVEL UP@`
 
 StatusScreen_ClearName:
 	ld bc, 10

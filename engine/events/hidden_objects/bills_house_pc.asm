@@ -120,11 +120,11 @@ BillsHousePokemonListText1:
 	text_end
 
 BillsMonListText:
-	db   "EEVEE"
-	next "FLAREON"
-	next "JOLTEON"
-	next "VAPOREON"
-	next "CANCEL@"
+	db   "te soweli pi ken kama mute to" ; `EEVEE`
+	next "te soweli kama seli to" ; `FLAREON`
+	next "te soweli kama wawa to" ; `JOLTEON`
+	next "te soweli kama telo to" ; `VAPOREON`
+	next "o weka@" ; `CANCEL@`
 
 BillsHousePokemonListText2:
 	text_far _BillsHousePokemonListText2

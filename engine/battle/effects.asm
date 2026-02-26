@@ -567,6 +567,7 @@ MonsStatsRoseText:
 GreatlyRoseText:
 	text_pause
 	text_far _GreatlyRoseText
+	text_end ; VPH no fallthrough, greatly rose/fell made their own texts rather than inserts
 ; fallthrough
 RoseText:
 	text_far _RoseText
@@ -772,6 +773,7 @@ MonsStatsFellText:
 GreatlyFellText:
 	text_pause
 	text_far _GreatlyFellText
+	text_end ; VPH no fallthrough, greatly rose/fell made their own texts rather than inserts
 ; fallthrough
 FellText:
 	text_far _FellText

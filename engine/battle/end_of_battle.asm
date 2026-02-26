@@ -79,13 +79,13 @@ EndOfBattle:
 	ret
 
 YouWinText:
-	db "YOU WIN@"
+	db "sina sewi a@" ; `YOU WIN@`
 
 YouLoseText:
-	db "YOU LOSE@"
+	db "sina anpa a@" ; `YOU LOSE@`
 
 DrawText:
-	db "  DRAW@"
+	db "sina pini seme@" ; `  DRAW@`
 
 PickUpPayDayMoneyText:
 	text_far _PickUpPayDayMoneyText

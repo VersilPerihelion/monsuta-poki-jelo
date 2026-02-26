@@ -1,162 +1,162 @@
 _Route11Gambler1BattleText::
-	text "Win, lose or draw!"
+	text "o sewi anu o anpa anu o pini sama." ; `Win, lose or draw!`
 	done
 
 _Route11Gambler1EndBattleText::
-	text "Atcha!"
-	line "Didn't go my way!"
+	text "ike a." ; `Atcha!`
+	line "ni li wile mi ala." ; `Didn't go my way!`
 	prompt
 
 _Route11Gambler1AfterBattleText::
-	text "#MON is life!"
-	line "And to live is to"
-	cont "gamble!"
+	text "mi awen la" ; `#MON is life!`
+	line "mi musi a." ; `And to live is to`
+	;cont "" ; `gamble!`
 	done
 
 _Route11Gambler2BattleText::
-	text "Competition! I"
-	line "can't get enough!"
+	text "utala musi a." ; `Competition! I`
+	line "mi wile mute a." ; `can't get enough!`
 	done
 
 _Route11Gambler2EndBattleText::
-	text "I had"
-	line "a chance!"
+	text "ken mi li weka." ; `I had`
+	;line "" ; `a chance!`
 	prompt
 
 _Route11Gambler2AfterBattleText::
-	text "You can't be a"
-	line "coward in the"
-	cont "world of #MON!"
+	text "sina lon ma pi monsuta poki la" ; `You can't be a`
+	line "sina ken ala pilin monsuta." ; `coward in the`
+	;cont "" ; `world of #MON!`
 	done
 
 _Route11Youngster1BattleText::
-	text "Let's go, but"
-	line "don't cheat!"
+	text "sina o musi ike a." ; `Let's go, but`
+	;line "" ; `don't cheat!`
 	done
 
 _Route11Youngster1EndBattleText::
-	text "Huh?"
-	line "That's not right!"
+	text "seme." ; `Huh?`
+	line "ni li lon ala." ; `That's not right!`
 	prompt
 
 _Route11Youngster1AfterBattleText::
-	text "I did my best! I"
-	line "have no regrets!"
+	text "mi pali e pona mute mi." ; `I did my best! I`
+	line "mi pilin ike ala a." ; `have no regrets!`
 	done
 
 _Route11SuperNerd1BattleText::
-	text "Careful!"
-	line "I'm laying down"
-	cont "some cables!"
+	text "o awen lukin pona." ; `Careful!`
+	line "mi pana e linja pi wawa ilo." ; `I'm laying down`
+	;cont "" ; `some cables!`
 	done
 
 _Route11SuperNerd1EndBattleText::
-	text "That"
-	line "was electric!"
+	text "ni li wawa mute kin." ; `That`
+	;line "" ; `was electric!`
 	prompt
 
 _Route11SuperNerd1AfterBattleText::
-	text "Spread the word"
-	line "to save energy!"
+	text "o kepeken wawa ilo lili a." ; `Spread the word`
+	;line "" ; `to save energy!`
 	done
 
 _Route11Youngster2BattleText::
-	text "I just became a"
-	line "trainer! But, I"
-	cont "think I can win!"
+	text "mi kama jan pi lawa monsuta" ; `I just became a`
+	line "lon tenpo pini poka." ; `trainer! But, I`
+	cont "taso mi ken kama sewi a." ; `think I can win!`
 	done
 
 _Route11Youngster2EndBattleText::
-	text "My"
-	line "#MON couldn't!"
+	text "taso monsuta mi li ken ala<JAGOLD>" ; `My`
+	;line "" ; `#MON couldn't!`
 	prompt
 
 _Route11Youngster2AfterBattleText5::
-	text "What do you want?"
-	line "Leave me alone!"
+	text "sina wile e seme." ; `What do you want?`
+	line "o weka." ; `Leave me alone!`
 	done
 
 _Route11Gambler3BattleText::
-	text "Fwahaha! I have"
-	line "never lost!"
+	text "a a a a." ; `Fwahaha! I have`
+	line "mi anpa lon tenpo ala a." ; `never lost!`
 	done
 
 _Route11Gambler3EndBattleText::
-	text "My"
-	line "first loss!"
+	text "anpa mi open a." ; `My`
+	;line "" ; `first loss!`
 	prompt
 
 _Route11Gambler3AfterBattleText::
-	text "Luck of the draw!"
-	line "Just luck!"
+	text "ni li ken pona sina taso." ; `Luck of the draw!`
+	;line "" ; `Just luck!`
 	done
 
 _Route11Gambler4BattleText::
-	text "I have never won"
-	line "before..."
+	text "mi anpa lon tenpo ale<JAGOLD>" ; `I have never won`
+	;line "" ; `before...`
 	done
 
 _Route11Gambler4EndBattleText::
-	text "I saw"
-	line "this coming..."
+	text "mi sona e ni<JAGOLD>" ; `I saw`
+	;line "" ; `this coming...`
 	prompt
 
 _Route11Gambler4AfterBattleText::
-	text "It's just luck."
-	line "Luck of the draw."
+	text "ni li ken pona sina taso<JAGOLD>" ; `It's just luck.`
+	;line "" ; `Luck of the draw.`
 	done
 
 _Route11Youngster3BattleText::
-	text "I'm the best in"
-	line "my class!"
+	text "kulupu pi kama sona mi la" ; `I'm the best in`
+	line "mi nanpa wan a." ; `my class!`
 	done
 
 _Route11Youngster3EndBattleText::
-	text "Darn!"
-	line "I need to make my"
-	cont "#MON stronger!"
+	text "ike a." ; `Darn!`
+	line "mi o wawa e monsuta mi." ; `I need to make my`
+	;cont "" ; `#MON stronger!`
 	prompt
 
 _Route11Youngster3AfterBattleText::
-	text "There's a fat"
-	line "#MON that"
-	cont "comes down from"
-	cont "the mountains."
+	text "monsuta suli li kama tan nena suli." ; `There's a fat`
+	;line "" ; `#MON that`
+	;cont "" ; `comes down from`
+	;cont "" ; `the mountains.`
 
-	para "It's strong if"
-	line "you can get it."
+	para "sina ken kama jo e ona la" ; `It's strong if`
+	line "ona li wawa mute." ; `you can get it.`
 	done
 
 _Route11SuperNerd2BattleText::
-	text "Watch out for"
-	line "live wires!"
+	text "o awen lukin pona e linja pi ilo wawa." ; `Watch out for`
+	;line "" ; `live wires!`
 	done
 
 _Route11SuperNerd2EndBattleText::
-	text "Whoa!"
-	line "You spark plug!"
+	text "wawa a." ; `Whoa!`
+	;line "" ; `You spark plug!`
 	prompt
 
 _Route11SuperNerd2AfterBattleText::
-	text "Well, better get"
-	line "back to work."
+	text "pona a." ; `Well, better get`
+	line "mi awen pali mi." ; `back to work.`
 	done
 
 _Route11Youngster4BattleText::
-	text "My #MON should"
-	line "be ready by now!"
+	text "mi pilin e ni:" ; `My #MON should`
+	line "monsuta mi li ken kama sewi." ; `be ready by now!`
 	done
 
 _Route11Youngster4EndBattleText::
-	text "Too"
-	line "much, too young!"
+	text "ken la lon tenpo kama." ; `Too`
+	;line "" ; `much, too young!`
 	prompt
 
 _Route11Youngster4AfterBattleText::
-	text "I better go find"
-	line "stronger ones!"
+	text "mi o alasa e monsuta pi wawa mute." ; `I better go find`
+	;line "" ; `stronger ones!`
 	done
 
 _Route11DiglettsCaveSignText::
-	text "DIGLETT's CAVE"
+	text "nena pi soweli len ma" ; `DIGLETT's CAVE`
 	done

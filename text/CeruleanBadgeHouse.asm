@@ -1,68 +1,68 @@
 _CeruleanBadgeHouseMiddleAgedManText::
-	text "#MON BADGEs"
-	line "are owned only by"
-	cont "skilled trainers."
+	text "jan lawa pi monsuta poki la" ; `#MON BADGEs`
+	line "jan wawa taso li jo e sitelen wawa." ; `are owned only by`
+	;cont "" ; `skilled trainers.`
 
-	para "I see you have"
-	line "at least one."
+	para "mi lukin e ni:" ; `I see you have`
+	line "sina jo e sitelen wawa wan anu mute." ; `at least one.`
 
-	para "Those BADGEs have"
-	line "amazing secrets!"
+	para "mi sona mute e sona pi sitelen wawa ni." ; `Those BADGEs have`
+	;line "" ; `amazing secrets!`
 	prompt
 
 _CeruleanBadgeHouseMiddleAgedManWhichBadgeText::
-	text "Now then..."
+	text "ni la" ; `Now then...`
 
-	para "Which of the 8"
-	line "BADGEs should I"
-	cont "describe?"
+	para "sina wile kute e sona" ; `Which of the 8`
+	line "pi sitelen wawa seme." ; `BADGEs should I`
+	;cont "" ; `describe?`
 	done
 
 _CeruleanBadgeHouseMiddleAgedManVisitAnyTimeText::
-	text "Come visit me any-"
-	line "time you wish."
+	text "o kama sin lon tenpo wile." ; `Come visit me any-`
+	;line "" ; `time you wish.`
 	done
 
 _CeruleanBadgeHouseBoulderBadgeText::
-	text "The ATTACK of all"
-	line "#MON increases"
-	cont "a little bit."
+	text "nanpa ken utala pi monsuta ale sina li kama suli." ; `The ATTACK of all`
+	;line "" ; `#MON increases`
+	;cont "" ; `a little bit.`
 
-	para "It also lets you"
-	line "use FLASH any-"
-	cont "time you desire."
+	para "kin la utala ala la sina ken kepeken pali" ; `It also lets you`
+	line "te pana e suno tawa lukin to." ; `use FLASH any-`
+	;cont "" ; `time you desire.`
 	prompt
 
 _CeruleanBadgeHouseCascadeBadgeText::
-	text "#MON up to L30"
-	line "will obey you."
+	text "monsuta anpa supa pi wawa nanpa 30" ; `#MON up to L30`
+	line "li kute e sina." ; `will obey you.`
 
-	para "Any higher, they"
-	line "become unruly!"
+	para "monsuta sewi nanpa ni li ken kute ala." ; `Any higher, they`
+	;line "" ; `become unruly!`
 
-	para "It also lets you"
-	line "use CUT outside"
-	cont "of battle."
+	para "kin la utala ala la sina ken kepeken pali" ; `It also lets you`
+	line "te kipisi e kasi suli to." ; `use CUT outside`
+	;cont "" ; `of battle.`
 	prompt
 
 _CeruleanBadgeHouseThunderBadgeText::
-	text "The SPEED of all"
-	line "#MON increases"
-	cont "a little bit."
+	text "nanpa ken tawa pi monsuta ale sina li kama suli." ; `The SPEED of all`
+	;line "" ; `#MON increases`
+	;cont "" ; `a little bit.`
 
-	para "It also lets you"
-	line "use FLY outside"
-	cont "of battle."
+	para "kin la utala la sina ken kepeken pali" ; `It also lets you`
+	line "te tawa sewi sama waso to." ; `use FLY outside`
+	;cont "" ; `of battle.`
 	prompt
 
 _CeruleanBadgeHouseRainbowBadgeText::
-	text "#MON up to L50"
-	line "will obey you."
+	text "monsuta anpa supa pi wawa nanpa 50" ; `#MON up to L50`
+	line "li kute e sina." ; `will obey you.`
 
-	para "Any higher, they"
-	line "become unruly!"
+	para "monsuta sewi nanpa ni li ken kute ala." ; `Any higher, they`
+	;line "" ; `become unruly!`
 
-	para "It also lets you"
-	line "use STRENGTH out-"
-	cont "side of battle."
+	para "kin la utala la sina ken kepeken pali" ; `It also lets you`
+	line "te wawa sijelo pi tawa kiwen to." ; `use STRENGTH out-`
+	;cont "" ; `side of battle.`
 	prompt

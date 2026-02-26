@@ -1,5 +1,5 @@
 _UndergroundPathRoute6GirlText::
-	text "People often lose"
-	line "things in that"
-	cont "UNDERGROUND PATH."
+	text "tenpo suli la jan li weka e ijo mute" ; `People often lose`
+	line "lon nasin anpa ma ni." ; `things in that`
+	;cont "" ; `UNDERGROUND PATH.`
 	done

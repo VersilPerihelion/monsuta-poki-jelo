@@ -29,6 +29,7 @@ newcharmap base
 	charmap "#",         $54 ; "POKé"
 	charmap "<CONT>",    $55
 	charmap "<……>",      $56 ; "……"
+	charmap "<JAGOLD>",  $56 ; "……"
 	charmap "<DONE>",    $57
 	charmap "<PROMPT>",  $58
 	charmap "<TARGET>",  $59
@@ -69,8 +70,8 @@ newcharmap base
 
 	charmap "<to>",      $70 ; narrow "to"
 
-	charmap "<ID>",      $73
-	charmap "№",         $74
+	charmap "<ID>",      $74 ; VPH: swapped $73 and $74
+	charmap "№",         $73 ; VPH: to render both dex number and trainer id on status correctly
 
 ; Actual characters (from other graphics files)
 
@@ -98,8 +99,8 @@ newcharmap base
 	charmap ")",         $46 ; cartouche close
 	charmap ":",         $48 ; SP colon
 	charmap ";",         $48 ; SP colon
-	charmap "[",         $45 ; cartouche open
-	charmap "]",         $46 ; cartouche close
+	sitelen_pona "[",         $45 ; cartouche open
+	sitelen_pona "]",         $46 ; cartouche close
 
 	charmap "'",         $a8 ; lili
 	charmap "<PK>",      $09 ; monsuta
@@ -166,36 +167,36 @@ newcharmap english, base
 ; 3. Then, remove the `;` at the far left to activate the line.
 
 ; Row #0 (counting from 0)
-	; sitelen_pona   "RESERVED", $00 ; \\\ ; Don't use this one!
-	sitelen_pona          "uta", $01
-	sitelen_pona        "utala", $02
-	sitelen_pona         "walo", $03
-	sitelen_pona          "wan", $04
-	sitelen_pona         "waso", $05
-	sitelen_pona         "wawa", $06
-	sitelen_pona         "weka", $07
-	sitelen_pona         "wile", $08
-	sitelen_pona      "monsuta", $09
-	sitelen_pona            "n", $0a
-	; sitelen_pona       "____", $0a ; You can use these ones!
-	; sitelen_pona       "____", $0a ; Remove the `;` at the far left to activate.
-	; sitelen_pona       "____", $0a
-	; sitelen_pona       "____", $0a
-	; sitelen_pona       "____", $0a
+	; sitelen_pona            "RESERVED", $00 ; \\\ ; Don't use this one!
+	sitelen_pona                   "uta", $01
+	sitelen_pona                 "utala", $02
+	sitelen_pona                  "walo", $03
+	sitelen_pona                   "wan", $04
+	sitelen_pona                  "waso", $05
+	sitelen_pona                  "wawa", $06
+	sitelen_pona                  "weka", $07
+	sitelen_pona                  "wile", $08
+	sitelen_pona               "monsuta", $09
+	sitelen_pona                     "n", $0a
+	; sitelen_pona      "_____", $0b
+	; sitelen_pona      "_____", $0c
+	; sitelen_pona      "_____", $0d
+	; sitelen_pona      "_____", $0e
+	; sitelen_pona      "_____", $0f
 
 ; Row #1
-	; sitelen_pona       "____", $10
-	; sitelen_pona       "____", $11
-	; sitelen_pona       "____", $12
-	; sitelen_pona       "____", $13
-	; sitelen_pona       "____", $14
-	; sitelen_pona       "____", $15
-	; sitelen_pona       "____", $16
-	; sitelen_pona       "____", $17
-	; sitelen_pona       "____", $18
-	; sitelen_pona       "____", $19
-	; sitelen_pona       "____", $1a
-	; sitelen_pona       "____", $1b
+	; sitelen pona      "_____", $10
+	sitelen_pona                "jasima", $11
+	sitelen_pona       "kijetesantakalu", $12
+	sitelen_pona                   "kin", $13
+	sitelen_pona                "kipisi", $14
+	sitelen_pona                "lanpan", $15
+	sitelen_pona                  "leko", $16
+	sitelen_pona                "majuna", $17
+	sitelen_pona              "misikeke", $18
+	sitelen_pona                "namako", $19
+	sitelen_pona                  "pika", $1a
+	sitelen_pona                  "soko", $1b
 	; sitelen_pona       "____", $1c
 	; sitelen_pona       "____", $1d
 	; sitelen_pona       "____", $1e

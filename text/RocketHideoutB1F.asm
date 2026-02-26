@@ -1,74 +1,74 @@
 _RocketHideoutB1FRocket5EndBattleText::
-	text "Why...?@"
+	text "tan seme<JAGOLD>@" ; `Why...?@`
 	text_end
 
 _RocketHideoutB1FRocket1BattleText::
-	text "Who are you? How"
-	line "did you get here?"
+	text "sina seme." ; `Who are you? How`
+	line "sina kama tan seme." ; `did you get here?`
 	done
 
 _RocketHideoutB1FRocket1EndBattleText::
-	text "Oww!"
-	line "Beaten!"
+	text "a." ; `Oww!`
+	line "pakala a." ; `Beaten!`
 	prompt
 
 _RocketHideoutB1FRocket1AfterBattleText::
-	text "Are you dissing"
-	line "TEAM ROCKET?"
+	text "sina toki ike e kulupu <ROCKET> anu seme." ; `Are you dissing`
+	;line "" ; `TEAM ROCKET?`
 	done
 
 _RocketHideoutB1FRocket2BattleText::
-	text "You broke into"
-	line "our operation?"
+	text "sina kama pini e pali mi anu seme." ; `You broke into`
+	;line "" ; `our operation?`
 	done
 
 _RocketHideoutB1FRocket2EndBattleText::
-	text "Burnt!"
+	text "seli ike a." ; `Burnt!`
 	prompt
 
 _RocketHideoutB1FRocket2AfterBattleText::
-	text "You're not going"
-	line "to get away with"
-	cont "this, brat!"
+	text "sina ken ala weka pona tan ni ale a." ; `You're not going`
+	;line "" ; `to get away with`
+	;cont "" ; `this, brat!`
 	done
 
 _RocketHideoutB1FRocket3BattleText::
-	text "Intruder alert!"
+	text "o kepeken ilo kalama a. jan ike lon tomo a." ; `Intruder alert!`
 	done
 
 _RocketHideoutB1FRocket3EndBattleText::
-	text "I"
-	line "can't do it!"
+	text "mi ken ala awen." ; `I`
+	;line "" ; `can't do it!`
 	prompt
 
 _RocketHideoutB1FRocket3AfterBattleText::
-	text "SILPH SCOPE?"
-	line "I don't know"
-	cont "where it is!"
+	text "ilo lukin pi kon len li lon seme." ; `SILPH SCOPE?`
+	line "mi sona ala." ; `I don't know`
+	;cont "" ; `where it is!`
 	done
 
 _RocketHideoutB1FRocket4BattleText::
-	text "Why did you come"
-	line "here?"
+	text "sina lon ni tan seme." ; `Why did you come`
+	;line "" ; `here?`
 	done
 
 _RocketHideoutB1FRocket4EndBattleText::
-	text "This"
-	line "won't do!"
+	text "ni li pona ala." ; `This`
+	;line "" ; `won't do!`
 	prompt
 
 _RocketHideoutB1FRocket4AfterBattleText::
-	text "OK, I'll talk!"
-	line "Take the elevator"
-	cont "to see my BOSS!"
+	text "pona a. mi toki." ; `OK, I'll talk!`
+	line "o kepeken tomo pi tawa sewi" ; `Take the elevator`
+	cont "o kama lukin e jan lawa pi kulupu mi." ; `to see my BOSS!`
 	done
 
 _RocketHideoutB1FRocket5BattleText::
-	text "Are you lost, you"
-	line "little rat?"
+	text "pipi ike o." ; `Are you lost, you`
+	line "sina sona ala sona e lon sina." ; `little rat?`
 	done
 
 _RocketHideoutB1FRocket5AfterBattleText::
-	text "Uh-oh, that fight"
-	line "opened the door!"
+	text "pakala." ; `Uh-oh, that fight`
+	line "utala ni li open e lupa." ; `opened the door!`
 	done

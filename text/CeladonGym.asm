@@ -1,220 +1,220 @@
 _CeladonGymErikaPreBattleText::
-	text "Hello. Lovely"
-	line "weather isn't it?"
-	cont "It's so pleasant."
+	text "a toki." ; `Hello. Lovely`
+	line "kon li seli pona anu seme." ; `weather isn't it?`
+	;cont "" ; `It's so pleasant.`
 
-	para "...Oh dear..."
-	line "I must have dozed"
-	cont "off. Welcome."
+	para "nnn ike a." ; `...Oh dear...`
+	line "mi lape anu seme." ; `I must have dozed`
+	cont "o kama pona." ; `off. Welcome.`
 
-	para "My name is ERIKA."
-	line "I am the LEADER"
-	cont "of CELADON GYM."
+	para "mi jan [en lipu.kasi.]." ; `My name is ERIKA.`
+	line "mi jan lawa pi tomo utala ni." ; `I am the LEADER`
+	;cont "" ; `of CELADON GYM.`
 
-	para "I teach the art of"
-	line "flower arranging."
-	cont "My #MON are of"
-	cont "the grass-type."
+	para "mi pana sona e nasin pi kasi kule." ; `I teach the art of`
+	line "monsuta ale mi li pi kule kasi." ; `flower arranging.`
+	;cont "" ; `My #MON are of`
+	;cont "" ; `the grass-type.`
 
-	para "Oh, I'm sorry, I"
-	line "had no idea that"
-	cont "you wished to"
-	cont "challenge me."
+	para "a mi ike." ; `Oh, I'm sorry, I`
+	line "sina wile utala e mi." ; `had no idea that`
+	cont "mi sona ala e ni." ; `you wished to`
+	;cont "" ; `challenge me.`
 
-	para "Very well, but I"
-	line "shall not lose."
+	para "pona." ; `Very well, but I`
+	line "taso mi anpa ala." ; `shall not lose.`
 	done
 
 _CeladonGymErikaReceivedRainbowBadgeText::
-	text "Oh!"
-	line "I concede defeat."
+	text "a." ; `Oh!`
+	line "ni li pini." ; `I concede defeat.`
 
-	para "You are remarkably"
-	line "strong."
+	para "sina wawa suli a." ; `You are remarkably`
+	;line "" ; `strong.`
 
-	para "I must confer you"
-	line "the RAINBOWBADGE."
+	para "mi pana e te sitelen wawa pi kule mute to tawa sina." ; `I must confer you`
+	;line "" ; `the RAINBOWBADGE.`
 	prompt
 
 _CeladonGymErikaPostBattleAdviceText::
-	text "You are cataloging"
-	line "#MON? I must"
-	cont "say I'm impressed."
+	text "sina kama sona e monsuta ale anu seme." ; `You are cataloging`
+	line "ni li suli mute tawa mi." ; `#MON? I must`
+	;cont "" ; `say I'm impressed.`
 
-	para "I would never"
-	line "collect #MON"
-	cont "if they were"
-	cont "unattractive."
+	para "monsuta li pona ala lukin la" ; `I would never`
+	line "mi ken ala kama jo e ona." ; `collect #MON`
+	;cont "" ; `if they were`
+	;cont "" ; `unattractive.`
 	done
 
 _CeladonGymRainbowBadgeInfoText::
-	text "The RAINBOWBADGE"
-	line "will make #MON"
-	cont "up to L50 obey."
+	text "sina jo e te sitelen wawa pi kule mute to la" ; `The RAINBOWBADGE`
+	line "monsuta anpa supa pi wawa nanpa 50 li kute e sina." ; `will make #MON`
+	cont "" ; `up to L50 obey.`
 
-	para "It also allows"
-	line "#MON to use"
-	cont "STRENGTH in and"
-	cont "out of battle."
+	para "kin la sina ken kepeken pali" ; `It also allows`
+	line "te wawa sijelo pi tawa kiwen to." ; `#MON to use`
+	cont "ni la sina ken tawa e kiwen suli" ; `STRENGTH in and`
+	cont "li ken open e nasin sina." ; `out of battle.`
 
-	para "Please also take"
-	line "this with you."
+	para "o kama jo e ijo ni kin." ; `Please also take`
+	;line "" ; `this with you.`
 	done
 
 _CeladonGymReceivedTM21Text::
-	text "<PLAYER> received"
-	line "@"
+	text "<PLAYER> li kama jo e" ; `<PLAYER> received`
+	line "te@" ; `@`
 	text_ram wStringBuffer
-	text "!@"
+	text "to a.@" ; `!@`
 	text_end
 
 _TM21ExplanationText::
 	text_start
 
-	para "TM21 contains"
-	line "MEGA DRAIN."
+	para "ilo sike sona 21 li" ; `TM21 contains`
+	line "te lanpan e wawa pilin to." ; `MEGA DRAIN.`
 
-	para "Half the damage"
-	line "it inflicts is"
-	cont "drained to heal"
-	cont "your #MON!"
+	para "monsuta sina li tu e wawa pilin lanpan" ; `Half the damage`
+	line "li pona e sijelo ona kepeken kipisi wan ni." ; `it inflicts is`
+	;cont "" ; `drained to heal`
+	;cont "" ; `your #MON!`
 	done
 
 _CeladonGymTM21NoRoomText::
-	text "You should make"
-	line "room for this."
+	text "sina wile ala e poki ijo sina" ; `You should make`
+	line "tawa kama jo e ijo ni." ; `room for this.`
 	done
 
 _CeladonGymBattleText2::
-	text "Hey!"
+	text "sina o." ; `Hey!`
 
-	para "You are not"
-	line "allowed in here!"
+	para "sina ken ala kama lon insa ni." ; `You are not`
+	;line "" ; `allowed in here!`
 	done
 
 _CeladonGymEndBattleText2::
-	text "You're"
-	line "too rough!"
+	text "sina ike a." ; `You're`
+	;line "" ; `too rough!`
 	prompt
 
 _CeladonGymAfterBattleText2::
-	text "Bleaah!"
-	line "I hope ERIKA"
-	cont "wipes you out!"
+	text "nnnn." ; `Bleaah!`
+	line "mi wile e ni:" ; `I hope ERIKA`
+	cont "jan [en lipu.kasi.] li pakala e sina." ; `wipes you out!`
 	done
 
 _CeladonGymBattleText3::
-	text "I was getting"
-	line "bored."
+	text "mi pilin musi ala." ; `I was getting`
+	;line "" ; `bored.`
 	done
 
 _CeladonGymEndBattleText3::
-	text "My"
-	line "makeup!"
+	text "kule sinpin mi li kama ike a." ; `My`
+	;line "" ; `makeup!`
 	prompt
 
 _CeladonGymAfterBattleText3::
-	text "Grass-type #MON"
-	line "are tough against"
-	cont "the water-type!"
+	text "monsuta pi kule kasi li wawa mute tawa kule telo." ; `Grass-type #MON`
+	;line "" ; `are tough against`
+	;cont "" ; `the water-type!`
 
-	para "They also have an"
-	line "edge on rock and"
-	cont "ground #MON!"
+	para "kule ma en kule kiwen li sama kin." ; `They also have an`
+	line "kule kasi li wawa tawa kule ni." ; `edge on rock and`
+	;cont "" ; `ground #MON!`
 	done
 
 _CeladonGymBattleText4::
-	text "Aren't you the"
-	line "peeping Tom?"
+	text "sina jan ike pi lukin insa anu seme." ; `Aren't you the`
+	;line "" ; `peeping Tom?`
 	done
 
 _CeladonGymEndBattleText4::
-	text "I'm"
-	line "in shock!"
+	text "ni li seme." ; `I'm`
+	;line "" ; `in shock!`
 	prompt
 
 _CeladonGymAfterBattleText4::
-	text "Oh, you weren't"
-	line "peeping? We get a"
-	cont "lot of gawkers!"
+	text "sina jan ike ni ala anu seme." ; `Oh, you weren't`
+	line "pona a. jan sama mute li kama." ; `peeping? We get a`
+	;cont "" ; `lot of gawkers!`
 	done
 
 _CeladonGymBattleText5::
-	text "Look at my grass"
-	line "#MON!"
+	text "o lukin e monsuta kasi mi." ; `Look at my grass`
+	;line "" ; `#MON!`
 
-	para "They're so easy"
-	line "to raise!"
+	para "mi kepeken wawa lili tawa mama ona." ; `They're so easy`
+	;line "" ; `to raise!`
 	done
 
 _CeladonGymEndBattleText5::
-	text "No!"
+	text "ala a." ; `No!`
 	prompt
 
 _CeladonGymAfterBattleText5::
-	text "We only use grass-"
-	line "type #MON at"
-	cont "our GYM!"
+	text "mi kepeken monsuta pi kule kasi taso" ; `We only use grass-`
+	line "lon tomo utala ni." ; `type #MON at`
+	;cont "" ; `our GYM!`
 
-	para "We also use them"
-	line "for making flower"
-	cont "arrangements!"
+	para "kin la mi pali e sitelen musi kasi." ; `We also use them`
+	line "monsuta mi li pona e pali ni." ; `for making flower`
+	;cont "" ; `arrangements!`
 	done
 
 _CeladonGymBattleText6::
-	text "Don't bring any"
-	line "bugs or fire"
-	cont "#MON in here!"
+	text "o pana ala e monsuta pipi e monsuta seli a." ; `Don't bring any`
+	;line "" ; `bugs or fire`
+	;cont "" ; `#MON in here!`
 	done
 
 _CeladonGymEndBattleText6::
-	text "Oh!"
-	line "You!"
+	text "sina o." ; `Oh!`
+	;line "" ; `You!`
 	prompt
 
 _CeladonGymAfterBattleText6::
-	text "Our LEADER, ERIKA,"
-	line "might be quiet,"
-	cont "but she's also"
-	cont "very skilled!"
+	text "jan [en lipu.kasi.] li jan lawa utala mi." ; `Our LEADER, ERIKA,`
+	line "ona li toki lili taso ona li sona mute." ; `might be quiet,`
+	;cont "" ; `but she's also`
+	;cont "" ; `very skilled!`
 	done
 
 _CeladonGymBattleText7::
-	text "Pleased to meet"
-	line "you. My hobby is"
-	cont "#MON training."
+	text "o kama pona." ; `Pleased to meet`
+	line "mi mama e monsuta mi. ni li pona mute tawa mi." ; `you. My hobby is`
+	cont "sina seme." ; `#MON training.`
 	done
 
 _CeladonGymEndBattleText7::
-	text "Oh!"
-	line "Splendid!"
+	text "a." ; `Oh!`
+	line "suli mute." ; `Splendid!`
 	prompt
 
 _CeladonGymAfterBattleText7::
-	text "I have a blind"
-	line "date coming up."
-	cont "I have to learn"
-	cont "to be polite."
+	text "mi kama sona e jan sin lon tenpo kama." ; `I have a blind`
+	line "ona li ken kama jan olin mi." ; `date coming up.`
+	cont "mi wile kama pona mute tawa jan ante." ; `I have to learn`
+	;cont "" ; `to be polite.`
 	done
 
 _CeladonGymBattleText8::
-	text "Welcome to"
-	line "CELADON GYM!"
+	text "o kama pona." ; `Welcome to`
+	line "sina lon tomo utala [kasi:mi:la.]." ; `CELADON GYM!`
 
-	para "You better not"
-	line "underestimate"
-	cont "girl power!"
+	para "o awen sona e wawa pi meli ale lon ni." ; `You better not`
+	;line "" ; `underestimate`
+	;cont "" ; `girl power!`
 	done
 
 _CeladonGymEndBattleText8::
-	text "Oh!"
-	line "Beaten!"
+	text "a. mi anpa." ; `Oh!`
+	;line "" ; `Beaten!`
 	prompt
 
 _CeladonGymAfterBattleText8::
-	text "I didn't bring my"
-	line "best #MON!"
+	text "monsuta nanpa wan mi li lon ala poka mi." ; `I didn't bring my`
+	;line "" ; `best #MON!`
 
-	para "Wait 'til next"
-	line "time!"
+	para "tenpo kama la sina en mi li ken utala suli." ; `Wait 'til next`
+	;line "" ; `time!`
 	done

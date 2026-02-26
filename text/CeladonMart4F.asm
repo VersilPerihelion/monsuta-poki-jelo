@@ -1,30 +1,31 @@
 _CeladonMart4FSuperNerdText::
-	text "I'm getting a"
-	line "gift for COPYCAT"
-	cont "in CERULEAN CITY."
+	text "mi esun e ijo pana" ; `I'm getting a`
+	line "tawa jan [sama:n taso.]" ; `gift for COPYCAT`
+	cont "lon ma tomo [jelo:sitelen.toki.]." ; `in CERULEAN CITY.`
 
-	para "It's got to be a"
-	line "# DOLL. They"
-	cont "are trendy!"
+	para "ijo musi soweli li pona taso." ; `It's got to be a`
+	line "jan ale li wile e ona." ; `# DOLL. They`
+	;cont "" ; `are trendy!`
 	done
 
 _CeladonMart4FYoungsterText::
-	text "I heard something"
-	line "useful."
+	text "mi kute e sona lili pona." ; `I heard something`
+	;line "" ; `useful.`
 
-	para "You can run from"
-	line "wild #MON by"
-	cont "distracting them"
-	cont "with a # DOLL!"
+	para "sina pana e ijo musi soweli tawa monsuta la" ; `You can run from`
+	line "ona li lukin ala e sina." ; `wild #MON by`
+	cont "ni la sina ken weka e utala." ; `distracting them`
+	;cont "" ; `with a # DOLL!`
 	done
 
 _CeladonMart4FCurrentFloorSignText::
-	text "Express yourself"
-	line "with gifts!"
+	text "o alasa e ijo pana nanpa wan." ; `Express yourself`
+	;line "" ; `with gifts!`
 
-	para "4F: WISEMAN GIFTS"
+	para "supa tomo 5" ; `4F: WISEMAN GIFTS`
+	line "ijo pana pi jan sona"
 
-	para "Evolution Special!"
-	line "Element STONEs on"
-	cont "sale now!"
+	para "ijo esun namako li lon" ; `Evolution Special!`
+	line "o kama jo e kiwen pi ante suli" ; `Element STONEs on`
+	;cont "" ; `sale now!`
 	done

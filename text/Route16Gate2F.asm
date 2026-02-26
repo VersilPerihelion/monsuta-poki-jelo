@@ -1,26 +1,26 @@
 _Route16Gate2FLittleBoyText::
-	text "I'm going for a"
-	line "ride with my girl"
-	cont "friend!"
+	text "mi tawa kepeken ilo tawa lon poka meli pona mi." ; `I'm going for a`
+	;line "" ; `ride with my girl`
+	;cont "" ; `friend!`
 	done
 
 _Route16Gate2FLittleGirlText::
-	text "We're going"
-	line "riding together!"
+	text "ona en mi li wile kepeken ilo tawa." ; `We're going`
+	;line "" ; `riding together!`
 	done
 
 _Route16Gate2FLeftBinocularsText::
-	text "Looked into the"
-	line "binoculars."
+	text "sina kepeken ilo lukin pi ma weka." ; `Looked into the`
+	;line "" ; `binoculars.`
 
-	para "It's CELADON DEPT."
-	line "STORE!"
+	para "sina lukin e tomo esun suli" ; `It's CELADON DEPT.`
+	line "pi ma tomo [kasi:mi:la.]." ; `STORE!`
 	done
 
 _Route16Gate2FRightBinocularsText::
-	text "Looked into the"
-	line "binoculars."
+	text "sina kepeken ilo lukin pi ma weka." ; `Looked into the`
+	;line "" ; `binoculars.`
 
-	para "There's a long"
-	line "path over water!"
+	para "sina lukin e nasin suli lon sewi telo." ; `There's a long`
+	;line "" ; `path over water!`
 	done

@@ -1,21 +1,21 @@
 _CeladonHotelGrannyText::
-	text "#MON? No, this"
-	line "is a hotel for"
-	cont "people."
+	text "monsuta poki anu seme." ; `#MON? No, this`
+	line "ala. tomo lape ni li tawa jan." ; `is a hotel for`
+	;cont "" ; `people.`
 
-	para "We're full up."
+	para "ona li ken ala jo e jan mute lon tenpo ni." ; `We're full up.`
 	done
 
 _CeladonHotelBeautyText::
-	text "I'm on vacation"
-	line "with my brother"
-	cont "and boy friend."
+	text "mi lon tenpo pi pali ala." ; `I'm on vacation`
+	line "mi kama lon poka jan poka mi" ; `with my brother`
+	cont "lon poka mije olin mi." ; `and boy friend.`
 
-	para "CELADON is such a"
-	line "pretty city!"
+	para "ma tomo [kasi:mi:la.] li pona mute lukin a." ; `CELADON is such a`
+	;line "" ; `pretty city!`
 	done
 
 _CeladonHotelSuperNerdText::
-	text "Why did she bring"
-	line "her brother?"
+	text "tan seme<JAGOLD>" ; `Why did she bring`
+	line "jan poka ona li lon ni tan seme<JAGOLD>" ; `her brother?`
 	done

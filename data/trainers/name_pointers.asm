@@ -52,24 +52,24 @@ TrainerNamePointers:
 	dw wTrainerName
 	assert_table_length NUM_TRAINERS
 
-.YoungsterName:     db "YOUNGSTER@"
-.BugCatcherName:    db "BUG CATCHER@"
-.LassName:          db "LASS@"
-.JrTrainerMName:    db "JR.TRAINER♂@"
-.JrTrainerFName:    db "JR.TRAINER♀@"
-.PokemaniacName:    db "POKéMANIAC@"
-.SuperNerdName:     db "SUPER NERD@"
-.BurglarName:       db "BURGLAR@"
-.EngineerName:      db "ENGINEER@"
-.UnusedJugglerName: db "JUGGLER@"
-.SwimmerName:       db "SWIMMER@"
-.BeautyName:        db "BEAUTY@"
-.RockerName:        db "ROCKER@"
-.JugglerName:       db "JUGGLER@"
-.BlackbeltName:     db "BLACKBELT@"
-.ProfOakName:       db "PROF.OAK@"
-.ChiefName:         db "CHIEF@"
-.ScientistName:     db "SCIENTIST@"
-.RocketName:        db "ROCKET@"
-.CooltrainerMName:  db "COOLTRAINER♂@"
-.CooltrainerFName:  db "COOLTRAINER♀@"
+.YoungsterName:     db "mije lili@" ; YOUNGSTER
+.BugCatcherName:    db "jan pi alasa pipi@" ; BUG CATCHER
+.LassName:          db "meli lili@" ; LASS
+.JrTrainerMName:    db "mije kama sona@" ; JR.TRAINER♂
+.JrTrainerFName:    db "meli kama sona@" ; JR.TRAINER♀
+.PokemaniacName:    db "jan nasa@" ; POKéMANIAC
+.SuperNerdName:     db "jan sona mute@" ; SUPER NERD
+.BurglarName:       db "jan lanpan@" ; BURGLAR
+.EngineerName:      db "jan pali ilo@" ; ENGINEER
+.UnusedJugglerName: db "jan musi kepeken sike@" ; JUGGLER
+.SwimmerName:       db "jan sama kala@" ; SWIMMER
+.BeautyName:        db "meli pi pona lukin@" ; BEAUTY
+.RockerName:        db "jan pi kalama kiwen@" ; ROCKER
+.JugglerName:       db "jan musi kepeken sike@" ; JUGGLER
+.BlackbeltName:     db "jan pi utala luka@" ; BLACKBELT
+.ProfOakName:       db "jan sona [o kili.toki.]@" ; PROF.OAK
+.ChiefName:         db "kijetesantkalu@" ; CHIEF
+.ScientistName:     db "jan sona@" ; SCIENTIST
+.RocketName:        db "jan pi kulupu ike [lawa open ken.tomo.]@" ; ROCKET
+.CooltrainerMName:  db "mije pi utala musi@" ; COOLTRAINER♂
+.CooltrainerFName:  db "meli pi utala musi@" ; COOLTRAINER♀

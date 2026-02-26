@@ -1,30 +1,30 @@
 _FuchsiaCityYoungster1Text::
-	text "Did you try the"
-	line "SAFARI GAME? Some"
-	cont "#MON can only"
-	cont "be caught there."
+	text "sina sona ala sona e ma pi alasa musi." ; `Did you try the`
+	line "monsuta mute pi ma ni li lon ma ni taso." ; `SAFARI GAME? Some`
+	;cont "" ; `#MON can only`
+	;cont "" ; `be caught there.`
 	done
 
 _FuchsiaCityGamblerText::
-	text "SAFARI ZONE has a"
-	line "zoo in front of"
-	cont "the entrance."
+	text "tomo soweli li lon sinpin ma pi alasa musi." ; `SAFARI ZONE has a`
+	line "sina ken lukin e monsuta nasa mute." ; `zoo in front of`
+	;cont "" ; `the entrance.`
 
-	para "Out back is the"
-	line "SAFARI GAME for"
-	cont "catching #MON."
+	;para "" ; `Out back is the`
+	;line "" ; `SAFARI GAME for`
+	;cont "" ; `catching #MON.`
 	done
 
 _FuchsiaCityErikText::
-	text "ERIK: Where's"
-	line "SARA? I said I'd"
-	cont "meet her here."
+	text "jan [e lipu.]: jan [sama.lape.] li lon seme." ; `ERIK: Where's`
+	line "mi toki e ni tawa ona:" ; `SARA? I said I'd`
+	cont "mi awen lon ni." ; `meet her here.`
 	done
 
 _FuchsiaCityYoungster2Text::
-	text "That item ball in"
-	line "there is really a"
-	cont "#MON."
+	text "sina lukin ala lukin e sike poki lon poka ni." ; `That item ball in`
+	line "ona li sike poki ala. ona li monsuta a." ; `there is really a`
+	;cont "" ; `#MON.`
 	done
 
 _FuchsiaCityPokemonText::
@@ -32,86 +32,86 @@ _FuchsiaCityPokemonText::
 	done
 
 _FuchsiaCitySignText::
-	text "FUCHSIA CITY"
-	line "Behold! It's"
-	cont "Passion Pink!"
+	text "ma tomo [kute.walo.loje.n pona.]" ; `FUCHSIA CITY`
+	line "o lukin e loje walo ona pi pilin suli" ; `Behold! It's`
+	;cont "" ; `Passion Pink!`
 	done
 
 _FuchsiaCitySafariGameSignText::
-	text "SAFARI GAME"
-	line "#MON-U-CATCH!"
+	text "te ma pi alasa musi to" ; `SAFARI GAME`
+	line "o alasa mute" ; `#MON-U-CATCH!`
 	done
 
 _FuchsiaCityWardensHomeSignText::
-	text "SAFARI ZONE"
-	line "WARDEN's HOME"
+	text "te ma pi alasa musi to" ; `SAFARI ZONE`
+	line "tomo pi jan lawa" ; `WARDEN's HOME`
 	done
 
 _FuchsiaCitySafariZoneSignText::
-	text "#MON PARADISE"
-	line "SAFARI ZONE"
+	text "ma pona suli pi monsuta poki" ; `#MON PARADISE`
+	line "te ma pi alasa musi to" ; `SAFARI ZONE`
 	done
 
 _FuchsiaCityGymSignText::
-	text "FUCHSIA CITY"
-	line "#MON GYM"
-	cont "LEADER: KOGA"
+	text "ma tomo [kute.walo.loje.n pona.]" ; `FUCHSIA CITY`
+	line "tomo utala pi monsuta poki" ; `#MON GYM`
+	cont "jan lawa utala: jan [ko:jaki.]" ; `LEADER: KOGA`
 
-	para "The Poisonous"
-	line "Ninja Master!"
+	para "jan sona pi jaki" ; `The Poisonous`
+	line "jan sona pi utala len" ; `Ninja Master!`
 	done
 
 _FuchsiaCityChanseySignText::
-	text "Name: CHANSEY"
+	text "nimi: soweli pi sike mama" ; `Name: CHANSEY`
 
-	para "Catching one is"
-	line "all up to chance."
+	para "sina wile e ken pona suli" ; `Catching one is`
+	line "tawa alasa ona." ; `all up to chance.`
 	prompt
 
 _FuchsiaCityVoltorbSignText::
-	text "Name: VOLTORB"
+	text "nimi: sike wawa" ; `Name: VOLTORB`
 
-	para "The very image of"
-	line "a # BALL."
+	para "lukin sama sike poki." ; `The very image of`
+	;line "" ; `a # BALL.`
 	prompt
 
 _FuchsiaCityKangaskhanSignText::
-	text "Name: KANGASKHAN"
+	text "nimi: soweli suli mama" ; `Name: KANGASKHAN`
 
-	para "A maternal #MON"
-	line "that raises its"
-	cont "young in a pouch"
-	cont "on its belly."
+	para "ona li mama e soweli lili ona" ; `A maternal #MON`
+	line "lon insa poki sijelo ona." ; `that raises its`
+	;cont "" ; `young in a pouch`
+	;cont "" ; `on its belly.`
 	prompt
 
 _FuchsiaCitySlowpokeSignText::
-	text "Name: SLOWPOKE"
+	text "nimi: soweli pi monsi moku" ; `Name: SLOWPOKE`
 
-	para "Friendly and very"
-	line "slow moving."
+	para "ona li pona tawa ale" ; `Friendly and very`
+	line "li tawa lili." ; `slow moving.`
 	prompt
 
 _FuchsiaCityLaprasSignText::
-	text "Name: LAPRAS"
+	text "nimi: akesi kala tawa" ; `Name: LAPRAS`
 
-	para "A.K.A. the king"
-	line "of the seas."
+	para "telo suli la ona li sama jan lawa." ; `A.K.A. the king`
+	;line "" ; `of the seas.`
 	prompt
 
 _FuchsiaCityFossilSignOmanyteText::
-	text "Name: OMANYTE"
+	text "nimi: kala majuna pi tomo sike" ; `Name: OMANYTE`
 
-	para "A #MON that"
-	line "was resurrected"
-	cont "from a fossil."
+	para "o toki sewi tawa ona." ; `A #MON that`
+	line "kama pi lawa ala." ; `was resurrected`
+	cont "open 9. open 9. open 9." ; `from a fossil.`
 	prompt
 
 _FuchsiaCityFossilSignKabutoText::
-	text "Name: KABUTO"
+	text "nimi: pipi kala majuna pi lawa kiwen" ; `Name: KABUTO`
 
-	para "A #MON that"
-	line "was resurrected"
-	cont "from a fossil."
+	para "ona li kama sin tan moli" ; `A #MON that`
+	line "tan kiwen majuna." ; `was resurrected`
+	;cont "" ; `from a fossil.`
 	prompt
 
 _FuchsiaCityFossilSignUndeterminedText::

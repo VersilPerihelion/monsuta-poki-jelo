@@ -1,24 +1,24 @@
 _CeruleanPokecenterSuperNerdText::
-	text "That BILL!"
+	text "jan [linja. nasin utala] la" ; `That BILL!`
 
-	para "I heard that"
-	line "he'll do whatever"
-	cont "it takes to get"
-	cont "rare #MON!"
+	para "mi kute e ni:" ; `I heard that`
+	line "ona li wile kama jo e monsuta pi pona suli la" ; `he'll do whatever`
+	cont "ona li pali e ijo ale." ; `it takes to get`
+	;cont "" ; `rare #MON!`
 	done
 
 _CeruleanPokecenterGentlemanText::
-	text "Have you heard"
-	line "about BILL?"
+	text "sina sona ala sona e jan [linja. nasin utala]." ; `Have you heard`
+	;line "" ; `about BILL?`
 
-	para "Everyone calls"
-	line "him a #MANIAC!"
+	para "jan ale la ona li nasa mute." ; `Everyone calls`
+	;line "" ; `him a #MANIAC!`
 
-	para "I think people"
-	line "are just jealous"
-	cont "of BILL, though."
+	para "mi pilin e ni:" ; `I think people`
+	line "jan li wile sama ona." ; `are just jealous`
+	;cont "" ; `of BILL, though.`
 
-	para "Who wouldn't want"
-	line "to boast about"
-	cont "their #MON?"
+	para "jan ale li wile toki pona e monsuta ona anu seme." ; `Who wouldn't want`
+	;line "" ; `to boast about`
+	;cont "" ; `their #MON?`
 	done

@@ -1,26 +1,26 @@
 _MrPsychicsHouseMrPsychicYouWantedThisText::
-	text "...Wait! Don't"
-	line "say a word!"
+	text "o awen a." ; `...Wait! Don't`
+	line "o toki a.a" ; `say a word!`
 
-	para "You wanted this!"
+	para "sina wile e ijo ni." ; `You wanted this!`
 	prompt
 
 _MrPsychicsHouseMrPsychicReceivedTM29Text::
-	text "<PLAYER> received"
-	line "@"
+	text "<PLAYER> li kama jo e" ; `<PLAYER> received`
+	line "te@" ; `@`
 	text_ram wStringBuffer
-	text "!@"
+	text "to a.@" ; `!@`
 	text_end
 
 _MrPsychicsHouseMrPsychicTM29ExplanationText::
-	text "TM29 is PSYCHIC!"
+	text "ilo sike sona 29 li te wawa lawa nasa to." ; `TM29 is PSYCHIC!`
 
-	para "It can lower the"
-	line "target's SPECIAL"
-	cont "abilities."
+	para "ona li lili e nanpa lawa pi monsuta ante." ; `It can lower the`
+	;line "" ; `target's SPECIAL`
+	;cont "" ; `abilities.`
 	done
 
 _MrPsychicsHouseMrPsychicTM29NoRoomText::
-	text "Where do you plan"
-	line "to put this?"
+	text "poki sina li ken ala kama jo e ni." ; `Where do you plan`
+	line "sina ken ala poki e ilo ni lon insa lawa sina." ; `to put this?`
 	done

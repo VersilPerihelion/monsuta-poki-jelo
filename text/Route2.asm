@@ -1,9 +1,9 @@
 _Route2SignText::
-	text "ROUTE 2"
-	line "VIRIDIAN CITY -"
-	cont "PEWTER CITY"
+	text "nasin nanpa 1" ; `ROUTE 2`
+	line "ma tomo [tawa.mani:laso:] - " ; `VIRIDIAN CITY -`
+	cont "- ma tomo [kama.palisa en sijelo.tawa.]" ; `PEWTER CITY`
 	done
 
 _Route2DiglettsCaveSignText::
-	text "DIGLETT's CAVE"
+	text "nena ma pi soweli len ma" ; `DIGLETT's CAVE`
 	done

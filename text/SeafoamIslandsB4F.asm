@@ -1,14 +1,14 @@
 _SeafoamIslandsB4FArticunoBattleText::
-	text "Gyaoo!@"
+	text "mu@" ; `Gyaoo!@`
 	text_end
 
 _SeafoamIslandsB4FBouldersSignText::
-	text "Boulders might"
-	line "change the flow"
-	cont "of water!"
+	text "kiwen suli li ken ante e tawa telo." ; `Boulders might`
+	;line "" ; `change the flow`
+	;cont "" ; `of water!`
 	done
 
 _SeafoamIslandsB4FDangerSignText::
-	text "DANGER"
-	line "Fast current!"
+	text "te ken pakala to" ; `DANGER`
+	line "tawa telo li suli li wawa" ; `Fast current!`
 	done

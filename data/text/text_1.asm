@@ -1,16 +1,16 @@
 _CardKeySuccessText1::
-	text "Bingo!@"
+	text "pona a@" ; `Bingo!@`
 	text_end
 
 _CardKeySuccessText2::
 	text_start
-	line "The CARD KEY"
-	cont "opened the door!"
+	line "te ilo lipu open to ni" ; `The CARD KEY`
+	cont "li open e lupa." ; `opened the door!`
 	done
 
 _CardKeyFailText::
-	text "Darn! It needs a"
-	line "CARD KEY!"
+	text "ike a" ; `Darn! It needs a`
+	line "ona li wile e te ilo lipu open to." ; `CARD KEY!`
 	done
 
 _TrainerNameText::
@@ -19,136 +19,137 @@ _TrainerNameText::
 	text_end
 
 _NoNibbleText::
-	text "Not even a nibble!"
+	text "pakala" ; `Not even a nibble!`
+	line "kala ala"
 	prompt
 
 _NothingHereText::
-	text "Looks like there's"
-	line "nothing here."
+	text "ijo ala li lon." ; `Looks like there's`
+	;line "" ; `nothing here.`
 	prompt
 
 _ItsABiteText::
-	text "Oh!"
-	line "It's a bite!"
+	text "a" ; `Oh!`
+	line "kala li lon a." ; `It's a bite!`
 	prompt
 
 _ExclamationText::
-	text "!"
+	text "a" ; `!`
 	done
 
 _GroundRoseText::
-	text "Ground rose up"
-	line "somewhere!"
+	text "ma li kama sewi" ; `Ground rose up` ; yes it's unused
+	line "lon ma ante." ; `somewhere!` ; but might as well translate it too lol
 	done
 
 _BoulderText::
-	text "This requires"
-	line "STRENGTH to move!"
+	text "sina wile tawa e ona la" ; `This requires`
+	line "sina wile kepeken te wawa sijelo pi tawa kiwen to." ; `STRENGTH to move!`
 	done
 
 _MartSignText::
-	text "All your item"
-	line "needs fulfilled!"
-	cont "#MON MART"
+	text "ilo ale pi wile sina." ; `All your item`
+	line "te tomo esun ilo pi monsuta poki to" ; `needs fulfilled!`
+	;cont "" ; `#MON MART`
 	done
 
 _PokeCenterSignText::
-	text "Heal Your #MON!"
-	line "#MON CENTER"
+	text "o pona e monsuta poki sina." ; `Heal Your #MON!`
+	line "te tomo misikeke pi monsuta poki to" ; `#MON CENTER`
 	done
 
 _FoundItemText::
-	text "<PLAYER> found"
-	line "@"
+	text "<PLAYER> li kama jo e" ; `<PLAYER> found`
+	line "te@"
 	text_ram wStringBuffer
-	text "!@"
+	text "to a@"
 	text_end
 
 _NoMoreRoomForItemText::
-	text "No more room for"
-	line "items!"
+	text "sina jo e ijo pi mute ike." ; `No more room for`
+	line "sina ken ala kama jo e ijo sin." ; `items!`
 	done
 
 _OaksAideHiText::
-	text "Hi! Remember me?"
-	line "I'm PROF.OAK's"
-	cont "AIDE!"
+	text "toki. sina awen ala awen sona e mi." ; `Hi! Remember me?`
+	line "mi jan pali pi jan sona [o kili.toki.]." ; `I'm PROF.OAK's`
+	;cont "" ; `AIDE!`
 
-	para "If you caught @"
+	para "sina kama jo e monsuta ante@" ; `If you caught @`
 	text_decimal hOaksAideRequirement, 1, 3
 	text_start
-	line "kinds of #MON,"
-	cont "I'm supposed to"
-	cont "give you an"
-	cont "@"
+	line "la mi wile pana e" ; `kinds of #MON,`
+	;cont "I'm supposed to"
+	;cont "give you an"
+	cont "te@" ; `@`
 	text_ram wOaksAideRewardItemName
-	text "!"
+	text "to tawa sina."
 
-	para "So, <PLAYER>! Have"
-	line "you caught at"
-	cont "least @"
+	para "<PLAYER> o." ; `So, <PLAYER>! Have`
+	line "sina kama ala kama jo monsuta ante@" ; `you caught at`
+	;cont "least @"
 	text_decimal hOaksAideRequirement, 1, 3
-	text " kinds of"
-	cont "#MON?"
+	text "anu mute." ; ` kinds of`
+	;cont "#MON?"
 	done
 
 _OaksAideUhOhText::
-	text "Let's see..."
-	line "Uh-oh! You have"
-	cont "caught only @"
+	text "mi o lukin<JAGOLD>" ; `Let's see...`
+	line "ike a. sina jo e monsuta ante@" ; `Uh-oh! You have`
+	;cont "" ; `caught only @`
 	text_decimal hOaksAideNumMonsOwned, 1, 3
 	text_start
-	cont "kinds of #MON!"
+	cont "taso lon ilo lipu sona sina." ; `kinds of #MON!`
 
-	para "You need @"
+	para "sina wile jo e monsuta ante@" ; `You need @`
 	text_decimal hOaksAideRequirement, 1, 3
-	text " kinds"
-	line "if you want the"
-	cont "@"
+	text "ni la mi pana e" ; ` kinds`
+	line "" ; `if you want the`
+	cont "te@"
 	text_ram wOaksAideRewardItemName
-	text "."
+	text "to tawa sina." ; `.`
 	done
 
 _OaksAideComeBackText::
-	text "Oh. I see."
+	text "a mi sona." ; `Oh. I see.`
 
-	para "When you get @"
+	para "sina kama jo e monsuta ante@" ; `When you get @`
 	text_decimal hOaksAideRequirement, 1, 3
 	text_start
-	line "kinds, come back"
-	cont "for @"
+	line "la o kama sin" ; `kinds, come back`
+	cont "tawa jo e@" ; `for @`
 	text_ram wOaksAideRewardItemName
 	text "."
 	done
 
 _OaksAideHereYouGoText::
-	text "Great! You have"
-	line "caught @"
+	text "pona a." ; `Great! You have`
+	line "sina jo e monsuta ante@" ; `caught @`
 	text_decimal hOaksAideNumMonsOwned, 1, 3
-	text " kinds "
-	cont "of #MON!"
-	cont "Congratulations!"
+	text "lon ilo lipu sona sina." ; ` kinds `
+	cont "sina pali pona." ; `of #MON!`
+	;cont "" ; `Congratulations!`
 
-	para "Here you go!"
+	para "o jo e ni a." ; `Here you go!`
 	prompt
 
 _OaksAideGotItemText::
-	text "<PLAYER> got the"
-	line "@"
+	text "<PLAYER> li kama jo e" ; `<PLAYER> got the`
+	line "te@"
 	text_ram wOaksAideRewardItemName
-	text "!@"
+	text "to a@"
 	text_end
 
 _OaksAideNoRoomText::
-	text "Oh! I see you"
-	line "don't have any"
-	cont "room for the"
-	cont "@"
+	text "ike a." ; `Oh! I see you`
+	line "sina jo e ijo pi mute ike." ; `don't have any`
+	cont "ni la sina ken ala kama jo e" ; `room for the`
+	cont "te@"
 	text_ram wOaksAideRewardItemName
-	text "."
+	text "to."
 	done
 
 _NurseChanseyText::
-	text "CHANSEY: Chaaan"
-	line "sey!"
+	text "soweli pi sike mama: mu." ; `CHANSEY: Chaaan`
+	;line "sey!"
 	done

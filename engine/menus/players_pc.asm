@@ -240,10 +240,10 @@ PlayerPCToss:
 	jp .loop
 
 PlayersPCMenuEntries:
-	db   "WITHDRAW ITEM"
-	next "DEPOSIT ITEM"
-	next "TOSS ITEM"
-	next "LOG OFF@"
+	db   "o kama jo e ijo" ; WITHDRAW ITEM
+	next "o poki e ijo" ; DEPOSIT ITEM
+	next "o weka e ijo" ; TOSS ITEM
+	next "o tawa weka@" ; LOG OFF@
 
 TurnedOnPC2Text:
 	text_far _TurnedOnPC2Text

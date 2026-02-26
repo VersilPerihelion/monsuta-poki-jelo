@@ -1,27 +1,27 @@
 _FuchsiaBillsGrandpasHouseMiddleAgedWomanText::
-	text "SAFARI ZONE's"
-	line "WARDEN is old,"
-	cont "but still active!"
+	text "jan lawa pi ma alasa musi li majuna." ; `SAFARI ZONE's`
+	line "taso ona li awen pali mute." ; `WARDEN is old,`
+	;cont "" ; `but still active!`
 
-	para "All his teeth are"
-	line "false, though."
+	para "kiwen uta ona li lon ala taso." ; `All his teeth are`
+	;line "" ; `false, though.`
 	done
 
 _FuchsiaBillsGrandpasHouseBillsGrandpaText::
-	text "Hmm? You've met"
-	line "BILL?"
+	text "sina kama sona e jan [linja.nasin utala] anu seme." ; `Hmm? You've met`
+	;line "" ; `BILL?`
 
-	para "He's my grandson!"
+	para "mi mama mama ona a." ; `He's my grandson!`
 
-	para "He always liked"
-	line "collecting things"
-	cont "even as a child!"
+	para "tenpo ale la ona li kama jo e ijo mute." ; `He always liked`
+	;line "" ; `collecting things`
+	;cont "" ; `even as a child!`
 	done
 
 _FuchsiaBillsGrandpasHouseYoungsterText::
-	text "BILL files his"
-	line "own #MON data"
-	cont "on his PC!"
+	text "jan [linja.nasin utala] li poki e sona" ; `BILL files his`
+	line "pi monsuta ona lon ilo nanpa ona." ; `own #MON data`
+	;cont "" ; `on his PC!`
 
-	para "Did he show you?"
+	para "ona li pana lukin e ni tawa sina anu seme." ; `Did he show you?`
 	done

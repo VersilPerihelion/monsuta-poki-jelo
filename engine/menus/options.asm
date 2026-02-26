@@ -111,9 +111,9 @@ OptionsMenu_TextSpeed:
 	dw .Mid
 	dw .Slow
 
-.Fast: db "FAST@"
-.Mid:  db "MID @"
-.Slow: db "SLOW@"
+.Fast: db "suli@" ; FAST@
+.Mid:  db "insa@" ; MID @
+.Slow: db "lili@" ; SLOW@
 
 ; Loads the value of the current selection in c
 ; Loads the text delay value of the options
@@ -207,8 +207,8 @@ OptionsMenu_BattleStyle:
 	dw .Shift
 	dw .Set
 
-.Shift: db "SHIFT@"
-.Set:   db "SET  @"
+.Shift: db "pana  @" ; SHIFT@
+.Set:   db "pana ala@" ; SET  @
 
 OptionsMenu_SpeakerSettings:
 	ld a, [wOptions]
@@ -263,10 +263,10 @@ OptionsMenu_SpeakerSettings:
 	dw .Earphone2
 	dw .Earphone3
 
-.Mono:      db "MONO     @"
-.Earphone1: db "EARPHONE1@"
-.Earphone2: db "EARPHONE2@"
-.Earphone3: db "EARPHONE3@"
+.Mono:      db "kalama sama    @" ; MONO     @
+.Earphone1: db "ilo kute nanpa wan  @" ; EARPHONE1@
+.Earphone2: db "ilo kute nanpa tu  @" ; EARPHONE2@
+.Earphone3: db "ilo kute nanpa tu wan@" ; EARPHONE3@
 
 	const_def
 	const OPT_PRINTER_LIGHTEST ; 0
@@ -328,11 +328,11 @@ OptionsMenu_GBPrinterBrightness:
 	dw .Darker
 	dw .Darkest
 
-.Lightest: db "LIGHTEST@"
-.Lighter:  db "LIGHTER @"
-.Normal:   db "NORMAL  @"
-.Darker:   db "DARKER  @"
-.Darkest:  db "DARKEST @"
+.Lightest: db "walo mute@" ; LIGHTEST@
+.Lighter:  db "walo lili@" ; LIGHTER @
+.Normal:   db "insa  @" ; NORMAL  @
+.Darker:   db "pimeja lili@" ; DARKER  @
+.Darkest:  db "pimeja mute@" ; DARKEST @
 
 ; Loads the value of the current selection in c
 ; Loads the brightness value of the options
@@ -473,11 +473,11 @@ InitOptionsMenu:
 	ret
 
 AllOptionsText:
-	db   "TEXT SPEED :"
-	next "ANIMATION  :"
-	next "BATTLESTYLE:"
-	next "SOUND:"
-	next "PRINT:@"
+	db   "tawa wawa pi sitelen toki:" ; TEXT SPEED :
+	next "utala la pana ala pana e sitelen pali:" ; ANIMATION  :
+	next "utala la pana ala pana e tenpo tawa ante:" ; BATTLESTYLE:
+	next "kalama:" ; SOUND:
+	next "pana e sitelen:" ; PRINT:@
 
 OptionMenuCancelText:
-	db "CANCEL@"
+	db "o weka@" ; CANCEL@

@@ -1,64 +1,66 @@
 _LancesRoomLanceBeforeBattleText::
-	text "Ah! I heard about"
-	line "you, <PLAYER>!"
+	text "mi kute e sina." ; `Ah! I heard about`
+	line "<PLAYER> o." ; `you, <PLAYER>!`
 
-	para "I lead the ELITE"
-	line "FOUR! You can"
-	cont "call me LANCE the"
-	cont "dragon trainer!"
+	para "mi lawa e kulupu sewi." ; `I lead the ELITE`
+	line "mi jan [wawa.tawa.luka.]." ; `FOUR! You can`
+	cont "mi jan lawa pi monsuta akesi sewi." ; `call me LANCE the`
+	;cont "" ; `dragon trainer!`
 
-	para "You know that"
-	line "dragons are"
-	cont "mythical #MON!"
+	para "akesi sewi li monsuta tan toki majuna." ; `You know that`
+	;line "" ; `dragons are`
+	;cont "" ; `mythical #MON!`
 
-	para "They're hard to"
-	line "catch and raise,"
-	cont "but their powers"
-	cont "are superior!"
+	para "jan li wile alasa e ona li wile suli e ona la" ; `They're hard to`
+	line "ona li wile kepeken pali mute." ; `catch and raise,`
+	cont "taso wawa pi monsuta ni li suli mute." ; `but their powers`
+	;cont "" ; `are superior!`
 
-	para "They're virtually"
-	line "indestructible!"
+	para "monsuta pi mute lili li ken anpa e ona." ; `They're virtually`
+	;line "" ; `indestructible!`
 
-	para "Well, are you"
-	line "ready to lose?"
+	para "ni la. o utala e mi." ; `Well, are you`
+	;line "" ; `ready to lose?`
 
-	para "Your LEAGUE"
-	line "challenge ends"
-	cont "with me, <PLAYER>!"
+	para "utala sina lon tomo utala sewi li pini lon tomo mi" ; `Your LEAGUE`
+	line "<PLAYER> o." ; `challenge ends`
+	;cont "" ; `with me, <PLAYER>!`
 	done
 
 _LancesRoomLanceEndBattleText::
-	text "That's it!"
+	text "pini a." ; `That's it!`
 
-	para "I hate to admit"
-	line "it, but you are a"
-	cont "#MON master!"
+	para "mi wile ala toki e ni." ; `I hate to admit`
+	line "taso sina jan lawa suli a." ; `it, but you are a`
+	;cont "" ; `#MON master!`
 	prompt
 
 _LancesRoomLanceAfterBattleText::
-	text "I still can't"
-	line "believe my"
-	cont "dragons lost to"
-	cont "you, <PLAYER>!"
+	text "akesi sewi mi li anpa tan sina." ; `I still can't`
+	line "mi ken ala sona e ni." ; `believe my`
+	;cont "" ; `dragons lost to`
+	;cont "" ; `you, <PLAYER>!`
 
-	para "You are now the"
-	line "#MON LEAGUE"
-	cont "champion!"
+	para "sina jan sewi pi tomo utala sewi a." ; `You are now the`
+	;line "" ; `#MON LEAGUE`
+	;cont "" ; `champion!`
 
-	para "...Or, you would"
-	line "have been, but"
-	cont "you have one more"
-	cont "challenge ahead."
+	para "<JAGOLD>anu"
 
-	para "You have to face"
-	line "another trainer!"
-	cont "His name is..."
+	para "sina jan sewi ala lon tenpo ni tan ni:" ; `...Or, you would`
+	line "sina wile utala e jan wan mute." ; `have been, but`
+	;cont "" ; `you have one more`
+	;cont "" ; `challenge ahead.`
 
-	para "<RIVAL>!"
-	line "He beat the ELITE"
-	cont "FOUR before you!"
+	para "nimi ona li<JAGOLD>" ; `You have to face`
+	;line "" ; `another trainer!`
+	;cont "" ; `His name is...`
 
-	para "He is the real"
-	line "#MON LEAGUE"
-	cont "champion!@"
+	para "<RIVAL> a." ; `<RIVAL>!`
+	line "ona li anpa e kulupu sewi lon tenpo poka." ; `He beat the ELITE`
+	;cont "" ; `FOUR before you!`
+
+	para "ni la ona li jan sewi pi tomo utala sewi a.@" ; `He is the real`
+	;line "" ; `#MON LEAGUE`
+	;cont "" ; `champion!@`
 	text_end

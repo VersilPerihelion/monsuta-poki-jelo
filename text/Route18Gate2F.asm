@@ -1,15 +1,15 @@
 _Route18Gate2FLeftBinocularsText::
-	text "Looked into the"
-	line "binoculars."
+	text "sina kepeken ilo lukin pi ma weka." ; `Looked into the`
+	;line "" ; `binoculars.`
 
-	para "PALLET TOWN is in"
-	line "the west!"
+	para "ma tomo lili [walo:ken.jan.]" ; `PALLET TOWN is in`
+	line "li lon poka pi weka suno." ; `the west!`
 	done
 
 _Route18Gate2FRightBinocularsText::
-	text "Looked into the"
-	line "binoculars."
+	text "sina kepeken ilo lukin pi ma weka." ; `Looked into the`
+	;line "" ; `binoculars.`
 
-	para "There are people"
-	line "swimming!"
+	para "jan li tawa lon telo." ; `There are people`
+	;line "" ; `swimming!`
 	done

@@ -1,3 +1,4 @@
+;if they're unused i'm not gonna care for now
 _UndergroundPathRoute7CopyUnusedGirlText::
 	text "I want to shop at"
 	line "the dept. store"

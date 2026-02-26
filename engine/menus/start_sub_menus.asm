@@ -567,7 +567,8 @@ DrawTrainerInfo:
 	hlcoord 2, 2
 	ld de, TrainerInfo_NameMoneyTimeText
 	call PlaceString
-	hlcoord 7, 2
+	;hlcoord 7, 2 ; VPH feature: name charlimit 7→10
+	hlcoord 5, 2
 	ld de, wPlayerName
 	call PlaceString
 	hlcoord 8, 4
@@ -589,13 +590,13 @@ TrainerInfo_FarCopyData:
 	jp FarCopyData
 
 TrainerInfo_NameMoneyTimeText:
-	db   "NAME/"
-	next "MONEY/"
-	next "TIME/@"
+	db   "nimi/" ; NAME/ ; i'm surprised this actually works
+	next "mani/   " ; MONEY/
+	next "tenpo/   @" ; TIME/@
 
 ; $76 is a circle tile
 TrainerInfo_BadgesText:
-	db $76,"BADGES",$76,"@"
+	db $76,"sitelen wawa sina",$76,"@" ; BADGES
 
 ; draws a text box on the trainer info screen
 ; height is always 6

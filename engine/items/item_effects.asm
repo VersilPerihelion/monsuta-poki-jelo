@@ -2513,11 +2513,12 @@ ItemUseTMHM:
 .notTeachingThunderboltOrThunderToPikachu
 	pop af
 	ld [wWhichPokemon], a
-
+;
 	ld a, [wCurItem]
-	call IsItemHM
-	ret c
-	jp RemoveUsedItem
+;	call IsItemHM
+;	ret c
+;	jp RemoveUsedItem
+	ret ; VPH feature: infinite use tms
 
 BootedUpTMText:
 	text_far _BootedUpTMText

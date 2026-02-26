@@ -1,56 +1,56 @@
 _FileDataDestroyedText::
-	text "The file data is"
-	line "destroyed!"
+	text "sitelen musi ni" ; `The file data is`
+	line "li pakala a." ; `destroyed!`
 	prompt
 
 _WouldYouLikeToSaveText::
-	text "Would you like to"
-	line "SAVE the game?"
+	text "sina wile ala wile" ; `Would you like to`
+	line "sitelen e musi ni." ; `SAVE the game?`
 	done
 
 _SavingText::
-	text "Saving..."
+	text "sitelen li awen<JAGOLD>" ; `Saving...`
 	done
 
 _GameSavedText::
-	text "<PLAYER> saved"
-	line "the game!"
+	text "<PLAYER> li" ; `<PLAYER> saved`
+	line "sitelen e musi ona." ; `the game!`
 	done
 
 _OlderFileWillBeErasedText::
-	text "The older file"
-	line "will be erased to"
-	cont "save. Okay?"
+	text "sitelen musi tan tenpo pini" ; `The older file`
+	line "li kama weka tawa pali pi sitelen musi sin." ; `will be erased to`
+	cont "ni li pona ala pona." ; `save. Okay?`
 	done
 
 _WhenYouChangeBoxText::
-	text "When you change a"
-	line "#MON BOX, data"
-	cont "will be saved."
+	text "sina ante e poki suli pi monsuta poki la" ; `When you change a`
+	line "musi sina li kama sitelen." ; `#MON BOX, data`
+	;cont "" ; `will be saved.`
 
-	para "Is that okay?"
+	para "ni li pona ala pona." ; `Is that okay?`
 	done
 
 _ChooseABoxText::
-	text "Choose a"
-	line "<PKMN> BOX.@"
+	text "sina wile e" ; `Choose a`
+	line "poki suli seme.@" ; `<PKMN> BOX.@`
 	text_end
 
 _EvolvedText::
 	text_ram wStringBuffer
-	text " evolved"
+	text "li kama" ; ` evolved`
 	done
 
 _IntoText::
 	text_start
-	line "into @"
+	line "te@" ; `into @`
 	text_ram wNameBuffer
-	text "!"
+	text "to a." ; `!`
 	done
 
 _StoppedEvolvingText::
-	text "Huh? @"
+	text "seme.@" ; `Huh? @`
 	text_ram wStringBuffer
 	text_start
-	line "stopped evolving!"
+	line "li pini e ante ona." ; `stopped evolving!`
 	prompt

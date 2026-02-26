@@ -1,41 +1,41 @@
 _Route23YouDontHaveTheBadgeYetText::
-	text "You can pass here"
-	line "only if you have"
-	cont "the @"
+	text "sina wile tawa nasin ni la" ; `You can pass here`
+	line "sina wile jo e" ; `only if you have`
+	cont "te@" ; `the @`
 	text_ram wNameBuffer
-	text "!"
+	text "to." ; `!`
 
-	para "You don't have the"
-	line "@"
+	para "sina jo ala e" ; `You don't have the`
+	line "te@" ; `@`
 	text_ram wNameBuffer
-	text " yet!"
+	text "to lon tenpo ni." ; ` yet!`
 
-	para "You have to have"
-	line "it to get to"
-	cont "#MON LEAGUE!@"
+	para "sina wile kama jo e ona." ; `You have to have`
+	line "ante la sina ken ala tawa tomo utala sewi.@" ; `it to get to`
+	;cont "" ; `#MON LEAGUE!@`
 	text_end
 
 _Route23OhThatIsTheBadgeText::
-	text "You can pass here"
-	line "only if you have"
-	cont "the @"
+	text "sina wile tawa nasin ni la" ; `You can pass here`
+	line "sina wile jo e" ; `only if you have`
+	cont "te@" ; `the @`
 	text_ram wNameBuffer
-	text "!"
+	text "to." ; `!`
 
-	para "Oh! That is the"
-	line "@"
+	para "a. ona li te@" ; `Oh! That is the`
+	;line "" ; `@`
 	text_ram wNameBuffer
-	text "!@"
+	text "to a.@" ; `!@`
 	text_end
 
 _Route23GoRightAheadText::
 	text_start
 
-	para "OK then! Please,"
-	line "go right ahead!"
+	para "pona a." ; `OK then! Please,`
+	line "o tawa pona." ; `go right ahead!`
 	done
 
 _Route23VictoryRoadGateSignText::
-	text "VICTORY ROAD GATE"
-	line "- #MON LEAGUE"
+	text "lupa open pi nasin sewi" ; `VICTORY ROAD GATE`
+	line "tomo tawa sewi pi monsuta poki" ; `- #MON LEAGUE`
 	done

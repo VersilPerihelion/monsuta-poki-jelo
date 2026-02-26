@@ -1,7 +1,7 @@
 _SSAnne3FSailorText::
-	text "Our CAPTAIN is a"
-	line "sword master!"
+	text "jan lawa pi tomo tawa telo ni" ; `Our CAPTAIN is a`
+	line "li jan sona suli pi ilo kipisi utala." ; `sword master!`
 
-	para "He even teaches"
-	line "CUT to #MON!"
+	para "ona li pana sona e te kipisi e kasi suli to" ; `He even teaches`
+	line "tawa monsuta poki kin." ; `CUT to #MON!`
 	done

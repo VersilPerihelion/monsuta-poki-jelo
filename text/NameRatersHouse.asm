@@ -1,60 +1,62 @@
 _NameRatersHouseNameRaterWantMeToRateText::
-	text "Hello, hello!"
-	line "I am the official"
-	cont "NAME RATER!"
+	text "toki. toki." ; `Hello, hello!`
+	line "mi jan pi toki nimi." ; `I am the official`
+	;cont "" ; `NAME RATER!`
 
-	para "Want me to rate"
-	line "the nicknames of"
-	cont "your #MON?"
+	para "sina wile ala wile kute e pilin mi" ; `Want me to rate`
+	line "pi nimi monsuta sina." ; `the nicknames of`
+	;cont "" ; `your #MON?`
 	done
 
 _NameRatersHouseNameRaterWhichPokemonText::
-	text "Which #MON"
-	line "should I look at?"
+	text "monsuta seme." ; `Which #MON`
+	;line "" ; `should I look at?`
 	prompt
 
 _NameRatersHouseNameRaterGiveItANiceNameText::
+	text "te"
 	text_ram wNameBuffer
-	text ", is it?"
-	line "That is a decent"
-	cont "nickname!"
+	text "to anu seme." ; `, is it?`
+	line "ona li nimi pona a." ; `That is a decent`
+	;cont "" ; `nickname!`
 
-	para "But, would you"
-	line "like me to give"
-	cont "it a nicer name?"
+	para "taso mi ken pana e nimi pona mute tawa ona." ; `But, would you`
+	line "sina wile ala wile e ni." ; `like me to give`
+	;cont "" ; `it a nicer name?`
 
-	para "How about it?"
+	;para "" ; `How about it?`
 	done
 
 _NameRatersHouseNameRaterWhatShouldWeNameItText::
-	text "Fine! What should"
-	line "we name it?"
+	text "pona a." ; `Fine! What should`
+	line "sina wile e nimi seme." ; `we name it?`
 	prompt
 
 _NameRatersHouseNameRaterPokemonHasBeenRenamedText::
-	text "OK! This #MON"
-	line "has been renamed"
-	cont "@"
+	text "pona a." ; `OK! This #MON`
+	line "tenpo ni la nimi pi monsuta ni li " ; `has been renamed`
+	cont "te@" ; `@`
 	text_ram wBuffer
-	text "!"
+	text "to." ; `!`
 
-	para "That's a better"
-	line "name than before!"
+	para "nimi ni li pona mute a." ; `That's a better`
+	;line "" ; `name than before!`
 	done
 
 _NameRatersHouseNameRaterComeAnyTimeYouLikeText::
-	text "Fine! Come any-"
-	line "time you like!"
+	text "pona a." ; `Fine! Come any-`
+	line "o kama sin." ; `time you like!`
 	done
 
 _NameRatersHouseNameRaterATrulyImpeccableNameText::
+	text "te@"
 	text_ram wNameBuffer
-	text ", is it?"
-	line "That is a truly"
-	cont "impeccable name!"
+	text "to anu seme." ; `, is it?`
+	line "nimi ni li ken ala kama suli mute." ; `That is a truly`
+	;cont "" ; `impeccable name!`
 
-	para "Take good care of"
-	line "@"
+	para "o awen pona tawa" ; `Take good care of`
+	line "te@" ; `@`
 	text_ram wNameBuffer
-	text "!"
+	text "to a." ; `!`
 	done

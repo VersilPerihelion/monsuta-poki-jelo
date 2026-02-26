@@ -1,13 +1,13 @@
 DefaultNamesPlayer:
-	db   "NEW NAME"
-	next "YELLOW"
-	next "ASH"
-	next "JACK"
+	db   "nimi sin"
+	next "jan [jelo:]"
+	next "jan [sama.tonsi:]"
+	next "jan [alasa.kon.]"
 	db   "@"
 
 DefaultNamesRival:
-	db   "NEW NAME"
-	next "BLUE"
-	next "GARY"
-	next "JOHN"
+	db   "nimi sin"
+	next "jan [laso:]"
+	next "jan [sike:lukin.]"
+	next "jan [ilo pilin.kiwen.]"
 	db   "@"

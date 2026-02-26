@@ -1,120 +1,120 @@
 _Route16Biker1BattleText::
-	text "What do you want?"
+	text "sina wile e seme." ; `What do you want?`
 	done
 
 _Route16Biker1EndBattleText::
-	text "Don't you"
-	line "dare laugh!"
+	text "o kalama musi ala a." ; `Don't you`
+	;line "" ; `dare laugh!`
 	prompt
 
 _Route16Biker1AfterBattleText::
-	text "We like just"
-	line "hanging here,"
-	cont "what's it to you?"
+	text "awen lon ma ni li pona tawa kulupu mi." ; `We like just`
+	line "toki sina li ala tawa mi." ; `hanging here,`
+	;cont "" ; `what's it to you?`
 	done
 
 _Route16Biker2BattleText::
-	text "Nice BIKE!"
-	line "Hand it over!"
+	text "ilo tawa sina li pona." ; `Nice BIKE!`
+	line "o pana e ona." ; `Hand it over!`
 	done
 
 _Route16Biker2EndBattleText::
-	text "Knock-"
-	line "out!"
+	text "pini a." ; `Knock-`
+	;line "" ; `out!`
 	prompt
 
 _Route16Biker2AfterBattleText::
-	text "Forget it, who"
-	line "needs your BIKE!"
+	text "o weka sona e ni." ; `Forget it, who`
+	line "jan ala li wile e ilo tawa sina." ; `needs your BIKE!`
 	done
 
 _Route16Biker3BattleText::
-	text "Come out and play,"
-	line "little mouse!"
+	text "o kama o musi a." ; `Come out and play,`
+	;line "" ; `little mouse!`
 	done
 
 _Route16Biker3EndBattleText::
-	text "You"
-	line "little rat!"
+	text "musi li weka." ; `You`
+	;line "" ; `little rat!`
 	prompt
 
 _Route16Biker3AfterBattleText::
-	text "I hate losing!"
-	line "Get away from me!"
+	text "anpa utala li ike tawa mi." ; `I hate losing!`
+	line "o weka a." ; `Get away from me!`
 	done
 
 _Route16biker4BattleText::
-	text "Hey, you just"
-	line "bumped me!"
+	text "sina o." ; `Hey, you just`
+	line "sina sijelo e mi a." ; `bumped me!`
 	done
 
 _Route16Biker4EndBattleText::
-	text "Kaboom!"
+	text "pakala a." ; `Kaboom!`
 	prompt
 
 _Route16Biker4AfterBattleText::
-	text "You can also get"
-	line "to FUCHSIA from"
-	cont "VERMILION using a"
-	cont "coastal road."
+	text "sina wile tawa ma tomo [kute.walo.loje.n pona.]" ; `You can also get`
+	line "tan ma tomo [loje.jelo:] la" ; `to FUCHSIA from`
+	cont "sina ken tawa nasin pi kama suno" ; `VERMILION using a`
+	cont "lon poka telo suli." ; `coastal road.`
 	done
 
 _Route16Biker5BattleText::
-	text "I'm feeling"
-	line "hungry and mean!"
+	text "mi wile moku. ni la mi pilin ike." ; `I'm feeling`
+	;line "" ; `hungry and mean!`
 	done
 
 _Route16Biker5EndBattleText::
-	text "Bad,"
-	line "bad, bad!"
+	text "ike ike ike a." ; `Bad,`
+	;line "" ; `bad, bad!`
 	prompt
 
 _Route16Biker5AfterBattleText::
-	text "I like my #MON"
-	line "ferocious! They"
-	cont "tear up enemies!"
+	text "monsuta mi li monsuta tawa ale la" ; `I like my #MON`
+	line "ni li pona mute tawa mi." ; `ferocious! They`
+	;cont "" ; `tear up enemies!`
 	done
 
 _Route16Biker6BattleText::
-	text "Sure, I'll go!"
+	text "pona a. mi tawa." ; `Sure, I'll go!`
 	done
 
 _Route16Biker6EndBattleText::
-	text "Don't make"
-	line "me mad!"
+	text "o pilin ike e mi." ; `Don't make`
+	;line "" ; `me mad!`
 	prompt
 
 _Route16Biker6AfterBattleText::
-	text "I like harassing"
-	line "people with my"
-	cont "vicious #MON!"
+	text "ni li musi tawa mi:" ; `I like harassing`
+	line "jan li pilin monsuta tan monsuta suli mi." ; `people with my`
+	;cont "" ; `vicious #MON!`
 	done
 
 _Route16Text7::
-	text "A sleeping #MON"
-	line "blocks the way!"
+	text "monsuta lape li pini e nasin." ; `A sleeping #MON`
+	;line "" ; `blocks the way!`
 	done
 
 _Route16SnorlaxWokeUpText::
-	text "SNORLAX woke up!"
+	text "te soweli suli lape to li pini lape a." ; `SNORLAX woke up!`
 
-	para "It attacked in a"
-	line "grumpy rage!"
+	para "pilin ike la ona li open utala a." ; `It attacked in a`
+	;line "" ; `grumpy rage!`
 	done
 
 _Route16SnorlaxReturnedToMountainsText::
-	text "With a big yawn,"
-	line "SNORLAX returned"
-	cont "to the mountains!"
+	text "soweli suli lape li pana e kalama lape suli." ; `With a big yawn,`
+	line "ona li tawa nena suli." ; `SNORLAX returned`
+	;cont "" ; `to the mountains!`
 	done
 
 _Route16CyclingRoadSignText::
-	text "Enjoy the slope!"
-	line "CYCLING ROAD"
+	text "o musi pona lon nasin tawa anpa a." ; `Enjoy the slope!`
+	line "te nasin pi ilo tawa to" ; `CYCLING ROAD`
 	done
 
 _Route16SignText::
-	text "ROUTE 16"
-	line "CELADON CITY -"
-	cont "FUCHSIA CITY"
+	text "nasin nanpa 16" ; `ROUTE 16`
+	line "ma tomo [kasi:mi:la.] -" ; `CELADON CITY -`
+	cont "- ma tomo [kute.walo.loje.n pona.]" ; `FUCHSIA CITY`
 	done

@@ -112,7 +112,7 @@ LeaguePCShowMon:
 	farjp Func_7033f
 
 HallOfFameNoText:
-	db "HALL OF FAME No   @"
+	db "kama pi tomo wawa sewi   nanpa" ; `HALL OF FAME No   @`
 
 AccessedHoFPCText:
 	text_far _AccessedHoFPCText

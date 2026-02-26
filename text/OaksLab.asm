@@ -1,401 +1,402 @@
 _OaksLabRivalGrampsIsntAroundText::
-	text "<RIVAL>: Yo"
-	line "<PLAYER>! Gramps"
-	cont "isn't around!"
+	text "<RIVAL>: toki a." ; `<RIVAL>: Yo`
+	line "<PLAYER> o." ; `<PLAYER>! Gramps`
+	cont "mama mama li lon ala tomo ni." ; `isn't around!`
 
-	para "I ran here 'cos"
-	line "he said he had a"
-	cont "#MON for me."
+	para "mi kama tan toki pi mama mama:" ; `I ran here 'cos`
+	line "ona li wile pana e monsuta poki tawa mi." ; `he said he had a`
+	;cont "" ; `#MON for me.`
 	done
 
 _OaksLabRivalIllGetABetterPokemonThanYou::
-	text "<RIVAL>: Humph!"
-	line "I'll get a better"
-	cont "#MON than you!"
+	text "<RIVAL>: n n." ; `<RIVAL>: Humph!`
+	line "mi kama jo e monsuta pona mute tawa sina." ; `I'll get a better`
+	;cont "" ; `#MON than you!`
 	done
 
 _OaksLabRivalMyPokemonLooksStrongerText::
-	text "<RIVAL>: Heh, my"
-	line "#MON looks a"
-	cont "lot stronger."
+	text "<RIVAL>: o lukin." ; `<RIVAL>: Heh, my`
+	line "monsuta mi li suli mute tawa monsuta sina." ; `#MON looks a`
+	;cont "" ; `lot stronger.`
 	done
 
 _OaksLabThatsAPokeball::
-	text "That's a #"
-	line "BALL. There's a"
-	cont "#MON inside!"
+	text "ni li sike poki." ; `That's a #`
+	line "monsuta poki li lon insa ona." ; `BALL. There's a`
+	;cont "" ; `#MON inside!`
 	done
 
 _OaksLabOak1GoAheadItsYours::
-	text "OAK: Go ahead,"
-	line "it's yours!"
+	text "jan [o kili.toki.]: o kama jo e ni." ; `OAK: Go ahead,`
+	line "ni li sina." ; `it's yours!`
 	done
 
 _OaksLabOak1YourPokemonCanFightText::
-	text "OAK: If a wild"
-	line "#MON appears,"
-	cont "your #MON can"
-	cont "fight against it!"
+	text "jan [o kili.toki.]: monsuta pi jan ala li kama la" ; `OAK: If a wild`
+	line "monsuta sina li ken utala e ona." ; `#MON appears,`
+	;cont "" ; `your #MON can`
+	;cont "" ; `fight against it!`
 
-	para "Afterward, go on"
-	line "to the next town."
+	para "ni la sina ken tawa ma tomo kama." ; `Afterward, go on`
+	;line "" ; ` the next town.`
 	done
 
 _OaksLabOak1YouShouldTalkToIt::
-	text "OAK: You should"
-	line "talk to it and"
-	cont "see how it feels."
+	text "jan [o kili.toki.]: sina wile toki tawa ona." ; `OAK: You should`
+	line "ni la sina ken sona e pilin ona." ; `talk to it and`
+	;cont "" ; `see how it feels.`
 	done
 
 _OaksLabOak1DeliverParcelText::
-	text "OAK: Oh, <PLAYER>!"
+	text "jan [o kili.toki.]: o kama pona." ; `OAK: Oh, <PLAYER>!`
+	line "<PLAYER> o."
 
-	para "How is my old"
-	line "#MON?"
+	para "monsuta sina li pilin seme." ; `How is my old`
+	;line "" ; `#MON?`
 
-	para "Well, it seems to"
-	line "like you a lot."
+	para "a  mi pilin e ni:" ; `Well, it seems to`
+	line "sina pona mute tawa ona." ; `like you a lot.`
 
-	para "You must be"
-	line "talented as a"
-	cont "#MON trainer!"
+	para "mi la mama monsuta la" ; `You must be`
+	line "sina pona mute a." ; `talented as a`
+	;cont "" ; `#MON trainer!`
 
-	para "What? You have"
-	line "something for me?"
+	para "n?" ; `What? You have`
+	line "sina wile pana e ijo tawa mi anu seme" ; `something for me?`
 
-	para "<PLAYER> delivered"
-	line "OAK's PARCEL.@"
+	para "<PLAYER> li pana e poki" ; `<PLAYER> delivered`
+	line "tawa jan [o kili.toki.]@" ; `OAK's PARCEL.@`
 	text_end
 
 _OaksLabOak1ParcelThanksText::
 	text_start
-	para "Ah! This is the"
-	line "custom # BALL"
-	cont "I ordered!"
-	cont "Thanks, <PLAYER>!"
+	para "sona a." ; `Ah! This is the`
+	line "ni li sike poki sin." ; `custom # BALL`
+	cont "mi esun e ona." ; `I ordered!`
+	cont "sina pona  <PLAYER> o." ; `Thanks, <PLAYER>!`
 
-	para "By the way, I must"
-	line "ask you to do"
-	cont "something for me."
+	para "ante la" ; `By the way, I must`
+	line "mi wile pana e pali tawa sina." ; `ask you to do`
+	;cont "" ; `something for me.`
 	done
 
 _OaksLabOak1PokemonAroundTheWorldText::
-	text "#MON around the"
-	line "world wait for"
-	cont "you, <PLAYER>!"
+	text "monsuta poki mute li awen lon ma ale" ; `#MON around the`
+	line "tawa lukin sina." ; `world wait for`
+	cont "<PLAYER> o." ; `you, <PLAYER>!`
 	done
 
 _OaksLabOak1ReceivedPokeballsText::
-	text "OAK: You can't get"
-	line "detailed data on"
-	cont "#MON by just"
-	cont "seeing them."
+	text "jan [o kili.toki.]: sina lukin taso e monsuta la" ; `OAK: You can't get`
+	line "sina kama sona ala e ijo ale pi monsuta ni." ; `detailed data on`
+	;cont "" ; `#MON by just`
+	;cont "" ; `seeing them.`
 
-	para "You must catch"
-	line "them! Use these"
-	cont "to capture wild"
-	cont "#MON."
+	para "sina wile kama jo e monsuta." ; `You must catch`
+	line "o kepeken ijo ni tawa kama jo monsuta." ; `them! Use these`
+	;cont "" ; `to capture wild`
+	;cont "" ; `#MON.`
 
-	para "<PLAYER> got 5"
-	line "# BALLs!@"
+	para "<PLAYER> li kama jo e" ; `<PLAYER> got 5`
+	line "te sike poki to 5 a.@" ; `# BALLs!@`
 	text_end
 
 _OaksLabGivePokeballsExplanationText::
 	text_start
-	para "When a wild"
-	line "#MON appears,"
-	cont "it's fair game."
+	para "monsuta pi jan ala li kama la" ; `When a wild`
+	line "sina wile ken pali kepeken tenpo lili." ; `#MON appears,`
+	;cont "" ; `it's fair game.`
 
-	para "Just like I showed"
-	line "you, throw a #"
-	cont "BALL at it and try"
-	cont "to catch it!"
+	para "sina wile pali seme mi." ; `Just like I showed`
+	line "o pana e sike pona tawa monsuta." ; `you, throw a #`
+	cont "ni la o alasa kama jo e ona." ; `BALL at it and try`
+	;cont "" ; `to catch it!`
 
-	para "This won't always"
-	line "work, though."
+	para "ni li ken kama ike taso." ; `This won't always`
+	;line "" ; `work, though.`
 
-	para "A healthy #MON"
-	line "could escape. You"
-	cont "have to be lucky!"
+	para "monsuta wawa li ken weka kepeken pali lili." ; `A healthy #MON`
+	line "sina wile lili e nanpa pi ken sijelo ona." ; `could escape. You`
+	;cont "" ; `have to be lucky!`
 	done
 
 _OaksLabOak1ComeSeeMeSometimesText::
-	text "OAK: Come see me"
-	line "sometimes."
+	text "jan [o kili.toki.]: o kama lon ni" ; `OAK: Come see me`
+	line "lon tenpo lili." ; `sometimes.`
 
-	para "I want to know how"
-	line "your #DEX is"
-	cont "coming along."
+	para "mi wile sona e ni:" ; `I want to know how`
+	line "ilo lipu sona sina li kama seme." ; `your #DEX is`
+	;cont "" ; `coming along.`
 	done
 
 _OaksLabOak1HowIsYourPokedexComingText::
-	text "OAK: Good to see "
-	line "you! How is your "
-	cont "#DEX coming? "
-	cont "Here, let me take"
-	cont "a look!"
+	text "jan [o kili.toki.]: o kama pona." ; `OAK: Good to see `
+	line "ilo lipu sona sina li kama seme" ; `you! How is your `
+	cont "mi o lukin e ni." ; `#DEX coming? `
+	;cont "" ; `Here, let me take`
+	;cont "" ; `a look!`
 	prompt
 
 _OaksLabPokedexText::
-	text "It's encyclopedia-"
-	line "like, but the"
-	cont "pages are blank!"
+	text "ilo ni li sama lipu sona." ; `It's encyclopedia-`
+	line "taso tenpo ni la lipu ona li jo e sona ala." ; `like, but the`
+	;cont "" ; `pages are blank!`
 	done
 
 _OaksLabOak2Text::
-	text "?"
+	text "seme" ; `?`
 	done
 
 _OaksLabGirlText::
-	text "PROF.OAK is the"
-	line "authority on"
-	cont "#MON!"
+	text "jan sona [o kili.toki.] li sona mute e monsuta poki." ; `PROF.OAK is the`
+	line "ni la ona li jan lawa tawa jan mute." ; `authority on`
+	;cont "" ; `#MON!`
 
-	para "Many #MON"
-	line "trainers hold him"
-	cont "in high regard!"
+	para "jan mute pi lawa monsuta li kute e toki ona." ; `Many #MON`
+	;line "" ; `trainers hold him`
+	;cont "" ; `in high regard!`
 	done
 
 _OaksLabRivalFedUpWithWaitingText::
-	text "<RIVAL>: Gramps!"
-	line "I'm fed up with"
-	cont "waiting!"
+	text "<RIVAL>: mama mama o." ; `<RIVAL>: Gramps!`
+	line "mi wile ala awen mute a." ; `I'm fed up with`
+	;cont "" ; `waiting!`
 	done
 
 _OaksLabOakChooseMonText::
-	text "OAK: Hmm? <RIVAL>?"
-	line "Why are you here"
-	cont "already?"
+	text "jan [o kili.toki.]: n seme." ; `OAK: Hmm? <RIVAL>?`
+	line "<RIVAL> o" ; `Why are you here`
+	cont "sina lon tenpo ni tan seme." ; `already?`
 
-	para "I said for you to"
-	line "come by later..."
+	para "wile mi la sina kama lon tenpo kama lili." ; `I said for you to`
+	;line "" ; `come by later...`
 
-	para "Ah, whatever!"
-	line "Just wait there."
+	para "taso ni li suli ala." ; `Ah, whatever!`
+	line "o awen lon." ; `Just wait there.`
 
-	para "Look, <PLAYER>! Do"
-	line "you see that ball"
-	cont "on the table?"
+	para "<PLAYER> o lukin." ; `Look, <PLAYER>! Do`
+	line "sina lukin ala lukin e sike lon supa ni." ; `you see that ball`
+	;cont "" ; `on the table?`
 
-	para "It's called a #"
-	line "BALL. It holds a"
-	cont "#MON inside."
+	para "ona li te sike poki to." ; `It's called a #`
+	line "monsuta poki li lon insa ona." ; `BALL. It holds a`
+	;cont "" ; `#MON inside.`
 
-	para "You may have it!"
-	line "Go on, take it!"
+	para "sina ken kama jo e ona." ; `You may have it!`
+	line "o jo e ona." ; `Go on, take it!`
 	done
 
 _OaksLabRivalWhatAboutMeText::
-	text "<RIVAL>: Hey!"
-	line "Gramps! What"
-	cont "about me?"
+	text "<RIVAL>: mama mama o awen a." ; `<RIVAL>: Hey!`
+	line "seme li tawa mi." ; `Gramps! What`
+	;cont "" ; `about me?`
 	done
 
 _OaksLabOakBePatientText::
-	text "OAK: Be patient,"
-	line "<RIVAL>, I'll give"
-	cont "you one later."
+	text "jan [o kili.toki.]: o awen." ; `OAK: Be patient,`
+	line "mi pana e monsuta tawa sina lon tenpo kama lili." ; `<RIVAL>, I'll give`
+	;cont "" ; `you one later.`
 	done
 
 _OaksLabRivalTakesText1::
-	text "<RIVAL>: No way!"
-	line "<PLAYER>, I want"
-	cont "this #MON!"
+	text "<RIVAL>: awen ala a." ; `<RIVAL>: No way!`
+	line "<PLAYER> o." ; `<PLAYER>, I want`
+	cont "mi wile e monsuta ni a." ; `this #MON!`
 	prompt
 
 _OaksLabRivalTakesText2::
-	text "<RIVAL> snatched"
-	line "the #MON!@"
+	text "<RIVAL> li" ; `<RIVAL> snatched`
+	line "lanpan e monsuta poki ni.@" ; `the #MON!@`
 	text_end
 
 _OaksLabRivalTakesText3::
-	text "OAK: <RIVAL>! What"
-	line "are you doing?"
+	text "jan [o kili.toki.]: sina seme." ; `OAK: <RIVAL>! What`
+	line "<RIVAL> o." ; `are you doing?`
 	prompt
 
 _OaksLabRivalTakesText4::
-	text "<RIVAL>: Gramps, I"
-	line "want this one!"
+	text "<RIVAL>: mama mama o." ; `<RIVAL>: Gramps, I`
+	line "mi wile e monsuta ni a." ; `want this one!`
 	prompt
 
 _OaksLabRivalTakesText5::
-	text "OAK: But, I... Oh,"
-	line "all right then."
-	cont "That #MON is"
-	cont "yours."
+	text "jan [o kili.toki.]: taso -" ; `OAK: But, I... Oh,`
+	line "n n n pona." ; `all right then.`
+	cont "monsuta ni li sina." ; `That #MON is`
+	;cont "" ; `yours.`
 
-	para "I was going to"
-	line "give you one"
-	cont "anyway..."
+	para "tenpo pini poka la mi wile pana" ; `I was going to`
+	line "e monsuta tawa sina lon tenpo kama poka." ; `give you one`
+	;cont "" ; `anyway...`
 
-	para "<PLAYER>, come over"
-	line "here."
+	para "<PLAYER> o kama lon." ; `<PLAYER>, come over`
+	;line "" ; `here.`
 	done
 
 _OaksLabOakGivesText::
-	text "OAK: <PLAYER>, this"
-	line "is the #MON I"
-	cont "caught earlier."
+	text "jan [o kili.toki.]: o lukin." ; `OAK: <PLAYER>, this`
+	line "<PLAYER> o." ; `is the #MON I`
+	cont "ni li monsuta pi mi kama jo lon tenpo weka poka." ; `caught earlier.`
 
-	para "You can have it."
-	line "I caught it in"
-	cont "the wild and it's"
-	cont "not tame yet."
+	para "sina ken kama jo e ona." ; `You can have it.`
+	line "tenpo weka poka la ona li jan ala." ; `I caught it in`
+	cont "ni la ona li wile tenpo mute tawa kama pona tawa sina." ; `the wild and it's`
+	;cont "" ; `not tame yet.`
 	prompt
 
 _OaksLabReceivedText::
-	text "<PLAYER> received"
-	line "a @"
+	text "<PLAYER> li kama jo e" ; `<PLAYER> received`
+	line "te@" ; `a @`
 	text_ram wNameBuffer
-	text "!@"
+	text "to@" ; `!@`
 	text_end
 
 _OaksLabOakDontGoAwayYetText::
-	text "OAK: Hey! Don't go"
-	line "away yet!"
+	text "jan [o kili.toki.]: o awen a." ; `OAK: Hey! Don't go`
+	line "o weka ala taso a." ; `away yet!`
 	done
 
 _OaksLabRivalIllTakeYouOnText::
-	text "<RIVAL>: Wait"
-	line "<PLAYER>!"
-	cont "Let's check out"
-	cont "our #MON!"
+	text "<RIVAL>: o awen a." ; `<RIVAL>: Wait`
+	line "<PLAYER> o." ; `<PLAYER>!`
+	cont "sina en mi o lukin e monsuta ni." ; `Let's check out`
+	;cont "" ; `our #MON!`
 
-	para "Come on, I'll take"
-	line "you on!"
+	para "o kama a." ; `Come on, I'll take`
+	line "mi anpa e sina a." ; `you on!`
 	done
 
 _OaksLabRivalIPickedTheWrongPokemonText::
-	text "WHAT?"
-	line "Unbelievable!"
-	cont "I picked the"
-	cont "wrong #MON!"
+	text "seme a." ; `WHAT?`
+	line "ni ken ala lon a." ; `Unbelievable!`
+	cont "mi kama jo e monsuta ike a." ; `I picked the`
+	;cont "" ; `wrong #MON!`
 	prompt
 
 _OaksLabRivalAmIGreatOrWhatText::
-	text "<RIVAL>: Yeah! Am"
-	line "I great or what?"
+	text "<RIVAL>: a a a." ; `<RIVAL>: Yeah! Am`
+	line "mi nanpa wan anu seme." ; `I great or what?`
 	prompt
 
 _OaksLabRivalSmellYouLaterText::
-	text "<RIVAL>: Okay!"
-	line "I'll make my"
-	cont "#MON fight to"
-	cont "toughen it up!"
+	text "<RIVAL>: pona a." ; `<RIVAL>: Okay!`
+	line "monsuta mi li kama utala tan mi." ; `I'll make my`
+	cont "ni la mi wawa e ona." ; `#MON fight to`
+	;cont "" ; `toughen it up!`
 
-	para "<PLAYER>! Gramps!"
-	line "Smell you later!"
-	done
+	para "<PLAYER>o. mama mama o." ; `<PLAYER>! Gramps!`
+	line "tawa kon a." ; `Smell you later!`
+	done ; VPH deliberate mispronouncing of "tawa pona", peak of my translation abilities
 
 _OaksLabPikachuDislikesPokeballsText1::
-	text "OAK: What?"
+	text "jan [o kili.toki.]: seme." ; `OAK: What?`
 	done
 
 _OaksLabPikachuDislikesPokeballsText2::
-	text "OAK: Would you"
-	line "look at that!"
+	text "jan [o kili.toki.]: o lukin e ni a." ; `OAK: Would you`
+	;line "" ; `look at that!`
 
-	para "It's odd, but it"
-	line "appears that your"
-	cont "PIKACHU dislikes"
-	cont "# BALLs."
+	para "ni li nasa." ; `It's odd, but it`
+	line "te soweli pika to sina la sike poki li ike." ; `appears that your`
+	;cont "" ; `PIKACHU dislikes`
+	;cont "" ; `# BALLs.`
 
-	para "You should just"
-	line "keep it with you."
+	para "sina en ona o tawa lon kulupu" ; `You should just`
+	line "kepeken ala sike poki." ; `keep it with you.`
 
-	para "That should make"
-	line "it happy!"
+	para "ken la ni li pona tawa ona." ; `That should make`
+	;line "" ; `it happy!`
 
-	para "You can talk to it"
-	line "and see how it"
-	cont "feels about you."
+	para "sina ken toki tawa ona." ; `You can talk to it`
+	line "ni la sina ken sona e pilin ona." ; `and see how it`
+	;cont "" ; `feels about you.`
 	done
 
 _OaksLabRivalGrampsText::
-	text "<RIVAL>: Gramps!"
+	text "<RIVAL>: mama mama o." ; `<RIVAL>: Gramps!`
 	done
 
 _OaksLabRivalMyPokemonHasGrownStrongerText::
-	text "<RIVAL>: Gramps,"
-	line "my #MON has"
-	cont "grown stronger!"
-	cont "Check it out!"
+	text "<RIVAL>: mama mama o lukin." ; `<RIVAL>: Gramps,`
+	line "monsuta mi li kama wawa suli a." ; `my #MON has`
+	;cont "" ; `grown stronger!`
+	;cont "" ; `Check it out!`
 	done
 
 _OaksLabOakIHaveARequestText::
-	text "OAK: Ah, <RIVAL>,"
-	line "good timing!"
+	text "jan [o kili.toki.]: a sina kama lon tenpo pona." ; `OAK: Ah, <RIVAL>,`
+	line "<RIVAL> o." ; `good timing!`
 
-	para "I needed to ask"
-	line "both of you to do"
-	cont "something for me."
+	para "mi wile pana e pali tawa sina tu." ; `I needed to ask`
+	;line "pali ni li suli mute." ; `both of you to do`
+	;cont "" ; `something for me.`
 	done
 
 _OaksLabOakMyInventionPokedexText::
-	text "On the desk there"
-	line "is my invention,"
-	cont "#DEX!"
+	text "o lukin e ijo lon supa ni." ; `On the desk there`
+	line "ona li te ilo lipu sona to." ; `is my invention,`
+	cont "mi pali e ona." ; `#DEX!`
 
-	para "It automatically"
-	line "records data on"
-	cont "#MON you've"
-	cont "seen or caught!"
+	para "ilo ni li sitelen e sona sin pi monsuta poki." ; `It automatically`
+	line "sina wile taso kama jo e monsuta kin." ; `records data on`
+	cont "ni la ilo ni li sitelen." ; `#MON you've`
+	;cont "" ; `seen or caught!`
 
-	para "It's a hi-tech"
-	line "encyclopedia!"
+	para "ona li ilo pona mute a" ; `It's a hi-tech`
+	;line "" ; `encyclopedia!`
 	done
 
 _OaksLabOakGotPokedexText::
-	text "OAK: <PLAYER> and"
-	line "<RIVAL>! Take"
-	cont "these with you!"
+	text "jan [o kili.toki.]: o kama jo e ilo ni" ; `OAK: <PLAYER> and`
+	line "<PLAYER> o" ; `<RIVAL>! Take`
+	cont "<RIVAL> o" ; `these with you!`
 
-	para "<PLAYER> got"
-	line "#DEX from OAK!@"
+	para "<PLAYER> li kama jo e" ; `<PLAYER> got`
+	line "te ilo lipu sona to tan jan [o kili.toki.] a@" ; `#DEX from OAK!@`
 	text_end
 
 _OaksLabOakThatWasMyDreamText::
-	text "To make a complete"
-	line "guide on all the"
-	cont "#MON in the"
-	cont "world..."
+	text "tenpo pini ale la" ; `To make a complete`
+	line "mi wile pali e lipu sona suli." ; `guide on all the`
+	cont "sona ale pi monsuta poki ale li lon lipu ni." ; `#MON in the`
+	;cont "" ; `world...`
 
-	para "That was my dream!"
+	para "ni li wile suli mi a." ; `That was my dream!`
 
-	para "But, I'm too old!"
-	line "I can't do it!"
+	para "taso mi majuna." ; `But, I'm too old!`
+	line "mi ken ala pini e ona." ; `I can't do it!`
 
-	para "So, I want you two"
-	line "to fulfill my"
-	cont "dream for me!"
+	para "ni la mi toki e ni:" ; `So, I want you two`
+	line "o lon e ona." ; `to fulfill my`
+	;cont "" ; `dream for me!`
 
-	para "Get moving, you"
-	line "two!"
+	para "o tawa a" ; `Get moving, you`
+	line "sina tu o." ; `two!`
 
-	para "This is a great"
-	line "undertaking in"
-	cont "#MON history!"
+	para "sona pi tenpo pini la" ; `This is a great`
+	line "ni li pali suli mute mute." ; `undertaking in`
+	;cont "" ; `#MON history!`
 	done
 
 _OaksLabRivalLeaveItAllToMeText::
-	text "<RIVAL>: Alright"
-	line "Gramps! Leave it"
-	cont "all to me!"
+	text "<RIVAL>: pona a." ; `<RIVAL>: Alright`
+	line "mama mama o pilin ike ala." ; `Gramps! Leave it`
+	cont "mi taso li ken pali e ni ale." ; `all to me!`
 
-	para "<PLAYER>, I hate to"
-	line "say it, but I"
-	cont "don't need you!"
+	para "<PLAYER> o." ; `<PLAYER>, I hate to`
+	line "mi wile ala toki e ni." ; `say it, but I`
+	cont "taso sina pona ala tawa pali ni." ; `don't need you!`
 
-	para "I know! I'll"
-	line "borrow a TOWN MAP"
-	cont "from my sis!"
+	para "a mi sona." ; `I know! I'll`
+	line "mi kama jo e lipu ma tan meli sama mi." ; `borrow a TOWN MAP`
+	;cont "" ; `from my sis!`
 
-	para "I'll tell her not"
-	line "to lend you one,"
-	cont "<PLAYER>! Hahaha!"
+	para "mi toki e ni tawa ona:" ; `I'll tell her not`
+	line "o pana ala e lipu ni tawa sina a." ; `to lend you one,`
+	cont "<PLAYER> o  a a a." ; `<PLAYER>! Hahaha!`
 	done
 
 _OaksLabScientistText::
-	text "I study #MON as"
-	line "PROF.OAK's AIDE."
+	text "mi jan pali pi jan sona [o kili.toki.]." ; `I study #MON as`
+	line "ni la mi kama sona e monsuta poki." ; `PROF.OAK's AIDE.`
 	done

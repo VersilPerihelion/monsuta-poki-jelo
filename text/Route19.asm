@@ -1,157 +1,157 @@
 _Route19CooltrainerM1BattleText::
-	text "Have to warm up"
-	line "before my swim!"
+	text "mi o seli e sijelo mi tan tawa telo mi." ; `Have to warm up`
+	;line "" ; `before my swim!`
 	done
 
 _Route19CooltrainerM1EndBattleText::
-	text "All"
-	line "warmed up!"
+	text "seli mute a." ; `All`
+	;line "" ; `warmed up!`
 	prompt
 
 _Route19CooltrainerM1AfterBattleText::
-	text "Thanks, kid! I'm"
-	line "ready for a swim!"
+	text "sina pona a." ; `Thanks, kid! I'm`
+	line "tenpo ni la mi ken open tawa telo." ; `ready for a swim!`
 	done
 
 _Route19CooltrainerM2BattleText::
-	text "Wait! You'll have"
-	line "a heart attack!"
+	text "o awen a." ; `Wait! You'll have`
+	line "sina wile ala pilin ike tan tawa telo." ; `a heart attack!`
 	done
 
 _Route19CooltrainerM2EndBattleText::
-	text "Ooh!"
-	line "That's chilly!"
+	text "nnn." ; `Ooh!`
+	line "lete suli a." ; `That's chilly!`
 	prompt
 
 _Route19CooltrainerM2AfterBattleText::
-	text "Watch out for"
-	line "TENTACOOL!"
+	text "o awen lukin e te kala pi luka linja to." ; `Watch out for`
+	;line "" ; `TENTACOOL!`
 	done
 
 _Route19Swimmer1BattleText::
-	text "I love swimming!"
-	line "What about you?"
+	text "tawa kala li pona mute tawa mi." ; `I love swimming!`
+	line "tawa sina kin anu seme." ; `What about you?`
 	done
 
 _Route19Swimmer1EndBattleText::
-	text "Belly"
-	line "flop!"
+	text "mi kala pi weka telo a." ; `Belly`
+	;line "" ; `flop!`
 	prompt
 
 _Route19Swimmer1AfterBattleText::
-	text "I can beat #MON"
-	line "at swimming!"
+	text "mi ken tawa telo sama monsuta kala a." ; `I can beat #MON`
+	;line "" ; `at swimming!`
 	done
 
 _Route19Swimmer2BattleText::
-	text "What's beyond the"
-	line "horizon?"
+	text "seme li lon monsi pi linja ma weka." ; `What's beyond the`
+	;line "" ; `horizon?`
 	done
 
 _Route19Swimmer2EndBattleText::
-	text "Glub!"
+	text "n" ; `Glub!`
 	prompt
 
 _Route19Swimmer2AfterBattleText::
-	text "I see a couple of"
-	line "islands!"
+	text "mi lukin e nena ma weka." ; `I see a couple of`
+	;line "" ; `islands!`
 	done
 
 _Route19Swimmer3BattleText::
-	text "I tried diving"
-	line "for #MON, but"
-	cont "it was a no go!"
+	text "mi wile kama jo e monsuta telo mute." ; `I tried diving`
+	line "ni la mi alasa tawa anpa pi supa telo." ; `for #MON, but`
+	cont "taso mi ken ala." ; `it was a no go!`
 	done
 
 _Route19Swimmer3EndBattleText::
-	text "Help!"
+	text "o pona e mi a." ; `Help!`
 	prompt
 
 _Route19Swimmer3AfterBattleText::
-	text "You have to fish"
-	line "for sea #MON!"
+	text "sina wile alasa e monsuta telo la" ; `You have to fish`
+	line "sina wile kepeken ilo pi alasa kala." ; `for sea #MON!`
 	done
 
 _Route19Swimmer4BattleText::
-	text "I look at the"
-	line "sea to forget!"
+	text "mi lukin e telo suli tawa pona pi lawa mi." ; `I look at the`
+	;line "" ; `sea to forget!`
 	done
 
 _Route19Swimmer4EndBattleText::
-	text "Ooh!"
-	line "Traumatic!"
+	text "ike a." ; `Ooh!`
+	;line "" ; `Traumatic!`
 	prompt
 
 _Route19Swimmer4AfterBattleText::
-	text "I'm looking at the"
-	line "sea to forget!"
+	text "mi lukin e telo suli tawa pona pi lawa mi." ; `I'm looking at the`
+	;line "" ; `sea to forget!`
 	done
 
 _Route19Swimmer5BattleText::
-	text "Oh, I just love"
-	line "your ride! Can I"
-	cont "have it if I win?"
+	text "nasin tawa sina li pona a." ; `Oh, I just love`
+	line "mi anpa e sina la" ; `your ride! Can I`
+	cont "mi ken ala ken tawa lon ona." ; `have it if I win?`
 	done
 
 _Route19Swimmer5EndBattleText::
-	text "Oh!"
-	line "I lost!"
+	text "a mi anpa." ; `Oh!`
+	;line "" ; `I lost!`
 	prompt
 
 _Route19Swimmer5AfterBattleText::
-	text "It's still a long"
-	line "way to go to"
-	cont "SEAFOAM ISLANDS."
+	text "nena ma pi kon telo li weka mute tan ni." ; `It's still a long`
+	;line "" ; `way to go to`
+	;cont "" ; `SEAFOAM ISLANDS.`
 	done
 
 _Route19Swimmer6BattleText::
-	text "Swimming's great!"
-	line "Sunburns aren't!"
+	text "tawa telo li pona mute." ; `Swimming's great!`
+	line "ike selo suno li ike mute." ; `Sunburns aren't!`
 	done
 
 _Route19Swimmer6EndBattleText::
-	text "Shocker!"
+	text "ike a." ; `Shocker!`
 	prompt
 
 _Route19Swimmer6AfterBattleText::
-	text "My boy friend"
-	line "wanted to swim to"
-	cont "SEAFOAM ISLANDS."
+	text "meli pona mi li wile tawa kala" ; `My boy friend`
+	line "tawa nena ma pi kon telo." ; `wanted to swim to`
+	;cont "" ; `SEAFOAM ISLANDS.`
 	done
 
 _Route19Swimmer7BattleText::
-	text "These waters are"
-	line "treacherous!"
+	text "telo ni li ken pakala." ; `These waters are`
+	;line "" ; `treacherous!`
 	done
 
 _Route19Swimmer7EndBattleText::
-	text "Ooh!"
-	line "Dangerous!"
+	text "ken pakala a." ; `Ooh!`
+	;line "" ; `Dangerous!`
 	prompt
 
 _Route19Swimmer7AfterBattleText::
-	text "I got a cramp!"
-	line "Glub, glub..."
+	text "nnn" ; `I got a cramp!`
+	line "linja pi wawa insa mi li ike." ; `Glub, glub...`
 	done
 
 _Route19Swimmer8BattleText::
-	text "I swam here, but"
-	line "I'm tired."
+	text "mi tawa kala lon nasin ni taso mi wile lape." ; `I swam here, but`
+	;line "" ; `I'm tired.`
 	done
 
 _Route19Swimmer8EndBattleText::
-	text "I'm"
-	line "exhausted..."
+	text "wawa sijelo ale mi li weka<JAGOLD>" ; `I'm`
+	;line "" ; `exhausted...`
 	prompt
 
 _Route19Swimmer8AfterBattleText::
-	text "LAPRAS is so big,"
-	line "it must keep you"
-	cont "dry on water."
+	text "te akesi kala tawa to li suli mute." ; `LAPRAS is so big,`
+	line "sina ken awen weka telo lon tawa ale." ; `it must keep you`
+	;cont "" ; `dry on water.`
 	done
 
 _Route19SignText::
-	text "SEA ROUTE 19"
-	line "FUCHSIA CITY -"
-	cont "SEAFOAM ISLANDS"
+	text "nasin telo nanpa 19" ; `SEA ROUTE 19`
+	line "ma tomo [kute.walo.loje.n pona.] -" ; `FUCHSIA CITY -`
+	cont "- nane ma pi kon telo" ; `SEAFOAM ISLANDS`
 	done

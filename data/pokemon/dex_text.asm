@@ -1,1508 +1,1508 @@
 _BulbasaurDexEntry::
-	text "It can go for days"
-	next "without eating a"
-	next "single morsel."
+	text "ona li wile la" ; It can go for days
+	next "ona li ken moku ala" ; without eating a
+	next "lon tenpo suno mute." ; single morsel.
 
-	page "In the bulb on"
-	next "its back, it"
-	next "stores energy"
+	page "ona li poki e wawa insa" ; In the bulb on
+	next "lon kili monsi ona" ; its back, it
+	;next "" ; stores energy
 	dex
 
 _IvysaurDexEntry::
-	text "The bulb on its"
-	next "back grows by"
-	next "drawing energy."
+	text "kili monsi ona li kama suli" ; The bulb on its
+	next "tan kama jo wawa." ; back grows by
+	;next "" ; drawing energy.
 
-	page "It gives off an"
-	next "aroma when it is"
-	next "ready to bloom"
+	page "kili ni li open la" ; It gives off an
+	next "ona li pana e pilin nena pona" ; aroma when it is
+	;next "" ; ready to bloom
 	dex
 
 _VenusaurDexEntry::
-	text "The flower on its"
-	next "back catches the"
-	next "sun's rays."
+	text "kasi sinpin ona li" ; The flower on its
+	next "kama jo e linja suno." ; back catches the
+	;next "" ; sun's rays.
 
-	page "The sunlight is"
-	next "then absorbed and"
-	next "used for energy"
+	page "suno ni li" ; The sunlight is
+	next "kama wawa tawa ona" ; then absorbed and
+	;next "" ; used for energy
 	dex
 
 _CharmanderDexEntry::
-	text "The flame at the"
-	next "tip of its tail"
-	next "makes a sound as"
+	text "seli lon pini monsi ona" ; The flame at the
+	next "li pana e kalama lili." ; tip of its tail
+	;next "" ; makes a sound as
 
-	page "it burns. You can"
-	next "only hear it in"
-	next "quiet places"
+	page "kalama ala la" ; it burns. You can
+	next "sina ken kute e ni" ; only hear it in
+	;next "" ; quiet places
 	dex
 
 _CharmeleonDexEntry::
-	text "Tough fights could"
-	next "excite this"
-	next "#MON. When"
+	text "utala suli li musi" ; Tough fights could
+	next "tawa monsuta poki ni." ; excite this
+	;next "" ; #MON. When
 
-	page "excited, it may"
-	next "blow out bluish-"
-	next "white flames"
+	page "ona li pilin pona la" ; excited, it may
+	next "sina ken pana e seli laso walo" ; blow out bluish-
+	;next "" ; white flames
 	dex
 
 _CharizardDexEntry::
-	text "When expelling a"
-	next "blast of super"
-	next "hot fire, the red"
+	text "ona li pana e seli suli la" ; When expelling a
+	next "seli lon pini monsi ona" ; blast of super
+	next "li kama suli." ; hot fire, the red
 
-	page "flame at the tip"
-	next "of its tail burns"
-	next "more intensely"
+	page "monsuta ni li pona mute mute" ; flame at the tip
+	next "tawa kulupu esun [kepeken.musi.poka uta linja.kule.]" ; of its tail burns
+	;next "" ; more intensely
 	dex
 
 _SquirtleDexEntry::
-	text "Shoots water at"
-	next "prey while in the"
-	next "water."
+	text "ona li alasa la" ; Shoots water at
+	next "ona li pana e telo" ; prey while in the
+	next "tawa kala ante." ; water.
 
-	page "Withdraws into"
-	next "its shell when in"
-	next "danger"
+	page "ona li pilin monsuta la" ; Withdraws into
+	next "ona li weka tawa selo kiwen ona" ; its shell when in
+	;next "" ; danger
 	dex
 
 _WartortleDexEntry::
-	text "When tapped, this"
-	next "#MON will pull"
-	next "in its head, but"
+	text "sina luka e monsi ona la" ; When tapped, this
+	next "ona li tawa e lawa ni" ; #MON will pull
+	next "tawa selo kiwen ona." ; in its head, but
 
-	page "its tail will"
-	next "still stick out a"
-	next "little bit"
+	page "taso pini monsi ona" ; its tail will
+	next "li awen insa ala" ; still stick out a
+	;next "" ; little bit
 	dex
 
 _BlastoiseDexEntry::
-	text "Once it takes aim"
-	next "at its enemy, it"
-	next "blasts out water"
+	text "ona lukin e kala ike ona la" ; Once it takes aim
+	next "ona li pana e telo kepeken wawa suli." ; at its enemy, it
+	;next "" ; blasts out water
 
-	page "with even more"
-	next "force than a fire"
-	next "hose"
+	page "jan pi weka seli li kepeken ilo telo la" ; with even more
+	next "wawa pi monsuta ni li suli" ; force than a fire
+	;next "" ; hose
 	dex
 
 _CaterpieDexEntry::
-	text "If you touch the"
-	next "feeler on top of"
-	next "its head, it will"
+	text "sina luka e linja lon lawa ona la" ; If you touch the
+	next "ona li pana e pilin nena ike." ; feeler on top of
+	;next "" ; its head, it will
 
-	page "release a horrible"
-	next "stink to protect"
-	next "itself"
+	page "monsuta ni li kepeken pilin ni" ; release a horrible
+	next "tawa awen ona" ; stink to protect
+	;next "" ; itself
 	dex
 
 _MetapodDexEntry::
-	text "Hardens its shell"
-	next "to protect itself."
-	next "However, a large"
+	text "ona li kiwen e selo ona tawa awen" ; Hardens its shell
+	next "taso utala suli li ken open e selo ni" ; to protect itself.
+	next "li ken weka e monsuta ni." ; However, a large
 
-	page "impact may cause"
-	next "it to pop out of"
-	next "its shell"
+	page "monsuta ni tu li utala la" ; impact may cause
+	next "utala ni li suli nanpa wan" ; it to pop out of
+	;next "" ; its shell
 	dex
 
 _ButterfreeDexEntry::
-	text "Its wings, covered"
-	next "with poisonous"
-	next "powders, repel"
+	text "luka waso ona li len kepeken ko jaki" ; Its wings, covered
+	next "li weka e telo." ; with poisonous
+	;next "" ; powders, repel
 
-	page "water. This"
-	next "allows it to fly"
-	next "in the rain"
+	page "ni la telo li tawa tan sewi la" ; water. This
+	next "ona li ken tawa sewi" ; allows it to fly
+	;next "" ; in the rain
 	dex
 
 _WeedleDexEntry::
-	text "Beware of the"
-	next "sharp stinger on"
-	next "its head. It"
+	text "o awen sona e pini lon lawa ona" ; Beware of the
+	next "sina wile ala luka e ni." ; sharp stinger on
+	;next "" ; its head. It
 
-	page "hides in grass"
-	next "and bushes where"
-	next "it eats leaves"
+	page "monsuta ni li len insa kasi" ; hides in grass
+	next "li moku e lipu kasi" ; and bushes where
+	;next "" ; it eats leaves
 	dex
 
 _KakunaDexEntry::
-	text "Able to move only"
-	next "slightly. When"
-	next "endangered, it"
+	text "ona li ken tawa lili taso." ; Able to move only
+	next "ona li pilin ike la" ; slightly. When
+	next "ona li ken pana e jaki." ; endangered, it
 
-	page "may stick out its"
-	next "stinger and poison"
-	next "its enemy"
+	page "ona li weka e selo ona la" ; may stick out its
+	next "ante ni li suli namako" ; stinger and poison
+	;next "" ; its enemy
 	dex
 
 _BeedrillDexEntry::
-	text "It has 3 poisonous"
-	next "stingers on its"
-	next "forelegs and its"
+	text "ona li jo e pini jaki tu lon luka ona" ; It has 3 poisonous
+	next "e pini jaki wan lon monsi ona." ; stingers on its
+	;next "" ; forelegs and its
 
-	page "tail. They are"
-	next "used to jab its"
-	next "enemy repeatedly"
+	page "ona li kepeken pini ni la" ; tail. They are
+	next "ona li utala e pipi ante e waso" ; used to jab its
+	;next "" ; enemy repeatedly
 	dex
 
 _PidgeyDexEntry::
-	text "Very docile. If"
-	next "attacked, it will"
-	next "often kick up"
+	text "ona li pilin ike tan monsuta ante la" ; Very docile. If
+	next "ona li len e weka ona kepeken ko ma." ; attacked, it will
+	;next "" ; often kick up
 
-	page "sand to protect"
-	next "itself rather"
-	next "than fight back"
+	page "utala li pona ala tawa ona." ; sand to protect
+	next "ona li waso lili taso" ; itself rather
+	;next "" ; than fight back
 	dex
 
 _PidgeottoDexEntry::
-	text "This #MON is"
-	next "full of vitality."
-	next "It constantly"
+	text "monsuta ni li jo e wawa mute." ; This #MON is
+	next "tenpo ale la ona li tawa sewi" ; full of vitality.
+	next "li alasa e soweli moku." ; It constantly
 
-	page "flies around its"
-	next "large territory in"
-	next "search of prey"
+	page "ona li alasa e soweli lili" ; flies around its
+	next "kepeken pini noka ona" ; large territory in
+	;next "" ; search of prey
 	dex
 
 _PidgeotDexEntry::
-	text "This #MON flies"
-	next "at Mach 2 speed,"
-	next "seeking prey."
+	text "wawa tawa kalama la" ; This #MON flies
+	next "wawa tawa ona li suli." ; at Mach 2 speed,
+	;next "" ; seeking prey.
 
-	page "Its large talons"
-	next "are feared as"
-	next "wicked weapons"
+	page "pini noka suli ona li" ; Its large talons
+	next "monsuta mute tawa soweli ante" ; are feared as
+	;next "" ; wicked weapons
 	dex
 
 _RattataDexEntry::
-	text "Will chew on any-"
-	next "thing with its"
-	next "fangs. If you see"
+	text "ona li uta moku e ijo ale." ; Will chew on any-
+	next "sina lukin e monsuta ni wan la" ; thing with its
+	next "ona mute mute li lon ma ni." ; fangs. If you see
 
-	page "one, it is certain"
-	next "that 40 more live"
-	next "in the area"
+	page "monsuta ni li wawa nanpa wan" ; one, it is certain
+	next "lon ma [sona.tomo.]" ; that 40 more live
+	;next "" ; in the area
 	dex
 
 _RaticateDexEntry::
-	text "Its hind feet are"
-	next "webbed. They act"
-	next "as flippers, so"
+	text "palisa noka ona li jo e lipu selo." ; Its hind feet are
+	next "ona li ken tawa telo pona kepeken ni." ; webbed. They act
+	;next "" ; as flippers, so
 
-	page "it can swim in"
-	next "rivers and hunt"
-	next "for prey"
+	page "tenpo mute la ona li alasa " ; it can swim in
+	next "lon linja telo" ; rivers and hunt
+	;next "" ; for prey
 	dex
 
 _SpearowDexEntry::
-	text "Inept at flying"
-	next "high. However, it"
-	next "can fly around"
+	text "ona li ken ala tawa sewi mute." ; Inept at flying
+	next "taso ona li ken tawa wawa mute." ; high. However, it
+	;next "" ; can fly around
 
-	page "very fast to"
-	next "protect its ter-"
-	next "ritory"
+	page "tenpo lili la ona li" ; very fast to
+	next "pana e lipu toki" ; protect its ter-
+	;next "" ; ritory
 	dex
 
 _FearowDexEntry::
-	text "A #MON that"
-	next "dates back many"
-	next "years. If it"
+	text "monsuta ni ken awen tawa sewi" ; A #MON that
+	next "kepeken luka waso suli ona." ; dates back many
+	;next "" ; years. If it
 
-	page "senses danger, it"
-	next "flies high and"
-	next "away, instantly"
+	page "ona li tawa sewi la" ; senses danger, it
+	next "ona li wile lape lon tenpo lili" ; flies high and
+	;next "" ; away, instantly
 	dex
 
 _EkansDexEntry::
-	text "The older it gets,"
-	next "the longer it"
-	next "grows. At night,"
+	text "tenpo ale la ona li" ; The older it gets,
+	next "kama suli linja." ; the longer it
+	;next "" ; grows. At night,
 
-	page "it wraps its long"
-	next "body around tree"
-	next "branches to rest"
+	page "tenpo pimeja la ona li lape la" ; it wraps its long
+	next "ona li sike lon kasi suli" ; body around tree
+	;next "" ; branches to rest
 	dex
 
 _ArbokDexEntry::
-	text "The frightening"
-	next "patterns on its"
-	next "belly have been"
+	text "jan sona li kama sona" ; The frightening
+	next "e sitelen sijelo pi monsuta ni." ; patterns on its
+	;next "" ; belly have been
 
-	page "studied. Six"
-	next "variations have"
-	next "been confirmed"
+	page "ona li jo nasin mute" ; studied. Six
+	next "pi sitelen ni" ; variations have
+	;next "" ; been confirmed
 	dex
 
 _PikachuDexEntry::
-	text "It keeps its tail"
-	next "raised to monitor"
-	next "its surroundings."
+	text "ona li awen sewi e linja monsi ona." ; It keeps its tail
+	next "kepeken ni la ona li pilin e poka ona." ; raised to monitor
+	;next "" ; its surroundings.
 
-	page "If you yank its"
-	next "tail, it will try"
-	next "to bite you"
+	page "sina luka e linja monsi ona la" ; If you yank its
+	next "ona li uta moku e sina" ; tail, it will try
+	;next "" ; to bite you
 	dex
 
 _RaichuDexEntry::
-	text "When electricity"
-	next "builds up inside"
-	next "its body, it"
+	text "ona li jo wawa mute lon sijelo ona la" ; When electricity
+	next "ona li ken pilin nasa." ; builds up inside
+	;next "" ; its body, it
 
-	page "becomes feisty."
-	next "It also glows in"
-	next "the dark"
+	page "lon pimeja la" ; becomes feisty.
+	next "ona li pana e suno" ; It also glows in
+	;next "" ; the dark
 	dex
 
 _SandshrewDexEntry::
-	text "Its body is dry."
-	next "When it gets cold"
-	next "at night, its"
+	text "selo ona li telo ala lon tenpo mute." ; Its body is dry.
+	;next "" ; When it gets cold
+	;next "" ; at night, its
 
-	page "hide is said to"
-	next "become coated with"
-	next "a fine dew"
+	page "tenpo pimeja la lete la" ; hide is said to
+	next "telo lili li lon selo ona" ; become coated with
+	;next "" ; a fine dew
 	dex
 
 _SandslashDexEntry::
-	text "It is skilled at"
-	next "slashing enemies"
-	next "with its claws."
+	text "ona li ken utala e monsuta ante" ; It is skilled at
+	next "kepeken pini luka suli ona." ; slashing enemies
+	next "ken ona li suli." ; with its claws.
 
-	page "If broken, they"
-	next "start to grow back"
-	next "in a day"
+	page "pini luka ona li pakala la" ; If broken, they
+	next "ona li ken kama suli" ; start to grow back
+	next "lon tenpo suno wan" ; in a day
 	dex
 
 _NidoranFDexEntry::
-	text "A mild-mannered"
-	next "#MON that does"
-	next "not like to"
+	text "monsuta ni li pilin pona lon tenpo mute." ; A mild-mannered
+	next "utala li pona ala tawa ona." ; #MON that does
+	;next "" ; not like to
 
-	page "fight. Beware, its"
-	next "small horns"
-	next "secrete venom"
+	page "o awen sona e nena pini lon lawa ona." ; fight. Beware, its
+	next "nena ni li pana e telo jaki" ; small horns
+	;next "" ; secrete venom
 	dex
 
 _NidorinaDexEntry::
-	text "When resting deep"
-	next "in its burrow, its"
-	next "thorns always"
+	text "ona li lape anpa ma la" ; When resting deep
+	next "ona li len e pini jaki ona." ; in its burrow, its
+	;next "" ; thorns always
 
-	page "retract."
-	next "This is proof that"
-	next "it is relaxed"
+	page "ni la ona li lape pona" ; retract.
+	;next "" ; This is proof that
+	;next "" ; it is relaxed
 	dex
 
 _NidoqueenDexEntry::
-	text "Tough scales cover"
-	next "the sturdy body"
-	next "of this #MON."
+	text "selo pi monsuta ni li jo e lipu mute." ; Tough scales cover
+	next "lipu selo ni li sama kiwen." ; the sturdy body
+	;next "" ; of this #MON.
 
-	page "It appears that"
-	next "the scales grow"
-	next "in cycles"
+	page "lipu selo ale li kama suli" ; It appears that
+	next "lon tenpo sama ala" ; the scales grow
+	;next "" ; in cycles
 	dex
 
 _NidoranMDexEntry::
-	text "Its large ears"
-	next "are always kept"
-	next "upright. If it"
+	text "ona li jo e kute suli." ; Its large ears
+	next "kute ni li tawa sewi lon tenpo ale." ; are always kept
+	;next "" ; upright. If it
 
-	page "senses danger, it"
-	next "will attack with a"
-	next "poisonous sting"
+	page "monsuta ni li pilin ike la" ; senses danger, it
+	next "ona li utala kepeken pini jaki" ; will attack with a
+	;next "" ; poisonous sting
 	dex
 
 _NidorinoDexEntry::
-	text "Its horns contain"
-	next "venom. If they"
-	next "are stabbed into"
+	text "nena pini lawa ona li" ; Its horns contain
+	next "jo e telo jaki." ; venom. If they
+	;next "" ; are stabbed into
 
-	page "an enemy, the"
-	next "impact makes the"
-	next "poison leak out"
+	page "pini ni li kama insa monsuta ante la" ; an enemy, the
+	next "telo jaki li pana tan insa" ; impact makes the
+	;next "" ; poison leak out
 	dex
 
 _NidokingDexEntry::
-	text "Its steel-like"
-	next "hide adds to its"
-	next "powerful tackle."
+	text "selo ona li sama kiwen." ; Its steel-like
+	next "selo ni li suli e wawa pakala ona." ; hide adds to its
+	;next "" ; powerful tackle.
 
-	page "Its horns are so"
-	next "hard, they can"
-	next "pierce a diamond"
+	page "nena pini lawa ona li suli a." ; Its horns are so
+	next "ona li ken tawa insa kiwen suno" ; hard, they can
+	;next "" ; pierce a diamond
 	dex
 
 _ClefairyDexEntry::
-	text "Adored for their"
-	next "cute looks and"
-	next "playfulness. They"
+	text "jan ale li olin e suwi ona" ; Adored for their
+	next "e musi ona kin." ; cute looks and
+	;next "" ; playfulness. They
 
-	page "are thought to be"
-	next "rare, as they do"
-	next "not appear often"
+	page "jan li lukin ala e" ; are thought to be
+	next "monsuta ni lon tenpo mute" ; rare, as they do
+	;next "" ; not appear often
 	dex
 
 _ClefableDexEntry::
-	text "They appear to be"
-	next "very protective of"
-	next "their own world."
+	text "jan li sona ala e ni: monsuta ni li tan ma seme." ; They appear to be
+	next "ona li awen mute e ma ona." ; very protective of
+	;next "" ; their own world.
 
-	page "It is a kind of"
-	next "fairy, rarely seen"
-	next "by people"
+	page "monsuta ni li kepeken wawa nasa." ; It is a kind of
+	next "ni la ona awen len" ; fairy, rarely seen
+	;next "" ; by people
 	dex
 
 _VulpixDexEntry::
-	text "Both its fur and"
-	next "its tails are"
-	next "beautiful. As it"
+	text "jan mute li toki e ni:" ; Both its fur and
+	next "linja sijelo ona en linja monsi ona" ; its tails are
+	next "li pona lukin." ; beautiful. As it
 
-	page "grows, the tails"
-	next "split and form"
-	next "more tails"
+	page "monsuta ni li kama suli la" ; grows, the tails
+	next "linja monsi ona li kama mute" ; split and form
+	;next "" ; more tails
 	dex
 
 _NinetalesDexEntry::
-	text "According to an"
-	next "enduring legend,"
-	next "9 noble saints"
+	text "toki majuna la" ; According to an
+	next "jan sewi mute li kama wan" ; enduring legend,
+	next "li kama monsuta ni." ; 9 noble saints
 
-	page "were united and"
-	next "reincarnated as"
-	next "this #MON"
+	page "o luka ala e linja monsi ona." ; were united and
+	next "sina ken kama kon jaki namako" ; reincarnated as
+	next "" ; this #MON
 	dex
 
 _JigglypuffDexEntry::
-	text "Uses its alluring"
-	next "eyes to enrapture"
-	next "its foe. It then"
+	text "ona li ken ni kepenen lukin nasa ona:" ; Uses its alluring
+	next "monsuta ante li pali e ijo pi wile ona." ; eyes to enrapture
+	;next "" ; its foe. It then
 
-	page "sings a pleasing"
-	next "melody that lulls"
-	next "the foe to sleep"
+	page "monsuta ante li kama lon poka ona la" ; sings a pleasing
+	next "ona li ken lape e monsuta ante ni" ; melody that lulls
+	next "kepeken kalama musi pona ona" ; the foe to sleep
 	dex
 
 _WigglytuffDexEntry::
-	text "Its body is full"
-	next "of elasticity. By"
-	next "inhaling deeply,"
+	text "sijelo ona li sama ko." ; Its body is full
+	next "ona li kama jo e kon mute insa sijelo ona la" ; of elasticity. By
+	next "ona li kama suli mute." ; inhaling deeply,
 
-	page "it can continue"
-	next "to inflate itself"
-	next "without limit"
+	page "ona li wawa a li lawa e kulupu monsuta." ; it can continue
+	next "o pana e kili loje tawa ona" ; to inflate itself
+	;next "" ; without limit
 	dex
 
 _ZubatDexEntry::
-	text "Emits ultrasonic"
-	next "cries while it"
-	next "flies. They act"
+	text "ona li tawa sewi la ona li pana e mu suli nasa." ; Emits ultrasonic
+	next "lukin ona li suli kepeken mu ni." ; cries while it
+	;next "" ; flies. They act
 
-	page "as a sonar used"
-	next "to check for ob-"
-	next "jects in its way"
+	page "monsuta ni mute li lon lupa kiwen." ; as a sonar used
+	next "ona li lon ma ale lon lupa kiwen." ; to check for ob-
+	next "a" ; jects in its way
 	dex
 
 _GolbatDexEntry::
-	text "It attacks in a"
-	next "stealthy manner,"
-	next "without warning."
+	text "ona li alasa la ona li awen len." ; It attacks in a
+	next "monsuta ante li ken ala lukin e ona." ; stealthy manner,
+	;next "" ; without warning.
 
-	page "Its sharp fangs"
-	next "are used to bite"
-	next "and suck blood"
+	page "ona li lanpan e telo sijelo loje" ; Its sharp fangs
+	next "tan monsuta ante kepeken kiwen uta ona" ; are used to bite
+	;next "" ; and suck blood
 	dex
 
 _OddishDexEntry::
-	text "It may be mistaken"
-	next "for a clump of"
-	next "weeds. If you try"
+	text "lukin la ona li seme kasi." ; It may be mistaken
+	next "sina lanpan e ona tan ma la" ; for a clump of
+	next "ona li mu suli ike." ; weeds. If you try
 
-	page "to yank it out of"
-	next "the ground, it"
-	next "shrieks horribly"
+	page "jan li sona ala e ni: ona li sama ala sama kasi." ; to yank it out of
+	next "jan alasa e ona la ona li tawa weka" ; the ground, it
+	; next "" ; shrieks horribly
 	dex
 
 _GloomDexEntry::
-	text "Smells incredibly"
-	next "foul! However,"
-	next "around 1 out of"
+	text "pilin nena ona li ike a." ; Smells incredibly
+	next "taso pilin ni li pona tawa" ; foul! However,
+	next "jan pi mute ala." ; around 1 out of
 
-	page "1,000 people enjoy"
-	next "sniffing its nose-"
-	next "bending stink"
+	page "ona li sama kasi taso" ; 1,000 people enjoy
+	next "o moku ala e ona" ; sniffing its nose-
+	;next "" ; bending stink
 	dex
 
 _VileplumeDexEntry::
-	text "Flaps its broad"
-	next "flower petals to"
-	next "scatter its"
+	text "ona li tawa e kasi lawa ona." ; Flaps its broad
+	next "ni la ona li ken pana e ko jaki ona." ; flower petals to
+	;next "" ; scatter its
 
-	page "poisonous pollen."
-	next "The flapping sound"
-	next "is very loud"
+	page "kalama pi tawa ni li suli a." ; poisonous pollen.
+	next "sina ken kute e ni lon ma kasi ale" ; The flapping sound
+	;next "" ; is very loud
 	dex
 
 _ParasDexEntry::
-	text "Burrows under the"
-	next "ground to gnaw on"
-	next "tree roots. The"
+	text "ona li tawa anpa ma" ; Burrows under the
+	next "li moku e noka kasi." ; ground to gnaw on
+	;next "" ; tree roots. The
 
-	page "mushrooms on its"
-	next "back absorb most"
-	next "of the nutrition"
+	page "ona li kama jo e wawa la" ; mushrooms on its
+	next "soko pi sinpin ona li lanpan e wawa ale" ; back absorb most
+	;next "" ; of the nutrition
 	dex
 
 _ParasectDexEntry::
-	text "The bug host is"
-	next "drained of energy"
-	next "by the mushrooms"
+	text "pipi ni li jo e wawa ala." ; The bug host is
+	next "soko li lanpan ale." ; drained of energy
+	;next "" ; by the mushrooms
 
-	page "on its back. They"
-	next "appear to do all"
-	next "the thinking"
+	page "soki ni li lawa e sijelo ona." ; on its back. They
+	next "ma li pona a anu seme" ; appear to do all
+	;next "" ; the thinking
 	dex
 
 _VenonatDexEntry::
-	text "Its large eyes act"
-	next "as radars. In a"
-	next "bright place, you"
+	text "lukin ona li suli li wawa a." ; Its large eyes act
+	next "suno li suli la sina ken lukin e lukin ona." ; as radars. In a
+	next "" ; bright place, you
 
-	page "can see that they"
-	next "are clusters of"
-	next "many tiny eyes"
+	page "lukin ni li lukin suli ala." ; can see that they
+	next "lukin ni li kulupu pi lukin lili mute" ; are clusters of
+	;next "" ; many tiny eyes
 	dex
 
 _VenomothDexEntry::
-	text "The powdery scales"
-	next "on its wings are"
-	next "hard to remove."
+	text "selo pi luka ona li jo e ko nasa." ; The powdery scales
+	next "ko ni ken weka ala." ; on its wings are
+	;next "" ; hard to remove.
 
-	page "They also contain"
-	next "poison that leaks"
-	next "out on contact"
+	page "taso sina luka e luka ona la" ; They also contain
+	next "luka ni li pana e telo jaki" ; poison that leaks
+	;next "" ; out on contact
 	dex
 
 _DiglettDexEntry::
-	text "It prefers dark"
-	next "places. It spends"
-	next "most of its time"
+	text "ma pimeja li pona tawa ona." ; It prefers dark
+	next "tenpo mute la ona li awen anpa." ; places. It spends
+	next "taso tenpo lili la ona weka e anpa." ; most of its time
 
-	page "underground,"
-	next "though it may pop"
-	next "up in caves"
+	page "ona li jo e noka" ; underground,
+	;next "" ; though it may pop
+	;next "" ; up in caves
 	dex
 
 _DugtrioDexEntry::
-	text "A team of triplets"
-	next "that can burrow"
-	next "over 60 MPH."
+	text "kulupu ni li tu wan." ; A team of triplets
+	next "ona li ken tawa anpa ma" ; that can burrow
+	next "kepeken wawa tawa suli." ; over 60 MPH.
 
-	page "Due to this, some"
-	next "people think it's"
-	next "an earthquake"
+	page "tenpo lili la jan li toki isipin e ni:" ; Due to this, some
+	next "ni li pakala ma." ; people think it's
+	next "ni li lon ala" ; an earthquake
 	dex
 
 _MeowthDexEntry::
-	text "Appears to be more"
-	next "active at night."
-	next "It loves round"
+	text "tenpo pimeja la ona li musi." ; Appears to be more
+	next "ijo sike en ijo suno li pona tawa ona." ; active at night.
+	;next "" ; It loves round
 
-	page "and shiny things."
-	next "It can't stop from"
-	next "picking them up"
+	page "ona li kama jo e ijo sin lon tenpo ale." ; and shiny things.
+	next "mani sina li weka" ; It can't stop from
+	;next "" ; picking them up
 	dex
 
 _PersianDexEntry::
-	text "The gem in its"
-	next "forehead glows on"
-	next "its own! It walks"
+	text "ona li jo e kiwen lon lawa ona." ; The gem in its
+	next "kiwen ni li suno." ; forehead glows on
+	;next "" ; its own! It walks
 
-	page "with all the grace"
-	next "and elegance of a"
-	next "proud queen"
+	page "nasin pi tawa ona li pona lukin" ; with all the grace
+	next "li sama meli lawa wawa" ; and elegance of a
+	;next "" ; proud queen
 	dex
 
 _PsyduckDexEntry::
-	text "Always tormented"
-	next "by headaches."
-	next "It uses psychic"
+	text "tenpo ale la ona li pilin ike lawa." ; Always tormented
+	next "ken la ona li jo e wawa lawa tan ike ni." ; by headaches.
+	;next "" ; It uses psychic
 
-	page "powers, but it is"
-	next "not known if it"
-	next "intends to do so"
+	page "ona li wile ala wile kepeken wawa ona." ; powers, but it is
+	next "jan li sona ala e ni" ; not known if it
+	;next "" ; intends to do so
 	dex
 
 _GolduckDexEntry::
-	text "Its slim and long"
-	next "limbs end in broad"
-	next "flippers. They"
+	text "luka ona en noka ona li jo" ; Its slim and long
+	next "e lipu selo lon pini ona." ; limbs end in broad
+	;next "" ; flippers. They
 
-	page "are used for swim-"
-	next "ming gracefully"
-	next "in lakes"
+	page "monsuta ni li ken tawa sama kala" ; are used for swim-
+	next "kepeken lipu ni" ; ming gracefully
+	;next "" ; in lakes
 	dex
 
 _MankeyDexEntry::
-	text "An agile #MON"
-	next "that lives in"
-	next "trees. It angers"
+	text "kasi suli li tomo ona." ; An agile #MON
+	next "lon kasi suli la ona li ken tawa kepeken wawa lili." ; that lives in
+	;next "" ; trees. It angers
 
-	page "easily and will"
-	next "not hesitate to"
-	next "attack anything"
+	page "ona li kama pilin ike lon tenpo mute." ; easily and will
+	next "ni la ona li utala e monsuta ale" ; not hesitate to
+	;next "" ; attack anything
 	dex
 
 _PrimeapeDexEntry::
-	text "It stops being"
-	next "angry only when"
-	next "nobody else is"
+	text "ona li pini pilin ike" ; It stops being
+	next "lon poka pi monsuta ala taso." ; angry only when
+	;next "" ; nobody else is
 
-	page "around. To view"
-	next "this moment is"
-	next "very difficult"
+	page "jan mute ala li lukin" ; around. To view
+	next "e monsuta ni lon tenpo ni" ; this moment is
+	;next "" ; very difficult
 	dex
 
 _GrowlitheDexEntry::
-	text "A #MON with a"
-	next "friendly nature."
-	next "However, it will"
+	text "monsuta ni li pona a." ; A #MON with a
+	next "taso ona li awen e tomo ona la" ; friendly nature.
+	next "ona li mu mute." ; However, it will
 
-	page "bark fiercely at"
-	next "anything invading"
-	next "its territory"
+	page "ona li soweli pona nanpa wan" ; bark fiercely at
+	;next "" ; anything invading
+	;next "" ; its territory
 	dex
 
 _ArcanineDexEntry::
-	text "A legendary #-"
-	next "MON in China."
-	next "Many people are"
+	text "toki majuna pi ma [sona.n kon.] li" ; A legendary #-
+	next "toki e monsuta ni." ; MON in China.
+	;next "" ; Many people are
 
-	page "charmed by its"
-	next "grace and beauty"
-	next "while running"
+	page "jan mute li toki e ni:" ; charmed by its
+	next "monsuta ni li tawa la" ; grace and beauty
+	next "ona li sama kon tawa" ; while running
 	dex
 
 _PoliwagDexEntry::
-	text "The direction of"
-	next "the spiral on the"
-	next "belly differs by"
+	text "sijelo ona li jo e sitelen sike" ; The direction of
+	next "lon ma ante la" ; the spiral on the
+	next "nasin pi sitelen ni li ante." ; belly differs by
 
-	page "area. It is more"
-	next "adept at swimming"
-	next "than walking"
+	page "tawa ma ona la" ; area. It is more
+	next "tawa telo ona li suli" ; adept at swimming
+	;next "" ; than walking
 	dex
 
 _PoliwhirlDexEntry::
-	text "Under attack, it"
-	next "uses its belly "
-	next "spiral to put the"
+	text "ona li utala la" ; Under attack, it
+	next "ona li ken lape e monsuta ante" ; uses its belly 
+	next "kepeken sitelen sike lon sijelo ona." ; spiral to put the
 
-	page "foe to sleep. It"
-	next "then makes its"
-	next "escape"
+	page "monsuta ante li lape la" ; foe to sleep. It
+	next "ona li weka" ; then makes its
+	next "" ; escape
 	dex
 
 _PoliwrathDexEntry::
-	text "Swims powerfully"
-	next "using all the"
-	next "muscles in its"
+	text "ona li jo e wawa insa sijelo suli." ; Swims powerfully
+	next "ona li ken tawa telo suli kepeken wawa ni." ; using all the
+	;next "" ; muscles in its
 
-	page "body. It can even"
-	next "overtake champion"
-	next "swimmers"
+	page "ken tawa telo ona li suli" ; body. It can even
+	next "tawa jan pi tawa telo" ; overtake champion
+	;next "" ; swimmers
 	dex
 
 _AbraDexEntry::
-	text "Sleeps 18 hours a"
-	next "day. If it senses"
-	next "danger, it will"
+	text "ona li lape ala lon tenpo ale" ; Sleeps 18 hours a
+	next "taso ona li lape lon tenpo mute mute." ; day. If it senses
+	;next "" ; danger, it will
 
-	page "teleport itself to"
-	next "safety even as it"
-	next "sleeps"
+	page "ona li pilin ike la" ; teleport itself to
+	next "ona li ken weka kepeken tenpo ala." ; safety even as it
+	next "ona li lape kin la ni li lon" ; sleeps
 	dex
 
 _KadabraDexEntry::
-	text "Many odd things"
-	next "happen if this"
-	next "#MON is close"
+	text "monsuta ni li lon poka la" ; Many odd things
+	next "ijo nasa mute li lon." ; happen if this
+	;next "" ; #MON is close
 
-	page "by. For example,"
-	next "it makes clocks"
-	next "run backwards"
+	page "lon poka monsuta ni" ; by. For example,
+	next "ilo tenpo li ken tawa monsi" ; it makes clocks
+	;next "" ; run backwards
 	dex
 
 _AlakazamDexEntry::
-	text "A #MON that can"
-	next "memorize anything."
-	next "It never forgets"
+	text "ona li ken awen sona e ijo ale." ; A #MON that can
+	next "ona li weka sona ala." ; memorize anything.
+	next "tan ni la ona li wawa lawa suli." ; It never forgets
 
-	page "what it learns--"
-	next "that's why this"
-	next "#MON is smart"
+	page "moku lete suwi li pona tawa ona." ; what it learns--
+	next "ona li kepeken ilo moku ona tawa moku" ; that's why this
+	;next "" ; #MON is smart
 	dex
 
 _MachopDexEntry::
-	text "Very powerful in"
-	next "spite of its small"
-	next "size. Its mastery"
+	text "ona li suli sijelo ala" ; Very powerful in
+	next "taso ona li wawa suli." ; spite of its small
+	;next "" ; size. Its mastery
 
-	page "of many types of"
-	next "martial arts makes"
-	next "it very tough"
+	page "ona li sona e nasin utala mute." ; of many types of
+	next "tan ni la ona li wawa" ; martial arts makes
+	;next "" ; it very tough
 	dex
 
 _MachokeDexEntry::
-	text "The belt around"
-	next "its waist holds"
-	next "back its energy."
+	text "len linja lon sijelo ona" ; The belt around
+	next "li lili e wawa ona." ; its waist holds
+	;next "" ; back its energy.
 
-	page "Without it, this"
-	next "#MON would be"
-	next "unstoppable"
+	page "len linja ni li weka la" ; Without it, this
+	next "monsuta ni li ken ala lawa e wawa ona" ; #MON would be
+	;next "" ; unstoppable
 	dex
 
 _MachampDexEntry::
-	text "One arm alone can"
-	next "move mountains."
-	next "Using all four"
+	text "ona li ken tawa e nena suli" ; One arm alone can
+	next "kepeken luka wan taso." ; move mountains.
+	next "" ; Using all four
 
-	page "arms, this #MON"
-	next "fires off awesome"
-	next "punches"
+	page "ona kepeken luka ona ale la" ; arms, this #MON
+	next "ona li ken pakala ijo ale" ; fires off awesome
+	;next "" ; punches
 	dex
 
 _BellsproutDexEntry::
-	text "Prefers hot and"
-	next "humid places."
-	next "It ensnares tiny"
+	text "ma seli en ma telo li pona tawa ona." ; Prefers hot and
+	next "ona li kepeken linja kasi ona la" ; humid places.
+	next "pipi li tawa ala li moku tawa ona." ; It ensnares tiny
 
-	page "insects with its"
-	next "vines and devours"
-	next "them"
+	page "o lukin ala e nanpa ona" ; insects with its
+	;next "" ; vines and devours
+	;next "" ; them
 	dex
 
 _WeepinbellDexEntry::
-	text "When hungry, it"
-	next "swallows anything"
-	next "that moves. Its"
+	text "ona li wile moku la" ; When hungry, it
+	next "ona li alasa moku e ijo tawa ale." ; swallows anything
+	;next "" ; that moves. Its
 
-	page "hapless prey is"
-	next "melted inside by"
-	next "strong acids"
+	page "ijo pi moku ona li pakala" ; hapless prey is
+	next "kepeken telo pakala insa ona" ; melted inside by
+	;next "" ; strong acids
 	dex
 
 _VictreebelDexEntry::
-	text "Lures prey with"
-	next "the sweet aroma of"
-	next "honey. Swallowed"
+	text "monsuta ante li kama poka ona" ; Lures prey with
+	next "tan pilin nena suwi ona." ; the sweet aroma of
+	;next "" ; honey. Swallowed
 
-	page "whole, the prey is"
-	next "melted in a day,"
-	next "bones and all"
+	page "lon insa ona la moku ale li pakala" ; whole, the prey is
+	next "li kama telo lon tenpo suno wan" ; melted in a day,
+	;next "" ; bones and all
 	dex
 
 _TentacoolDexEntry::
-	text "It can sometimes"
-	next "be found all dry"
-	next "and shriveled up"
+	text "tenpo lili la sina ken lukin e ona" ; It can sometimes
+	next "lon ma poka telo. ni la ona li telo ala." ; be found all dry
+	;next "" ; and shriveled up
 
-	page "on a beach. Toss"
-	next "it back into the"
-	next "sea to revive it"
+	page "o pana e ona tawa telo." ; on a beach. Toss
+	next "ni la ona li ken kama pona" ; it back into the
+	;next "" ; sea to revive it
 	dex
 
 _TentacruelDexEntry::
-	text "Its 80 tentacles"
-	next "can stretch and"
-	next "contract freely."
+	text "ona li jo e linja luka mute mute." ; Its 80 tentacles
+	next "ona li wile la linja ni li ken kama suli anu lili." ; can stretch and
+	;next "" ; contract freely.
 
-	page "They wrap around"
-	next "prey and weaken"
-	next "it with poison"
+	page "ona li pini e kala ante li kama wawa ala e kala ante." ; They wrap around
+	next "ni la ona li ken moku e kala ni" ; prey and weaken
+	;next "" ; it with poison
 	dex
 
 _GeodudeDexEntry::
-	text "Commonly found"
-	next "near mountain"
-	next "trails, etc."
+	text "tenpo mute la sina ken lukin e ona" ; Commonly found
+	next "lon nasin pi nena suli." ; near mountain
+	;next "" ; trails, etc.
 
-	page "If you step on"
-	next "one by accident,"
-	next "it gets angry"
+	page "sina wile ala noka e ona." ; If you step on
+	next "taso sina noka e ona la" ; one by accident,
+	next "ona li kama pilin utala" ; it gets angry
 	dex
 
 _GravelerDexEntry::
-	text "Often seen rolling"
-	next "down mountain"
-	next "trails. Obstacles"
+	text "lon nasin pi nena suli la" ; Often seen rolling
+	next "ona li tawa sama sike." ; down mountain
+	;next "" ; trails. Obstacles
 
-	page "are just things to"
-	next "roll straight"
-	next "over, not avoid"
+	page "ijo li lon nasin ona la" ; are just things to
+	next "ni li ala tawa ona." ; roll straight
+	next "ona li awen tawa sama sike" ; over, not avoid
 	dex
 
 _GolemDexEntry::
-	text "Once it sheds its"
-	next "skin, its body"
-	next "turns tender and"
+	text "ona li weka e selo ona la" ; Once it sheds its
+	next "sijelo ona li kama walo li kama sama ko." ; skin, its body
+	;next "" ; turns tender and
 
-	page "whitish. Its hide"
-	next "hardens when it's"
-	next "exposed to air"
+	page "selo ona li kama kiwen" ; whitish. Its hide
+	next "tan poka kon" ; hardens when it's
+	;next "" ; exposed to air
 	dex
 
 _PonytaDexEntry::
-	text "Capable of jumping"
-	next "incredibly high."
-	next "Its hooves and"
+	text "ona li ken tawa sewi mute." ; Capable of jumping
+	next "taso tawa ni li ante waso." ; incredibly high.
+	;next "" ; Its hooves and
 
-	page "sturdy legs absorb"
-	next "the impact of a"
-	next "hard landing"
+	page "noka ona li wawa li ken lili" ; sturdy legs absorb
+	next "e wawa pakala tan kama anpa" ; the impact of a
+	;next "" ; hard landing
 	dex
 
 _RapidashDexEntry::
-	text "Just loves to run."
-	next "If it sees some-"
-	next "thing faster than"
+	text "tawa wawa li pona tawa ona." ; Just loves to run.
+	next "monsuta ante li tawa kepeken wawa mute la" ; If it sees some-
+	next "ona li wile alasa e monsuta ni." ; thing faster than
 
-	page "itself, it will"
-	next "give chase at top"
-	next "speed"
+	page "sina wile sona mute e ona la" ; itself, it will
+	next "o tawa ma tomo [loje.jelo:]" ; give chase at top
+	;next "" ; speed
 	dex
 
 _SlowpokeDexEntry::
-	text "Incredibly slow"
-	next "and sluggish. It"
-	next "is quite content"
+	text "tenpo li ala tawa ona." ; Incredibly slow
+	next "ona li awen li lape la" ; and sluggish. It
+	next "ona li pilin pona." ; is quite content
 
-	page "to loll about"
-	next "without worrying"
-	next "about the time"
+	page "monsuta ante li utala e ona la" ; to loll about
+	next "ona li pilin ala e ni" ; without worrying
+	next "lon tenpo lili" ; about the time
 	dex
 
 _SlowbroDexEntry::
-	text "Lives lazily by"
-	next "the sea. If the"
-	next "SHELLDER on its"
+	text "ona li lon poka pi telo suli." ; Lives lazily by
+	next "kala lon monsi ona li weka la" ; the sea. If the
+	next "ona li kama soweli lili." ; SHELLDER on its
 
-	page "tail comes off,"
-	next "it becomes a"
-	next "SLOWPOKE again"
+	page "kala lon monsi ona li" ; tail comes off,
+	next "moku e wawa tan linja monsi ona." ; it becomes a
+	next "ona li pilin ala e ni" ; SLOWPOKE again
 	dex
 
 _MagnemiteDexEntry::
-	text "It is born with"
-	next "the ability to"
-	next "defy gravity. It"
+	text "ona li pilin ala e wawa anpa." ; It is born with
+	next "ona li awen sewi kepeken wawa sama suno." ; the ability to
+	;next "" ; defy gravity. It
 
-	page "floats in air on"
-	next "powerful electro-"
-	next "magnetic waves"
+	page "ilo pi kama wan a." ; floats in air on
+	next "ona li pali tan seme" ; powerful electro-
+	;next "" ; magnetic waves
 	dex
 
 _MagnetonDexEntry::
-	text "Generates strange"
-	next "radio signals. It"
-	next "raises the tem-"
+	text "ona li pana e nena suno sama ilo kalama." ; Generates strange
+	next "ni li suli lili e seli lon poka ona." ; radio signals. It
+	next "" ; raises the tem-
 
-	page "perature by 3.6F"
-	next "degrees within"
-	next "3,300 feet"
+	page "ona li tu wan." ; perature by 3.6F
+	next "ni li ken ala." ; degrees within
+	next "taso ni li lon. mi sona ala e ilo pi kama wan" ; 3,300 feet
 	dex
 
 _FarfetchdDexEntry::
-	text "Lives where reedy"
-	next "plants grow. They"
-	next "are rarely seen,"
+	text "ona li lon poka telo sama kasi telo" ; Lives where reedy
+	next "tenpo mute la jan li lukin ala e ona." ; plants grow. They
+	;next "" ; are rarely seen,
 
-	page "so it's thought"
-	next "their numbers are"
-	next "decreasing"
+	page "ni la sona jan la" ; so it's thought
+	next "nanpa ona li kama lili" ; their numbers are
+	;next "" ; decreasing
 	dex
 
 _DoduoDexEntry::
-	text "Its short wings"
-	next "make flying dif-"
-	next "ficult. Instead,"
+	text "tawa sewi ona li ike" ; Its short wings
+	next "tan luka lili ona." ; make flying dif-
+	;next "" ; ficult. Instead,
 
-	page "this #MON runs"
-	next "at high speed on"
-	next "developed legs"
+	page "taso ona li tawa wawa" ; this #MON runs
+	next "lon ma kepeken noka suli ona" ; at high speed on
+	;next "" ; developed legs
 	dex
 
 _DodrioDexEntry::
-	text "One of DODUO's 2"
-	next "heads splits to"
-	next "form a unique"
+	text "lawa ona wan li kama tu." ; One of DODUO's 2
+	next "ma li sama supa la" ; heads splits to
+	next "ona li ken tawa wawa mute." ; form a unique
 
-	page "species. It runs"
-	next "close to 40 MPH"
-	next "in prairies"
+	page "ona li kama wawa tawa mama ona" ; species. It runs
+	;next "" ; close to 40 MPH
+	;next "" ; in prairies
 	dex
 
 _SeelDexEntry::
-	text "Loves freezing"
-	next "cold conditions."
-	next "Relishes swimming"
+	text "lete li pona mute tawa ona." ; Loves freezing
+	next "tenpo mute la ona li tawa lon telo lete." ; cold conditions.
+	;next "" ; Relishes swimming
 
-	page "in a frigid cli-"
-	next "mate of around 14F"
-	next "degrees"
+	page "nena pini lawa ona li sama kiwen." ; in a frigid cli-
+	next "kepeken ni la tawa la" ; mate of around 14F
+	next "ona li ken pakala e lete ale" ; degrees
 	dex
 
 _DewgongDexEntry::
-	text "Its entire body is"
-	next "a snowy-white."
-	next "Unharmed by even"
+	text "sijelo ona ale li walo." ; Its entire body is
+	next "lete suli li ken ala ike e ona." ; a snowy-white.
+	next "ona li ken tawa suli lon telo pi lete mute." ; Unharmed by even
 
-	page "intense cold, it"
-	next "swims powerfully"
-	next "in icy waters"
+	page "tenpo lili la ona li wile" ; intense cold, it
+	next "kepeken utala nasa" ; swims powerfully
+	;next "" ; in icy waters
 	dex
 
 _GrimerDexEntry::
-	text "Made of hardened"
-	next "sludge. It smells"
-	next "too putrid to"
+	text "sijelo ona li telo jaki kama kiwen." ; Made of hardened
+	next "pilin nena li jaki suli." ; sludge. It smells
+	next "ni la sina wile ala luka e ona." ; too putrid to
 
-	page "touch."
-	next "Even weeds won't"
-	next "grow in its path"
+	page "ona li tawa lon ma la" ; touch.
+	next "kasi ala li kama suli lon ma ni" ; Even weeds won't
+	;next "" ; grow in its path
 	dex
 
 _MukDexEntry::
-	text "Smells so awful,"
-	next "it can cause"
-	next "fainting. Through"
+	text "ona li pana e kon jaki suli la" ; Smells so awful,
+	next "ni li ken lape e monsuta." ; it can cause
+	;next "" ; fainting. Through
 
-	page "degeneration, it"
-	next "lost its sense of"
-	next "smell"
+	page "ona li weka e pilin nena ona." ; degeneration, it
+	next "ni la kon jaki ona li ala tawa ona" ; lost its sense of
+	;next "" ; smell
 	dex
 
 _ShellderDexEntry::
-	text "The shell can"
-	next "withstand any"
-	next "attack. However,"
+	text "selo kiwen ona li ken pini e utala ale." ; The shell can
+	next "taso selo ni li open la" ; withstand any
+	next "ijo li ken ike e ona kepeken wawa lili." ; attack. However,
 
-	page "when it is open,"
-	next "the tender body"
-	next "is exposed"
+	page "jan li sona ala e ni:" ; when it is open,
+	next "ona li uta e monsi ante la" ; the tender body
+	next "sijelo ona li ante tan seme" ; is exposed
 	dex
 
 _CloysterDexEntry::
-	text "For protection, it"
-	next "uses its harder-"
-	next "than-diamonds"
+	text "kiwen suno la selo ona li kiwen suli." ; For protection, it
+	next "selo ni li ken pana e pini ike kin." ; uses its harder-
+	;next "" ; than-diamonds
 
-	page "shell. It also"
-	next "shoots spikes from"
-	next "the shell"
+	page "o pini e toki musi ona" ; shell. It also
+	;next "" ; shoots spikes from
+	;next "" ; the shell
 	dex
 
 _GastlyDexEntry::
-	text "Said to appear in"
-	next "decrepit, deserted"
-	next "buildings. It has"
+	text "jan li weka e tomo majuna la" ; Said to appear in
+	next "ona li kama tomo ni." ; decrepit, deserted
+	;next "" ; buildings. It has
 
-	page "no real shape as"
-	next "it appears to be"
-	next "made of a gas"
+	page "sijelo ona ale li kon." ; no real shape as
+	next "ona li jo ala e selo" ; it appears to be
+	;next "" ; made of a gas
 	dex
 
 _HaunterDexEntry::
-	text "By licking, it"
-	next "saps the victim's"
-	next "life. It causes"
+	text "ona li uta e monsuta ante la" ; By licking, it
+	next "ona li ken lanpan e wawa pilin." ; saps the victim's
+	next "" ; life. It causes
 
-	page "shaking that won't"
-	next "stop until the"
-	next "victim's demise"
+	page "tan ni la monsuta li open tawa nasa." ; shaking that won't
+	next "tenpo mute li weka la monsuta ni li moli" ; stop until the
+	;next "" ; victim's demise
 	dex
 
 _GengarDexEntry::
-	text "A GENGAR is close"
-	next "by if you feel a"
-	next "sudden chill."
+	text "sina pilin e lete nasa la" ; A GENGAR is close
+	next "ken la monsuta ni li lon poka sina." ; by if you feel a
+	;next "" ; sudden chill.
 
-	page "It may be trying"
-	next "to lay a curse"
-	next "on you"
+	page "ken la ona li alasa pana" ; It may be trying
+	next "e wawa ike nasa tawa sina" ; to lay a curse
+	;next "" ; on you
 	dex
 
 _OnixDexEntry::
-	text "Burrows at high"
-	next "speed in search"
-	next "of food. The"
+	text "ona li alasa e moku la" ; Burrows at high
+	next "ona li tawa wawa anpa ma." ; speed in search
+	;next "" ; of food. The
 
-	page "tunnels it leaves"
-	next "are used as homes"
-	next "by DIGLETTs"
+	page "ona li weka e nasin suli tan tawa ona." ; tunnels it leaves
+	next "nasin ni li tomo tawa monsuta lili ante" ; are used as homes
+	;next "" ; by DIGLETTs
 	dex
 
 _DrowzeeDexEntry::
-	text "If you sleep by"
-	next "it all the time,"
-	next "it will sometimes"
+	text "sina lape lon poka ona la" ; If you sleep by
+	next "tenpo lili la sina ken lukin e sitelen lape nasa." ; it all the time,
+	;next "" ; it will sometimes
 
-	page "show you dreams"
-	next "it has eaten in"
-	next "the past"
+	page "tenpo pini la monsuta ni li moku" ; show you dreams
+	next "e sitelen lape ona" ; it has eaten in
+	;next "" ; the past
 	dex
 
 _HypnoDexEntry::
-	text "Avoid eye contact"
-	next "if you come across"
-	next "one. It will try"
+	text "sina kama lon poka e monsuta ni la" ; Avoid eye contact
+	next "o lukin ala e sike lukin ona." ; if you come across
+	;next "" ; one. It will try
 
-	page "to put you to"
-	next "sleep by using"
-	next "its pendulum"
+	page "sina lukin la ona li alasa lape e sina" ; to put you to
+	next "kepeken ilo lape ona" ; sleep by using
+	;next "" ; its pendulum
 	dex
 
 _KrabbyDexEntry::
-	text "Its pincers are"
-	next "superb weapons."
-	next "They sometimes"
+	text "luka kala ona li ilo utala suli." ; Its pincers are
+	next "tenpo lili la luka ni li ken pakala" ; superb weapons.
+	next "taso ona li kama suli sin kepeken tenpo lili." ; They sometimes
 
-	page "break off during"
-	next "battle, but they"
-	next "grow back fast"
+	page "ale li kama sama ona" ; break off during
+	;next "" ; battle, but they
+	;next "" ; grow back fast
 	dex
 
 _KinglerDexEntry::
-	text "One claw grew"
-	next "massively and as"
-	next "hard as steel."
+	text "luka wan ona li kama suli mute" ; One claw grew
+	next "li kama kiwen sama kiwen ilo." ; massively and as
+	;next "" ; hard as steel.
 
-	page "It has 10,000-HP"
-	next "strength. However,"
-	next "it is too heavy"
+	page "luka ni li wawa mute." ; It has 10,000-HP
+	next "taso monsuta ni li tawa e luka ni la" ; strength. However,
+	next "ona li wile kepeken wawa mute" ; it is too heavy
 	dex
 
 _VoltorbDexEntry::
-	text "It is said to"
-	next "camouflage itself"
-	next "as a # BALL. It"
+	text "ona li lukin sama sike poki." ; It is said to
+	next "ni la ona li ken len e ona" ; camouflage itself
+	next "kepeken pali lili." ; as a # BALL. It
 
-	page "will self-destruct"
-	next "with very little"
-	next "stimulus"
+	page "ona li pilin ike lili tan ijo ante la" ; will self-destruct
+	next "ona li pakala e ona" ; with very little
+	;next "" ; stimulus
 	dex
 
 _ElectrodeDexEntry::
-	text "Stores electrical"
-	next "energy inside its"
-	next "body. Even the"
+	text "insa sijelo ona li jo e wawa sewi" ; Stores electrical
+	next "ona li pilin e pilin lili la" ; energy inside its
+	next "ni li open e pakala suli mute." ; body. Even the
 
-	page "slightest shock"
-	next "could trigger a"
-	next "huge explosion"
+	page "ona li ken tawa mun ala" ; slightest shock
+	;next "" ; could trigger a
+	;next "" ; huge explosion
 	dex
 
 _ExeggcuteDexEntry::
-	text "The heads attract"
-	next "each other and"
-	next "spin around."
+	text "lawa mute ni li kama wan" ; The heads attract
+	next "li tawa sike." ; each other and
+	;next "" ; spin around.
 
-	page "There must be 6"
-	next "heads for it to"
-	next "maintain balance"
+	page "monsuta ni li wile jo" ; There must be 6
+	next "e lawa nanpa luka wan" ; heads for it to
+	next "tan awen pona" ; maintain balance
 	dex
 
 _ExeggutorDexEntry::
-	text "Its cries are very"
-	next "noisy. This is"
-	next "because each of"
+	text "mu ona li kalama suli." ; Its cries are very
+	next "lawa ale ona li toki e ijo ante" ; noisy. This is
+	next "e ijo pona tawa ona." ; because each of
 
-	page "the 3 heads thinks"
-	next "about whatever it"
-	next "likes"
+	page "palisa anpa lawa ona li ken kama suli mute." ; the 3 heads thinks
+	next "ni li lukin musi mute" ; about whatever it
+	;next "" ; likes
 	dex
 
 _CuboneDexEntry::
-	text "Wears the skull"
-	next "of its deceased"
-	next "mother. Its cries"
+	text "ona li len e kiwen wawa pi mama moli ona" ; Wears the skull
+	next "lon lawa ona." ; of its deceased
+	;next "" ; mother. Its cries
 
-	page "echo inside the"
-	next "skull and come out"
-	next "as a sad melody"
+	page "kiwen ni li suli e mu ona" ; echo inside the
+	next "li pana e mu ni sama kalama pilin" ; skull and come out
+	;next "" ; as a sad melody
 	dex
 
 _MarowakDexEntry::
-	text "Small and weak,"
-	next "this #MON is"
-	next "adept with its"
+	text "ona li lili sijelo li wawa lili" ; Small and weak,
+	next "taso ona li sona mute kepeken palisa ona." ; this #MON is
+	;next "" ; adept with its
 
-	page "bone club. It has"
-	next "grown more vicious"
-	next "over the ages"
+	page "tenpo li kama li tawa la" ; bone club. It has
+	next "ona li kama pilin utala suli" ; grown more vicious
+	;next "" ; over the ages
 	dex
 
 _HitmonleeDexEntry::
-	text "When kicking, the"
-	next "sole of its foot"
-	next "turns as hard as"
+	text "ona li noka utala la" ; When kicking, the
+	next "selo anpa noka ona li kama sama kiwen." ; sole of its foot
+	;next "" ; turns as hard as
 
-	page "a diamond on im-"
-	next "pact and destroys"
-	next "its enemy"
+	page "ni la ona li ken pana e wawa mute" ; a diamond on im-
+	next "li ken pakala e ijo mute" ; pact and destroys
+	;next "" ; its enemy
 	dex
 
 _HitmonchanDexEntry::
-	text "Punches in cork-"
-	next "screw fashion. It"
-	next "can punch its way"
+	text "luka utala ona li tawa sike la." ; Punches in cork-
+	next "ona li ken pakala e sinpin kiwen tomo" ; screw fashion. It
+	next "sama ilo nena." ; can punch its way
 
-	page "through a concrete"
-	next "wall in the same"
-	next "way as a drill"
+	page "ona li ken ala tawa sewi sams pipi pi kule mute." ; through a concrete
+	next "taso ona li ken utala sama pipi kulupu jelo" ; wall in the same
+	;next "" ; way as a drill
 	dex
 
 _LickitungDexEntry::
-	text "Its tongue spans"
-	next "almost 7 feet and"
-	next "moves more freely"
+	text "palisa uta ona li suli sama sijelo ale ona" ; Its tongue spans
+	next "li ken tawa sama luka ona." ; almost 7 feet and
+	;next "" ; moves more freely
 
-	page "than its forelegs."
-	next "Its licks can"
-	next "cause paralysis"
+	page "ona li ken pini e jan e monsuta ante" ; than its forelegs.
+	next "kepen palisa uta ni" ; Its licks can
+	;next "" ; cause paralysis
 	dex
 
 _KoffingDexEntry::
-	text "In hot places, its"
-	next "internal gases"
-	next "could expand and"
+	text "lon ma seli la kon insa ona li" ; In hot places, its
+	next "ken kama suli li ken pakala " ; internal gases
+	next "li toki ala pi ike kama." ; could expand and
 
-	page "explode without"
-	next "any warning. Be"
-	next "very careful!@@"
+	page "monsuta ni li pona mute" ; explode without
+	next "tawa jan pi utala musi" ; any warning. Be
+	;next "" ; very careful!@@
 
 _WeezingDexEntry::
-	text "It lives and grows"
-	next "by absorbing dust,"
-	next "germs and poison"
+	text "ona li moku e ijo lili ike" ; It lives and grows
+	next "e telo jaki e kon jaki" ; by absorbing dust,
+	next "tan ijo weka jaki." ; germs and poison
 
-	page "gases that are"
-	next "contained in toxic"
-	next "waste and garbage"
+	page "lawa ona wan li kama suli la" ; gases that are
+	next "lawa ante li kama lili" ; contained in toxic
+	;next "" ; waste and garbage
 	dex
 
 _RhyhornDexEntry::
-	text "A #MON with a"
-	next "one-track mind."
-	next "Once it charges, "
+	text "monsuta ni li toki insa mute ala." ; A #MON with a
+	next "ona li open tawa la" ; one-track mind.
+	next "ona li pini ala tawa lape ona." ; Once it charges, 
 
-	page "it won't stop"
-	next "running until it"
-	next "falls asleep"
+	page "ma ni li wile e nasin pi tawa wawa." ; it won't stop
+	next "ni la jan li ken kepeken monsuta ni." ; running until it
+	next "monsuta ni li ken musi kin" ; falls asleep
 	dex
 
 _RhydonDexEntry::
-	text "Walks on its hind"
-	next "legs. Shows signs"
-	next "of intelligence."
+	text "ona li tawa kepeken noka tu" ; Walks on its hind
+	next "li sona suli tawa monsuta ona lili." ; legs. Shows signs
+	;next "" ; of intelligence.
 
-	page "Its armor-like"
-	next "hide even repels"
-	next "molten lava"
+	page "selo ona li sama kiwen." ; Its armor-like
+	next "ni la kiwen telo seli li ala tawa ona" ; hide even repels
+	;next "" ; molten lava
 	dex
 
 _ChanseyDexEntry::
-	text "A gentle and kind-"
-	next "hearted #MON"
-	next "that shares its"
+	text "monsuta ni li suwi li pona tawa ale." ; A gentle and kind-
+	next "ona li lukin e monsuta pi pakala sijelo la" ; hearted #MON
+	next "ona li pana e sike mama ona." ; that shares its
 
-	page "nutritious eggs"
-	next "if it sees an"
-	next "injured #MON"
+	page "sike mama ni li moku pona" ; nutritious eggs
+	next "li misikeke kin" ; if it sees an
+	;next "" ; injured #MON
 	dex
 
 _TangelaDexEntry::
-	text "Its identity is"
-	next "obscured by masses"
-	next "of thick, blue"
+	text "sijelo ona li len kepeken linja kasi mute ona." ; Its identity is
+	next "tenpo ale la linja kasi ni li kama suli." ; obscured by masses
+	;next "" ; of thick, blue
 
-	page "vines. The vines"
-	next "are said to never"
-	next "stop growing"
+	page "ona li kama suli mute la li kama jo e ilo nasa la" ; vines. The vines
+	next "ona li ken pakala e ma tomo ale" ; are said to never
+	;next "" ; stop growing
 	dex
 
 _KangaskhanDexEntry::
-	text "Raises its young"
-	next "in its belly"
-	next "pouch. Won't run"
+	text "ona li awen e soweli lili ona" ; Raises its young
+	next "lon insa poki sijelo ona." ; in its belly
+	;next "" ; pouch. Won't run
 
-	page "from any fight"
-	next "to keep its young"
-	next "protected"
+	page "tenpo ale la ona li wile awen e soweli lili ona." ; from any fight
+	next "ni la ona li weka ala tan utala" ; to keep its young
+	;next "" ; protected
 	dex
 
 _HorseaDexEntry::
-	text "If it senses any"
-	next "danger, it will"
-	next "vigorously spray"
+	text "ona li pilin ike la" ; If it senses any
+	next "ona li pana e telo anu telo pimeja" ; danger, it will
+	next "tan uta ona." ; vigorously spray
 
-	page "water or a special"
-	next "type of ink from"
-	next "its mouth"
+	page "jan nasa li sitelen e nimi ona" ; water or a special
+	next "lon kiwen lon tomo sona nasa" ; type of ink from
+	;next "" ; its mouth
 	dex
 
 _SeadraDexEntry::
-	text "Touching the back"
-	next "fin causes numb-"
-	next "ness. It hooks"
+	text "sina luka e selo monsi ona la" ; Touching the back
+	next "sina kama pilin nasa ike." ; fin causes numb-
+	;next "" ; ness. It hooks
 
-	page "its tail to coral"
-	next "to stay in place"
-	next "while sleeping"
+	page "ona lape la ona awen lon ma sama" ; its tail to coral
+	next "kepeken linja monsi ona" ; to stay in place
+	;next "" ; while sleeping
 	dex
 
 _GoldeenDexEntry::
-	text "When it is time"
-	next "for them to lay"
-	next "eggs, they can be"
+	text "ona li wile pana e sike mama la" ; When it is time
+	next "ona li tawa open pi nasin telo" ; for them to lay
+	next "lon kulupu suli." ; eggs, they can be
 
-	page "seen swimming up"
-	next "rivers and falls"
-	next "in large groups"
+	page "sina ken weka e monsuta sina la" ; seen swimming up
+	next "o awen lon poka ala pini ike" ; rivers and falls
+	next "pi monsuta ni" ; in large groups
 	dex
 
 _SeakingDexEntry::
-	text "It is the male's"
-	next "job to make a"
-	next "nest by carving"
+	text "monsuta mije ni li pakala kiwen suli" ; It is the male's
+	next "tawa pali tomo pi sike mama." ; job to make a
+	next "ni li kepeken pini ike lon lawa ona." ; nest by carving
 
-	page "out boulders in a"
-	next "stream using the"
-	next "horn on its head"
+	page "tenpo pini mute la lon ilo kulupu la" ; out boulders in a
+	next "jan mute li toki e monsuta ni." ; stream using the
+	next "jan li sona ala tan seme" ; horn on its head
 	dex
 
 _StaryuDexEntry::
-	text "As long as the"
-	next "center section is"
-	next "unharmed, it can"
+	text "insa sijelo ona li awen pona la" ; As long as the
+	next "luka weka ona li ken kama suli sin." ; center section is
+	;next "" ; unharmed, it can
 
-	page "grow back fully"
-	next "even if it is"
-	next "chopped to bits"
+	page "tenpo pimeja la kiwen ona li pana e suno." ; grow back fully
+	next "tenpo pi pana ni li sama tenpo kalama pi pilin jan" ; even if it is
+	;next "" ; chopped to bits
 	dex
 
 _StarmieDexEntry::
-	text "The center section"
-	next "is named the core."
-	next "People think it"
+	text "kiwen insa ona li pana e suno pi kule mute." ; The center section
+	next "ni la jan li pilin e ni:" ; is named the core.
+	next "ona li alasa toki." ; People think it
 
-	page "is communicating"
-	next "when it glows in"
-	next "7 colors"
+	page "tenpo lili la jan li toki insa e ni:" ; is communicating
+	next "monsuta ni li kama tan sewi pimeja" ; when it glows in
+	;next "" ; 7 colors
 	dex
 
 _MrMimeDexEntry::
-	text "Always practices"
-	next "its pantomime act."
-	next "It makes enemies"
+	text "tenpo ale la ona li tawa kepeken kalama ala." ; Always practices
+	next "ona li wile kama pona mute e ni." ; its pantomime act.
+	;next "" ; It makes enemies
 
-	page "believe something"
-	next "exists that"
-	next "really doesn't"
+	page "tan ni la monsuta ante li pilin e ni:" ; believe something
+	next "ijo pi lon ala li lon" ; exists that
+	;next "" ; really doesn't
 	dex
 
 _ScytherDexEntry::
-	text "Leaps out of tall"
-	next "grass and slices"
-	next "prey with its"
+	text "ona li tawa wawa tan kasi suli" ; Leaps out of tall
+	next "li kipisi e monsuta ante kepeken luka kipisi ona." ; grass and slices
+	;next "" ; prey with its
 
-	page "scythes. The move-"
-	next "ment looks like"
-	next "that of a ninja"
+	page "tawa ona li sama jan moli pi len pimeja" ; scythes. The move-
+	;next "" ; ment looks like
+	;next "" ; that of a ninja
 	dex
 
 _JynxDexEntry::
-	text "Appears to move"
-	next "to a rhythm of"
-	next "its own, as if it"
+	text "tenpo ale la ona li pilin e kalama lon insa ona." ; Appears to move
+	next "ni la ona li tawa musi lon tenpo ale." ; to a rhythm of
+	;next "" ; its own, as if it
 
-	page "were dancing. It"
-	next "wiggles its hips"
-	next "as it walks"
+	page "ona li tawa lon poka jan la" ; were dancing. It
+	next "jan li open tawa musi kin" ; wiggles its hips
+	;next "" ; as it walks
 	dex
 
 _ElectabuzzDexEntry::
-	text "If a major power"
-	next "outage occurs, it"
-	next "is certain that"
+	text "tomo mute li weka e wawa la" ; If a major power
+	next "ni li tan monsuta ni." ; outage occurs, it
+	;next "" ; is certain that
 
-	page "this #MON has"
-	next "eaten electricity"
-	next "at a power plant"
+	page "tenpo suli la monsuta ni li" ; this #MON has
+	next "moku e wawa tan tomo pi pali wawa" ; eaten electricity
+	;next "" ; at a power plant
 	dex
 
 _MagmarDexEntry::
-	text "Born in an active"
-	next "volcano. Its body"
-	next "is always cloaked"
+	text "ona li kama suli lon nena suli seli." ; Born in an active
+	next "seli li len e sijelo ona." ; volcano. Its body
+	;next "" ; is always cloaked
 
-	page "in flames, so it"
-	next "looks like a big"
-	next "ball of fire"
+	page "sina lon poka ona ala la" ; in flames, so it
+	next "ona li lukin sama sike seli" ; looks like a big
+	;next "" ; ball of fire
 	dex
 
 _PinsirDexEntry::
-	text "Grips its prey in"
-	next "its pincers and"
-	next "squeezes hard! It"
+	text "ona li pini e tawa pi monsuta moku" ; Grips its prey in
+	next "kepeken pini ike lawa suli ona." ; its pincers and
+	;next "" ; squeezes hard! It
 
-	page "can't move if it's"
-	next "cold, so it lives"
-	next "in warm places"
+	page "kon li lete la ona li ken tawa ala." ; can't move if it's
+	next "ni la ona li awen lon ma seli" ; cold, so it lives
+	;next "" ; in warm places
 	dex
 
 _TaurosDexEntry::
-	text "A rowdy #MON"
-	next "with a lot of"
-	next "stamina. Once"
+	text "monsuta ni li jo e wawa sijelo suli." ; A rowdy #MON
+	next "ona li open tawa la ona li pini ala" ; with a lot of
+	next "tawa utala ijo." ; stamina. Once
 
-	page "running, it won't"
-	next "stop until it hits"
-	next "something"
+	page "kalama musi pi tawa ona li pona e ijo ale" ; running, it won't
+	;next "" ; stop until it hits
+	;next "" ; something
 	dex
 
 _MagikarpDexEntry::
-	text "Famous for being"
-	next "very unreliable."
-	next "It can be found"
+	text "tenpo pini la monsuta ni li wawa mute." ; Famous for being
+	next "taso tenpo ni la ona li wawa ala." ; very unreliable.
+	;next "" ; It can be found
 
-	page "swimming in seas,"
-	next "lakes, rivers and"
-	next "shallow puddles"
+	page "sina ken alasa e ona lon telo suli ale" ; swimming in seas,
+	next "anu nasin telo ale" ; lakes, rivers and
+	;next "" ; shallow puddles
 	dex
 
 _GyaradosDexEntry::
-	text "Brutally vicious"
-	next "and enormously"
-	next "destructive."
+	text "monsuta ni li pilin utala mute" ; Brutally vicious
+	next "li pilin pakala mute lon tenpo ale." ; and enormously
+	;next "" ; destructive.
 
-	page "Known for totally"
-	next "destroying cities"
-	next "in ancient times"
+	page "tenpo majuna la ona li pakala" ; Known for totally
+	next "e ma tomo mute" ; destroying cities
+	;next "" ; in ancient times
 	dex
 
 _LaprasDexEntry::
-	text "A gentle soul that"
-	next "can read the minds"
-	next "of people. It can"
+	text "ona li pona tawa ale" ; A gentle soul that
+	next "li ken pilin e toki insa ante." ; can read the minds
+	;next "" ; of people. It can
 
-	page "ferry people"
-	next "across the sea on"
-	next "its back"
+	page "ona li tawa telo li jo e jan lon monsi ona" ; ferry people
+	;next "" ; across the sea on
+	;next "" ; its back
 	dex
 
 _DittoDexEntry::
-	text "When it spots an"
-	next "enemy, its body"
-	next "transfigures into"
+	text "ona li lukin e monsuta utala la" ; When it spots an
+	next "ona li ante e sijelo ona." ; enemy, its body
+	next "sijelo ona li kama sama monsuta ante." ; transfigures into
 
-	page "an almost perfect"
-	next "copy of its oppo-"
-	next "nent"
+	page "mi jo ala e toki musi pona tawa monsuta ni" ; an almost perfect
+	;next "" ; copy of its oppo-
+	;next "" ; nent
 	dex
 
 _EeveeDexEntry::
-	text "Its genetic code"
-	next "is unstable, so it"
-	next "could evolve in"
+	text "insa sijelo ona li wile ante." ; Its genetic code
+	next "ni la ona li ken kama soweli ante mute." ; is unstable, so it
+	;next "" ; could evolve in
 
-	page "a variety of ways."
-	next "There are only a"
-	next "few alive"
+	page "monsuta ni mute ala li lon." ; a variety of ways.
+	next "ni li ike. ona li pona li suwi" ; There are only a
+	;next "" ; few alive
 	dex
 
 _VaporeonDexEntry::
-	text "Its cell structure"
-	next "is similar to"
-	next "water molecules."
+	text "sike sijelo lili ona li sama telo." ; Its cell structure
+	next "ona li ken kama sama telo." ; is similar to
+	next "ni la sina ken lukin ala e ona lon telo." ; water molecules.
 
-	page "It will melt away"
-	next "and become invis-"
-	next "ible in water"
+	page "selo ona li tawa nena la" ; It will melt away
+	next "telo li kama tan sewi" ; and become invis-
+	;next "" ; ible in water
 	dex
 
 _JolteonDexEntry::
-	text "A sensitive #-"
-	next "MON that easily"
-	next "becomes sad or"
+	text "kon pilin ona li ante kepeken pali lili." ; A sensitive #-
+	next "pilin ona li ante la ona li kama jo e wawa mute." ; MON that easily
+	;next "" ; becomes sad or
 
-	page "angry. Every time"
-	next "its mood changes,"
-	next "it charges power"
+	page "linja selo ona li jo e wawa kin." ; angry. Every time
+	next "ona li ken pana e linja ni" ; its mood changes,
+	;next "" ; it charges power
 	dex
 
 _FlareonDexEntry::
-	text "It has a flame"
-	next "chamber inside its"
-	next "body. It inhales,"
+	text "ona li jo e poki seli lon insa sijelo ona." ; It has a flame
+	next "ona li kama jo e kon la" ; chamber inside its
+	next "ona li ken pana e seli wawa mute." ; body. It inhales,
 
-	page "then blows out"
-	next "fire that is over"
-	next "3,000F degrees"
+	page "linja sijelo mute ona li lili" ; then blows out
+	next "e seli pi insa sijelo ona tawa awen pona" ; fire that is over
+	;next "" ; 3,000F degrees
 	dex
 
 _PorygonDexEntry::
-	text "The only #MON"
-	next "people anticipate"
-	next "can fly into"
+	text "jan li pilin e ni:" ; The only #MON
+	next "ona li ken tawa sewi pimeja." ; people anticipate
+	next "taso tenpo ni la monsuta ni ala li tawa ni." ; can fly into
 
-	page "space. None has"
-	next "managed the feat"
-	next "yet, however"
+	page "monsuta ni li pali ike ala." ; space. None has
+	next "suno nasa ike li tan monsuta soweli pika." ; managed the feat
+	next "o lawa pona tawa monsuta ni a" ; yet, however
 	dex
 
 _OmanyteDexEntry::
-	text "An ancient #MON"
-	next "that was recovered"
-	next "from a fossil. It"
+	text "monsuta ni li kama tan moli kepeken kiwen majuna." ; An ancient #MON
+	next "ona li tawa telo kepeken tawa sike pi linja luka ona." ; that was recovered
+	;next "" ; from a fossil. It
 
-	page "swims by cleverly"
-	next "twisting its 10"
-	next "tentacles about"
+	page "tenpo lili la jan li pilin e ni:" ; swims by cleverly
+	next "monsuta ni li sewi" ; twisting its 10
+	;next "" ; tentacles about
 	dex
 
 _OmastarDexEntry::
-	text "Sharp beaks ring"
-	next "its mouth. Its"
-	next "shell was too big"
+	text "uta ona li sama kiwen li sama uta waso." ; Sharp beaks ring
+	next "ona li ken pakala e selo kala kepeken uta ni." ; its mouth. Its
+	;next "" ; shell was too big
 
-	page "for it to move"
-	next "freely, so it"
-	next "became extinct"
+	page "selo kiwen ona li suli ike." ; for it to move
+	next "ni la ona tawa la ona wile kepeken wawa mute" ; freely, so it
+	;next "" ; became extinct
 	dex
 
 _KabutoDexEntry::
-	text "A #MON that was"
-	next "recovered from a"
-	next "fossil. It uses"
+	text "monsuta ni li kama tan moli kepeken kiwen majuna." ; A #MON that was
+	next "lukin ona li lon monsi ona." ; recovered from a
+	next "ni la ona li ken len ona lon anpa telo." ; fossil. It uses
 
-	page "the eyes on its"
-	next "back while hiding"
-	next "on the sea floor"
+	page "ona li tawa nasin sewi la" ; the eyes on its
+	next "ona li kama lawa ijo ale" ; back while hiding
+	;next "" ; on the sea floor
 	dex
 
 _KabutopsDexEntry::
-	text "A slim and fast"
-	next "swimmer. It slices"
-	next "its prey with its"
+	text "ona li ken tawa e sijelo ona sama palisa." ; A slim and fast
+	next "ni la ona li ken tawa telo wawa." ; swimmer. It slices
+	;next "" ; its prey with its
 
-	page "sharp sickles and"
-	next "drinks the body"
-	next "fluids"
+	page "ona li kipisi e moku kala ona kepeken luka ona" ; sharp sickles and
+	next "li moku e telo sijelo tan kala ni" ; drinks the body
+	;next "" ; fluids
 	dex
 
 _AerodactylDexEntry::
-	text "A savage #MON"
-	next "that died out in"
-	next "ancient times. It"
+	text "tenpo majuna la monsuta ni ale li kama moli." ; A savage #MON
+	next "jan li kama lon e ona kepeken kiwen pi telo kasi." ; that died out in
+	next "kiwen ni li jo e sitelen kon ona." ; ancient times. It
 
-	page "was resurrected"
-	next "using DNA taken"
-	next "from amber"
+	page "tenpo pi lon ona la ona li monsuta tawa ale." ; was resurrected
+	next "ona li alasa e monsuta ale tan sewi" ; using DNA taken
+	;next "" ; from amber
 	dex
 
 _SnorlaxDexEntry::
-	text "Will eat anything,"
-	next "even if the food"
-	next "happens to be a"
+	text "ona li ken moku e moku ale." ; Will eat anything,
+	next "moku pi kama ike li ike ala tawa ona." ; even if the food
+	;next "" ; happens to be a
 
-	page "little moldy. It"
-	next "never gets an"
-	next "upset stomach"
+	page "ona li moku mute la" ; little moldy. It
+	next "tenpo suli la ona li lape" ; never gets an
+	;next "" ; upset stomach
 	dex
 
 _ArticunoDexEntry::
-	text "A legendary bird"
-	next "#MON. It"
-	next "freezes water"
+	text "waso ni li tan toki majuna." ; A legendary bird
+	next "tenpo lete la ona li ko e kon lete" ; #MON. It
+	next "li pali e ko lete walo." ; freezes water
 
-	page "that is contained"
-	next "in winter air and"
-	next "makes it snow"
+	page "sijelo ona li pona lukin." ; that is contained
+	next "jan pi weka lon nena li toki e lukin ona" ; in winter air and
+	;next "" ; makes it snow
 	dex
 
 _ZapdosDexEntry::
-	text "This legendary"
-	next "bird #MON is"
-	next "said to appear"
+	text "waso ni li tan toki majuna." ; This legendary
+	next "tenpo mute la sina lukin e ona la" ; bird #MON is
+	next "sewi li kama pimeja li pana e wawa e telo." ; said to appear
 
-	page "when the sky turns"
-	next "dark and lightning"
-	next "showers down"
+	page "ona li tawa sewi la" ; when the sky turns
+	next "ona li pana e kalama sama wawa sewi" ; dark and lightning
+	;next "" ; showers down
 	dex
 
 _MoltresDexEntry::
-	text "A legendary bird"
-	next "#MON. As it"
-	next "flaps its flaming"
+	text "waso ni li tan toki majuna." ; A legendary bird
+	next "ona li tawa e luka ona la" ; #MON. As it
+	next "sewi pimeja li kama loje." ; flaps its flaming
 
-	page "wings, even the"
-	next "night sky will"
-	next "turn red"
+	page "jan li lukin e ona la" ; wings, even the
+	next "tenpo lete li kama tenpo kasi" ; night sky will
+	;next "" ; turn red
 	dex
 
 _DratiniDexEntry::
-	text "The existence of"
-	next "this mythical"
-	next "#MON was only"
+	text "tenpo pini lili la jan pi alasa kala" ; The existence of
+	next "li alasa e ona lon telo lete." ; this mythical
+	;next "" ; #MON was only
 
-	page "recently confirmed"
-	next "by a fisherman"
-	next "who caught one"
+	page "ni taso la jan li sona e ni:" ; recently confirmed
+	next "monsuta ni li lon" ; by a fisherman
+	;next "" ; who caught one
 	dex
 
 _DragonairDexEntry::
-	text "According to a"
-	next "witness, its body"
-	next "was surrounded by"
+	text "jan li lukin e ona lon tenpo lili." ; According to a
+	next "jan wan li toki e ni:" ; witness, its body
+	next "kon poka sijelo ona li nasa." ; was surrounded by
 
-	page "a strange aura"
-	next "that gave it a"
-	next "mystical look"
+	page "kon ni la lukin la" ; a strange aura
+	next "monsuta ni li wawa mute" ; that gave it a
+	;next "" ; mystical look
 	dex
 
 _DragoniteDexEntry::
-	text "It is said that"
-	next "this #MON lives"
-	next "somewhere in the"
+	text "jan li sona lili e monsuta ni." ; It is said that
+	next "ona li lon telo suli li ken tawa sewi." ; this #MON lives
+	;next "" ; somewhere in the
 
-	page "sea and that it"
-	next "flies. However, it"
-	next "is only a rumor"
+	page "jan pi alasa kala li toki e ni:" ; sea and that it
+	next "monsuta ni li pana pona" ; flies. However, it
+	next "tawa jan pi weka lon telo" ; is only a rumor
 	dex
 
 _MewtwoDexEntry::
-	text "Its DNA is almost"
-	next "the same as MEW's."
-	next "However, its size"
+	text "jan li pali e monsuta ni" ; Its DNA is almost
+	next "tan soweli majuna." ; the same as MEW's.
+	next "jan ni li wile wawa suli e monsuta ni." ; However, its size
 
-	page "and disposition"
-	next "are vastly dif-"
-	next "ferent"
+	page "jan ni li ike tawa monsuta ni." ; and disposition
+	next "ni la ona li weka li len e ona" ; are vastly dif-
+	;next "" ; ferent
 	dex
 
 _MewDexEntry::
-	text "When viewed"
-	next "through a micro-"
-	next "scope, this"
+	text "sina lukin e ona kepeken ilo pi lukin ijo lili la" ; When viewed
+	next "sina ken lukin e linja sijelo lili mute." ; through a micro-
+	;next "" ; scope, this
 
-	page "#MON's short,"
-	next "fine, delicate"
-	next "hair can be seen"
+	page "sike sijelo lili ona li sama monsuta ale." ; #MON's short,
+	next "ni la jan sona li pilin e ni:" ; fine, delicate
+	next "monsuta ale li kama tan monsuta ni" ; hair can be seen
 	dex

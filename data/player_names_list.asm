@@ -1,11 +1,11 @@
 DefaultNamesPlayerList:
-	db "NEW NAME@"
-	db "YELLOW@"
-	db "ASH@"
-	db "JACK@"
+	db "nimi sin@"
+	db "jan [jelo:]@"
+	db "jan [sama.tonsi:]@"
+	db "jan [alasa.kon.]@"
 
 DefaultNamesRivalList:
-	db "NEW NAME@"
-	db "BLUE@"
-	db "GARY@"
-	db "JOHN@"
+	db "nimi sin@"
+	db "jan [laso:]@"
+	db "jan [sike:lukin.]@"
+	db "jan [ilo pilin.kiwen.]@"

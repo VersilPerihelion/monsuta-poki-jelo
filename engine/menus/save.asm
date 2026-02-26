@@ -487,21 +487,21 @@ ChooseABoxText:
 	text_end
 
 BoxNames:
-	db   "BOX 1"
-	next "BOX 2"
-	next "BOX 3"
-	next "BOX 4"
-	next "BOX 5"
-	next "BOX 6"
-	next "BOX 7"
-	next "BOX 8"
-	next "BOX 9"
-	next "BOX10"
-	next "BOX11"
-	next "BOX12@"
+	db   "poki  1" ; BOX 1
+	next "poki  2" ; BOX 2
+	next "poki  3" ; BOX 3
+	next "poki  4" ; BOX 4
+	next "poki  5" ; BOX 5
+	next "poki  6" ; BOX 6
+	next "poki  7" ; BOX 7
+	next "poki  8" ; BOX 8
+	next "poki  9" ; BOX 9
+	next "poki 10" ; BOX10
+	next "poki 11" ; BOX11
+	next "poki 12@" ; BOX12@
 
 BoxNoText:
-	db "BOX No.@"
+	db "poki nanpa @" ; BOX No.@
 
 EmptyAllSRAMBoxes:
 ; marks all boxes in SRAM as empty (initialisation for the first time the

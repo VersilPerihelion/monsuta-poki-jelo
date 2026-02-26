@@ -1,19 +1,19 @@
 _CeruleanMartCooltrainerMText::
-	text "Use REPEL to keep"
-	line "bugs and weak"
-	cont "#MON away."
+	text "sina kepeken telo pi weka monsuta la" ; `Use REPEL to keep`
+	line "monsuta pi wawa lili li weka e sina." ; `bugs and weak`
+	;cont "" ; `#MON away.`
 
-	para "Put your strongest"
-	line "#MON at the"
-	cont "top of the list"
-	cont "for best results!"
+	para "sina wile tawa e monsuta sina suli mute" ; `Put your strongest`
+	line "tawa sewi pi lipu monsuta sina." ; `#MON at the`
+	cont "ni la telo pi weka monsuta li wawa mute." ; `top of the list`
+	;cont "" ; `for best results!`
 	done
 
 _CeruleanMartCooltrainerFText::
-	text "Have you seen any"
-	line "RARE CANDY?"
+	text "sina sona e te moku suwi wawa to anu seme." ; `Have you seen any`
+	;line "" ; `RARE CANDY?`
 
-	para "It's supposed to"
-	line "make #MON go"
-	cont "up one level!"
+	para "monsuta li moku e moku ni la" ; `It's supposed to`
+	line "ona li tawa sewi tawa supa wawa nanpa sin." ; `make #MON go`
+	;cont "" ; `up one level!`
 	done

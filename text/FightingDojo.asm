@@ -1,130 +1,130 @@
 _FightingDojoKarateMasterText::
-	text "Grunt!"
+	text "nnn." ; `Grunt!`
 
-	para "I am the KARATE"
-	line "MASTER! I am the"
-	cont "LEADER here!"
+	para "mi jan sona pi nasin [kama.laso.telo.]." ; `I am the KARATE`
+	line "mi jan lawa pi tomo ni." ; `MASTER! I am the`
+	;cont "" ; `LEADER here!`
 
-	para "You wish to"
-	line "challenge us?"
-	cont "Expect no mercy!"
+	para "sina wile utala e mi anu seme." ; `You wish to`
+	line "pona a. mi kepeken wawa ale a." ; `challenge us?`
+	;cont "" ; `Expect no mercy!`
 
-	para "Fwaaa!"
+	;para "" ; `Fwaaa!`
 	done
 
 _FightingDojoKarateMasterDefeatedText::
-	text "Hwa!"
-	line "Arrgh! Beaten!"
+	text "n a." ; `Hwa!`
+	line "anpa a." ; `Arrgh! Beaten!`
 	prompt
 
 _FightingDojoKarateMasterIWillGiveYouAPokemonText::
-	text "Indeed, I have"
-	line "lost!"
+	text "ni li lon. mi anpa." ; `Indeed, I have`
+	;line "" ; `lost!`
 
-	para "But, I beseech"
-	line "you, do not take"
-	cont "our emblem as"
-	cont "your trophy!"
+	para "taso mi wile e ni:" ; `But, I beseech`
+	line "o weka ala e sitelen mi." ; `you, do not take`
+	;cont "" ; `our emblem as`
+	;cont "" ; `your trophy!`
 
-	para "In return, I will"
-	line "give you a prized"
-	cont "fighting #MON!"
+	para "ante la mi pana e monsuta utala pona tawa sina." ; `In return, I will`
+	;line "" ; `give you a prized`
+	;cont "" ; `fighting #MON!`
 
-	para "Choose whichever"
-	line "one you like!"
+	para "o kama jo e monsuta wan." ; `Choose whichever`
+	line "sina wile e monsuta seme." ; `one you like!`
 	done
 
 _FightingDojoKarateMasterStayAndTrainWithUsText::
-	text "Ho!"
+	text "ala a." ; `Ho!`
 
-	para "Stay and train at"
-	line "Karate with us!"
+	para "o awen o pona e nasin pi utala sitelen sina." ; `Stay and train at`
+	;line "" ; `Karate with us!`
 	done
 
 _FightingDojoBlackbelt1BattleText::
-	text "Hoargh! Take your"
-	line "shoes off!"
+	text "sina o." ; `Hoargh! Take your`
+	line "o weka e len pi pini noka sina a." ; `shoes off!`
 	done
 
 _FightingDojoBlackbelt1EndBattleText::
-	text "I give"
-	line "up!"
+	text "mi pini." ; `I give`
+	;line "" ; `up!`
 	prompt
 
 _FightingDojoBlackbelt1AfterBattleText::
-	text "You wait 'til you"
-	line "see our Master!"
+	text "o utala e jan lawa pi kulupu mi." ; `You wait 'til you`
+	;line "" ; `see our Master!`
 
-	para "I'm a small fry"
-	line "compared to him!"
+	para "mi wawa lili tawa ona." ; `I'm a small fry`
+	line "" ; `compared to him!`
 	done
 
 _FightingDojoBlackbelt2BattleText::
-	text "I hear you're"
-	line "good! Show me!"
+	text "kute mi la sina pona." ; `I hear you're`
+	line "o pana lukin e ni." ; `good! Show me!`
 	done
 
 _FightingDojoBlackbelt2EndBattleText::
-	text "Judge!"
-	line "1 point!"
+	text "nanpa wan tawa sina a." ; `Judge!`
+	;line "" ; `1 point!`
 	prompt
 
 _FightingDojoBlackbelt2AfterBattleText::
-	text "Our Master is a"
-	line "pro fighter!"
+	text "jan lawa mi li jan sona mute pi utala sijelo." ; `Our Master is a`
+	;line "" ; `pro fighter!`
 	done
 
 _FightingDojoBlackbelt3BattleText::
-	text "Nothing tough"
-	line "frightens me!"
+	text "mi pilin monsuta tan ijo ala a." ; `Nothing tough`
+	;line "" ; `frightens me!`
 
-	para "I break boulders"
-	line "for training!"
+	para "mi kama wawa la" ; `I break boulders`
+	line "mi pakala e kiwen suli a." ; `for training!`
 	done
 
 _FightingDojoBlackbelt3EndBattleText::
-	text "Yow!"
-	line "Stubbed fingers!"
+	text "ike a." ; `Yow!`
+	line "mi pakala e palisa luka mi." ; `Stubbed fingers!`
 	prompt
 
 _FightingDojoBlackbelt3AfterBattleText::
-	text "The only thing"
-	line "that frightens us"
-	cont "is psychic power!"
+	text "mi pilin monsuta tan ijo wan." ; `The only thing`
+	line "ona li wawa lawa nasa." ; `that frightens us`
+	;cont "" ; `is psychic power!`
 	done
 
 _FightingDojoBlackbelt4BattleText::
-	text "Hoohah!"
+	text "a." ; `Hoohah!`
 
-	para "You're trespassing"
-	line "in our FIGHTING"
-	cont "DOJO!"
+	para "sina kama ike lon tomo utala ni." ; `You're trespassing`
+	;line "" ; `in our FIGHTING`
+	;cont "" ; `DOJO!`
 	done
 
 _FightingDojoBlackbelt4EndBattleText::
-	text "Oof!"
-	line "I give up!"
+	text "mi anpa a." ; `Oof!`
+	;line "" ; `I give up!`
 	prompt
 
 _FightingDojoBlackbelt4AfterBattleText::
-	text "The prime fighters"
-	line "across the land"
-	cont "train here."
+	text "jan utala ale li kama tan ma ale" ; `The prime fighters`
+	line "li kama wawa e sona utala ona." ; `across the land`
+	;cont "" ; `train here.`
 	done
 
 _FightingDojoHitmonleePokeBallText::
-	text "You want the"
-	line "hard-kicking"
-	cont "HITMONLEE?"
+	text "sina wile ala wile e monsuta pi noka wawa" ; `You want the`
+	line "te soweli utala noka to." ; `hard-kicking`
+	;cont "" ; `HITMONLEE?`
 	done
 
 _FightingDojoHitmonchanPokeBallText::
-	text "You want the"
-	line "piston-punching"
-	cont "HITMONCHAN?"
+	text "sina wile ala wile e monsuta pi luka wawa" ; `You want the`
+	line "te soweli utala luka to." ; `piston-punching`
+	;cont "" ; `HITMONCHAN?`
 	done
 
 _FightingDojoBetterNotGetGreedyText::
-	text "Better not get"
-	line "greedy..."
+	text "o wile ike ala e mute." ; `Better not get`
+	;line "" ; `greedy...`
 	done

@@ -1,69 +1,69 @@
 _SSAnneKitchenCook1Text::
-	text "You, mon petit!"
-	line "We're busy here!"
-	cont "Out of the way!"
+	text "sina o. jan lili o." ; `You, mon petit!`
+	line "mi ale li pali." ; `We're busy here!`
+	cont "o weka." ; `Out of the way!`
 	done
 
 _SSAnneKitchenCook2Text::
-	text "I saw an odd ball"
-	line "in the trash."
+	text "mi kama jo e sike poki nasa." ; `I saw an odd ball`
+	line "ona li lon poki jaki." ; `in the trash.`
 	done
 
 _SSAnneKitchenCook3Text::
-	text "I'm so busy I'm"
-	line "getting dizzy!"
+	text "mi pali mute a la" ; `I'm so busy I'm`
+	line "mi pilin nasa." ; `getting dizzy!`
 	done
 
 _SSAnneKitchenCook4Text::
-	text "Hum-de-hum-de-"
-	line "ho..."
+	text "mu - n - a - n<JAGOLD>" ; `Hum-de-hum-de-`
+	line "" ; `ho...`
 
-	para "I peel spuds"
-	line "every day!"
-	cont "Hum-hum..."
+	para "mi weka e selo tan kili -" ; `I peel spuds`
+	line "mi la ni li pali lili" ; `every day!`
+	cont "mu - n - a - mu - n - a<JAGOLD>" ; `Hum-hum...`
 	done
 
 _SSAnneKitchenCook5Text::
-	text "Did you hear about"
-	line "SNORLAX?"
+	text "sina kute ala kute e te soweli suli lape to." ; `Did you hear about`
+	;line "" ; `SNORLAX?`
 
-	para "All it does is"
-	line "eat and sleep!"
+	para "tenpo ale la ona li moku li lape a." ; `All it does is`
+	;line "" ; `eat and sleep!`
 	done
 
 _SSAnneKitchenCook6Text::
-	text "Snivel...Sniff..."
+	text "n n n ike a<JAGOLD>" ; `Snivel...Sniff...`
 
-	para "I only get to"
-	line "peel onions..."
-	cont "Snivel..."
+	para "tenpo ale la" ; `I only get to`
+	line "mi weka e selo tan kili pi telo lukin." ; `peel onions...`
+	cont "n n n" ; `Snivel...`
 	done
 
 _SSAnneKitchenCook7MainCourseIsText::
-	text "Er-hem! Indeed I"
-	line "am le CHEF!"
+	text "a a." ; `Er-hem! Indeed I`
+	line "lon la mi jan pi pali moku a." ; `am le CHEF!`
 
-	para "Le main course is"
+	para "tenpo suno ni la moku suli li" ; `Le main course is`
 	prompt
 
 SSAnneKitchenCook7SalmonDuSaladText::
-	text "Salade de Salmon!"
+	text "moku kasi kala a." ; `Salade de Salmon!`
 
-	para "Les guests may"
-	line "gripe it's fish"
-	cont "again, however!"
+	para "taso pilin mi la" ; `Les guests may`
+	line "jan kama li wile ala moku e kala sin." ; `gripe it's fish`
+	;cont "" ; `again, however!`
 	done
 
 SSAnneKitchenCook7EelsAuBarbecueText::
-	text "Eels au Barbecue!"
+	text "kala linja seli." ; `Eels au Barbecue!`
 
-	para "Les guests will"
-	line "mutiny, I fear."
+	para "ken la jan kama li utala e mi." ; `Les guests will`
+	;line "" ; `mutiny, I fear.`
 	done
 
 SSAnneKitchenCook7PrimeBeefSteakText::
-	text "Prime Beef Steak!"
+	text "moku seli pi soweli suli." ; `Prime Beef Steak!`
 
-	para "But, have I enough"
-	line "fillets du beef?"
+	para "mi jo ala jo e moku mute pona." ; `But, have I enough`
+	;line "" ; `fillets du beef?`
 	done

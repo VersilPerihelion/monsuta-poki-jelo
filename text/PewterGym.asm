@@ -1,186 +1,186 @@
 _PewterGymBrockPreBattleText::
-	text "I'm BROCK!"
-	line "I'm PEWTER's GYM"
-	cont "LEADER!"
+	text "mi jan [tawa.kiwen.sijelo.]." ; `I'm BROCK!`
+	line "mi jan lawa utala pi" ; `I'm PEWTER's GYM`
+	cont "tomo utala [kama.palisa en sijelo.tawa.]" ; `LEADER!`
 
-	para "I believe in rock"
-	line "hard defense and"
-	cont "determination!"
+	para "pilin mi la wawa awen en wawa wile" ; `I believe in rock`
+	line "li suli nanpa wan a." ; `hard defense and`
+	;cont "" ; `determination!`
 
-	para "That's why my"
-	line "#MON are all"
-	cont "the rock-type!"
+	para "ni la monsuta mi ale li kule kiwen a." ; `That's why my`
+	;line "" ; `#MON are all`
+	;cont "" ; `the rock-type!`
 
-	para "Do you still want"
-	line "to challenge me?"
-	cont "Fine then! Show"
-	cont "me your best!"
+	para "sina awen wile utala e mi anu seme." ; `Do you still want`
+	line "pona a." ; `to challenge me?`
+	cont "o pana e wawa sina." ; `Fine then! Show`
+	;cont "" ; `me your best!`
 	done
 
 _PewterGymBrockPostBattleAdviceText::
-	text "There are all"
-	line "kinds of trainers"
-	cont "in the world!"
+	text "jan lawa ale li kepeken nasin ante ona." ; `There are all`
+	line "jan mute li wawa e monsuta tawa utala." ; `kinds of trainers`
+	cont "jan ante la monsuta li sama soweli tomo." ; `in the world!`
 
-	para "Some raise #MON"
-	line "for fights. Some"
-	cont "see them as pets."
+	para "mi wile kama jan mama pi monsuta poki." ; `Some raise #MON`
+	line "ni la mi kama sona mute e ona." ; `for fights. Some`
+	;cont "" ; `see them as pets.`
 
-	para "I'm in training to"
-	line "become a #MON"
-	cont "breeder."
+	para "kama wawa li suli tawa sina la" ; `I'm in training to`
+	line "o tawa tomo utala pi ma tomo [telo:pi.jasima.]" ; `become a #MON`
+	cont "o alasa e wawa e sona sina." ; `breeder.`
 
-	para "If you take your"
-	line "#MON training"
-	cont "seriously, go"
-	cont "visit the GYM in"
-	cont "CERULEAN and test"
-	cont "your abilities!"
+	;para "" ; `If you take your`
+	;line "" ; `#MON training`
+	;cont "" ; `seriously, go`
+	;cont "" ; `visit the GYM in`
+	;cont "" ; `CERULEAN and test`
+	;cont "" ; `your abilities!`
 	done
 
 _PewterGymBrockWaitTakeThisText::
-	text "Wait! Take this"
-	line "with you!"
+	text "o awen a." ; `Wait! Take this`
+	line "o kama jo e ijo ni." ; `with you!`
 	done
 
 _PewterGymReceivedTM34Text::
-	text "<PLAYER> received"
-	line "TM34!@"
+	text "<PLAYER> li kama jo" ; `<PLAYER> received`
+	line "e te ilo sike sona 34to a.@" ; `TM34!@`
 	text_end
 
 _TM34ExplanationText::
 	text_start
 
-	para "A TM contains a"
-	line "technique that"
-	cont "can be taught to"
-	cont "#MON!"
+	para "ilo sike sona li jo e pali sin." ; `A TM contains a`
+	line "sina ken pana sona e ni tawa monsuta sina." ; `technique that`
+	;cont "" ; `can be taught to`
+	;cont "" ; `#MON!`
 
-	para "A TM is good only"
-	line "once! So when you"
-	cont "use one to teach"
-	cont "a new technique,"
-	cont "pick the #MON"
-	cont "carefully!"
+	para "tenpo weka la ona ken kepeken ilo sike ona lon tenpo wan." ; `A TM is good only`
+	line "taso tenpo pini poka la ilo ni li kama pona mute a." ; `once! So when you`
+	cont "sina ken kepeken ona lon tenpo mute a." ; `use one to teach`
+	;cont "" ; `a new technique,` ; VPH feature: made TMs reusable
+	;cont "" ; `pick the #MON`
+	;cont "" ; `carefully!`
 
-	para "TM34 contains"
-	line "BIDE!"
+	para "ilo sike sona 34 li jo e pali" ; `TM34 contains`
+	line "te awen lanpan e wawa to." ; `BIDE!`
 
-	para "Your #MON will"
-	line "absorb damage in"
-	cont "battle then pay"
-	cont "it back double!"
+	para "monsuta sina li tawa ala li lanpan e wawa lon tenpo lili." ; `Your #MON will`
+	line "ni la ona li pana e wawa ni ale tu." ; `absorb damage in`
+	;cont "" ; `battle then pay`
+	;cont "" ; `it back double!`
 	done
 
 _PewterGymTM34NoRoomText::
-	text "You don't have"
-	line "room for this!"
+	text "sina jo e ijo pi mute ike." ; `You don't have`
+	line "sina ken ala kama jo e ona." ; `room for this!`
 	done
 
 _PewterGymBrockReceivedBoulderBadgeText::
-	text "I took"
-	line "you for granted."
+	text "tenpo pini la" ; `I took`
+	line "mi pilin e ni: sina ken ala anpa e mi lon utala." ; `you for granted.`
 
-	para "As proof of your"
-	line "victory, here's"
-	cont "the BOULDERBADGE!"
+	para "taso ni li lon ala." ; `As proof of your`
+	line "sina sewi lon utala ni la" ; `victory, here's`
+	cont "o kama jo e sitelen wawa pi kiwen suli." ; `the BOULDERBADGE!`
 
-	para "<PLAYER> received"
-	line "the BOULDERBADGE!@"
+	para "<PLAYER> li kama jo e" ; `<PLAYER> received`
+	line "te sitelen wawa pi kiwen suli to a.@" ; `the BOULDERBADGE!@`
 	text_end
 
 _PewterGymBrockBoulderBadgeInfoText::
 	text_start
 
-	para "That's an official"
-	line "#MON LEAGUE"
-	cont "BADGE!"
+	para "ona li sitelen wawa pi tomo utala sewi." ; `That's an official`
+	line "sina jo e ona la jan li sona e ni:" ; `#MON LEAGUE`
+	cont "sina anpa e jan lawa utala." ; `BADGE!`
 
-	para "Its bearer's"
-	line "#MON become"
-	cont "more powerful!"
+	para "kin la sina jo e ona la" ; `Its bearer's`
+	line "monsuta sina li kama wawa." ; `#MON become`
+	;cont "" ; `more powerful!`
 
-	para "The technique"
-	line "FLASH can now be"
-	cont "used anytime!"
+	para "kin la utala ala la" ; `The technique`
+	line "monsuta sina li ken kepeken pali" ; `FLASH can now be`
+	cont "te pana e suno tawa lukin to." ; `used anytime!`
 	prompt
 
 _PewterGymCooltrainerMBattleText::
-	text "Stop right there,"
-	line "kid!"
+	text "jan lili o" ; `Stop right there,`
+	line "o pini a." ; `kid!`
 
-	para "You're still light"
-	line "years from facing"
-	cont "BROCK!"
+	para "sina wile utala e jan [tawa.kiwen.sijelo.] la" ; `You're still light`
+	line "sina wile awen lon tenpo sike suno a." ; `years from facing`
+	;cont "" ; `BROCK!`
 	done
 
 _PewterGymCooltrainerMEndBattleText::
-	text "Darn!"
+	text "ike a." ; `Darn!`
 
-	para "Light years isn't"
-	line "time! It measures"
-	cont "distance!"
+	para "tenpo sike suno li tenpo ala a." ; `Light years isn't`
+	line "ona li suli weka a." ; `time! It measures`
+	cont "<JAGOLD>anu seme." ; `distance!`
 	prompt
 
 _PewterGymCooltrainerMAfterBattleText::
-	text "You're pretty hot,"
-	line "but not as hot"
-	cont "as BROCK!"
+	text "sina wawa a." ; `You're pretty hot,`
+	line "taso sina wawa ala tawa jan [tawa.kiwen.sijelo.]." ; `but not as hot`
+	;cont "" ; `as BROCK!`
 	done
 
 _PewterGymGuidePreAdviceText::
-	text "Hiya! I can tell"
-	line "you have what it"
-	cont "takes to become a"
-	cont "#MON champ!"
+	text "toki a." ; `Hiya! I can tell`
+	line "mi sona e ni:" ; `you have what it`
+	cont "jan li wile e ijo insa tawa kama nanpa wan la" ; `takes to become a`
+	cont "sina jo e ijo ni." ; `#MON champ!`
 
-	para "I'm no trainer,"
-	line "but I can tell"
-	cont "you how to win!"
+	para "mi jan pi lawa monsuta ala." ; `I'm no trainer,`
+	line "taso mi ken pana e sona ni tawa sina:" ; `but I can tell`
+	cont "sina ken kama sewi suli kepeken nasin seme." ; `you how to win!`
 
-	para "Let me take you"
-	line "to the top!"
+	para "mi o tawa e sina tawa sewi a." ; `Let me take you`
+	;line "" ; `to the top!`
 	done
 
 _PewterGymGuideBeginAdviceText::
-	text "All right! Let's"
-	line "get happening!"
+	text "pona a." ; `All right! Let's`
+	line "mi o open." ; `get happening!`
 	prompt
 
 _PewterGymGuideAdviceText::
-	text "The 1st #MON"
-	line "out in a match is"
-	cont "at the top of the"
-	cont "#MON LIST!"
+	text "utala li open la" ; `The 1st #MON`
+	line "monsuta nanpa wan lon lipu pi monsuta sina li open e utala ni." ; `out in a match is`
+	;cont "" ; `at the top of the`
+	;cont "" ; `#MON LIST!`
 
-	para "By changing the"
-	line "order of #MON,"
-	cont "matches could be"
-	cont "made easier!"
+	para "sina ante e ona la" ; `By changing the`
+	line "utala sina li ken kepeken pali lili." ; `order of #MON,`
+	;cont "" ; `matches could be`
+	;cont "" ; `made easier!`
 	done
 
 _PewterGymGuideFreeServiceText::
-	text "It's a free"
-	line "service! Let's"
-	cont "get happening!"
+	text "mi wile ala e mani sina." ; `It's a free`
+	line "ante la mi o open." ; `service! Let's`
+	;cont "" ; `get happening!`
 	prompt
 
 _PewterGymGuidePostBattleText::
-	text "Just as I thought!"
-	line "You're #MON"
-	cont "champ material!"
+	text "sona mi li pona a." ; `Just as I thought!`
+	line "sina ken kama jan sewi suli a." ; `You're #MON`
+	;cont "" ; `champ material!`
 	done
 
 _PewterGymGuyText::
-	text "All right! Let's"
-	line "get happening!"
+	text "pona a." ; `All right! Let's`
+	line "mi o open." ; `get happening!`
 
-	para "It will be tough"
-	line "for your PIKACHU"
-	cont "at this GYM!"
+	para "tomo utala ni li pali suli" ; `It will be tough`
+	line "tawa soweli pika sina." ; `for your PIKACHU`
+	;cont "" ; `at this GYM!`
 
-	para "Electric attacks"
-	line "are harmless to"
-	cont "BROCK's ground-"
-	cont "type #MON."
+	para "pali pi kule wawa li ala" ; `Electric attacks`
+	line "tawa monsuta pi jan [tawa.kiwen.sijelo.]." ; `are harmless to`
+	cont "monsuta ona ale li kule ma." ; `BROCK's ground-`
+	;cont "" ; `type #MON.`
 	done

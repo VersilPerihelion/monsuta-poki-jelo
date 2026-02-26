@@ -1,27 +1,27 @@
 _PewterPokecenterGentlemanText::
-	text "What!?"
+	text "seme" ; `What!?`
 
-	para "TEAM ROCKET is"
-	line "at MT.MOON? Huh?"
-	cont "I'm on the phone!"
+	para "kulupu ike <ROCKET> li lon nena suli mun anu seme." ; `TEAM ROCKET is`
+	line "seme. mi kepeken ilo toki mi." ; `at MT.MOON? Huh?`
+	;cont "" ; `I'm on the phone!`
 
-	para "Scram!"
+	para "o weka a." ; `Scram!`
 	done
 
 _PewterPokecenterText3::
-	text "#MON CENTERS"
-	line "are wonderful!"
+	text "tomo misikeke pi monsuta poki li pona mute a." ; `#MON CENTERS`
+	;line "" ; `are wonderful!`
 
-	para "They heal #MON"
-	line "completely."
+	para "ona li ken misikeke ale e monsuta poki." ; `They heal #MON`
+	;line "" ; `completely.`
 
-	para "Even conditions"
-	line "like sleep, burn,"
-	cont "poison and others"
-	cont "are cured."
+	para "kin la ona li weka e pilin jaki:" ; `Even conditions`
+	line "e pilin lete e pilin lape" ; `like sleep, burn,`
+	cont "e pilin ike ante kin." ; `poison and others`
+	;cont "" ; `are cured.`
 	done
 
 _PewterPokecenterJigglypuffText::
-	text "JIGGLYPUFF: Puu"
-	line "pupuu!"
+	text "soweli sike pi mu lape: mu" ; `JIGGLYPUFF: Puu`
+	line "mu mu" ; `pupuu!`
 	done

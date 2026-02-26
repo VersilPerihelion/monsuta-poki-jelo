@@ -1,14 +1,14 @@
 _Route18Gate1FGuardYouNeedABicycleText::
-	text "You need a BICYCLE"
-	line "for CYCLING ROAD!"
+	text "sina wile tawa nasin pi ilo tawa la" ; `You need a BICYCLE`
+	line "sina wile jo e ilo tawa." ; `for CYCLING ROAD!`
 	done
 
 _Route18Gate1FGuardCyclingRoadUphillText::
-	text "CYCLING ROAD is"
-	line "all uphill from"
-	cont "here."
+	text "tan ma ni la nasin pi ilo tawa" ; `CYCLING ROAD is`
+	line "li tawa sewi pi nena ni." ; `all uphill from`
+	;cont "" ; `here.`
 	done
 
 _Route18Gate1FGuardExcuseMeText::
-	text "Excuse me!"
+	text "o awen a." ; `Excuse me!`
 	done

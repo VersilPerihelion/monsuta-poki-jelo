@@ -1,255 +1,258 @@
 _CinnabarGymBlainePreBattleText::
-	text "Hah!"
+	text "a a a." ; `Hah!`
 
-	para "I am BLAINE! I"
-	line "am the LEADER of"
-	cont "CINNABAR GYM!"
+	para "mi jan [kalama.seli:] a." ; `I am BLAINE! I`
+	line "mi jan lawa pi tomo utala [loje:n ken.]." ; `am the LEADER of`
+	;cont "" ; `CINNABAR GYM!`
 
-	para "My fiery #MON"
-	line "will incinerate"
-	cont "all challengers!"
+	para "monsuta seli mi li pakala seli" ; `My fiery #MON`
+	line "e jan ale pi wile utala." ; `will incinerate`
+	;cont "" ; `all challengers!`
 
-	para "Hah! You better"
-	line "have BURN HEAL!"
+	para "a a a." ; `Hah! You better`
+	line "sina o jo e misikeke weka seli a." ; `have BURN HEAL!`
 	done
 
 _CinnabarGymBlaineReceivedVolcanoBadgeText::
-	text "I have"
-	line "burnt out!"
+	text "mi seli pakala a." ; `I have`
+	;line "" ; `burnt out!`
 
-	para "You have earned"
-	line "the VOLCANOBADGE!@"
+	para "pona a." ; `You have earned`
+	line "sitelen wawa pi nena seli li sina a.@" ; `the VOLCANOBADGE!@`
 	text_end
 
 _CinnabarGymBlainePostBattleAdviceText::
-	text "FIRE BLAST is the"
-	line "ultimate fire"
-	cont "technique!"
+	text "te sitelen e seli suli to li pali seli nanpa wan a." ; `FIRE BLAST is the`
+	;line "" ; `ultimate fire`
+	;cont "" ; `technique!`
 
-	para "Don't waste it on"
-	line "water #MON!"
+	para "o pana ala e ona tawa monsuta pi kule telo a." ; `Don't waste it on`
+	;line "" ; `water #MON!`
 	done
 
 _CinnabarGymBlaineVolcanoBadgeInfoText::
-	text "Hah!"
+	text "a a a." ; `Hah!`
 
-	para "The VOLCANOBADGE"
-	line "heightens the"
-	cont "SPECIAL abilities"
-	cont "of your #MON!"
+	para "sitelen wawa pi nena seli la" ; `The VOLCANOBADGE`
+	line "nanpa ken lawa pi monsuta sina li kama suli." ; `heightens the`
+	;cont "" ; `SPECIAL abilities`
+	;cont "" ; `of your #MON!`
 
-	para "Here, you can"
-	line "have this too!"
+	para "sina ken kama jo e ilo ni kin." ; `Here, you can`
+	;line "" ; `have this too!`
 	done
 
 _CinnabarGymBlaineReceivedTM38Text::
-	text "<PLAYER> received"
-	line "@"
+	text "<PLAYER> li kama jo e" ; `<PLAYER> received`
+	line "te@" ; `@`
 	text_ram wStringBuffer
-	text "!@"
+	text "to a.@" ; `!@`
 	text_end
 
 _CinnabarGymBlaineTM38ExplanationText::
 	text_start
 
-	para "TM38 contains"
-	line "FIRE BLAST!"
+	para "ilo sike sona 38 li" ; `TM38 contains`
+	line "te sitelen e seli suli to a." ; `FIRE BLAST!`
 
-	para "Teach it to fire-"
-	line "type #MON!"
+	para "o pana sona e ona tawa monsuta pi kule seli." ; `Teach it to fire-`
+	;line "" ; `type #MON!`
 
-	para "CHARMELEON or"
-	line "PONYTA would be"
-	cont "good bets!"
+	para "te akesi seli to anu te soweli lili tawa to" ; `CHARMELEON or`
+	line "li pona tawa ona." ; `PONYTA would be`
+	;cont "" ; `good bets!`
 	done
 
 _CinnabarGymBlaineTM38NoRoomText::
-	text "Make room for my"
-	line "gift!"
+	text "o ala e poki ijo sina a." ; `Make room for my`
+	;line "" ; `gift!`
 	done
 
 _CinnabarGymSuperNerd1BattleText::
-	text "Do you know how"
-	line "hot #MON fire"
-	cont "breath can get?"
+	text "sina sona ala sona e ni:" ; `Do you know how`
+	line "monsuta pi kule seli la" ; `hot #MON fire`
+	cont "seli pi kon ona li seme." ; `breath can get?`
 	done
 
 _CinnabarGymSuperNerd1EndBattleText::
-	text "Yow!"
-	line "Hot, hot, hot!"
+	text "ike a." ; `Yow!`
+	line "seli a." ; `Hot, hot, hot!`
 	prompt
 
 _CinnabarGymSuperNerd1AfterBattleText::
-	text "Fire, or to be"
-	line "more precise,"
-	cont "combustion..."
+	text "seli li<JAGOLD>" ; `Fire, or to be`
+	line "<JAGOLD>" ; `more precise,`
+	cont "nasin sona pi ijo lili<JAGOLD>" ; `combustion...`
+	cont "<JAGOLD>"
+	cont "wawa seli li wan tan<JAGOLD>"
+	cont "<JAGOLD>"
 
-	para "Blah, blah, blah,"
-	line "blah..."
+	para "- sina pini kute e ona." ; `Blah, blah, blah,`
+	;line "" ; `blah...`
 	done
 
 _CinnabarGymSuperNerd2BattleText::
-	text "I was a thief, but"
-	line "I became straight"
-	cont "as a trainer!"
+	text "tenpo pini la mi jan lanpan." ; `I was a thief, but`
+	line "taso mi kama pona. mi kama jan pi lawa monsuta." ; `I became straight`
+	;cont "" ; `as a trainer!`
 	done
 
 _CinnabarGymSuperNerd2EndBattleText::
-	text "I"
-	line "surrender!"
+	text "mi anpa." ; `I`
+	;line "" ; `surrender!`
 	prompt
 
 _CinnabarGymSuperNerd2AfterBattleText::
-	text "I can't help"
-	line "stealing other"
-	cont "people's #MON!"
+	text "mi ken ala pini." ; `I can't help`
+	line "mi wile lanpan e monsuta pi jan ante." ; `stealing other`
+	;cont "" ; `people's #MON!`
 	done
 
 _CinnabarGymSuperNerd3BattleText::
-	text "You can't win!"
-	line "I have studied"
-	cont "#MON totally!"
+	text "sina ken ala anpa e mi." ; `You can't win!`
+	line "mi kama sona mute e monsuta poki." ; `I have studied`
+	;cont "" ; `#MON totally!`
 	done
 
 _CinnabarGymSuperNerd3EndBattleText::
-	text "Waah!"
-	line "My studies!"
+	text "ike a." ; `Waah!`
+	line "sona mi a." ; `My studies!`
 	prompt
 
 _CinnabarGymSuperNerd3AfterBattleText::
-	text "My theories are"
-	line "too complicated"
-	cont "for you!"
+	text "nasin sona mi li suli ike tawa sina." ; `My theories are`
+	;line "" ; `too complicated`
+	;cont "" ; `for you!`
 	done
 
 _CinnabarGymSuperNerd4BattleText::
-	text "I just like using"
-	line "fire #MON!"
+	text "monsuta seli li pona tawa mi." ; `I just like using`
+	line "ni li ale." ; `fire #MON!`
 	done
 
 _CinnabarGymSuperNerd4EndBattleText::
-	text "Too hot"
-	line "to handle!"
+	text "seli mute a." ; `Too hot`
+	;line "" ; `to handle!`
 	prompt
 
 _CinnabarGymSuperNerd4AfterBattleText::
-	text "I wish there was"
-	line "a thief #MON!"
-	cont "I'd use that!"
+	text "mi wile e monsuta lanpan." ; `I wish there was`
+	line "ona li lon la mi kepeken ona." ; `a thief #MON!`
+	;cont "" ; `I'd use that!`
 	done
 
 _CinnabarGymSuperNerd5BattleText::
-	text "I know why BLAINE"
-	line "became a trainer!"
+	text "mi sona e ni:" ; `I know why BLAINE`
+	line "jan [kalama.seli:] li kama jan lawa monsuta tan seme." ; `became a trainer!`
 	done
 
 _CinnabarGymSuperNerd5EndBattleText::
-	text "Ow!"
+	text "ike a." ; `Ow!`
 	prompt
 
 _CinnabarGymSuperNerd5AfterBattleText::
-	text "BLAINE was lost"
-	line "in the mountains"
-	cont "when a fiery bird"
-	cont "#MON appeared."
+	text "tenpo pini la jan [kalama.seli:] li kama weka lon nena suli." ; `BLAINE was lost`
+	line "ni la waso suli seli li kama sewi." ; `in the mountains`
+	;cont "" ; `when a fiery bird`
+	;cont "" ; `#MON appeared.`
 
-	para "Its light enabled"
-	line "BLAINE to find"
-	cont "his way down!"
+	para "suno pi monsuta ni li lawa" ; `Its light enabled`
+	line "e jan [kalama.seli:] tawa tomo ona." ; `BLAINE to find`
+	;cont "" ; `his way down!`
 	done
 
 _CinnabarGymSuperNerd6BattleText::
-	text "I've been to many"
-	line "GYMs, but this is"
-	cont "my favorite!"
+	text "mi tawa tomo utala mute." ; `I've been to many`
+	line "taso tomo utala ni li nanpa wan tawa mi." ; `GYMs, but this is`
+	;cont "" ; `my favorite!`
 	done
 
 _CinnabarGymSuperNerd6EndBattleText::
-	text "Yowza!"
-	line "Too hot!"
+	text "a. seli ike a." ; `Yowza!`
+	;line "" ; `Too hot!`
 	prompt
 
 _CinnabarGymSuperNerd6AfterBattleText::
-	text "Us fire #MON"
-	line "fans like PONYTA"
-	cont "and NINETALES!"
+	text "te soweli lili tawa to en te soweli palisa monsi mute to" ; `Us fire #MON`
+	line "li pona mute tawa jan sama mi." ; `fans like PONYTA`
+	;cont "" ; `and NINETALES!`
 	done
 
 _CinnabarGymSuperNerd7BattleText::
-	text "Fire is weak"
-	line "against H2O!"
+	text "telo li pakala e seli a." ; `Fire is weak`
+	;line "" ; `against H2O!`
 	done
 
 _CinnabarGymSuperNerd7EndBattleText::
-	text "Oh!"
-	line "Snuffed out!"
+	text "pakala e mi kin a." ; `Oh!`
+	;line "" ; `Snuffed out!`
 	prompt
 
 _CinnabarGymSuperNerd7AfterBattleText::
-	text "Water beats fire!"
-	line "But, fire melts"
-	cont "ice #MON!"
+	text "telo li pakala e seli." ; `Water beats fire!`
+	line "taso seli li pakala e monsuta lete." ; `But, fire melts`
+	;cont "" ; `ice #MON!`
 	done
 
 _CinnabarGymGymGuideChampInMakingText::
-	text "Yo! Champ in"
-	line "making!"
+	text "toki a." ; `Yo! Champ in`
+	line "jan sewi pi tenpo kama a." ; `making!`
 
-	para "The hot-headed"
-	line "BLAINE is a fire"
-	cont "#MON pro!"
+	para "jan nasa seli ni li jan [kalama.seli:]." ; `The hot-headed`
+	line "ona li sona mute e monsuta seli." ; `BLAINE is a fire`
+	;cont "" ; `#MON pro!`
 
-	para "Douse his spirits"
-	line "with water!"
+	para "telo en ma li ken pini e seli ona." ; `Douse his spirits`
+	;line "" ; `with water!`
 
-	para "You better take"
-	line "some BURN HEALs!"
+	para "sina wile jo e misikeke weka seli a." ; `You better take`
+	;line "" ; `some BURN HEALs!`
 	done
 
 _CinnabarGymGymGuideBeatBlaineText::
-	text "<PLAYER>! You beat"
-	line "that fire brand!"
+	text "<PLAYER> o." ; `<PLAYER>! You beat`
+	line "ona li seli taso sina suli a." ; `that fire brand!`
 	done
 
 _CinnabarGymText_1::
-	text "This GYM is also"
-	line "known as the QUIZ"
-	cont "GYM."
+	text "tomo utala ni li" ; `This GYM is also`
+	line "tomo pi utala sona kin." ; `known as the QUIZ`
+	;cont "" ; `GYM.`
 
-	para "You have to take a"
-	line "quiz if you want"
-	cont "to see BLAINE."
+	para "ilo li alasa e sona sina." ; `You have to take a`
+	line "sina toki lon la lupa li open." ; `quiz if you want`
+	;cont "" ; `to see BLAINE.`
 
-	para "You don't have to"
-	line "fight us if you"
-	cont "get it right."
+	para "sina toki lon ala la" ; `You don't have to`
+	line "sina wile utala e jan lawa monsuta ante." ; `fight us if you`
+	;cont "" ; `get it right.`
 	done
 
 _CinnabarGymText_2::
-	text "Think you can do"
-	line "it?"
+	text "sina ken ala ken toki e ni." ; `Think you can do`
+	;line "" ; `it?`
 	done
 
 _CinnabarGymText_3::
-	text "This one's tricky!"
+	text "toki ni li suli a." ; `This one's tricky!`
 	done
 
 _CinnabarGymText_4::
-	text "#MON enjoy"
-	line "quizzes too!"
+	text "alasa sona li pona tawa monsuta kin." ; `#MON enjoy`
+	;line "" ; `quizzes too!`
 	done
 
 _CinnabarGymText_5::
-	text "I like it here at"
-	line "QUIZ GYM."
+	text "tomo pi utala sona li suli a." ; `I like it here at`
+	;line "" ; `QUIZ GYM.`
 	done
 
 _CinnabarGymText_6::
-	text "This is the last"
-	line "question."
+	text "ni li wile sona pini." ; `This is the last`
+	;line "" ; `question.`
 	done
 
 _CinnabarGymText_7::
-	text "Come on, answer"
-	line "the question!"
+	text "sina o." ; `Come on, answer`
+	line "o toki a." ; `the question!`
 	done

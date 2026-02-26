@@ -340,20 +340,20 @@ DrawPokedexVerticalLine:
 	ret
 
 PokedexSeenText:
-	db "SEEN@"
+	db "monsuta lukin@" ; SEEN@
 
 PokedexOwnText:
-	db "OWN@"
+	db "monsuta jo@" ; OWN@
 
 PokedexContentsText:
-	db "CONTENTS@"
+	db "lipu pi monsuta ale@" ; `CONTENTS@`
 
 PokedexMenuItemsText:
-	db   "DATA"
-	next "CRY"
-	next "AREA"
-	next "PRNT"
-	next "QUIT@"
+	db   "sona ona" ; DATA
+	next "mu ona" ; CRY
+	next "ma ona" ; AREA
+	next "o sitelen" ; PRNT
+	next "o weka@" ; QUIT@
 
 Pokedex_PlacePokemonList:
 	xor a
@@ -487,8 +487,8 @@ ShowPokedexDataInternal:
 	ret
 
 HeightWeightText:
-	db   "HT  ?′??″"
-	next "WT   ???lb@"
+	db   "suli sewi   ?′??″" ; HT  ?′??″
+	next "suli sijelo    ???lb@" ; WT   ???lb@
 
 ; XXX does anything point to this?
 PokeText:

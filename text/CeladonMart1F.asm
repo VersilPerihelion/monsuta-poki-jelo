@@ -1,31 +1,34 @@
 _CeladonMart1FReceptionistText::
-	text "Hello! Welcome to"
-	line "CELADON DEPT."
-	cont "STORE."
+	text "toki a." ; `Hello! Welcome to`
+	line "o kama pona lon tomo esun suli ni." ; `CELADON DEPT.`
+	;cont "" ; `STORE.`
 
-	para "The board on the"
-	line "right describes"
-	cont "the store layout."
+	para "o lukin e lipu lon poka tawa sona ni:" ; `The board on the`
+	line "ijo seme li lon supa tomo seme." ; `right describes`
+	;cont "" ; `the store layout.`
 	done
 
 _CeladonMart1FDirectorySignText::
-	text "1F: SERVICE"
-	line "    COUNTER"
+	text "supa tomo 1" ; `1F: SERVICE`
+	line "supa open" ; `    COUNTER`
 
-	para "2F: TRAINER'S"
-	line "    MARKET"
+	para "supa tomo 2" ; `2F: TRAINER'S`
+	line "tomo esun pi jan lawa monsuta" ; `    MARKET`
 
-	para "3F: TV GAME SHOP"
+	para "supa tomo 3" ; `3F: TV GAME SHOP`
+	line "ilo sike ale"
 
-	para "4F: WISEMAN GIFTS"
+	para "supa tomo 4" ; `4F: WISEMAN GIFTS`
+	line "ijo pana pi jan sona"
 
-	para "5F: DRUG STORE"
+	para "supa tomo 5" ; `5F: DRUG STORE`
+	line "tomo esun misikeke"
 
-	para "ROOFTOP SQUARE:"
-	line "VENDING MACHINES"
+	para "supa tomo sewi" ; `ROOFTOP SQUARE:`
+	line "ilo esun" ; `VENDING MACHINES`
 	done
 
 _CeladonMart1FCurrentFloorSignText::
-	text "1F: SERVICE"
-	line "    COUNTER"
+	text "supa tomo 1" ; `1F: SERVICE`
+	line "supa open" ; `    COUNTER`
 	done

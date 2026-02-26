@@ -1,146 +1,153 @@
 _ChampionsRoomRivalIntroText::
-	text "<RIVAL>: Hey!"
+	text "<RIVAL> toki a." ; `<RIVAL>: Hey!`
 
-	para "I was looking"
-	line "forward to seeing"
-	cont "you, <PLAYER>!"
+	para "mi wile lukin e sina lon tomo ni" ; `I was looking`
+	line "<PLAYER> o." ; `forward to seeing`
+	;cont "" ; `you, <PLAYER>!`
 
-	para "My rival should"
-	line "be strong to keep"
-	cont "me sharp!"
+	para "jan utala mi li wile aewn wawa." ; `My rival should`
+	line "ni la mi ken awen wawa kin." ; `be strong to keep`
+	;cont "" ; `me sharp!`
 
-	para "While working on"
-	line "#DEX, I looked"
-	cont "all over for"
-	cont "powerful #MON!"
+	para "mi awen pali e ilo lipu sona mi la" ; `While working on`
+	line "mi tawa ma ale li alasa e monsuta wawa." ; `#DEX, I looked`
+	;cont "" ; `all over for`
+	;cont "" ; `powerful #MON!`
 
-	para "Not only that, I"
-	line "assembled teams"
-	cont "that would beat"
-	cont "any #MON type!"
+	para "kin la mi pali e kulupu monsuta mute." ; `Not only that, I`
+	line "kulupu ni li ken anpa e kule monsuta ale." ; `assembled teams`
+	;cont "" ; `that would beat`
+	;cont "" ; `any #MON type!`
 
-	para "And now!"
+	para "ni la tenpo ni la a." ; `And now!`
 
-	para "I'm the #MON"
-	line "LEAGUE champion!"
+	para "mi jan sewi pi tomo utala sewi a." ; `I'm the #MON`
+	;line "" ; `LEAGUE champion!`
 
-	para "<PLAYER>! Do you"
-	line "know what that"
-	cont "means?"
+	para "<PLAYER> o." ; `<PLAYER>! Do you`
+	line "sina sona ala sona e ni." ; `know what that`
+	;cont "" ; `means?`
 
-	para "I'll tell you!"
+	para "o kute a." ; `I'll tell you!`
 
-	para "I am the most"
-	line "powerful trainer"
-	cont "in the world!"
+	para "mi jan lawa monsuta nanpa wan lon ma ale a." ; `I am the most`
+	;line "" ; `powerful trainer`
+	;cont "" ; `in the world!`
 	done
 
 _RivalDefeatedText::
-	text "NO!"
-	line "That can't be!"
-	cont "You beat my best!"
+	text "ike a." ; `NO!`
+	line "ni ken ala lon a." ; `That can't be!`
+	cont "mi kepeken wawa ale mi taso sina anpa e mi a." ; `You beat my best!`
 
-	para "After all that"
-	line "work to become"
-	cont "LEAGUE champ?"
+	para "mi pali mute tawa kama jan sewi a." ; `After all that`
+	line "tenpo lawa mi li pini anu seme." ; `work to become`
+	;cont "" ; `LEAGUE champ?`
 
-	para "My reign is over"
-	line "already?"
-	cont "It's not fair!"
+	para "mi ken ala e ni a." ; `My reign is over`
+	;line "" ; `already?`
+	;cont "" ; `It's not fair!`
 	prompt
 
 _RivalVictoryText::
-	text "Hahaha!"
-	line "I won, I won!"
+	text "a a a a a." ; `Hahaha!`
+	line "mi sewi a. mi sewi a." ; `I won, I won!`
 
-	para "I'm too good for"
-	line "you, <PLAYER>!"
+	para "mi pona pi mute ike tawa sina" ; `I'm too good for`
+	line "<PLAYER> o." ; `you, <PLAYER>!`
 
-	para "You did well to"
-	line "even reach me,"
-	cont "<RIVAL>, the"
-	cont "#MON genius!"
+	para "sina pona tan kama lon tomo ni." ; `You did well to`
+	line "sina utala e jan nanpa wan" ; `even reach me,`
+	cont "<RIVAL> a." ; `<RIVAL>, the`
+	;cont "" ; `#MON genius!`
 
-	para "Nice try, loser!"
-	line "Hahaha!"
+	para "taso a."
+	line "sina wile kepeken wawa mute tawa jo sina a."
+
+	para "a a a a a." ; `Nice try, loser!`
+	;line "" ; `Hahaha!`
 	prompt
 
 _ChampionsRoomRivalAfterBattleText::
-	text "Why?"
-	line "Why did I lose?"
+	text "tan seme a." ; `Why?`
+	line "mi anpa tan seme a." ; `Why did I lose?`
 
-	para "I never made any"
-	line "mistakes raising"
-	cont "my #MON..."
+	para "mi pali e pakala ala." ; `I never made any`
+	line "mi suli e monsuta mi ale." ; `mistakes raising`
+	;cont "" ; `my #MON...`
 
-	para "Darn it! You're"
-	line "the new #MON"
-	cont "LEAGUE champion!"
+	para "pakala a." ; `Darn it! You're`
+	line "sina jan sewi sin pi tomo utala sewi." ; `the new #MON`
+	;cont "" ; `LEAGUE champion!`
 
-	para "Although I don't"
-	line "like to admit it."
+	para "taso mi wile ala toki e ni." ; `Although I don't`
+	;line "" ; `like to admit it.`
 	done
 
 _ChampionsRoomOakText::
-	text "OAK: <PLAYER>!"
+	text "jan [o kili.toki.]: toki a." ; `OAK: <PLAYER>!`
+	line "<PLAYER> o."
 	done
 
 _ChampionsRoomOakCongratulatesPlayerText::
-	text "OAK: So, you won!"
-	line "Congratulations!"
-	cont "You're the new"
-	cont "#MON LEAGUE"
-	cont "champion!"
+	text "jan [o kili.toki.]: sina sewi anu seme." ; `OAK: So, you won!`
+	line "pona mute a." ; `Congratulations!`
+	cont "sina jan sewi sin pi tomo utala sewi." ; `You're the new`
+	;cont "" ; `#MON LEAGUE`
+	;cont "" ; `champion!`
 
-	para "You've grown up so"
-	line "much since you"
-	cont "first left with"
-	cont "@"
+	para "sina weka lon poka te@" ; `You've grown up so`
+	;line "" ; `much since you`
+	;cont "" ; `first left with`
+	;cont "" ; `@`
 	text_ram wNameBuffer
-	text "!"
+	text "to sina la" ; `!`
+	line "sina kama suli a."
 
-	para "<PLAYER>, you have"
-	line "come of age!"
+	para "<PLAYER> o." ; `<PLAYER>, you have`
+	line "sina jan lili ala lon tenpo ni." ; `come of age!`
 	done
 
 _ChampionsRoomOakDisappointedWithRivalText::
-	text "OAK: <RIVAL>! I'm"
-	line "disappointed!"
+	text "jan [o kili.toki.] ni la" ; `OAK: <RIVAL>! I'm`
+	line "<RIVAL> o." ; `disappointed!`
+	cont "seme li lon."
 
-	para "I came when I"
-	line "heard you beat"
-	cont "the ELITE FOUR!"
+	para "mi kute e sewi sina pi kulupu sewi la" ; `I came when I`
+	line "mi kama lon tenpo lili." ; `heard you beat`
+	;cont "" ; `the ELITE FOUR!`
 
-	para "But, when I got"
-	line "here, you had"
-	cont "already lost!"
+	para "taso mi lon." ; `But, when I got`
+	line "sina anpa lon tenpo pini poka." ; `here, you had`
+	;cont "" ; `already lost!`
 
-	para "<RIVAL>! Do you"
-	line "understand why"
-	cont "you lost?"
+	para "<RIVAL> o." ; `<RIVAL>! Do you`
+	line "sina sona ala sona e ni:" ; `understand why`
+	cont "sina anpa tan seme." ; `you lost?`
 
-	para "You have forgotten"
-	line "to treat your"
-	cont "#MON with"
-	cont "trust and love!"
+	para "sina jan pona ala tawa monsuta sina." ; `You have forgotten`
+	line "sina olin ala e monsuta sina." ; `to treat your`
+	cont "sina toki insa ala e pilin pi monsuta sina." ; `#MON with`
+	;cont "" ; `trust and love!`
 
-	para "Without them, you"
-	line "will never become"
-	cont "a champ again!"
+	para "ona li lon ala poka sina la" ; `Without them, you`
+	line "sina ken ala kama jan sewi sin." ; `will never become`
+	;cont "" ; `a champ again!`
 	done
 
 _ChampionsRoomOakComeWithMeText::
-	text "OAK: <PLAYER>!"
+	text "jan [o kili.toki.]: ante la" ; `OAK: <PLAYER>!`
+	line "<PLAYER> o."
 
-	para "You understand"
-	line "that your victory"
-	cont "was not just your"
-	cont "own doing!"
+	para "sina sona e ni:" ; `You understand`
+	line "sewi sina li sewi sina taso ala." ; `that your victory`
+	cont "monsuta sina li sewi kin." ; `was not just your`
+	;cont "" ; `own doing!`
 
-	para "The bond you share"
-	line "with your #MON"
-	cont "is marvelous!"
+	para "sina en monsuta sina li kulupu suli a." ; `The bond you share`
+	;line "" ; `with your #MON`
+	;cont "" ; `is marvelous!`
 
-	para "<PLAYER>!"
-	line "Come with me!"
+	para "<PLAYER> o." ; `<PLAYER>!`
+	line "o kama lon poka mi." ; `Come with me!`
 	done

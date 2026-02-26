@@ -1,7 +1,7 @@
 _Route15Gate1FGuardText::
-	text "Are you working"
-	line "on a #DEX?"
+	text "sina pali e ilo lipu sona anu seme." ; `Are you working`
+	;line "" ; `on a #DEX?`
 
-	para "PROF.OAK's AIDE"
-	line "came by here."
+	para "jan pali pi jan sona [o kili.toki.]" ; `PROF.OAK's AIDE`
+	line "li kama lon tenpo poka." ; `came by here.`
 	done

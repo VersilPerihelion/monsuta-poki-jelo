@@ -1,47 +1,47 @@
 _PokemonMansion2FSuperNerdBattleText::
-	text "I can't get out!"
-	line "This old place is"
-	cont "one big puzzle!"
+	text "mi ken ala weka tan tomo nasa ni a." ; `I can't get out!`
+	line "mi sona ala e nasin." ; `This old place is`
+	;cont "" ; `one big puzzle!`
 	done
 
 _PokemonMansion2FSuperNerdEndBattleText::
-	text "Oh no!"
-	line "My bag of loot!"
+	text "ike a." ; `Oh no!`
+	line "poki mi a." ; `My bag of loot!`
 	prompt
 
 _PokemonMansion2FSuperNerdAfterBattleText::
-	text "Switches open and"
-	line "close alternating"
-	cont "sets of doors!"
+	text "ilo pi tomo ni li open e lupa" ; `Switches open and`
+	line "li pini e lupa ante." ; `close alternating`
+	;cont "" ; `sets of doors!`
 	done
 
 _PokemonMansion2FDiary1Text::
-	text "Diary: July 5"
-	line "Guyana,"
-	cont "South America"
+	text "lipu tenpo. mun 7 suno 5." ; `Diary: July 5`
+	line "ma awen pi tomo tawa." ; `Guyana,`
+	cont "ma tomo [loje.jelo:]. ma [kalama.n toki.]." ; `South America`
 
-	para "A new #MON was"
-	line "discovered deep"
-	cont "in the jungle."
+	para "mi kama sona e monsuta sin" ; `A new #MON was`
+	line "lon anpa pi tomo tawa suli." ; `discovered deep`
+	;cont "" ; `in the jungle.`
 	done
 
 _PokemonMansion2FDiary2Text::
-	text "Diary: July 10"
-	line "We christened the"
-	cont "newly discovered"
-	cont "#MON, MEW."
+	text "lipu tenpo. mun 7 suno 10." ; `Diary: July 10`
+	line "mi pana e nimi ni tawa monsuta ni:" ; `We christened the`
+	cont "te soweli anpa tomo tawa to." ; `newly discovered`
+	;cont "" ; `#MON, MEW.`
 	done
 
 _PokemonMansion2FSwitchText::
-	text "A secret switch!"
+	text "ilo open len a." ; `A secret switch!`
 
-	para "Press it?"
+	para "sina wile ala wile luka e ona." ; `Press it?`
 	done
 
 _PokemonMansion2FSwitchPressedText::
-	text "Who wouldn't?"
+	text "jan seme li wile ala." ; `Who wouldn't?`
 	prompt
 
 _PokemonMansion2FSwitchNotPressedText::
-	text "Not quite yet!"
+	text "tenpo ni ala." ; `Not quite yet!`
 	done

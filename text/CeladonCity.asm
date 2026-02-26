@@ -1,154 +1,154 @@
 _CeladonCityLittleGirlText::
-	text "I got my KOFFING"
-	line "from my friend!"
+	text "jan pona mi li pana e te sike pana kon jaki to mi." ; `I got my KOFFING`
+	;line "" ; `from my friend!`
 
-	para "We get along now,"
-	line "because I was"
-	cont "very nice to it!"
+	para "ona li pona tawa mi tan ni:" ; `We get along now,`
+	line "mi pona mute tawa ona." ; `because I was`
+	;cont "" ; `very nice to it!`
 	done
 
 _CeladonCityGramps1Text::
-	text "Heheh! This GYM"
-	line "is great! It's"
-	cont "full of women!"
+	text "a a a." ; `Heheh! This GYM`
+	line "tomo utala ni li pona mute a." ; `is great! It's`
+	cont "meli mute li lon insa." ; `full of women!`
 	done
 
 _CeladonCityGirlText::
-	text "The GAME CORNER"
-	line "is bad for our"
-	cont "city's image!"
+	text "ma tomo ni li ike tawa jan kama" ; `The GAME CORNER`
+	line "tan tomo pi musi mani." ; `is bad for our`
+	;cont "" ; `city's image!`
 	done
 
 _CeladonCityGramps2Text::
-	text "Moan! I blew it"
-	line "all at the slots!"
+	text "ike<JAGOLD>" ; `Moan! I blew it`
+	line "mi weka e sike mani mi ale." ; `all at the slots!`
 
-	para "I knew I should"
-	line "have cashed in my"
-	cont "coins for prizes!"
+	para "mi esun ala e sike mani mi tawa ijo pona." ; `I knew I should`
+	;line "" ; `have cashed in my`
+	;cont "" ; `coins for prizes!`
 	done
 
 _CeladonCityGramps3Text::
-	text "Hello, there!"
+	text "toki a." ; `Hello, there!`
 
-	para "I've seen you,"
-	line "but I never had a"
-	cont "chance to talk!"
+	para "mi lukin e sina lon tenpo pini." ; `I've seen you,`
+	line "taso ni la sina en mi li toki ala." ; `but I never had a`
+	;cont "" ; `chance to talk!`
 
-	para "Here's a gift for"
-	line "dropping by!"
+	para "sina pona tan kama." ; `Here's a gift for`
+	line "o kama jo e ni." ; `dropping by!`
 	prompt
 
 _CeladonCityGramps3ReceivedTM41Text::
-	text "<PLAYER> received"
-	line "@"
+	text "<PLAYER> li kama jo e" ; `<PLAYER> received`
+	line "te@" ; `@`
 	text_ram wStringBuffer
-	text "!@"
+	text "to a.@" ; `!@`
 	text_end
 
 _CeladonCityGramps3TM41ExplanationText::
-	text "TM41 teaches"
-	line "SOFTBOILED!"
+	text "ilo sike sona 41 li jo e" ; `TM41 teaches`
+	line "te moku e sike mama to." ; `SOFTBOILED!`
 
-	para "Only one #MON"
-	line "can use it!"
+	para "monsuta wan taso li ken kepeken ona." ; `Only one #MON`
+	;line "" ; `can use it!`
 
-	para "That #MON is"
-	line "CHANSEY!"
+	para "monsuta ni li te soweli pi sike mama to." ; `That #MON is`
+	;line "" ; `CHANSEY!`
 	done
 
 _CeladonCityGramps3TM41NoRoomText::
-	text "Oh, your pack is"
-	line "full of items!"
+	text "poki ijo sina ken jo ala e ijo mute." ; `Oh, your pack is`
+	;line "" ; `full of items!`
 	done
 
 _CeladonCityFisherText::
-	text "This is my trusted"
-	line "pal, POLIWRATH!"
+	text "ona li monsuta pona mi -" ; `This is my trusted`
+	line "te kala akesi utala to." ; `pal, POLIWRATH!`
 
-	para "It evolved from"
-	line "POLIWHIRL when I"
-	cont "used WATER STONE!"
+	para "mi kepeken kiwen telo la" ; `It evolved from`
+	line "ona li amte suli tan te kala akesi ike to a." ; `POLIWHIRL when I`
+	;cont "" ; `used WATER STONE!`
 	done
 
 _CeladonCityPoliwrathText::
-	text "POLIWRATH: Ribi"
-	line "ribit!@"
+	text "kala akesi utala: mu@" ; `POLIWRATH: Ribi`
+	;line "" ; `ribit!@`
 	text_end
 
 _CeladonCityRocket1Text::
-	text "What are you"
-	line "staring at?"
+	text "sina lukin e seme." ; `What are you`
+	;line "" ; `staring at?`
 	done
 
 _CeladonCityRocket2Text::
-	text "Keep out of TEAM"
-	line "ROCKET's way!"
+	text "o weka tan nasin pi kulupu <ROCKET>." ; `Keep out of TEAM`
+	;line "" ; `ROCKET's way!`
 	done
 
 _CeladonCitySignText::
-	text "CELADON CITY"
-	line "The City of"
-	cont "Rainbow Dreams"
+	text "ma tomo [kasi:mi:la.]" ; `CELADON CITY`
+	line "sitelen lape li kule ala" ; `The City of`
+	cont "lon ma tomo ni." ; `Rainbow Dreams`
 	done
 
 _CeladonCityGymSignText::
-	text "CELADON CITY"
-	line "#MON GYM"
-	cont "LEADER: ERIKA"
+	text "ma tomo [kasi:mi:la.]" ; `CELADON CITY`
+	line "tomo utala pi monsuta poki" ; `#MON GYM`
+	cont "jan lawa utala: jan [en lipu.kasi.]" ; `LEADER: ERIKA`
 
-	para "The Nature-Loving"
-	line "Princess!"
+	para "meli pona pi olin suli" ; `The Nature-Loving`
+	line "tawa ma kasi" ; `Princess!`
 	done
 
 _CeladonCityMansionSignText::
-	text "CELADON MANSION"
+	text "tomo suli [kasi:mi:la.]" ; `CELADON MANSION`
 	done
 
 _CeladonCityDeptStoreSignText::
-	text "Find what you"
-	line "need at CELADON"
-	cont "DEPT. STORE!"
+	text "o alasa a ijo pi wile sina" ; `Find what you`
+	line "tomo suli esun [kasi:mi:la.]" ; `need at CELADON`
+	;cont "" ; `DEPT. STORE!`
 	done
 
 _CeladonCityTrainerTips2Text::
-	text "TRAINER TIPS"
+	text "te sona lili tawa jan lawa pi monsuta poki to" ; `TRAINER TIPS`
 
-	para "GUARD SPEC."
-	line "protects #MON"
-	cont "against SPECIAL"
-	cont "attacks such as"
-	cont "fire and water!"
+	para "te namako len to" ; `GUARD SPEC.`
+	line "li selo e monsuta sina." ; `protects #MON`
+	cont "ni la pali ala li ken lili e nanpa ken pi monsuta sina." ; `against SPECIAL`
+	;cont "" ; `attacks such as`
+	;cont "" ; `fire and water!`
 
-	para "Get your items at"
-	line "CELADON DEPT."
-	cont "STORE!"
+	para "sina ken esun e ona lon" ; `Get your items at`
+	line "tomo suli esun [kasi:mi:la.]." ; `CELADON DEPT.`
+	;cont "" ; `STORE!`
 	done
 
 _CeladonCityPrizeExchangeSignText::
-	text "Coins exchanged"
-	line "for prizes!"
-	cont "PRIZE EXCHANGE"
+	text "o esun e sike mani sina tawa ijo pana" ; `Coins exchanged`
+	line "tomo esun musi" ; `for prizes!`
+	;cont "" ; `PRIZE EXCHANGE`
 	done
 
 _CeladonCityGameCornerSignText::
-	text "ROCKET GAME CORNER"
-	line "The playground"
-	cont "for grownups!"
+	text "tomo pi musi mani <ROCKET>" ; `ROCKET GAME CORNER`
+	line "tomo musi tawa jan suli" ; `The playground`
+	;cont "" ; `for grownups!`
 	done
 
 _CeladonCityTrainerTips1Text::
-	text "TRAINER TIPS"
+	text "te sona lili tawa jan lawa pi monsuta poki to" ; `TRAINER TIPS`
 
-	para "X ACCURACY boosts"
-	line "the accuracy of"
-	cont "techniques!"
+	para "te namako alasa to la" ; `X ACCURACY boosts`
+	line "pali pi monsuta sina li kama pona lon tenpo suli." ; `the accuracy of`
+	;cont "" ; `techniques!`
 
-	para "DIRE HIT jacks up"
-	line "the likelihood of"
-	cont "critical hits!"
+	para "te namako pakala to la" ; `DIRE HIT jacks up`
+	line "monsuta sina li ken pana e utala pakala" ; `the likelihood of`
+	cont "lon tenpo suli." ; `critical hits!`
 
-	para "Get your items at"
-	line "CELADON DEPT."
-	cont "STORE!"
+	para "sina ken esun e ona lon" ; `Get your items at`
+	line "tomo suli esun [kasi:mi:la.]." ; `CELADON DEPT.`
+	;cont "" ; `STORE!`
 	done

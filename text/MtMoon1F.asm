@@ -1,119 +1,120 @@
 _MtMoon1FHikerBattleText::
-	text "WHOA! You shocked"
-	line "me! Oh, you're"
-	cont "just a kid!"
+	text "a. sina monsuta e mi a." ; `WHOA! You shocked`
+	line "sina jan lili taso." ; `me! Oh, you're`
+	;cont "" ; `just a kid!`
 	done
 
 _MtMoon1FHikerEndBattleText::
-	text "Wow!"
-	line "Shocked again!"
+	text "suli a." ; `Wow!`
+	line "monsuta e mi sin." ; `Shocked again!`
 	prompt
 
 _MtMoon1FHikerAfterBattleText::
-	text "Kids like you"
-	line "shouldn't be"
-	cont "here!"
+	text "jan lili sama sina" ; `Kids like you`
+	line "o kama lon ni a." ; `shouldn't be`
+	;cont "" ; `here!`
 	done
 
 _MtMoon1FYoungster1BattleText::
-	text "Did you come to"
-	line "explore too?"
+	text "sina kama lon ni tan seme." ; `Did you come to`
+	line "mi wile kama sona e ma ni." ; `explore too?`
 	done
 
 _MtMoon1FYoungster1EndBattleText::
-	text "Losing"
-	line "stinks!"
+	text "anpa li jaki a." ; `Losing`
+	;line "" ; `stinks!`
 	prompt
 
 _MtMoon1FYoungster1AfterBattleText::
-	text "I came down here"
-	line "to show off to"
-	cont "girls."
+	text "mi kama tan ni:" ; `I came down here`
+	line "mi wile suli wawa tawa meli." ; `to show off to`
+	;cont "" ; `girls.`
 	done
 
 _MtMoon1FCooltrainerF1BattleText::
-	text "Wow! It's way"
-	line "bigger in here"
-	cont "than I thought!"
+	text "suli a." ; `Wow! It's way`
+	line "ma ni li suli mute a." ; `bigger in here`
+	;cont "" ; `than I thought!`
 	done
 
 _MtMoon1FCooltrainerF1EndBattleText::
-	text "Oh!"
-	line "I lost it!"
+	text "a. mi ike." ; `Oh!`
+	;line "" ; `I lost it!`
 	prompt
 
 _MtMoon1FCooltrainerF1AfterBattleText::
-	text "How do you get"
-	line "out of here?"
+	text "sina weka tan lupa ni kepeken nasin seme." ; `How do you get`
+	;line "" ; `out of here?`
 	done
 
 _MtMoon1FSuperNerdBattleText::
-	text "What! Don't sneak"
-	line "up on me!"
+	text "seme a." ; `What! Don't sneak`
+	line "mi sona ala e ni o kama ala poka mi a." ; `up on me!`
 	done
 
 _MtMoon1FSuperNerdEndBattleText::
-	text "My"
-	line "#MON won't do!"
+	text "monsuta mi li ken ala." ; `My`
+	line "" ; `#MON won't do!`
 	prompt
 
 _MtMoon1FSuperNerdAfterBattleText::
-	text "I have to find"
-	line "stronger #MON."
+	text "mi o alasa e monsuta pi wawa mute." ; `I have to find`
+	;line "" ; `stronger #MON.`
 	done
 
 _MtMoon1FCooltrainerF2BattleText::
-	text "What? I'm waiting"
-	line "for my friends to"
-	cont "find me here."
+	text "seme." ; `What? I'm waiting`
+	line "mi awen tan ni: jan pona mi li kama lukin." ; `for my friends to`
+	;cont "" ; `find me here.`
 	done
 
 _MtMoon1FCooltrainerF2EndBattleText::
-	text "I lost?"
+	text "mi anpa anu seme." ; `I lost?`
 	prompt
 
 _MtMoon1FCooltrainerF2AfterBattleText::
-	text "I heard there are"
-	line "some very rare"
-	cont "fossils here."
+	text "mi kute e ni:" ; `I heard there are`
+	line "kiwen majuna nasa li lon." ; `some very rare`
+	;cont "" ; `fossils here.`
 	done
 
 _MtMoon1FYoungster2BattleText::
-	text "Suspicious men"
-	line "are in the cave."
-	cont "What about you?"
+	text "jan nasa kin li lon." ; `Suspicious men`
+	line "sina sama anu seme." ; `are in the cave.`
+	;cont "" ; `What about you?`
 	done
 
 _MtMoon1FYoungster2EndBattleText::
-	text "You"
-	line "got me!"
+	text "a sina sewi." ; `You`
+	;line "" ; `got me!`
 	prompt
 
 _MtMoon1FYoungster2AfterBattleText::
-	text "I saw them! I'm"
-	line "sure they're from"
-	cont "TEAM ROCKET!"
+	text "mi lukin e ona." ; `I saw them! I'm`
+	line "mi sona e ni:" ; `sure they're from`
+	cont "ona li kulupu <ROCKET> a." ; `TEAM ROCKET!`
 	done
 
 _MtMoon1FYoungster3BattleText::
-	text "Go through this"
-	line "cave to get to"
-	cont "CERULEAN CITY!"
+	text "sina tawa nasin lupa ni la" ; `Go through this`
+	line "sina kama ma tomo [telo:pi.jasima.]." ; `cave to get to`
+	;cont "" ; `CERULEAN CITY!`
 	done
 
 _MtMoon1FYoungster3EndBattleText::
-	text "I"
-	line "lost."
+	text "ike a." ; `I`
+	;line "" ; `lost.`
 	prompt
 
 _MtMoon1FYoungster3AfterBattleText::
-	text "ZUBAT is tough!"
-	line "But, it can be"
-	cont "useful if you"
-	cont "catch one."
+	text "te soweli waso pi lukin ala to li wawa a." ; `ZUBAT is tough!`
+	line "taso sina alasa e ona la ona li pona mute." ; `But, it can be`
+	;cont "" ; `useful if you`
+	;cont "" ; `catch one.`
 	done
 
 _MtMoon1FBewareZubatSign::
-	text "Beware! ZUBAT is"
-	line "a bloodsucker!"
+	text "o sona e ni:" ; `Beware! ZUBAT is`
+	line "te soweli waso pi lukin ala to li" ; `a bloodsucker!`
+	cont "ken lanpan e telo sijelo loje sina."
 	done

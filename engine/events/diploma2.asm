@@ -52,17 +52,17 @@ DiplomaText:
 	db CIRCLE_TILE_ID, "Diploma", CIRCLE_TILE_ID, "@"
 
 DiplomaPlayer:
-	db "Player@"
+	db "jan musi@" ; `Player@`
 
 DiplomaCongrats:
-	db   "Congrats! This"
-	next "diploma certifies"
-	next "that you have"
-	next "completed your"
-	next "#DEX.@"
+	db   "sina pona mute a." ; `Congrats! This`
+	next "lipu ni li toki e ni:" ; `diploma certifies`
+	next "ilo lipu sina li jo e monsuta poki ale." ; `that you have`
+	next "ni la sina jan pi lawa monsuta nanpa wan." ; `completed your`
+	;next "" ; `#DEX.@`
 
 DiplomaGameFreak:
-	db "GAME FREAK@"
+	db "kulupu esun [kepeken.musi.poka uta linja.kule.]@" ; `GAME FREAK@`
 
 DisplayDiplomaBottom:
 	call ClearScreen
@@ -120,7 +120,7 @@ DiplomaMewTiles:
 INCBIN "gfx/diploma/diploma_mew.tilemap"
 
 DiplomaPlayTime:
-	db "PLAY TIME@"
+	db "tenpo musi@" ; `PLAY TIME@`
 
 DiplomaDrawHorizontalBorder:
 	ld c, SCREEN_WIDTH / 2

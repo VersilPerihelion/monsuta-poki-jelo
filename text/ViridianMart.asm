@@ -1,33 +1,33 @@
 _ViridianMartClerkSayHiToOakText::
-	text "Okay! Say hi to"
-	line "PROF.OAK for me!"
+	text "pona a." ; `Okay! Say hi to`
+	line "o toki pona tawa jan sona [o kili.toki.] tan mi." ; `PROF.OAK for me!`
 	done
 
 _ViridianMartClerkYouCameFromPalletTownText::
-	text "Hey! You came from"
-	line "PALLET TOWN?"
+	text "toki a." ; `Hey! You came from`
+	line "sina kama tan ma tomo lili [walo:ken.jan.] anu seme." ; `PALLET TOWN?`
 	done
 
 _ViridianMartClerkParcelQuestText::
-	text "You know PROF."
-	line "OAK, right?"
+	text "sina sona e jan sona [o kili.toki.] anu seme." ; `You know PROF.`
+	;line "" ; `OAK, right?`
 
-	para "His order came in."
-	line "Will you take it"
-	cont "to him?"
+	para "ijo esun ona li kama." ; `His order came in.`
+	line "sina ken ala ken pana e ijo ni tawa ona." ; `Will you take it`
+	;cont "" ; `to him?`
 
-	para "<PLAYER> got"
-	line "OAK's PARCEL!@"
+	para "<PLAYER> li kama jo e" ; `<PLAYER> got`
+	line "te poki pi jan [o kili.toki.] to a.@" ; `OAK's PARCEL!@`
 	text_end
 
 _ViridianMartYoungsterText::
-	text "This shop sells a"
-	line "lot of PARLYZ"
-	cont "HEALs."
+	text "tomo esun ni li esun e" ; `This shop sells a`
+	line "te misikeke weka pini to mute." ; `lot of PARLYZ`
+	;cont "" ; `HEALs.`
 	done
 
 _ViridianMartCooltrainerMText::
-	text "The shop finally"
-	line "has some POTIONs"
-	cont "in stock."
+	text "pini la tomo esun ni" ; `The shop finally`
+	line "li jo e te telo misikeke lili to tawa esun." ; `has some POTIONs`
+	;cont "" ; `in stock.`
 	done

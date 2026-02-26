@@ -15,14 +15,15 @@ TradeMons:
 	; Red/Blue uses the original JP Red/Green trades but with the JP Blue
 	; post-trade text. English Yellow changed _AfterTrade2Text to
 	; not mention evolution.
-	npctrade LICKITUNG,  DUGTRIO,  TRADE_DIALOGSET_CASUAL,    "GURIO"
-	npctrade CLEFAIRY,   MR_MIME,  TRADE_DIALOGSET_CASUAL,    "MILES"
-	npctrade BUTTERFREE, BEEDRILL, TRADE_DIALOGSET_HAPPY,     "STINGER" ; unused
-	npctrade KANGASKHAN, MUK,      TRADE_DIALOGSET_CASUAL,    "STICKY"
-	npctrade MEW,        MEW,      TRADE_DIALOGSET_HAPPY,     "BART"    ; unused
-	npctrade TANGELA,    PARASECT, TRADE_DIALOGSET_CASUAL,    "SPIKE"
-	npctrade PIDGEOT,    PIDGEOT,  TRADE_DIALOGSET_EVOLUTION, "MARTY"   ; unused
-	npctrade GOLDUCK,    RHYDON,   TRADE_DIALOGSET_EVOLUTION, "BUFFY"
-	npctrade GROWLITHE,  DEWGONG,  TRADE_DIALOGSET_HAPPY,     "CEZANNE"
-	npctrade CUBONE,     MACHOKE,  TRADE_DIALOGSET_HAPPY,     "RICKY"
+
+	npctrade LICKITUNG,  DUGTRIO,  TRADE_DIALOGSET_CASUAL,    "soweli [len.moku.lon.]" ; GURIO ; Lemolo from tremolo as a mole pun
+	npctrade CLEFAIRY,   MR_MIME,  TRADE_DIALOGSET_CASUAL,    "soweli [pan:tomo.]" ; MILES ; Panto from pantomime
+	npctrade BUTTERFREE, BEEDRILL, TRADE_DIALOGSET_HAPPY,     "pipi [pini.ni.]" ; STINGER ; unused ; Pini from beanie but also bee and ni is a pointy arrow
+	npctrade KANGASKHAN, MUK,      TRADE_DIALOGSET_CASUAL,    "ko [suwi:sijelo.]" ; STICKY ; Suwisi from sewage but using suwi to be silly
+	npctrade MEW,        MEW,      TRADE_DIALOGSET_HAPPY,     "soweli [tan:poki.]" ; BART    ; unused ; Tanpo from transport because miy is transport
+	npctrade TANGELA,    PARASECT, TRADE_DIALOGSET_CASUAL,    "soko [majuna.jelo.kili.]" ; SPIKE ; Majeki from Mike, because myco-
+	npctrade PIDGEOT,    PIDGEOT,  TRADE_DIALOGSET_EVOLUTION, "waso [poka.pilin.pona.]" ; MARTY   ; unused ; Popipo as Popi from birb, and poppo = pidgey, and the hatsune miku song
+	npctrade GOLDUCK,    RHYDON,   TRADE_DIALOGSET_EVOLUTION, "akesi [palisa.lawa.pipi.]" ; BUFFY ; Palapi from fluffy, for nuzforums reasons
+	npctrade GROWLITHE,  DEWGONG,  TRADE_DIALOGSET_HAPPY,     "kala [mama.nasin.]" ; CEZANNE ; Mana, cause manatee
+	npctrade CUBONE,     MACHOKE,  TRADE_DIALOGSET_HAPPY,     "akesi [a.suli.tenpo.]" ; RICKY ; Asute from Astley. yes i went there.
 	assert_table_length NUM_NPC_TRADES

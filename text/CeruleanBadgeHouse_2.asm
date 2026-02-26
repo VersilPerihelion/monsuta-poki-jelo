@@ -1,28 +1,28 @@
 _CeruleanBadgeHouseSoulBadgeText::
-	text "The DEFENSE of all"
-	line "#MON increases"
-	cont "a little bit."
+	text "nanpa ken awen pi monsuta ale sina li kama suli." ; `The DEFENSE of all`
+	;line "" ; `#MON increases`
+	;cont "" ; `a little bit.`
 
-	para "It also lets you"
-	line "use SURF outside"
-	cont "of battle."
+	para "kin la utala la sina ken kepeken pali" ; `It also lets you`
+	line "te tawa lon supa telo to." ; `use SURF outside`
+	;cont "" ; `of battle.`
 	prompt
 
 _CeruleanBadgeHouseMarshBadgeText::
-	text "#MON up to L70"
-	line "will obey you."
+	text "monsuta anpa supa pi wawa nanpa 70" ; `#MON up to L70`
+	line "li kute e sina." ; `will obey you.`
 
-	para "Any higher, they"
-	line "become unruly!"
+	para "monsuta sewi nanpa ni li ken kute ala." ; `Any higher, they`
+	;line "" ; `become unruly!`
 	prompt
 
 _CeruleanBadgeHouseVolcanoBadgeText::
-	text "Your #MON's"
-	line "SPECIAL abilities"
-	cont "increase a bit."
+	text "nanpa ken lawa pi monsuta ale sina li kama suli." ; `Your #MON's`
+	;line "" ; `SPECIAL abilities`
+	;cont "" ; `increase a bit.`
 	prompt
 
 _CeruleanBadgeHouseEarthBadgeText::
-	text "All #MON will"
-	line "obey you!"
+	text "monsuta ale li kute e sina." ; `All #MON will`
+	;line "" ; `obey you!`
 	prompt

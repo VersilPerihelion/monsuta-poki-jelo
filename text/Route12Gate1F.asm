@@ -1,4 +1,4 @@
 _Route12Gate1FGuardText::
-	text "There's a lookout"
-	line "spot upstairs."
+	text "tomo lukin pi ma weka li lon supa sewi." ; `There's a lookout`
+	;line "" ; `spot upstairs.`
 	done
