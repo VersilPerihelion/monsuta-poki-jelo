@@ -44,21 +44,21 @@ Each sitelen pona character represents an entire word, rather than a phoneme, an
 
 And also lemme tell ya there are way too many way too similar moves that could really have used some deduplication. This is quintessential first game syndrome.
 
-### Item names
+##### Item names
 
 Not much to say about these that i haven't already, the important thing is likely that healing items are a kind of *misikeke*, battle items are a kind of *namako*, and vitamins are a kind of *moku*. Everything else should be straightforward, by which i mean i hope it is at least somewhat straightforward because i only had my pair of eyes on it for the time being.
 
-### People names
+##### People names
 
 I tried to go for similar kind of wordplay as in the original, with each gym leader and league member having the spelling of their name use a character related to their type, and the name still be based on the one from the Japanese localization, e.g. Brock, or Takashi, is *jan Takisi*, spelled *[tawa. kiwen. sijelo.]*. I had to take slight liberties with a few of them, bigger with some, and completely rename Giovanni, basically going through a list of common Italian given male names and picking Matteo.
 
 I did also give a similar treatment to two other named characters, around 5-6 badges in. You'll know when you see them.
 
-### Town names
+##### Town names
 
 I wanted to preserve the color-based naming, using the color words in the spelling similar to what i did for people, but after coming up with one of them i decided to give myself an extra chalenge: each town name (including ~~Indigo~~ Quartz Plateau) is named after some real world geographic location, either a town/city or a region. I listed them in the file that defines all the names, so you can look them up right away or check your answers after running into the names in the game. If you guess more than half without looking them up, ping me over on *ma pona*, i'd be curious to hear which ones you got.
 
-### Pokédex entries
+#### Pokédex entries
 
 Whenever i managed to fit the whole entry sensibly into one page and had a silly idea, i put some joke entry into the second page. Have fun finding them.
 
@@ -88,7 +88,7 @@ I did also initially want to make it randomizer-compatible, but i would either n
 
 Also also, i wanted to do something silly with the title screen too, but that's also something for later.
 
-#### Current state of testing
+### Current state of testing
 
 Honoring the age-old tradition from software development i did not actually fully test it. I planned to play through the whole game to check every single string, and i likely still will eventually, but just wanted to get this out of the way before the end of *mun pi ante toki* with at least the game being translated. Bugginess is a secondary issue. Cramming doing this whole thing into one month is not something i recommend. At the moment of writing i think i can vouch for text up to Pewter City to be fully as intended, with no missing string terminators and no text spilling out of text boxes. Beyond that i've only done targeted testing for the specific features and bigger text changes i marked for myself to verify.
 
